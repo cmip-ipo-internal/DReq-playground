@@ -8,9 +8,7 @@
     "table_entry": "tdps",
     "out_name": "tdps",
     "questions_and_notes": "height2m coordinate should be listed as a dimension",
-    "specific_issues": [
-        "2:Modify dimensions.  Add or remove scalar coordinate."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 6,
     "contributing_models": 9,
     "frequency": "mon",
@@ -18,7 +16,7 @@
     "modeling_realm": [
         "atmos"
     ],
-    "dimensions": "longitude latitude time",
+    "dimensions": "longitude latitude time height2m",
     "cell_methods": "area: time: mean",
     "long_name": "2m Dewpoint Temperature",
     "comment": "Dew point temperature is the temperature at which a parcel of air reaches saturation upon being cooled at constant pressure and specific humidity."

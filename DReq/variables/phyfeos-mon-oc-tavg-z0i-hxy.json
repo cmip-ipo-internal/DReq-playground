@@ -16,11 +16,7 @@
     "definition_qualifier": "none",
     "brand_description": "mole concentration of phytoplankton expressed as iron in sea water: time means at the surface reported on a 2-d horizontal grid where sea",
     "bn_status": "accepted",
-    "dimensions": [
-        "longitude",
-        "latitude",
-        "time"
-    ],
+    "dimensions": "longitude latitude time depth0m",
     "cell_methods": "area: mean where sea time: mean",
     "cell_measures": "area: areacello",
     "samplingIntervals": [

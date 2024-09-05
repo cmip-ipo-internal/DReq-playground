@@ -9,7 +9,6 @@
     "out_name": "sfo3max",
     "questions_and_notes": "Can we describe this as the \"surface air\" value or would that differ from the value in the lowest layer? It needs a scalar vertical coordinate.  Note that in general \"area: mean\" will give a lower maximum if data are mapped to a coarser grid than the original.  Could consider reversing order of area and time",
     "specific_issues": [
-        "2:Modify dimensions.  Add or remove scalar coordinate.",
         "6:Modify variable root."
     ],
     "contributing_institutions": 7,

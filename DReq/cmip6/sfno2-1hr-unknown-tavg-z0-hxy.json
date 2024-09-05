@@ -9,7 +9,6 @@
     "out_name": "sfno2",
     "questions_and_notes": "Can we describe this as the \"surface air\" value or would that differ from the value in the lowest layer?  It needs a scalar vertical coordinate.",
     "specific_issues": [
-        "2:Modify dimensions.  Add or remove scalar coordinate.",
         "6:Modify variable root."
     ],
     "contributing_institutions": 10,
