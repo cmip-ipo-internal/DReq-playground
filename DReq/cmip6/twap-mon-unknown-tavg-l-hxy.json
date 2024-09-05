@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/twap-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "twap-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "twap",
+    "out_name": "twap",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 6,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Product of Air Temperature and Omega",
+    "comment": "Product of air temperature and pressure tendency"
+}

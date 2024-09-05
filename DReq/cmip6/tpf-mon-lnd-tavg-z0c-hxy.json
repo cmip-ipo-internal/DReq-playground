@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/tpf-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tpf-LImon",
+    "mip_table": [
+        "LImon"
+    ],
+    "table_entry": "tpf",
+    "out_name": "tpf",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 3,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "landIce land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Permafrost Layer Thickness",
+    "comment": "The mean thickness of the permafrost layer in the land portion of the grid cell.  Reported as zero in permafrost-free regions."
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/co-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "co-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "co",
+    "out_name": "co",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 13,
+    "contributing_models": 14,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "CO Volume Mixing Ratio",
+    "comment": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y."
+}

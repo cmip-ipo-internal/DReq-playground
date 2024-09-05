@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/rootd-fx-lnd-ti-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rootd-fx",
+    "mip_table": [
+        "fx"
+    ],
+    "table_entry": "rootd",
+    "out_name": "rootd",
+    "questions_and_notes": "cell_methods  should include \"where land\"?  Or \"where vegetation\"?",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 11,
+    "contributing_models": 21,
+    "frequency": "fx",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude ",
+    "cell_methods": "area: mean",
+    "long_name": "Maximum Root Depth",
+    "comment": "report the maximum soil depth reachable by plant roots (if defined in model), i.e., the maximum soil depth from which they can extract moisture; report as *missing* where the land fraction is 0."
+}

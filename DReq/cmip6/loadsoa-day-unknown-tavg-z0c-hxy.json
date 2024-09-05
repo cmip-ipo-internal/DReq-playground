@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/loadsoa-day-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "loadsoa-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "loadsoa",
+    "out_name": "loadsoa",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 5,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Load of Dry Aerosol Secondary Organic Matter",
+    "comment": "The total dry mass of secondary particulate organic aerosol particles per unit area."
+}

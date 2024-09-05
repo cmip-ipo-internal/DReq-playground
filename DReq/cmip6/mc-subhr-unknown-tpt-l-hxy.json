@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/mc-subhr-unknown-tpt-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mc-Esubhr",
+    "mip_table": [
+        "Esubhr"
+    ],
+    "table_entry": "mc",
+    "out_name": "mc",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Convective Mass Flux",
+    "comment": "The net mass flux should represent the difference between the updraft and downdraft components.  The flux is computed as the mass divided by the area of the grid cell."
+}

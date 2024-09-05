@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/cmisc-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cMisc-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "cMisc",
+    "out_name": "cMisc",
+    "questions_and_notes": "how exactly does this differ from nOther-Emon? Should they have different standard names?",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 4,
+    "contributing_models": 11,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Carbon Mass in Other Living Compartments on Land",
+    "comment": "e.g., labile, fruits, reserves, etc."
+}

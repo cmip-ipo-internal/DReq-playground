@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/wsgmax10m-6hr-unknown-tstat-h010-hxy",
+    "@type": "dr-variable",
+    "standard_name": "wind_speed_of_gust",
+    "variable_root_name": "wsgmax",
+    "units": "m s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tstat",
+        "verticalLabelDD": "h010",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "wind speed of gust: maximum at a height of (or near) 10 m reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "height10m"
+    ],
+    "cell_methods": "area: mean time: maximum",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "6hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/wsgmax10m-6hr-unknown-tstat-h010-hxy"
+        }
+    }
+}

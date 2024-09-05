@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/mrsfl-mon-lnd-tavg-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "frozen_water_content_of_soil_layer",
+    "variable_root_name": "mrfsol",
+    "units": "kg m-2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "lnd"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "frozen water content of soil layer: time means provided on multiple model levels and reported on a 2-d horizontal grid where land",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth",
+        "time"
+    ],
+    "cell_methods": "area: mean where land time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/mrsfl-mon-lnd-tavg-l-hxy"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/cod-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cod-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "cod",
+    "out_name": "cod",
+    "questions_and_notes": "Should this be weighted by area of cloud?",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 11,
+    "contributing_models": 23,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Cloud Optical Depth",
+    "comment": "The optical thickness is the integral along the path of radiation of a volume scattering/absorption/attenuation coefficient. The radiative flux is reduced by a factor exp(-optical_thickness) on traversing the path. A coordinate variable of radiation_wavelength or radiation_frequency can be specified to indicate that the optical thickness applies at specific wavelengths or frequencies. The atmosphere optical thickness applies to radiation passing through the entire atmosphere. \"Cloud\" means the component of extinction owing to the presence of liquid or ice water particles. The specification of a physical process by the phrase due_to_process means that the quantity named is a  single term in a sum of terms which together compose the general quantity named by omitting the phrase."
+}

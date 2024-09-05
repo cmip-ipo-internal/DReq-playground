@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/dtaus-6hr-ap-tpt-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "atmosphere_optical_thickness_due_to_stratiform_cloud",
+    "variable_root_name": "dtaus",
+    "units": 1.0,
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "scl"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "atmosphere optical thickness due to stratiform cloud: synoptic samples reported on a 2-d horizontal grid where stratiform_cloud",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "cell_methods": "area: mean time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "6hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/dtaus-6hr-ap-tpt-z0c-hxy"
+        }
+    }
+}

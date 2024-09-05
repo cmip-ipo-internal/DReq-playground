@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rsut-subhr-unknown-tpt-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsut-Esubhr",
+    "mip_table": [
+        "Esubhr"
+    ],
+    "table_entry": "rsut",
+    "out_name": "rsut",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "TOA Outgoing Shortwave Radiation",
+    "comment": "at the top of the atmosphere"
+}

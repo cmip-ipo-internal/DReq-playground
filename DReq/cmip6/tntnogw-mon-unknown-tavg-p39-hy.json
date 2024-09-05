@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/tntnogw-mon-unknown-tavg-p39-hy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tntnogw-EmonZ",
+    "mip_table": [
+        "EmonZ"
+    ],
+    "table_entry": "tntnogw",
+    "out_name": "tntnogw",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 6,
+    "contributing_models": 9,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "latitude plev39 time",
+    "cell_methods": "longitude: mean time: mean",
+    "long_name": "Temperature Tendency Due to Non-Orographic Gravity Wave Dissipation",
+    "comment": "Temperature tendency due to dissipation of parameterized nonorographic gravity waves."
+}

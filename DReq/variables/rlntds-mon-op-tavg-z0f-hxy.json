@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/rlntds-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable",
+    "standard_name": "surface_net_downward_longwave_flux",
+    "variable_root_name": "rls",
+    "units": "W m-2",
+    "type": "real",
+    "positive": "down",
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "ifs"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "surface net downward longwave flux: time means reported on a 2-d horizontal grid where ice_free_sea over sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where ice_free_sea over sea time: mean",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/rlntds-mon-op-tavg-z0f-hxy"
+        }
+    }
+}

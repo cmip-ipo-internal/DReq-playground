@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/zfullo-yr-op-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "zfullo-Eyr",
+    "mip_table": [
+        "Eyr"
+    ],
+    "table_entry": "zfullo",
+    "out_name": "zfullo",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Depth Below Geoid of Ocean Layer",
+    "comment": "Depth below geoid"
+}

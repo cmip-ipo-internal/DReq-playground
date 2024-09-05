@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/clittersubsurf-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cLitterSubSurf-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "cLitterSubSurf",
+    "out_name": "cLitterSubSurf",
+    "questions_and_notes": "How does this differ from cLitterBelow-Lmon?",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 33,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Carbon Mass in Below-Ground Litter",
+    "comment": "subsurface litter pool fed by root inputs."
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/tntmp-subhr-unknown-tpt-l-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tntmp-CFsubhr",
+    "mip_table": [
+        "CFsubhr"
+    ],
+    "table_entry": "tntmp",
+    "out_name": "tntmp",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 9,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "alevel site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "Tendency of Air Temperature Due to Model Physics",
+    "comment": "Tendency of air temperature due to model physics. This includes sources and sinks from parametrized physics (e.g. radiation, convection, boundary layer, stratiform condensation/evaporation, etc.). It excludes sources and sinks from resolved dynamics and numerical diffusion not associated with parametrized physics.  For example, any vertical diffusion which is part of the boundary layer mixing scheme should be included, while numerical diffusion applied in addition to physics or resolved dynamics should be excluded.  This term is required to check the closure of the heat budget."
+}

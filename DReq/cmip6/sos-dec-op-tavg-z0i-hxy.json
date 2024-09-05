@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/sos-dec-op-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sos-Odec",
+    "mip_table": [
+        "Odec"
+    ],
+    "table_entry": "sos",
+    "out_name": "sos",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 4,
+    "frequency": "dec",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Sea Surface Salinity",
+    "comment": "Sea water salinity is the salt content of sea water, often on the Practical Salinity Scale of 1978. However, the unqualified term 'salinity' is generic and does not necessarily imply any particular method of calculation. The units of salinity are dimensionless and the units attribute should normally be given as 1e-3 or 0.001 i.e. parts per thousand. "
+}

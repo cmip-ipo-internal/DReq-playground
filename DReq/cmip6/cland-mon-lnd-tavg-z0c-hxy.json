@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/cland-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cLand-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "cLand",
+    "out_name": "cLand",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 17,
+    "contributing_models": 27,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Total Carbon in All Terrestrial Carbon Pools",
+    "comment": "Report missing data over ocean grid cells. For fractional land report value averaged over the land fraction."
+}

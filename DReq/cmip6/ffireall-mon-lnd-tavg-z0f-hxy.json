@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/ffireall-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fFireAll-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fFireAll",
+    "out_name": "fFireAll",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 5,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Carbon Mass Flux into Atmosphere Due to CO2 Emission from Fire Including All Sources [kgC m-2 s-1]",
+    "comment": "From all sources,  Including natural, anthropogenic and Land-use change. Only total fire emissions can be compared to observations."
+}

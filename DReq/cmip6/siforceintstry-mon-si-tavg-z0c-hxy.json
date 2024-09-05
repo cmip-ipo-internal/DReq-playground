@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/siforceintstry-mon-si-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "siforceintstry-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "siforceintstry",
+    "out_name": "siforceintstry",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 9,
+    "contributing_models": 21,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "long_name": "Internal Stress Term in Force Balance (Y-Component)",
+    "comment": "Y-component of force on sea ice caused by internal stress (divergence of sigma)"
+}

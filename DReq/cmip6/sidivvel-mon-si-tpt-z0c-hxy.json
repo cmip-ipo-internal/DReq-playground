@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/sidivvel-mon-si-tpt-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sidivvel-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sidivvel",
+    "out_name": "sidivvel",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 14,
+    "contributing_models": 32,
+    "frequency": "monPt",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean where sea_ice (comment: mask=siconc) time: point",
+    "long_name": "Divergence of the Sea-Ice Velocity Field",
+    "comment": "Divergence of sea-ice velocity field (first shear strain invariant)"
+}

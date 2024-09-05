@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/mrsoslut-mon-lnd-tavg-z0p1-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mrsosLut-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "mrsosLut",
+    "out_name": "mrsosLut",
+    "questions_and_notes": "root modified for consistency with mrsol-Emon.   Also see https://github.com/WCRP-CORDEX/cordex-cmip6-data-request/issues/2 .",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 6,
+    "contributing_models": 11,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude landUse time sdepth1",
+    "cell_methods": "area: time: mean where sector",
+    "long_name": "Moisture in Upper Portion of Soil Column of Land-Use Tile",
+    "comment": "the mass of water in all phases in a thin surface layer; integrate over uppermost 10cm"
+}

@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/thkcello-fx-op-ti-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "cell_thickness",
+    "variable_root_name": "thkcello",
+    "units": "m",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "ti",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "cell thickness: time-independent field provided on multiple model levels and reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        ""
+    ],
+    "cell_methods": "area: mean",
+    "cell_measures": "area: areacello volume: volcello",
+    "samplingIntervals": [
+        "fx"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/thkcello-fx-op-ti-l-hxy"
+        }
+    }
+}

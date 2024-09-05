@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/snrefr-day-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "snrefr-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "snrefr",
+    "out_name": "snrefr",
+    "questions_and_notes": "How does this differ from snicefreezIs-LImon (besides being daily rather than monthly, and being limited to land-ice area (which may extend over ocean))?  If they're the same shouldn't the root name, comment, description, and longname be the same?",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Refreezing of Water in the Snow",
+    "comment": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics. The surface called \"surface\" means the lower boundary of the atmosphere. \"Surface snow and ice refreezing flux\" means the mass flux of surface  meltwater which refreezes within the snow or firn."
+}

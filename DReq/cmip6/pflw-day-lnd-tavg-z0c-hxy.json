@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/pflw-day-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "pflw-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "pflw",
+    "out_name": "pflw",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "landIce land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Liquid Water Content of Permafrost Layer",
+    "comment": "*where land over land*, i.e., this is the total mass of liquid water contained within the permafrost layer within the land portion of a grid cell divided by the area of the land portion of the cell."
+}

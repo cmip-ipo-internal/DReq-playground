@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/cldicemxrat-mon-unknown-tavg-p27-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cldicemxrat-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "cldicemxrat27",
+    "out_name": "cldicemxrat",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 6,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude plev27 time",
+    "cell_methods": "time: mean",
+    "long_name": "Cloud Ice Mixing Ratio",
+    "comment": "Cloud ice mixing ratio"
+}

@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/detocos-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "detocos-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "detocos",
+    "out_name": "detocos",
+    "questions_and_notes": "need vertical depth scalar coordinate",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 8,
+    "contributing_models": 13,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Detrital Organic Carbon Concentration",
+    "comment": "sum of detrital organic carbon component concentrations"
+}

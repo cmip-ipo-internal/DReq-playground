@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/psl-6hr-unknown-tavg-z0-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "psl-6hrPlev",
+    "mip_table": [
+        "6hrPlev"
+    ],
+    "table_entry": "psl",
+    "out_name": "psl",
+    "questions_and_notes": "Can we use  synoptic data here? Why not?",
+    "specific_issues": [
+        "7:Deprecate? Eliminate one of 'point' or 'mean' variable options."
+    ],
+    "contributing_institutions": 15,
+    "contributing_models": 26,
+    "frequency": "6hr",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Sea Level Pressure",
+    "comment": "Sea Level Pressure"
+}

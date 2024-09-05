@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/pfull-3hr-unknown-tpt-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "pfull-CF3hr",
+    "mip_table": [
+        "CF3hr"
+    ],
+    "table_entry": "pfull",
+    "out_name": "pfull",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 3,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Pressure at Model Full-Levels",
+    "comment": "Air pressure on model levels"
+}

@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/ccn-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "number_concentration_of_cloud_condensation_nuclei_at_stp_in_air",
+    "variable_root_name": "ccn",
+    "units": "m-3",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "number concentration of cloud condensation nuclei at stp in air: time means reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/ccn-mon-unknown-tavg-z0c-hxy"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/wetlandch4prod-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "wetlandCH4prod-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "wetlandCH4prod",
+    "out_name": "wetlandCH4prod",
+    "questions_and_notes": "Replace root name with fCH4prod.   Consider reporting instead \"where weland\".",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 15,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Grid Averaged Methane Production (Methanogenesis) from Wetlands",
+    "comment": "Biological emissions (methanogenesis) of methane (NH4) from wetlands (areas where water covers the soil, or is present either at or near the surface of the soil all year or for varying periods of time during the year, including during the growing season). "
+}

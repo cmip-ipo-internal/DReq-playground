@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/sirdgthick-mon-si-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sirdgthick-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sirdgthick",
+    "out_name": "sirdgthick",
+    "questions_and_notes": "Shouldn't sea ice ridge height have a different standard name than sea ice thickness?",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "6:Modify variable root.",
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 9,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where sea_ice_ridges (comment: mask=sirdgconc)",
+    "long_name": "Ridged Ice Thickness",
+    "comment": "Sea Ice Ridge Height (representing mean height over the ridged area)"
+}

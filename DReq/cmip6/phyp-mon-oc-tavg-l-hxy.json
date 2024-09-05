@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/phyp-mon-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "phyp-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "phyp",
+    "out_name": "phyp",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 8,
+    "contributing_models": 10,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Mole Concentration of Total Phytoplankton Expressed as Phosphorus in Sea Water",
+    "comment": "sum of phytoplankton phosphorus components"
+}

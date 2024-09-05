@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/lim-yr-li-tavg-z0c-hm",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "lim-IyrGre",
+    "mip_table": [
+        "IyrGre"
+    ],
+    "table_entry": "lim",
+    "out_name": "lim",
+    "questions_and_notes": "eliminate.  duplicates \"Ant\" entry.",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "yr",
+    "region": "greenland",
+    "modeling_realm": [
+        "landIce"
+    ],
+    "dimensions": " time",
+    "cell_methods": "area: sum where ice_sheet time: mean",
+    "long_name": "Ice Sheet Mass",
+    "comment": "The ice sheet mass is computed as the volume times density"
+}

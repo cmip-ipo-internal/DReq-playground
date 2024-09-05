@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/tdps-mon-unknown-tavg-h02-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tdps-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "tdps",
+    "out_name": "tdps",
+    "questions_and_notes": "height2m coordinate should be listed as a dimension",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate."
+    ],
+    "contributing_institutions": 6,
+    "contributing_models": 9,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "2m Dewpoint Temperature",
+    "comment": "Dew point temperature is the temperature at which a parcel of air reaches saturation upon being cooled at constant pressure and specific humidity."
+}

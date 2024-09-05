@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/cveg-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cVeg-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "cVeg",
+    "out_name": "cVeg",
+    "questions_and_notes": "for consistency with, for example, cVegGrass, specify \"where vegetation\"",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 26,
+    "contributing_models": 42,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Carbon Mass in Vegetation",
+    "comment": "Carbon mass per unit area in vegetation."
+}

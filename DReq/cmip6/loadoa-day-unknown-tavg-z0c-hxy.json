@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/loadoa-day-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "loadoa-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "loadoa",
+    "out_name": "loadoa",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 8,
+    "contributing_models": 10,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Load of Dry Aerosol Organic Matter",
+    "comment": "atmosphere dry organic content: This is the vertically integrated sum of atmosphere_primary_organic_content and atmosphere_secondary_organic_content (see next two table entries)."
+}

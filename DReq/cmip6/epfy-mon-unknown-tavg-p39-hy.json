@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/epfy-mon-unknown-tavg-p39-hy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "epfy-EmonZ",
+    "mip_table": [
+        "EmonZ"
+    ],
+    "table_entry": "epfy",
+    "out_name": "epfy",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 15,
+    "contributing_models": 28,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "latitude plev39 time",
+    "cell_methods": "longitude: mean time: mean",
+    "long_name": "Northward Component of the Eliassen-Palm Flux",
+    "comment": "Transformed Eulerian Mean Diagnostics Meridional component Fy of Eliassen-Palm (EP) flux (Fy, Fz) derived from 6hr or higher frequency fields (use daily fields or 12 hr fields if the 6 hr are not available). Please use the definitions given by equation 3.5.3a of Andrews, Holton and Leovy text book, but scaled by density to have units m3 s-2."
+}

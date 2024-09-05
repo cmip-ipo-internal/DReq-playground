@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/sios-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sios-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "sios",
+    "out_name": "sios",
+    "questions_and_notes": "need vertical depth scalar coordinate",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 11,
+    "contributing_models": 16,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Total Dissolved Inorganic Silicon Concentration",
+    "comment": "Mole concentration means number of moles per unit volume, also called \"molarity\", and is used in the construction \"mole_concentration_of_X_in_Y\", where X is a material constituent of Y. A chemical or biological species denoted by X may be described by a single term such as \"nitrogen\" or a phrase such as \"nox_expressed_as_nitrogen\". \"Dissolved inorganic silicon\" means the sum of all inorganic silicon in solution (including silicic acid and its first dissociated anion SiO(OH)3-)."
+}

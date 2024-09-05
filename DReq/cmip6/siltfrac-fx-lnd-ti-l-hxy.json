@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/siltfrac-fx-lnd-ti-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "siltfrac-Efx",
+    "mip_table": [
+        "Efx"
+    ],
+    "table_entry": "siltfrac",
+    "out_name": "siltfrac",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 4,
+    "frequency": "fx",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude sdepth ",
+    "cell_methods": "area: mean where land",
+    "long_name": "Silt Fraction",
+    "comment": "Volume fraction of silt in soil"
+}

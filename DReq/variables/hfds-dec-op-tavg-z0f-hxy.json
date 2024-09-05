@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/hfds-dec-op-tavg-z0f-hxy",
+    "@type": "dr-variable",
+    "standard_name": "surface_downward_heat_flux_in_sea_water",
+    "variable_root_name": "hfds",
+    "units": "W m-2",
+    "type": "real",
+    "positive": "down",
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "surface downward heat flux in sea water: time means reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "dec"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/hfds-dec-op-tavg-z0f-hxy"
+        }
+    }
+}

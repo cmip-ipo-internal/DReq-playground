@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/hfevapds-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hfevapds-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "hfevapds",
+    "out_name": "hfevapds",
+    "questions_and_notes": "Shouldn't this just be the negative of hflso-Omon?  Shouldn't we just define variable similar to hfls (i.e., a positive version of hflso), and eliminate this row and row hflso-Omon?  Correct cell_methods to indicate time mean also is only for ice_free_sea",
+    "specific_issues": [
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 13,
+    "contributing_models": 26,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where ice_free_sea over sea time: mean",
+    "long_name": "Temperature Flux Due to Evaporation Expressed as Heat Flux out of Sea Water",
+    "comment": "This is defined as \"where ice_free_sea over sea\""
+}

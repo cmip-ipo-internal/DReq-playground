@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/fdeforesttoatmos-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fDeforestToAtmos-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fDeforestToAtmos",
+    "out_name": "fDeforestToAtmos",
+    "questions_and_notes": "How does this differ from fLuc-Emon?",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 11,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Deforested Biomass That Goes into Atmosphere as a Result of Anthropogenic Land-Use Change [kgC m-2 s-1]",
+    "comment": "When land use change results in deforestation of natural vegetation (trees or grasslands) then natural biomass is removed. The treatment of deforested biomass differs significantly across models, but it should be straight-forward to compare deforested biomass across models."
+}

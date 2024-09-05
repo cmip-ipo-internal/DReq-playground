@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/tntrlcs-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tntrlcs-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "tntrlcs",
+    "out_name": "tntrlcs",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 5,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Tendency of Air Temperature Due to Clear Sky Longwave Radiative Heating",
+    "comment": "Tendency of Air Temperature due to Clear Sky Longwave Radiative Heating"
+}

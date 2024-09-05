@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/hur-day-unknown-tavg-p8-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hur-day",
+    "mip_table": [
+        "day"
+    ],
+    "table_entry": "hur",
+    "out_name": "hur",
+    "questions_and_notes": "cell_methods should include \"area: mean\"",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 29,
+    "contributing_models": 70,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude plev8 time",
+    "cell_methods": "time: mean",
+    "long_name": "Relative Humidity",
+    "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C."
+}

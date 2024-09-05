@@ -1,0 +1,39 @@
+{
+    "@id": "dr:variables/cfadlidarsr532-3hr-unknown-tpt-h40-hxy",
+    "@type": "dr-variable",
+    "standard_name": "histogram_of_backscattering_ratio_in_air_over_height_above_reference_ellipsoid",
+    "variable_root_name": "cfadLidarsr532",
+    "units": 1.0,
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "h40",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "histogram of backscattering ratio in air over height above reference ellipsoid: synoptic samples requested at 40 heights and reported on a 2-d horizontal grid where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alt40",
+        "scatratio",
+        "time1"
+    ],
+    "cell_methods": "area: mean time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "3hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/cfadlidarsr532-3hr-unknown-tpt-h40-hxy"
+        }
+    }
+}

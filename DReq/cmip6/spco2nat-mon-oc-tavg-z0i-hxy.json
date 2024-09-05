@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/spco2nat-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "spco2nat-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "spco2nat",
+    "out_name": "spco2nat",
+    "questions_and_notes": "How does this differ from dpco2nat-Omon? Perhaps has the wrong standard_name.  Also, why depth0m?",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "5:Standard name issue."
+    ],
+    "contributing_institutions": 6,
+    "contributing_models": 8,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time depth0m",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Natural Surface Aqueous Partial Pressure of CO2",
+    "comment": "The surface called \"surface\" means the lower boundary of the atmosphere. The chemical formula for carbon dioxide is CO2. In ocean biogeochemistry models, a \"natural analogue\" is used to simulate the effect on a modelled variable of imposing preindustrial atmospheric carbon dioxide concentrations, even when the model as a whole may be subjected to varying forcings. The partial pressure of a gaseous constituent of air is the pressure which it alone would exert with unchanged temperature and number of moles per unit volume. The partial pressure of a dissolved gas in sea water is the partial pressure in air with which it would be in equilibrium. The partial pressure difference between sea water and air is positive when the partial pressure of the dissolved gas in sea water is greater than the partial pressure in air."
+}

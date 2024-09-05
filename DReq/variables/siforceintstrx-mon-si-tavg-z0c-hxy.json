@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/siforceintstrx-mon-si-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "sea_ice_x_internal_stress",
+    "variable_root_name": "siforceintstrx",
+    "units": "N m-2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "si"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "sea ice x internal stress: time means reported on a 2-d horizontal grid where sea_ice",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "cell_measures": "--MODEL",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/siforceintstrx-mon-si-tavg-z0c-hxy"
+        }
+    }
+}

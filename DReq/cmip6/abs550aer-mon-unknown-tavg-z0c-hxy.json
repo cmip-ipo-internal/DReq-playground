@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/abs550aer-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "abs550aer-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "abs550aer",
+    "out_name": "abs550aer",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 24,
+    "contributing_models": 50,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time lambda550nm",
+    "cell_methods": "area: time: mean",
+    "long_name": "Ambient Aerosol Absorption Optical Thickness at 550nm",
+    "comment": "Optical thickness of atmospheric aerosols at wavelength 550 nanometers."
+}

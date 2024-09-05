@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rlut-3hr-unknown-tpt-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rlut-CF3hr",
+    "mip_table": [
+        "CF3hr"
+    ],
+    "table_entry": "rlut",
+    "out_name": "rlut",
+    "questions_and_notes": "Can we use time-mean data here? Why not?",
+    "specific_issues": [
+        "7:Deprecate? Eliminate one of 'point' or 'mean' variable options."
+    ],
+    "contributing_institutions": 6,
+    "contributing_models": 9,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "TOA Outgoing Longwave Radiation",
+    "comment": "at the top of the atmosphere (to be compared with satellite measurements)"
+}

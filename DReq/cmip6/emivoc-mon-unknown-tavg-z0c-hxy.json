@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/emivoc-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "emivoc-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "emivoc",
+    "out_name": "emivoc",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 9,
+    "contributing_models": 9,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Total Emission Rate of NMVOC",
+    "comment": "Integrate 3D emission field vertically to 2d field. _If_ fixed molecular weight of NMVOC is not available in model, please provide in units of kilomole m-2 s-1 (i.e. kg m-2 s-1 as if model NMVOC had molecular weight of 1) and add a comment to your file."
+}

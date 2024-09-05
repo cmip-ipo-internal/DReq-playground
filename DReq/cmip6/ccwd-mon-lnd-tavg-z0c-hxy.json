@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/ccwd-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cCwd-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "cCwd",
+    "out_name": "cCwd",
+    "questions_and_notes": "What exactly is the difference between this and variable and cLitterCwd-Emon? Is one supposed to be \"fine\" and the other \"coarse\"?  Is it really necessary to separately account for these if the distinction is model dependent?  Check root name.",
+    "specific_issues": [
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 7,
+    "contributing_models": 14,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Carbon Mass in Coarse Woody Debris",
+    "comment": "Carbon mass per unit area in woody debris (dead organic matter composed of coarse wood.  It is distinct from litter)"
+}

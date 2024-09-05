@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/limncalc-mon-oc-tavg-z0-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "limncalc-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "limncalc",
+    "out_name": "limncalc",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 2,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Nitrogen Limitation of Calcareous Phytoplankton",
+    "comment": "\"Calcareous phytoplankton\" are phytoplankton that produce calcite. Calcite is a mineral that is a polymorph of calcium carbonate. The chemical formula of calcite is CaCO3. Phytoplankton are algae that grow where there is sufficient light to support photosynthesis. \"Nitrogen growth limitation\" means the ratio of the growth rate of a species population in the environment (where there is a finite availability of nitrogen) to the theoretical growth rate if there were no such limit on nitrogen availability."
+}

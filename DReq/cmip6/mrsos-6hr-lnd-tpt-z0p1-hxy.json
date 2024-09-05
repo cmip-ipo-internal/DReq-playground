@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/mrsos-6hr-lnd-tpt-z0p1-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mrsos-6hrPlevPt",
+    "mip_table": [
+        "6hrPlevPt"
+    ],
+    "table_entry": "mrsos",
+    "out_name": "mrsos",
+    "questions_and_notes": "root modified for consistency with mrsol-Emon.   Also see https://github.com/WCRP-CORDEX/cordex-cmip6-data-request/issues/2 .",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 7,
+    "contributing_models": 9,
+    "frequency": "6hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time1 sdepth1",
+    "cell_methods": "area: mean where land time: point",
+    "long_name": "Moisture in Upper Portion of Soil Column",
+    "comment": "The mass of water in all phases in the upper 10cm of the  soil layer."
+}

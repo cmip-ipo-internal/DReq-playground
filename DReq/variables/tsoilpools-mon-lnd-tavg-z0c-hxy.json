@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/tsoilpools-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "soil_pool_carbon_decay_rate",
+    "variable_root_name": "tSoilPools",
+    "units": "s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "lnd"
+    },
+    "definition_qualifier": " in various soil pools",
+    "brand_description": "soil pool carbon decay rate in various soil pools: time means reported on a 2-d horizontal grid where land (weighted by mass of soil pool)",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "soilpools",
+        "time"
+    ],
+    "cell_methods": "area: mean where land time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/tsoilpools-mon-lnd-tavg-z0c-hxy"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/tcs-day-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tcs-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "tcs",
+    "out_name": "tcs",
+    "questions_and_notes": "this is undefined except \"where vegetation\"",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 4,
+    "contributing_models": 5,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Vegetation Canopy Temperature",
+    "comment": "Vegetation temperature, averaged over all vegetation types"
+}

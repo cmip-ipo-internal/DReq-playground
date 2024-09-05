@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/cldncl-mon-ap-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "number_concentration_of_cloud_liquid_water_particles_in_air_at_liquid_water_cloud_top",
+    "variable_root_name": "cldncl",
+    "units": "m-3",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "cl"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "number concentration of cloud liquid water particles in air at liquid water cloud top: time means reported on a 2-d horizontal grid where cloud (but only in upper-most layer of liquid water cloud and weighted by area of liquid cloud top as seen from TOA)",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/cldncl-mon-ap-tavg-z0c-hxy"
+        }
+    }
+}

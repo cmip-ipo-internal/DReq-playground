@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/spco2abio-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable",
+    "standard_name": "surface_carbon_dioxide_abiotic_analogue_partial_pressure_difference_between_sea_water_and_air",
+    "variable_root_name": "spco2abio",
+    "units": "Pa",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "???",
+    "brand_description": "surface carbon dioxide abiotic analogue partial pressure difference between sea water and air???: time means reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/spco2abio-mon-oc-tavg-z0i-hxy"
+        }
+    }
+}

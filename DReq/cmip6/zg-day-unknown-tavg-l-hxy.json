@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/zg-day-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "zg-CFday",
+    "mip_table": [
+        "CFday"
+    ],
+    "table_entry": "zg",
+    "out_name": "zg",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 15,
+    "contributing_models": 26,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Geopotential Height",
+    "comment": "Geopotential is the sum of the specific gravitational potential energy relative to the geoid and the specific centripetal potential energy. Geopotential height is the geopotential divided by the standard acceleration due to gravity. It is numerically similar to the altitude (or geometric height) and not to the quantity with standard name height, which is relative to the surface."
+}

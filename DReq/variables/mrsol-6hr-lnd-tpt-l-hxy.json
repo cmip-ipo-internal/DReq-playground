@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/mrsol-6hr-lnd-tpt-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "mass_content_of_water_in_soil_layer",
+    "variable_root_name": "mrsol",
+    "units": "kg m-2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "lnd"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "mass content of water in soil layer: synoptic samples provided on multiple model levels and reported on a 2-d horizontal grid where land",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth",
+        "time1"
+    ],
+    "cell_methods": "area: mean time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "6hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/mrsol-6hr-lnd-tpt-l-hxy"
+        }
+    }
+}

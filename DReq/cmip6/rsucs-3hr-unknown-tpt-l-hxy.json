@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rsucs-3hr-unknown-tpt-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsucs-E3hrPt",
+    "mip_table": [
+        "E3hrPt"
+    ],
+    "table_entry": "rsucs",
+    "out_name": "rsucs",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 7,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevhalf time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Upwelling Clear-Sky Shortwave Radiation",
+    "comment": "Upwelling clear-sky shortwave radiation  (includes the fluxes at the surface and TOA)"
+}

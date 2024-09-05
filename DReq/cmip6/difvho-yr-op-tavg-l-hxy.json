@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/difvho-yr-op-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "difvho-Oyr",
+    "mip_table": [
+        "Oyr"
+    ],
+    "table_entry": "difvho",
+    "out_name": "difvho",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 11,
+    "contributing_models": 16,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Ocean Vertical Heat Diffusivity",
+    "comment": "Vertical/dianeutral diffusivity applied to prognostic temperature field."
+}

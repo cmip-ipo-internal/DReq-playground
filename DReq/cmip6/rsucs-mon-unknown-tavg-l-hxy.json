@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rsucs-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsucs-CFmon",
+    "mip_table": [
+        "CFmon"
+    ],
+    "table_entry": "rsucs",
+    "out_name": "rsucs",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 16,
+    "contributing_models": 32,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevhalf time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Upwelling Clear-Sky Shortwave Radiation",
+    "comment": "Upwelling clear-sky shortwave radiation  (includes the fluxes at the surface and TOA)"
+}

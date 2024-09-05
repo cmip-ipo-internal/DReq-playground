@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/bigthetaoga-dec-op-tavg-z0c-hm",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "bigthetaoga-Odec",
+    "mip_table": [
+        "Odec"
+    ],
+    "table_entry": "bigthetaoga",
+    "out_name": "bigthetaoga",
+    "questions_and_notes": "Is this a column mean?  May need \"depth: mean\"",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "dec",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": " time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Global Average Sea Water Conservative Temperature",
+    "comment": "Diagnostic should be contributed only for models using conservative temperature as prognostic field."
+}

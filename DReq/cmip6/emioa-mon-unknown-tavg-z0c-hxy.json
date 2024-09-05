@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/emioa-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "emioa-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "emioa",
+    "out_name": "emioa",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 15,
+    "contributing_models": 19,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Primary Emission and Chemical Production of Dry Aerosol Organic Matter",
+    "comment": "This is the sum of total emission of primary organic aerosol (POA) and total production of secondary organic aerosol (SOA) (emipoa+chepsoa). Here, mass refers to the mass of organic matter, not mass of organic carbon alone. We recommend a scale factor of POM=1.4*OC, unless your model has more detailed info available.  Integrate 3D chemical production and emission field vertically to 2d field."
+}

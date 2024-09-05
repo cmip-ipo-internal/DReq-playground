@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/rsdcs-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "downwelling_shortwave_flux_in_air_assuming_clear_sky",
+    "variable_root_name": "rsdcs",
+    "units": "W m-2",
+    "type": "real",
+    "positive": "down",
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "downwelling shortwave flux in air assuming clear sky: time means provided on multiple model levels and reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevhalf",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/rsdcs-mon-unknown-tavg-l-hxy"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/thetaoga-dec-op-tavg-z0c-hm",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "thetaoga-Odec",
+    "mip_table": [
+        "Odec"
+    ],
+    "table_entry": "thetaoga",
+    "out_name": "thetaoga",
+    "questions_and_notes": "Is this a column mean?  May need \"depth: mean\"",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "dec",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": " time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Global Average Sea Water Potential Temperature",
+    "comment": "Diagnostic should be contributed even for models using conservative temperature as prognostic field"
+}

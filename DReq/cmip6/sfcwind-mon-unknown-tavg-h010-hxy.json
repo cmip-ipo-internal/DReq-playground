@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/sfcwind-mon-unknown-tavg-h010-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sfcWind-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "sfcWind",
+    "out_name": "sfcWind",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 37,
+    "contributing_models": 95,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time height10m",
+    "cell_methods": "area: time: mean",
+    "long_name": "Near-Surface Wind Speed",
+    "comment": "near-surface (usually, 10 meters) wind speed."
+}

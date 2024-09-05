@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/talknat-yr-oc-tavg-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "sea_water_alkalinity_natural_analogue_expressed_as_mole_equivalent",
+    "variable_root_name": "talknat",
+    "units": "mol m-3",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "sea water alkalinity natural analogue expressed as mole equivalent: time means provided on multiple model levels and reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": "area: areacello volume: volcello",
+    "samplingIntervals": [
+        "yr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/talknat-yr-oc-tavg-l-hxy"
+        }
+    }
+}

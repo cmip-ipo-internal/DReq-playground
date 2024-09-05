@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/tnpeot-mon-op-tcla-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "tendency_of_ocean_potential_energy_content_due_to_tides",
+    "variable_root_name": "tnpeot",
+    "units": "W m-2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tcla",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "tendency of ocean potential energy content due to tides: climatology provided on multiple model levels and reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time2"
+    ],
+    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "cell_measures": "area: areacello volume: volcello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/tnpeot-mon-op-tcla-l-hxy"
+        }
+    }
+}

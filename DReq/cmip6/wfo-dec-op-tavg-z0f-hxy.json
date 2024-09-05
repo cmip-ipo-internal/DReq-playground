@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/wfo-dec-op-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "wfo-Odec",
+    "mip_table": [
+        "Odec"
+    ],
+    "table_entry": "wfo",
+    "out_name": "wfo",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 4,
+    "frequency": "dec",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Water Flux into Sea Water",
+    "comment": "Computed as the water flux into the ocean divided by the area of the ocean portion of the grid cell. This is the sum *wfonocorr* and *wfcorr*."
+}

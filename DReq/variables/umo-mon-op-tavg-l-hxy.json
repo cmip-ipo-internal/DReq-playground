@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/umo-mon-op-tavg-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "ocean_mass_x_transport",
+    "variable_root_name": "umo",
+    "units": "kg s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "ocean mass x transport: time means provided on multiple model levels and reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "cell_methods": "time: mean",
+    "cell_measures": "--OPT",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/umo-mon-op-tavg-l-hxy"
+        }
+    }
+}

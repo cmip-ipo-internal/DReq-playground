@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/md-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "md-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "md",
+    "out_name": "md",
+    "questions_and_notes": "Are the long name, description, comment and standard name correct?   This has same standard name as emidust-AERmon.  How exactly do they differ? Root name should probably be improved.",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Wet Diameter Mode Coarse Insoluble",
+    "comment": "Emission from a primary source located anywhere within the atmosphere, including at the lower boundary (i.e. the surface of the earth). "
+}

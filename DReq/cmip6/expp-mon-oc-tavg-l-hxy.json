@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/expp-mon-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "expp-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "expp",
+    "out_name": "expp",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 21,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Sinking Particulate Organic Phosphorus Flux",
+    "comment": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics.   'Sinking' is the gravitational settling of particulate matter suspended in a liquid. A sinking flux is positive downwards and is calculated relative to the movement of the surrounding fluid."
+}

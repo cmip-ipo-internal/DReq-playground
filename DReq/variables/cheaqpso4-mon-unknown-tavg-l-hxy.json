@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/cheaqpso4-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "tendency_of_atmosphere_mass_content_of_sulfate_dry_aerosol_particles_due_to_aqueous_phase_net_chemical_production",
+    "variable_root_name": "cheaqpso4",
+    "units": "kg m-2 s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "tendency of atmosphere mass content of sulfate dry aerosol particles due to aqueous phase net chemical production: time means provided on multiple model levels and reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/cheaqpso4-mon-unknown-tavg-l-hxy"
+        }
+    }
+}

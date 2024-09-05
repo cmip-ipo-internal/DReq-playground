@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/t20d-mon-op-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "t20d-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "t20d",
+    "out_name": "t20d",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 11,
+    "contributing_models": 24,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Depth of 20 degree Celsius Isotherm",
+    "comment": "This quantity, sometimes called the \"isotherm depth\", is the depth (if it exists) at which the sea water potential temperature equals some specified value. This value should be specified in a scalar coordinate variable. Depth is the vertical distance below the surface. Potential temperature is the temperature a parcel of air or sea water would have if moved adiabatically to sea level pressure."
+}

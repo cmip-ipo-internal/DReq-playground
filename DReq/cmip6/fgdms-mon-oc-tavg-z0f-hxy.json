@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/fgdms-mon-oc-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fgdms-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "fgdms",
+    "out_name": "fgdms",
+    "questions_and_notes": "I think depth0m should be removed because the standard_name already provides this information.",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate."
+    ],
+    "contributing_institutions": 5,
+    "contributing_models": 6,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time depth0m",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Upward Flux of DMS",
+    "comment": "Gas exchange flux of DMS (positive into atmosphere)"
+}

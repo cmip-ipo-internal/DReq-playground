@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/csoilabove1m-mon-lnd-tavg-z01-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cSoilAbove1m-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "cSoilAbove1m",
+    "out_name": "cSoilAbove1m",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 4,
+    "contributing_models": 10,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time sdepth10",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Carbon Mass in Soil Pool Above 1m Depth",
+    "comment": "Report missing data over ocean grid cells. For fractional land report value averaged over the land fraction."
+}

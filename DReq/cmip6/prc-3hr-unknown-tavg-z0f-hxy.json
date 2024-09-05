@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/prc-3hr-unknown-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "prc-3hr",
+    "mip_table": [
+        "3hr"
+    ],
+    "table_entry": "prc",
+    "out_name": "prc",
+    "questions_and_notes": "Can we use  synoptic data here? Why not?",
+    "specific_issues": [
+        "7:Deprecate? Eliminate one of 'point' or 'mean' variable options."
+    ],
+    "contributing_institutions": 26,
+    "contributing_models": 53,
+    "frequency": "3hr",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Convective Precipitation",
+    "comment": "Convective precipitation at surface; includes both liquid and solid phases."
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/tas-subhr-unknown-tpt-h02-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tas-CFsubhr",
+    "mip_table": [
+        "CFsubhr"
+    ],
+    "table_entry": "tas",
+    "out_name": "tas",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 8,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "site time1 height2m",
+    "cell_methods": "area: point time: point",
+    "long_name": "Near-Surface Air Temperature",
+    "comment": "near-surface (usually, 2 meter) air temperature"
+}

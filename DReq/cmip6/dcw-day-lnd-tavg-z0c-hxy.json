@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/dcw-day-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "dcw-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "dcw",
+    "out_name": "dcw",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Change in Interception Storage",
+    "comment": "The phrase \"change_over_time_in_X\" means change in a quantity X over a time-interval, which should be defined by the bounds of the time coordinate. \"Canopy\" means the plant or vegetation canopy. Canopy water is the water on the canopy. \"Water\" means water in all phases, including frozen, i.e. ice and snow. \"Amount\" means mass per unit area."
+}

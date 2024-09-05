@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/rsutcsbnd-3hr-unknown-tpt-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsutcsbnd-E3hrPt",
+    "mip_table": [
+        "E3hrPt"
+    ],
+    "table_entry": "rsutcsbnd",
+    "out_name": "rsutcsbnd",
+    "questions_and_notes": "cell_methods should include \"area: mean\"",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude spectband time1",
+    "cell_methods": "time: point",
+    "long_name": "TOA Outgoing Clear-Sky Shortwave Radiation for Each Band",
+    "comment": "Calculated with aerosols but without clouds. This is a standard clear-sky calculation"
+}

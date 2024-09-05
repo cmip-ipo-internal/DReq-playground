@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/ps-3hr-unknown-tpt-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ps-E3hrPt",
+    "mip_table": [
+        "E3hrPt"
+    ],
+    "table_entry": "ps",
+    "out_name": "ps",
+    "questions_and_notes": "eliminate; identical to ps-3hr.",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 3,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Surface Air Pressure",
+    "comment": "surface pressure (not mean sea-level pressure), 2-D field to calculate the 3-D pressure field from hybrid coordinates"
+}

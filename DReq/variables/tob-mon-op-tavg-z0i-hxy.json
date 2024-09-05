@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/tob-mon-op-tavg-z0i-hxy",
+    "@type": "dr-variable",
+    "standard_name": "sea_water_potential_temperature_at_sea_floor",
+    "variable_root_name": "tob",
+    "units": "degC",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "sea water potential temperature at sea floor: time means reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/tob-mon-op-tavg-z0i-hxy"
+        }
+    }
+}

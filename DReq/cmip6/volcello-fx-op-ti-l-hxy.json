@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/volcello-fx-op-ti-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "volcello-Ofx",
+    "mip_table": [
+        "Ofx"
+    ],
+    "table_entry": "volcello",
+    "out_name": "volcello",
+    "questions_and_notes": "cell_methods should include \"where sea\".",
+    "specific_issues": [
+        "11:Modify cell methods.  Include 'where sea'."
+    ],
+    "contributing_institutions": 19,
+    "contributing_models": 40,
+    "frequency": "fx",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude olevel ",
+    "cell_methods": "area: sum",
+    "long_name": "Ocean Grid-Cell Volume",
+    "comment": "grid-cell volume ca. 2000."
+}

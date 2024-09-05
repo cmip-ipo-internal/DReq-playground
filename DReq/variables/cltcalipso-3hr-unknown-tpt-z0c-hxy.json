@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/cltcalipso-3hr-unknown-tpt-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "cloud_area_fraction",
+    "variable_root_name": "cltcalipso",
+    "units": "%",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": " consistent with CALIPSO",
+    "brand_description": "cloud area fraction consistent with CALIPSO: synoptic samples reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "cell_methods": "area: mean time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "3hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/cltcalipso-3hr-unknown-tpt-z0c-hxy"
+        }
+    }
+}

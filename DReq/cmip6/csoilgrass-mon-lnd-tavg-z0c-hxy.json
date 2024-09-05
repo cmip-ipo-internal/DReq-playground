@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/csoilgrass-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cSoilGrass-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "cSoilGrass",
+    "out_name": "cSoilGrass",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 6,
+    "contributing_models": 6,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where natural_grasses (comment: mask=grassFrac)",
+    "long_name": "Carbon Mass in Soil on Grass Tiles",
+    "comment": "\"Content\" indicates a quantity per unit area. The \"soil content\" of a quantity refers to the vertical integral from the surface down to the bottom of the soil model. For the content between specified levels in the soil, standard names including content_of_soil_layer are used."
+}

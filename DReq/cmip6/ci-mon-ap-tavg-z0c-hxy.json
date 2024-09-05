@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/ci-mon-ap-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ci-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "ci",
+    "out_name": "ci",
+    "questions_and_notes": "In description/comment say \"grid cell column\" rather than \"grid cell\"?",
+    "specific_issues": [],
+    "contributing_institutions": 19,
+    "contributing_models": 55,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Fraction of Time Convection Occurs in Cell",
+    "comment": "Fraction of time that convection occurs in the grid cell."
+}

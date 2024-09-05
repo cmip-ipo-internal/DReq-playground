@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/sisnmass-mon-si-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sisnmass-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sisnmass",
+    "out_name": "sisnmass",
+    "questions_and_notes": "Shouldn't the standard name be surface_snow_amount or snowfall_amount?  See variable name (sisnmass) and description and comment.  Note  description says \"mass of snow\" not \"mass of liquid water in snow\".",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 24,
+    "contributing_models": 57,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "long_name": "Snow Mass per Area",
+    "comment": "Total mass of snow on sea ice divided by sea-ice area."
+}

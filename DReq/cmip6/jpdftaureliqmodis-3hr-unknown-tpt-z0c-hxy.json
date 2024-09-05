@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/jpdftaureliqmodis-3hr-unknown-tpt-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "jpdftaureliqmodis-E3hrPt",
+    "mip_table": [
+        "E3hrPt"
+    ],
+    "table_entry": "jpdftaureliqmodis",
+    "out_name": "jpdftaureliqmodis",
+    "questions_and_notes": "I think this needs a different standard name since it is not a function of atmosphere layer.  Also root name can be simpler than CMIP6 outname.",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 4,
+    "contributing_models": 5,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude effectRadLi tau time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "MODIS Optical Thickness-Particle Size Joint Distribution, Liquid",
+    "comment": "Joint probability distribution function, giving probability of cloud as a function of optical thickness and particle size, as measured by MODIS. For liquid cloud particles."
+}

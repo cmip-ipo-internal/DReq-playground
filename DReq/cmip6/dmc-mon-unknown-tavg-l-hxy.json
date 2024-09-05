@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/dmc-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "dmc-CFmon",
+    "mip_table": [
+        "CFmon"
+    ],
+    "table_entry": "dmc",
+    "out_name": "dmc",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 5,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevhalf time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Deep Convective Mass Flux",
+    "comment": "The net mass flux  represents the difference between the updraft and downdraft components.   This is calculated as the convective mass flux divided by the area of the whole grid cell (not just the area of the cloud)."
+}

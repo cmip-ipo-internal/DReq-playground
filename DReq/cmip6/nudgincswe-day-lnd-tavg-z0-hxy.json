@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/nudgincswe-day-lnd-tavg-z0-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "nudgincswe-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "nudgincswe",
+    "out_name": "nudgincswe",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Nudging Increment of Water in Snow",
+    "comment": "A nudging increment refers to an amount added to parts of a model system. The phrase \"nudging_increment_in_X\" refers to an increment in quantity X over a time period which should be defined in the bounds of the time coordinate. The surface called \"surface\" means the lower boundary of the atmosphere. \"Amount\" means mass per unit area. \"Snow and ice on land\" means ice in glaciers, ice caps, ice sheets & shelves, river and lake ice, any other ice on a land surface, such as frozen flood water, and snow lying on such ice or on the land surface."
+}

@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/tcs-day-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "canopy_temperature",
+    "variable_root_name": "tcs",
+    "units": "K",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "veg"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "canopy temperature: time means reported on a 2-d horizontal grid where vegetation",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where land time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/tcs-day-lnd-tavg-z0c-hxy"
+        }
+    }
+}

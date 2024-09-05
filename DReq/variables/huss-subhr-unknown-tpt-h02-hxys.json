@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/huss-subhr-unknown-tpt-h02-hxys",
+    "@type": "dr-variable",
+    "standard_name": "specific_humidity",
+    "variable_root_name": "huss",
+    "units": 1.0,
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "h02",
+        "horizontalLabelDD": "hxys",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "specific humidity: synoptic samples at a height of (or near) 2 m reported at assorted individual sites",
+    "bn_status": "accepted",
+    "dimensions": [
+        "site",
+        "time1",
+        "height2m"
+    ],
+    "cell_methods": "area: point time: point",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "subhr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/huss-subhr-unknown-tpt-h02-hxys"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/sw18o-mon-op-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sw18O-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "sw18O",
+    "out_name": "sw18O",
+    "questions_and_notes": "Vertical coordinate should be olevel here.",
+    "specific_issues": [
+        "3:Modify dimensions",
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
+        "11:Modify cell methods.  Include 'where sea'."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Isotopic Ratio of Oxygen-18 in Sea Water",
+    "comment": "Ratio of abundance of oxygen-18 (18O) atoms to oxygen-16 (16O) atoms in sea water"
+}

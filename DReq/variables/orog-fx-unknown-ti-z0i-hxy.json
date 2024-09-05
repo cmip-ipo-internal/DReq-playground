@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/orog-fx-unknown-ti-z0i-hxy",
+    "@type": "dr-variable",
+    "standard_name": "surface_altitude",
+    "variable_root_name": "orog",
+    "units": "m",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "ti",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "surface altitude: time-independent field reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        ""
+    ],
+    "cell_methods": "area: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "fx"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/orog-fx-unknown-ti-z0i-hxy"
+        }
+    }
+}

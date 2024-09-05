@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/rld-subhr-unknown-tpt-l-hxys",
+    "@type": "dr-variable",
+    "standard_name": "downwelling_longwave_flux_in_air",
+    "variable_root_name": "rld",
+    "units": "W m-2",
+    "type": "real",
+    "positive": "down",
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxys",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "downwelling longwave flux in air: synoptic samples provided on multiple model levels and reported at assorted individual sites",
+    "bn_status": "accepted",
+    "dimensions": [
+        "alevhalf",
+        "site",
+        "time1"
+    ],
+    "cell_methods": "area: point time: point",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "subhr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/rld-subhr-unknown-tpt-l-hxys"
+        }
+    }
+}

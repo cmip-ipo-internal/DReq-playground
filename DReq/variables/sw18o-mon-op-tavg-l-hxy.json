@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/sw18o-mon-op-tavg-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "isotope_ratio_of_18O_to_16O_in_sea_water_excluding_solutes_and_solids",
+    "variable_root_name": "sw18O",
+    "units": 1.0,
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "isotope ratio of 18O to 16O in sea water excluding solutes and solids: time means provided on multiple model levels and reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/sw18o-mon-op-tavg-l-hxy"
+        }
+    }
+}

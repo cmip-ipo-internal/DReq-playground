@@ -1,0 +1,28 @@
+{
+    "@id": "dr:cmip6/msftyzsmpa-mon-op-tavg-l-hys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "msftyzsmpa-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "msftyzsmpa",
+    "out_name": "msftyzsmpa",
+    "questions_and_notes": "How does this variable differ from  msftmzsmpa-Omon?  Should the standard name be \"\u2026 y_overturning\u2026\" rather than \"\u2026meridional_overturning\u2026\"?  Should root name include \"mz\", rather than \"my\"?  Since it is stored on model levels, I don't think cell_methods needs to include \"depth\". check whether \"sum\" is correct for longitude. cell_methods should include \"where sea\"",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "6:Modify variable root.",
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "latitude olevel basin time",
+    "cell_methods": "longitude: sum (comment: basin sum [along zig-zag grid path]) depth: sum time: mean",
+    "long_name": "Ocean Y Overturning Mass Streamfunction Due to Parameterized Submesoscale Advection",
+    "comment": "Report only if there is a submesoscale eddy parameterization."
+}

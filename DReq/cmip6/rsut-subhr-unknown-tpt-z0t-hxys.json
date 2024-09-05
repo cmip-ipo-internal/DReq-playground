@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rsut-subhr-unknown-tpt-z0t-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsut-CFsubhr",
+    "mip_table": [
+        "CFsubhr"
+    ],
+    "table_entry": "rsut",
+    "out_name": "rsut",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 9,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "TOA Outgoing Shortwave Radiation",
+    "comment": "at the top of the atmosphere"
+}

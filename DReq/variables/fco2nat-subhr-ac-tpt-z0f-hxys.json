@@ -1,0 +1,36 @@
+{
+    "@id": "dr:variables/fco2nat-subhr-ac-tpt-z0f-hxys",
+    "@type": "dr-variable",
+    "standard_name": "surface_upward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_natural_sources",
+    "variable_root_name": "fco2nat",
+    "units": "kg m-2 s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxys",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "surface upward mass flux of carbon dioxide expressed as carbon due to emission from natural sources: synoptic samples reported at assorted individual sites",
+    "bn_status": "accepted",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "cell_methods": "area: point time: point",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "subhr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/fco2nat-subhr-ac-tpt-z0f-hxys"
+        }
+    }
+}

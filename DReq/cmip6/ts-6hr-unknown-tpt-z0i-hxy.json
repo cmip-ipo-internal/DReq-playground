@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/ts-6hr-unknown-tpt-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ts-6hrPlevPt",
+    "mip_table": [
+        "6hrPlevPt"
+    ],
+    "table_entry": "ts",
+    "out_name": "ts",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 12,
+    "contributing_models": 17,
+    "frequency": "6hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Surface Temperature",
+    "comment": "Temperature of the lower boundary of the atmosphere"
+}

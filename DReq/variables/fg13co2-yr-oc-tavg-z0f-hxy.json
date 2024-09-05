@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/fg13co2-yr-oc-tavg-z0f-hxy",
+    "@type": "dr-variable",
+    "standard_name": "surface_downward_mass_flux_of_13C_dioxide_abiotic_analogue_expressed_as_13C",
+    "variable_root_name": "fg13co2",
+    "units": "kg m-2 s-1",
+    "type": "real",
+    "positive": "down",
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "surface downward mass flux of 13C dioxide abiotic analogue expressed as 13C: time means reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "yr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/fg13co2-yr-oc-tavg-z0f-hxy"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/hfsifrazil-mon-op-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hfsifrazil-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "hfsifrazil",
+    "out_name": "hfsifrazil",
+    "questions_and_notes": "Why is frazil ice singled out; Isn't the freezing of ice at the base of the sea ice important?  How is it accounted for?  If this is of interest for both the heat budget of sea ice and ocean, then \"where sea_ice\" is appropriate.  If only of interest regarding ocean budget, then \"where sea\" would be o.k.",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 10,
+    "contributing_models": 21,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean seaIce"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Heat Flux into Sea Water Due to Frazil Ice Formation",
+    "comment": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics. The specification of a physical process by the phrase due_to_process means that the quantity named is a single term in a sum of terms which together compose the general quantity named by omitting the phrase. \"Frazil\" consists of needle like crystals of ice, typically between three and four millimeters in diameter, which form as sea water begins to freeze. Salt is expelled during the freezing process and frazil ice consists of nearly pure fresh water."
+}

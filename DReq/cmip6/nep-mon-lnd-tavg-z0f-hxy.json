@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/nep-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "nep-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "nep",
+    "out_name": "nep",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 17,
+    "contributing_models": 28,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Net Carbon Mass Flux out of Atmosphere Due to Net Ecosystem Productivity on Land [kgC m-2 s-1]",
+    "comment": "Natural flux of CO2 (expressed as a mass flux of carbon) from the atmosphere to the land calculated as the difference between uptake associated will photosynthesis and the release of CO2 from the sum of plant and soil respiration and fire.  Positive flux is into the land.  Emissions from natural fires and human ignition fires as calculated by the fire module of the dynamic vegetation model, but excluding any CO2 flux from fire included in fLuc (CO2 Flux to Atmosphere from Land Use Change)."
+}

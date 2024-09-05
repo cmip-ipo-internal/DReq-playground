@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/siitdsnthick-mon-si-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "siitdsnthick-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "siitdsnthick",
+    "out_name": "siitdsnthick",
+    "questions_and_notes": " this should have the same root as sisnthick-SIday.",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "9:Eliminate or deprecate?",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 5,
+    "contributing_models": 10,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude iceband time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siitdconc)",
+    "long_name": "Snow Thickness in Ice Thickness Categories",
+    "comment": "Actual thickness of snow in each  category (NOT volume divided by grid area),  (vector with one entry for each thickness category starting from the thinnest category, netcdf file should use thickness bounds of categories as third coordinate axis)"
+}

@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/siitdconc-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "siitdconc-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "siitdconc",
+    "out_name": "siitdconc",
+    "questions_and_notes": "For consistency with other area fractions, remove \"where sea_ice\"",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 7,
+    "contributing_models": 14,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude iceband time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "long_name": "Sea-Ice Area Percentages in Thickness Categories",
+    "comment": "Percentage of grid cell covered by each ice-thickness category (vector with one entry for each thickness category starting from the thinnest category, netcdf file should use thickness bounds of the categories as third coordinate axis)"
+}

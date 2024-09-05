@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/u2-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "u2-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "u2",
+    "out_name": "u2",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 10,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Mean-Squared Eastward Wind Speed",
+    "comment": "u*u"
+}

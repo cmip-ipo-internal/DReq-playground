@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/sftof-fx-unknown-ti-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sftof-Ofx",
+    "mip_table": [
+        "Ofx"
+    ],
+    "table_entry": "sftof",
+    "out_name": "sftof",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 20,
+    "contributing_models": 48,
+    "frequency": "fx",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude ",
+    "cell_methods": "area: mean",
+    "long_name": "Sea Area Percentage",
+    "comment": "Percentage of horizontal area occupied by ocean."
+}

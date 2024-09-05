@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/reffsnows-3hr-ap-tpt-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "effective_radius_of_stratiform_cloud_snow_particles",
+    "variable_root_name": "reffsnows",
+    "units": "m",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "scl"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "effective radius of stratiform cloud snow particles: synoptic samples provided on multiple model levels and reported on a 2-d horizontal grid where stratiform_cloud (weighted by area of stratiform cloud in the layer)",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time1"
+    ],
+    "cell_methods": "area: mean time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "3hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/reffsnows-3hr-ap-tpt-l-hxy"
+        }
+    }
+}

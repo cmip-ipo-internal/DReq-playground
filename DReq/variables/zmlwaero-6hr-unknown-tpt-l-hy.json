@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/zmlwaero-6hr-unknown-tpt-l-hy",
+    "@type": "dr-variable",
+    "standard_name": "tendency_of_air_temperature_due_to_longwave_heating_from_volcanic_ambient_aerosol_particles",
+    "variable_root_name": "zmlwaero",
+    "units": "K s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "tendency of air temperature due to longwave heating from volcanic ambient aerosol particles: synoptic samples provided on multiple model levels and reported as a function of latitude",
+    "bn_status": "accepted",
+    "dimensions": [
+        "latitude",
+        "alevel",
+        "time1"
+    ],
+    "cell_methods": "longitude: mean time: point",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "6hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/zmlwaero-6hr-unknown-tpt-l-hy"
+        }
+    }
+}

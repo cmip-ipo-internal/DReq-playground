@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/n2o-3hr-unknown-tpt-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "n2o-E3hrPt",
+    "mip_table": [
+        "E3hrPt"
+    ],
+    "table_entry": "n2o",
+    "out_name": "n2o",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Mole Fraction of N2O",
+    "comment": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.   The chemical formula of  nitrous oxide is N2O."
+}

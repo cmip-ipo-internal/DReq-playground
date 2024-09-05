@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/wsgmax100m-6hr-unknown-tstat-h0100-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "wsgmax100m-6hrPlev",
+    "mip_table": [
+        "6hrPlev"
+    ],
+    "table_entry": "wsgmax100m",
+    "out_name": "wsgmax100m",
+    "questions_and_notes": "Note that in general \"area: mean\" will give a lower maximum if data are mapped to a coarser grid than the original.  Consider reversing order of operations.",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "6hr",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time height100m",
+    "cell_methods": "area: mean time: maximum",
+    "long_name": "Maximum Wind Speed of Gust at 100m",
+    "comment": "Wind speed gust maximum at 100m above surface"
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/sishevel-mon-si-tpt-x??-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sishevel-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sishevel",
+    "out_name": "sishevel",
+    "questions_and_notes": "Is this a column mean or a surface value?  Might need a scalar  vertical coordinate.",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 6,
+    "contributing_models": 15,
+    "frequency": "monPt",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean where sea_ice (comment: mask=siconc) time: point",
+    "long_name": "Maximum Shear of Sea-Ice Velocity Field",
+    "comment": "Maximum shear of sea-ice velocity field (second shear strain invariant)"
+}

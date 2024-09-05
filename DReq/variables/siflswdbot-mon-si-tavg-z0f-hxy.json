@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/siflswdbot-mon-si-tavg-z0f-hxy",
+    "@type": "dr-variable",
+    "standard_name": "downwelling_shortwave_flux_in_sea_water_at_sea_ice_base",
+    "variable_root_name": "siflswdbot",
+    "units": "W m-2",
+    "type": "real",
+    "positive": "down",
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "si"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "downwelling shortwave flux in sea water at sea ice base: time means reported on a 2-d horizontal grid where sea_ice",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/siflswdbot-mon-si-tavg-z0f-hxy"
+        }
+    }
+}

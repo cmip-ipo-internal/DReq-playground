@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/mrsfl-day-lnd-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mrsfl-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "mrsfl",
+    "out_name": "mrsfl",
+    "questions_and_notes": "check that only 2 of following 3 water contents are requested: frozen, liquid, frozen+liquid.  root modified to be consistent with mrsol-Emon and mrfso-Lmon.   Also see https://github.com/WCRP-CORDEX/cordex-cmip6-data-request/issues/2 .",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 11,
+    "contributing_models": 21,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude sdepth time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Frozen Water Content of Soil Layer",
+    "comment": "in each soil layer, the mass of water in ice phase.  Reported as \"missing\" for grid cells occupied entirely by \"sea\""
+}

@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/rsdscsbnd-3hr-unknown-tpt-z0f-hxy",
+    "@type": "dr-variable",
+    "standard_name": "surface_downwelling_shortwave_flux_in_air_assuming_clear_sky",
+    "variable_root_name": "rsdscsbnd",
+    "units": "W m-2",
+    "type": "real",
+    "positive": "down",
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": ", spectrally resolved",
+    "brand_description": "surface downwelling shortwave flux in air assuming clear sky, spectrally resolved: synoptic samples reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "spectband",
+        "time1"
+    ],
+    "cell_methods": "time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "3hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/rsdscsbnd-3hr-unknown-tpt-z0f-hxy"
+        }
+    }
+}

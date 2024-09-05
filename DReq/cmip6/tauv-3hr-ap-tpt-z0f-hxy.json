@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/tauv-3hr-ap-tpt-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tauv-CF3hr",
+    "mip_table": [
+        "CF3hr"
+    ],
+    "table_entry": "tauv",
+    "out_name": "tauv",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 6,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Surface Downward Northward Wind Stress",
+    "comment": "Downward northward wind stress at the surface"
+}

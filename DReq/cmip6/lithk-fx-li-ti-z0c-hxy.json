@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/lithk-fx-li-ti-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "lithk-IfxGre",
+    "mip_table": [
+        "IfxGre"
+    ],
+    "table_entry": "lithk",
+    "out_name": "lithk",
+    "questions_and_notes": "eliminate.  duplicates \"Ant\" entry.",
+    "specific_issues": [
+        "1:Modify dimensions.  No need for special horizontal coordinates.",
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 4,
+    "frequency": "fx",
+    "region": "greenland",
+    "modeling_realm": [
+        "landIce"
+    ],
+    "dimensions": "xgre ygre ",
+    "cell_methods": "area: mean where ice_sheet",
+    "long_name": "Ice Sheet Thickness",
+    "comment": "The thickness of the ice sheet"
+}

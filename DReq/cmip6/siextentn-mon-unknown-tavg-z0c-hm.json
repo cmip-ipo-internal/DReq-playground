@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/siextentn-mon-unknown-tavg-z0c-hm",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "siextentn-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "siextentn",
+    "out_name": "siextentn",
+    "questions_and_notes": "Eliminate? Can't this be easily calculated from gridded field?",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 14,
+    "contributing_models": 30,
+    "frequency": "mon",
+    "region": "northern_hemisphere",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": " time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Sea-Ice Extent North",
+    "comment": "Total area of all Northern-Hemisphere grid cells that are covered by at least 15 % areal fraction of sea ice"
+}

@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/siu-day-si-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "sea_ice_x_velocity",
+    "variable_root_name": "siu",
+    "units": "m s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "si"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "sea ice x velocity: time means reported on a 2-d horizontal grid where sea_ice",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "cell_measures": "--MODEL",
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/siu-day-si-tavg-z0c-hxy"
+        }
+    }
+}

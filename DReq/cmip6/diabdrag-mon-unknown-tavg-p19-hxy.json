@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/diabdrag-mon-unknown-tavg-p19-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "diabdrag-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "diabdrag",
+    "out_name": "diabdrag",
+    "questions_and_notes": "cell_methods should include \"area: mean\"",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
+        "10:Modify cell methods.  Include 'where air'.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude plev19 time",
+    "cell_methods": "time: mean",
+    "long_name": "Tendency of Eastward Wind from Numerical Artefacts",
+    "comment": "Other sub-grid scale/numerical zonal drag excluding that already provided for the parameterized orographic and non-orographic gravity waves. This would be used to calculate the total 'diabatic drag'. Contributions to this additional drag such Rayleigh friction and diffusion that can be calculated from the monthly mean wind fields should not be included, but details (e.g. coefficients) of the friction and/or diffusion used in the model should be provided separately."
+}

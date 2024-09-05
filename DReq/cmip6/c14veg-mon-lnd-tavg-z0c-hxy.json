@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/c14veg-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "c14Veg-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "c14Veg",
+    "out_name": "c14Veg",
+    "questions_and_notes": "for consistency with other, similar variables, specify \"where vegetation\"",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 4,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Mass of 14C in Vegetation",
+    "comment": "Carbon-14 mass content per unit area in vegetation (any living plants e.g. trees, shrubs, grass)."
+}

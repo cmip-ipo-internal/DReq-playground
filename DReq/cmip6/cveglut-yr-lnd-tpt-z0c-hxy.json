@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/cveglut-yr-lnd-tpt-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cVegLut-Eyr",
+    "mip_table": [
+        "Eyr"
+    ],
+    "table_entry": "cVegLut",
+    "out_name": "cVegLut",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 9,
+    "contributing_models": 12,
+    "frequency": "yrPt",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude landUse time1",
+    "cell_methods": "area: mean where sector time: point",
+    "long_name": "Carbon in Vegetation on Land-Use Tiles",
+    "comment": "end of year values (not annual mean)"
+}

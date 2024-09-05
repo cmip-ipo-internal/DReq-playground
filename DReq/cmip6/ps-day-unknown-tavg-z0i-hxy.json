@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/ps-day-unknown-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ps-CFday",
+    "mip_table": [
+        "CFday"
+    ],
+    "table_entry": "ps",
+    "out_name": "ps",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 21,
+    "contributing_models": 50,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Surface Air Pressure",
+    "comment": "surface pressure (not mean sea-level pressure), 2-D field to calculate the 3-D pressure field from hybrid coordinates"
+}

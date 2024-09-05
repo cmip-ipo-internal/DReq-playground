@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/dfe-mon-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "dfe-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "dfe",
+    "out_name": "dfe",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 19,
+    "contributing_models": 27,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Dissolved Iron Concentration",
+    "comment": "Dissolved iron in sea water,  including both Fe2+ and Fe3+ ions (but not particulate detrital iron)"
+}

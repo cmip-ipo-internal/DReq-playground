@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/sfriver-dec-op-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sfriver-Odec",
+    "mip_table": [
+        "Odec"
+    ],
+    "table_entry": "sfriver",
+    "out_name": "sfriver",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "dec",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Salt Flux into Sea Water from Rivers",
+    "comment": "This field is physical, and it arises when rivers carry a nonzero salt content.  Often this is zero, with rivers assumed to be fresh."
+}

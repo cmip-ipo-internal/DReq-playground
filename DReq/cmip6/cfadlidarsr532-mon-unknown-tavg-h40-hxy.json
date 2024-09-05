@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/cfadlidarsr532-mon-unknown-tavg-h40-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cfadLidarsr532-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "cfadLidarsr532",
+    "out_name": "cfadLidarsr532",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 6,
+    "contributing_models": 8,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alt40 scatratio time",
+    "cell_methods": "area: time: mean",
+    "long_name": "CALIPSO Scattering Ratio CFAD",
+    "comment": "CFAD (Cloud Frequency Altitude Diagrams) are frequency distributions of radar  reflectivity (or lidar scattering ratio) as a function of altitude. The variable cfadLidarsr532 is defined as the simulated relative frequency of lidar scattering ratio in sampling volumes defined by altitude bins. The lidar is observing at a wavelength of 532nm."
+}

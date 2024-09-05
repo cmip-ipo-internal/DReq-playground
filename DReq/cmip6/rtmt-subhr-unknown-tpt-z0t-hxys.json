@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rtmt-subhr-unknown-tpt-z0t-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rtmt-CFsubhr",
+    "mip_table": [
+        "CFsubhr"
+    ],
+    "table_entry": "rtmt",
+    "out_name": "rtmt",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 9,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "Net Downward Radiative Flux at Top of Model",
+    "comment": "Net Downward Radiative Flux at Top of Model : I.e., at the top of that portion of the atmosphere where dynamics are explicitly treated by the model. This is reported only if it differs from the net downward radiative flux at the top of the atmosphere."
+}

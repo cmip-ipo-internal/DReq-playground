@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/rlntds-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rlntds-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "rlntds",
+    "out_name": "rlntds",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 11,
+    "contributing_models": 20,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where ice_free_sea over sea time: mean",
+    "long_name": "Surface Net Downward Longwave Radiation",
+    "comment": "This is defined as \"where ice_free_sea over sea\""
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/wfo-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "wfo-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "wfo",
+    "out_name": "wfo",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 28,
+    "contributing_models": 65,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Water Flux into Sea Water",
+    "comment": "Computed as the water flux into the ocean divided by the area of the ocean portion of the grid cell. This is the sum *wfonocorr* and *wfcorr*."
+}

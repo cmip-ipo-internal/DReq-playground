@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/ralut-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "raLut-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "raLut",
+    "out_name": "raLut",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 12,
+    "contributing_models": 18,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude landUse time",
+    "cell_methods": "area: time: mean where sector",
+    "long_name": "Autotrophic Respiration on Land-Use Tile as Carbon Mass Flux [kgC m-2 s-1]",
+    "comment": "Carbon mass flux per unit area into atmosphere due to autotrophic respiration on land (respiration by producers) [see rh for heterotrophic production]. Calculated on land-use tiles."
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/hfrunoffds-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hfrunoffds-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "hfrunoffds2d",
+    "out_name": "hfrunoffds",
+    "questions_and_notes": "Is this field written only if all flux is applied to uppermost layer of the ocean?  Why is this needed given request for hfrunoffds-tavg-l-hxy-sea (where if all runoff went into the uppermost layer all other layers would contain 0.)?",
+    "specific_issues": [
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 7,
+    "contributing_models": 9,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Temperature Flux Due to Runoff Expressed as Heat Flux into Sea Water",
+    "comment": "Heat flux associated with liquid water which drains from land. It is calculated relative to the heat that would be transported by runoff water entering the sea at zero degrees Celsius. "
+}

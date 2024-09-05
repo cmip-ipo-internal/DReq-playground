@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/thetaot300-mon-op-tavg-z0300-hxy",
+    "@type": "dr-variable",
+    "standard_name": "sea_water_potential_temperature",
+    "variable_root_name": "thetao",
+    "units": "degC",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0300",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "sea water potential temperature: time means integrated over the uppermost 300 m and reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth300m"
+    ],
+    "cell_methods": "area: depth: time: mean",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/thetaot300-mon-op-tavg-z0300-hxy"
+        }
+    }
+}

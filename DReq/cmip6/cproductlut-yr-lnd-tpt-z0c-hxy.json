@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/cproductlut-yr-lnd-tpt-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cProductLut-Eyr",
+    "mip_table": [
+        "Eyr"
+    ],
+    "table_entry": "cProductLut",
+    "out_name": "cProductLut",
+    "questions_and_notes": "modify root for consistency with cProduct-Lmon.",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "yrPt",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude landUse time1",
+    "cell_methods": "area: mean where sector time: point",
+    "long_name": "Wood and Agricultural Product Pool Carbon Associated with Land-Use Tiles",
+    "comment": "Anthropogenic pools associated with land use tiles into which harvests and cleared carbon are deposited before release into atmosphere PLUS any remaining anthropogenic pools that may be associated with lands which were converted into land use tiles during reported period. Examples of products include paper, cardboard, timber for construction, and crop harvest for food or fuel. Does NOT include residue which is deposited into soil or litter; end of year values (not annual mean)."
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/nstem-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "nStem-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "nStem",
+    "out_name": "nStem",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 10,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Nitrogen Mass in Stem",
+    "comment": "including sapwood and hardwood."
+}

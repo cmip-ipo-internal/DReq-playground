@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/gpptree-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "gppTree-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "gppTree",
+    "out_name": "gppTree",
+    "questions_and_notes": "Why is this variable needed given that gpp-tavg-z0-hxy-lus (gppLut-Emon) can be requested?  If this is only of interest to understanding the atmospheric budget it should include \"over all_area_types\".  Root can be simplified by leaving off the suffix and just define as \"gpp\" since the area type is indicated in suffix.",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 10,
+    "contributing_models": 16,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where trees (comment: mask=treeFrac)",
+    "long_name": "Gross Primary Production on Tree Tiles as Carbon Mass Flux [kgC m-2 s-1]",
+    "comment": "Total GPP of trees in the grid cell"
+}

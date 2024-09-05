@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/bldep-6hr-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "bldep-6hrPlev",
+    "mip_table": [
+        "6hrPlev"
+    ],
+    "table_entry": "bldep",
+    "out_name": "bldep",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 5,
+    "contributing_models": 7,
+    "frequency": "6hr",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Boundary Layer Depth",
+    "comment": "Boundary layer depth"
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/od550no3-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "od550no3-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "od550no3",
+    "out_name": "od550no3",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 13,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time lambda550nm",
+    "cell_methods": "area: time: mean",
+    "long_name": "Nitrate Aerosol Optical Depth at 550nm",
+    "comment": "Total aerosol AOD due to nitrate aerosol at a wavelength of 550 nanometres."
+}

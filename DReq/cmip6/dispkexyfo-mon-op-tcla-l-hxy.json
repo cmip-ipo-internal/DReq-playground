@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/dispkexyfo-mon-op-tcla-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "dispkexyfo-Oclim",
+    "mip_table": [
+        "Oclim"
+    ],
+    "table_entry": "dispkexyfo",
+    "out_name": "dispkexyfo",
+    "questions_and_notes": "cell_methods should include \"where sea\"",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
+        "11:Modify cell methods.  Include 'where sea'."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 2,
+    "frequency": "monC",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude olevel time2",
+    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "long_name": "Ocean Kinetic Energy Dissipation per Unit Area Due to XY Friction",
+    "comment": "Depth integrated impacts on kinetic energy arising from lateral frictional dissipation associated with Laplacian and/or biharmonic viscosity. For CMIP5, this diagnostic was 3d, whereas the CMIP6 depth integrated diagnostic is sufficient for many purposes and reduces archive requirements."
+}

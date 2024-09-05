@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/sfno2-1hr-unknown-tavg-z0-hxy",
+    "@type": "dr-variable",
+    "standard_name": "mole_fraction_of_nitrogen_dioxide_in_air",
+    "variable_root_name": "no2",
+    "units": "mol mol-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "mole fraction of nitrogen dioxide in air: time means reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "1hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/sfno2-1hr-unknown-tavg-z0-hxy"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/psl-mon-unknown-tavg-z0-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "psl-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "psl",
+    "out_name": "psl",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 38,
+    "contributing_models": 101,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Sea Level Pressure",
+    "comment": "Sea Level Pressure"
+}

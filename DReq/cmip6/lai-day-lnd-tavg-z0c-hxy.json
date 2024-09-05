@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/lai-day-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "lai-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "lai",
+    "out_name": "lai",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 14,
+    "contributing_models": 24,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Leaf Area Index",
+    "comment": "A ratio obtained by dividing the total upper leaf surface area of vegetation by the (horizontal) surface area of the land on which it grows."
+}

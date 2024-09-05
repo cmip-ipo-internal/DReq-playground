@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/mrrob-day-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mrrob-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "mrrob",
+    "out_name": "mrrob",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 9,
+    "contributing_models": 13,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Subsurface Runoff",
+    "comment": "Runoff is the liquid water which drains from land. If not specified, \"runoff\" refers to the sum of surface runoff and subsurface drainage. In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics."
+}

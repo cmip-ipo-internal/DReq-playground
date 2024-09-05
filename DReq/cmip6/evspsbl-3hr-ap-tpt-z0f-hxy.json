@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/evspsbl-3hr-ap-tpt-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "evspsbl-CF3hr",
+    "mip_table": [
+        "CF3hr"
+    ],
+    "table_entry": "evspsbl",
+    "out_name": "evspsbl",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 5,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Evaporation Including Sublimation and Transpiration",
+    "comment": "Evaporation at surface (also known as evapotranspiration): flux of water into the atmosphere due to conversion of both liquid and solid phases to vapor (from underlying surface and vegetation)"
+}

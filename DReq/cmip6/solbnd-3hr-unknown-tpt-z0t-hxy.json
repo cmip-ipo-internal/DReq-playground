@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/solbnd-3hr-unknown-tpt-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "solbnd-E3hrPt",
+    "mip_table": [
+        "E3hrPt"
+    ],
+    "table_entry": "solbnd",
+    "out_name": "solbnd",
+    "questions_and_notes": "This should have a root name more consistent with rsutcsbnd-E3hrPt, rsutcsafbnd-E3hrPt, rsucsbnd-E3hrPt, and rsucsafbnd-E3hrPt.  cell_methods should include area: mean",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 4,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude spectband time1",
+    "cell_methods": "time: point",
+    "long_name": "TOA Solar Irradiance for Each Band",
+    "comment": "Solar irradiance at a horizontal surface at top of atmosphere."
+}

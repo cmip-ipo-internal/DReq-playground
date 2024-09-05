@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/loadso4-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "loadso4-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "loadso4",
+    "out_name": "loadso4",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 10,
+    "contributing_models": 17,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Load of SO4",
+    "comment": "The total dry mass of sulfate aerosol particles per unit area."
+}

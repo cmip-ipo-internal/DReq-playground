@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/fveglittersenescence-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fVegLitterSenescence-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fVegLitterSenescence",
+    "out_name": "fVegLitterSenescence",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 17,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Total Carbon Mass Flux from Vegetation to Litter as a Result of Leaf, Branch, and Root Senescence",
+    "comment": "needed to separate changing vegetation C turnover times resulting from changing allocation versus changing mortality"
+}

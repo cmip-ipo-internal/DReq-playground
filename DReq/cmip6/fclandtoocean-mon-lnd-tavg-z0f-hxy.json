@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/fclandtoocean-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fCLandToOcean-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fCLandToOcean",
+    "out_name": "fCLandToOcean",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 14,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Lateral Transfer of Carbon out of Grid Cell That Eventually Goes into Ocean",
+    "comment": "leached carbon etc that goes into run off or river routing and finds its way into ocean should be reported here."
+}

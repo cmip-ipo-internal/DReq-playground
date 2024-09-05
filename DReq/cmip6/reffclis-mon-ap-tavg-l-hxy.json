@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/reffclis-mon-ap-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "reffclis-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "reffclis",
+    "out_name": "reffclis",
+    "questions_and_notes": "Contributions should be weighted by stratiform cloud area.",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 4,
+    "contributing_models": 10,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Hydrometeor Effective Radius of Stratiform Cloud Ice",
+    "comment": "This is defined as the in-cloud ratio of the third moment over the second moment of the particle size distribution (obtained by considering only the cloudy portion of the grid cell)."
+}

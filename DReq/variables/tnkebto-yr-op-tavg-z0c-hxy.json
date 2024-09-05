@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/tnkebto-yr-op-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "tendency_of_ocean_eddy_kinetic_energy_content_due_to_parameterized_eddy_advection",
+    "variable_root_name": "tnkebto",
+    "units": "W m-2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "tendency of ocean eddy kinetic energy content due to parameterized eddy advection: time means reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "yr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/tnkebto-yr-op-tavg-z0c-hxy"
+        }
+    }
+}

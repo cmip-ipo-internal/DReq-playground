@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/csoilpools-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cSoilPools-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "cSoilPools",
+    "out_name": "cSoilPools",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 8,
+    "contributing_models": 11,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude soilpools time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Carbon Mass in Each Model Soil Pool (Summed over Vertical Levels)",
+    "comment": "For models with multiple soil carbon pools, report each pool here. If models also have vertical discretisation these should be aggregated"
+}

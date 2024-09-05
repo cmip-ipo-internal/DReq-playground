@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/wilt-fx-lnd-ti-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "volume_fraction_of_condensed_water_in_soil_at_wilting_point",
+    "variable_root_name": "wilt",
+    "units": "%",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "ti",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "lnd"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "volume fraction of condensed water in soil at wilting point: time-independent field provided on multiple model levels and reported on a 2-d horizontal grid where land",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth",
+        ""
+    ],
+    "cell_methods": "area: mean where land",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "fx"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/wilt-fx-lnd-ti-l-hxy"
+        }
+    }
+}

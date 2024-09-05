@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/fbnf-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fBNF-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fBNF",
+    "out_name": "fBNF",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 13,
+    "contributing_models": 15,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Biological Nitrogen Fixation",
+    "comment": "The fixation (uptake of nitrogen gas directly from the atmosphere) of nitrogen due to biological processes."
+}

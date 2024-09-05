@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/intvaw-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "intvaw-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "intvaw",
+    "out_name": "intvaw",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 7,
+    "contributing_models": 14,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Vertically Integrated Northward Moisture Transport",
+    "comment": "Vertically integrated Northward moisture transport (Mass_weighted_vertical integral of the product of northward wind by total water mass per unit mass)"
+}

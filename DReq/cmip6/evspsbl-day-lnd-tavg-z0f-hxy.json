@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/evspsbl-day-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "evspsbl-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "evspsbl",
+    "out_name": "evspsbl",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 8,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Evaporation Including Sublimation and Transpiration",
+    "comment": "Evaporation at surface (also known as evapotranspiration): flux of water into the atmosphere due to conversion of both liquid and solid phases to vapor (from underlying surface and vegetation)"
+}

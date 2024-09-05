@@ -1,0 +1,39 @@
+{
+    "@id": "dr:variables/nwdfraclut-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "area_fraction",
+    "variable_root_name": "nwdFrac",
+    "units": "%",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": " of herbaceous vegetation",
+    "brand_description": "area fraction of herbaceous vegetation: time means reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "landUse",
+        "time",
+        "typenwd"
+    ],
+    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/nwdfraclut-mon-unknown-tavg-z0c-hxy"
+        }
+    }
+}

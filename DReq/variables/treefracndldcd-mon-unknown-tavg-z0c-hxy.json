@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/treefracndldcd-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "area_fraction",
+    "variable_root_name": "treeFracNdlDcd",
+    "units": "%",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": " of needleleaf deciduous trees",
+    "brand_description": "area fraction of needleleaf deciduous trees: time means reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "typetreend"
+    ],
+    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/treefracndldcd-mon-unknown-tavg-z0c-hxy"
+        }
+    }
+}

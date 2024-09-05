@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/rlds-3hr-unknown-tpt-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rlds-CF3hr",
+    "mip_table": [
+        "CF3hr"
+    ],
+    "table_entry": "rlds",
+    "out_name": "rlds",
+    "questions_and_notes": "Can we use time-mean data here? Why not?",
+    "specific_issues": [
+        "7:Deprecate? Eliminate one of 'point' or 'mean' variable options.",
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 4,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Surface Downwelling Longwave Radiation",
+    "comment": "The surface called \"surface\" means the lower boundary of the atmosphere. \"longwave\" means longwave radiation. Downwelling radiation is radiation from above. It does not mean \"net downward\". When thought of as being incident on a surface, a radiative flux is sometimes called \"irradiance\". In addition, it is identical with the quantity measured by a cosine-collector light-meter and sometimes called \"vector irradiance\". In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics."
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/phalf-mon-unknown-tcla-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "phalf-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "phalf",
+    "out_name": "phalf",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 9,
+    "contributing_models": 22,
+    "frequency": "monC",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevhalf time2",
+    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "long_name": "Pressure on Model Half-Levels",
+    "comment": "Air pressure on model half-levels"
+}

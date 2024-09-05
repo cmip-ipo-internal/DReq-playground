@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/cfc12global-mon-unknown-tavg-z0c-hm",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cfc12global-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "cfc12global",
+    "out_name": "cfc12global",
+    "questions_and_notes": "remove \"global\" from variable root because \"global\" is specified external to the list of variables.",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 7,
+    "contributing_models": 15,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos atmosChem"
+    ],
+    "dimensions": " time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Global Mean Mole Fraction of CFC12",
+    "comment": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.  The chemical formula of CFC12 is CF2Cl2.  The IUPAC name for CFC12 is dichloro-difluoro-methane."
+}

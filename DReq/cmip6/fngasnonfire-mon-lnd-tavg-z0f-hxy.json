@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/fngasnonfire-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fNgasNonFire-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fNgasNonFire",
+    "out_name": "fNgasNonFire",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 8,
+    "contributing_models": 10,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Total Nitrogen Lost to the Atmosphere (Including NHx, NOx, N2O, N2) from All Processes Except Fire",
+    "comment": "Flux of Nitrogen from the land into the atmosphere due to all processes other than fire"
+}

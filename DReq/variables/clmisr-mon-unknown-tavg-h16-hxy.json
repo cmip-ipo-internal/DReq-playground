@@ -1,0 +1,39 @@
+{
+    "@id": "dr:variables/clmisr-mon-unknown-tavg-h16-hxy",
+    "@type": "dr-variable",
+    "standard_name": "cloud_area_fraction_in_atmosphere_layer",
+    "variable_root_name": "clmisr",
+    "units": "%",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "h16",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": " and optical depth category consistent with MISR",
+    "brand_description": "cloud area fraction in atmosphere layer and optical depth category consistent with MISR: time means requested at 16 heights and reported on a 2-d horizontal grid where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alt16",
+        "tau",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/clmisr-mon-unknown-tavg-h16-hxy"
+        }
+    }
+}

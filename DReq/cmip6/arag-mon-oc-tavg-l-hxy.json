@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/arag-mon-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "arag-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "arag",
+    "out_name": "arag",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 2,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Aragonite Concentration",
+    "comment": "Sum of particulate aragonite components (e.g. Phytoplankton, Detrital, etc.)"
+}

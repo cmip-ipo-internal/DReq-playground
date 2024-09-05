@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/cfc113global-mon-unknown-tavg-z0c-hm",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cfc113global-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "cfc113global",
+    "out_name": "cfc113global",
+    "questions_and_notes": "remove \"global\" from variable root because \"global\" is specified external to the list of variables.",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 2,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos atmosChem"
+    ],
+    "dimensions": " time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Global Mean Mole Fraction of CFC113",
+    "comment": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.  The chemical formula of CFC113 is CCl2FCClF2.  The IUPAC name for CFC113 is 1,1,2-trichloro-1,2,2-trifluoro-ethane."
+}

@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/wfo-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable",
+    "standard_name": "water_flux_into_sea_water",
+    "variable_root_name": "wfo",
+    "units": "kg m-2 s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "water flux into sea water: time means reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/wfo-mon-op-tavg-z0f-hxy"
+        }
+    }
+}

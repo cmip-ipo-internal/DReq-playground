@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/mrrolut-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mrroLut-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "mrroLut",
+    "out_name": "mrroLut",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 7,
+    "contributing_models": 18,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude landUse time",
+    "cell_methods": "area: time: mean where sector",
+    "long_name": "Total Runoff from Land-Use Tile",
+    "comment": "the total runoff (including \"drainage\" through the base of the soil model) leaving the land use tile portion of the grid cell"
+}

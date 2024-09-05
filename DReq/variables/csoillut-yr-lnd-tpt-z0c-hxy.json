@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/csoillut-yr-lnd-tpt-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "soil_mass_content_of_carbon",
+    "variable_root_name": "cSoil",
+    "units": "kg m-2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "lus"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "soil mass content of carbon: synoptic samples reported on a 2-d horizontal grid where sector",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "landUse",
+        "time1"
+    ],
+    "cell_methods": "area: mean where sector time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "yr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/csoillut-yr-lnd-tpt-z0c-hxy"
+        }
+    }
+}

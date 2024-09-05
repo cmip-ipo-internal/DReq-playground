@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/fvegsoil-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fVegSoil-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "fVegSoil",
+    "out_name": "fVegSoil",
+    "questions_and_notes": "For consistency with other similar variables, this should be \"where vegetation\".",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 5,
+    "contributing_models": 5,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Total Carbon Mass Flux from Vegetation Directly to Soil",
+    "comment": "Carbon mass flux per unit area from vegetation directly into soil, without intermediate conversion to litter."
+}

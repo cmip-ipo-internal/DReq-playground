@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/lwtoacsaer-mon-unknown-tavg-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "lwtoacsaer-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "lwtoacsaer",
+    "out_name": "lwtoacsaer",
+    "questions_and_notes": "this is for clear-sky only and should have a different standard name.  How about: toa_instantaneous_longwave_forcing_due_to_aerosols_assuming_clear_sky .  Also need to check whether there is duplication between this variable and rlutcsaf-AERmon. And why is this listed and not shortwave radiative forcing due to aerosols?",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 4,
+    "contributing_models": 11,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "TOA Clear-Sky Longwave Radiative Forcing Due to Aerosols",
+    "comment": "Instantaneous forcing is the radiative flux change caused instantaneously by an imposed change in radiative forcing agent (greenhouse gases, aerosol, solar radiation, etc.)."
+}

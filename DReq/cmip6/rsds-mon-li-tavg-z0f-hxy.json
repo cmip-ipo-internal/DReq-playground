@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/rsds-mon-li-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsds-ImonGre",
+    "mip_table": [
+        "ImonGre"
+    ],
+    "table_entry": "rsds",
+    "out_name": "rsds",
+    "questions_and_notes": "eliminate.  duplicates the \"noname\" ice sheet variable: rsdsIs-LImon",
+    "specific_issues": [
+        "1:Modify dimensions.  No need for special horizontal coordinates.",
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 4,
+    "frequency": "mon",
+    "region": "greenland",
+    "modeling_realm": [
+        "landIce land"
+    ],
+    "dimensions": "xgre ygre time",
+    "cell_methods": "area: time: mean where ice_sheet",
+    "long_name": "Surface Downwelling Shortwave Radiation",
+    "comment": "Surface solar irradiance for UV calculations."
+}

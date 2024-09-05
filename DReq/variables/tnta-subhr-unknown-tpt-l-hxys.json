@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/tnta-subhr-unknown-tpt-l-hxys",
+    "@type": "dr-variable",
+    "standard_name": "tendency_of_air_temperature_due_to_advection",
+    "variable_root_name": "tnta",
+    "units": "K s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxys",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "tendency of air temperature due to advection: synoptic samples provided on multiple model levels and reported at assorted individual sites",
+    "bn_status": "accepted",
+    "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+    ],
+    "cell_methods": "area: point time: point",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "subhr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/tnta-subhr-unknown-tpt-l-hxys"
+        }
+    }
+}

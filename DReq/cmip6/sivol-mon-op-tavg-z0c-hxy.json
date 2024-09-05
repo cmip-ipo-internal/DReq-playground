@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/sivol-mon-op-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sivol-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sivol",
+    "out_name": "sivol",
+    "questions_and_notes": "Isn't sivol a misleading name (see variables sivoln-SImon and sivols-SImon)?  Isn't this just the product: area-mean sea ice thickness where sea_ice x sea_ice_area_fraction, or equivalently area-mean sea ice thickness where sea x sea_area_fraction? Or inconsistent with the explanatory comment, is it supposed to be sea ice thickness limited to an analysis of the sea portion of grid cells, in which case it would be area-mean sea ice thickness where sea (without multiplying by a fraction), or equivalently area-mean sea ice thickness where sea_ice x sea_ice_area_fraction / sea_area_fraction.  I think we should try to eiminate this variable.",
+    "specific_issues": [
+        "9:Eliminate or deprecate?",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 29,
+    "contributing_models": 70,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Sea-Ice Volume per Area",
+    "comment": "Total volume of sea ice divided by grid-cell area (this used to be called ice thickness in CMIP5)"
+}

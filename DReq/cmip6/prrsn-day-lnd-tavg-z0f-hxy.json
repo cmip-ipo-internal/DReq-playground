@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/prrsn-day-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "prrsn-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "prrsn",
+    "out_name": "prrsn",
+    "questions_and_notes": "Can't this be directly calculated from rainfall_flux given the snow area fraction?  CF says: \"The quantity with standard name mass_fraction_of_rainfall_falling_onto_surface_snow is the mass of rainfall falling onto snow as a fraction of the mass of rainfall falling within the area of interest.\" ",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 2,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Fraction of Rainfall on Snow",
+    "comment": "The fraction of the grid averaged rainfall which falls on the snow pack"
+}

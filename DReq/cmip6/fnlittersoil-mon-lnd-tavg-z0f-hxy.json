@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/fnlittersoil-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fNLitterSoil-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fNLitterSoil",
+    "out_name": "fNLitterSoil",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 10,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Total Nitrogen Mass Flux from Litter to Soil",
+    "comment": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics. \"Litter\" is dead plant material in or above the soil."
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/ksat-fx-lnd-ti-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ksat-Efx",
+    "mip_table": [
+        "Efx"
+    ],
+    "table_entry": "ksat",
+    "out_name": "ksat",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 11,
+    "frequency": "fx",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude sdepth ",
+    "cell_methods": "area: mean where land",
+    "long_name": "Saturated Hydraulic Conductivity",
+    "comment": "Hydraulic conductivity is the constant k in Darcy's Law q=-k grad h for fluid flow q (volume transport per unit area i.e. velocity) through a porous medium, where h is the hydraulic head (pressure expressed as an equivalent depth of water)."
+}

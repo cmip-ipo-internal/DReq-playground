@@ -1,0 +1,36 @@
+{
+    "@id": "dr:variables/tendlibmassbf-yr-li-tavg-z0f??-hm",
+    "@type": "dr-variable",
+    "standard_name": "tendency_of_land_ice_mass_due_to_basal_mass_balance",
+    "variable_root_name": "tendlibmassbf",
+    "units": "kg s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hm",
+        "areaLabelDD": "is"
+    },
+    "definition_qualifier": " (area-total over region)",
+    "brand_description": "tendency of land ice mass due to basal mass balance (area-total over region): time means where ice_sheet",
+    "bn_status": "accepted",
+    "dimensions": [
+        "",
+        "time"
+    ],
+    "cell_methods": "area: sum where ice_sheet time: mean",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "yr"
+    ],
+    "regions": [
+        "greenland"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/tendlibmassbf-yr-li-tavg-z0f??-hm"
+        }
+    }
+}

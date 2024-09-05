@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/grpllsprof-3hr-unknown-tpt-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "grpllsprof-CF3hr",
+    "mip_table": [
+        "CF3hr"
+    ],
+    "table_entry": "grpllsprof",
+    "out_name": "grpllsprof",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevhalf time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Stratiform Graupel Flux",
+    "comment": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics. Stratiform precipitation, whether liquid or frozen, is precipitation that formed in stratiform cloud. Graupel consists of heavily rimed snow particles, often called snow pellets; often indistinguishable from very small soft hail except when the size convention that hail must have a diameter greater than 5 mm is adopted. Reference: American Meteorological Society Glossary http://glossary.ametsoc.org/wiki/Graupel. There are also separate standard names for hail. Standard names for \"graupel_and_hail\" should be used to describe data produced by models that do not distinguish between hail and graupel."
+}

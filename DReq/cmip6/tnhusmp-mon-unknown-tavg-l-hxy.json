@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/tnhusmp-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tnhusmp-CFmon",
+    "mip_table": [
+        "CFmon"
+    ],
+    "table_entry": "tnhusmp",
+    "out_name": "tnhusmp",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 12,
+    "contributing_models": 27,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Tendency of Specific Humidity Due to Model Physics",
+    "comment": "Tendency of specific humidity due to model physics. This includes sources and sinks from parametrized moist physics (e.g. convection, boundary layer, stratiform condensation/evaporation, etc.) and excludes sources and sinks from resolved dynamics or from horizontal or vertical numerical diffusion not associated with model physics.  For example any diffusive mixing by the boundary layer scheme would be included."
+}

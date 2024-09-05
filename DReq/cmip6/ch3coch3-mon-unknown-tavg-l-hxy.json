@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/ch3coch3-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ch3coch3-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "ch3coch3",
+    "out_name": "ch3coch3",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 11,
+    "contributing_models": 8,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "CH3COCH3 Volume Mixing Ratio",
+    "comment": "Mole fraction is used in the construction \"mole_fraction_of_X_in_Y\", where X is a material constituent of Y. A chemical species denoted by X may be described by a single term such as \"nitrogen\" or a phrase such as \"nox_expressed_as_nitrogen\". Acetone is an organic molecule with the chemical formula CH3CH3CO. The IUPAC name for acetone is propan-2-one. Acetone is a member of the group of organic compounds known as ketones. There are standard names for the ketone group as well as for some of the individual species."
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rhsoil-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rhSoil-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "rhSoil",
+    "out_name": "rhSoil",
+    "questions_and_notes": "Why is this flux inconsistent with other, similar variables (\"flux_of_carbon\" vs. \"flux_of_carbon_dioxide_expressed_as_carbon\")?   Also,won't this root name likely be confused with \"relative humidity\"? ",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 6,
+    "contributing_models": 14,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Carbon Mass Flux into Atmosphere Due to Heterotrophic Respiration from Soil on Land",
+    "comment": "Needed to calculate soil bulk turnover time"
+}

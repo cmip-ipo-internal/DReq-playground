@@ -1,0 +1,36 @@
+{
+    "@id": "dr:variables/rtmt-subhr-unknown-tpt-z0t-hxys",
+    "@type": "dr-variable",
+    "standard_name": "net_downward_radiative_flux_at_top_of_atmosphere_model",
+    "variable_root_name": "rtmt",
+    "units": "W m-2",
+    "type": "real",
+    "positive": "down",
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxys",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "net downward radiative flux at top of atmosphere model: synoptic samples reported at assorted individual sites",
+    "bn_status": "accepted",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "cell_methods": "area: point time: point",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "subhr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/rtmt-subhr-unknown-tpt-z0t-hxys"
+        }
+    }
+}

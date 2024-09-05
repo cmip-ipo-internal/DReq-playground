@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/cltcalipso-3hr-unknown-tpt-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cltcalipso-E3hrPt",
+    "mip_table": [
+        "E3hrPt"
+    ],
+    "table_entry": "cltcalipso",
+    "out_name": "cltcalipso",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 7,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "CALIPSO Total Cloud Cover Percentage",
+    "comment": "Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen by the  Cloud-Aerosol Lidar and Infrared Pathfinder Satellite Observation (CALIPSO) instrument. Includes both large-scale and convective cloud."
+}

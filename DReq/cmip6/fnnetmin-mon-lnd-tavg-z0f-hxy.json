@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/fnnetmin-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fNnetmin-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fNnetmin",
+    "out_name": "fNnetmin",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 13,
+    "contributing_models": 4,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Net Nitrogen Release from Soil and Litter as the Outcome of Nitrogen Immobilisation and Gross Mineralisation",
+    "comment": "Loss of soil nitrogen through remineralization and immobilisation. Remineralization is the degradation of organic matter into inorganic forms of carbon, nitrogen, phosphorus and other micronutrients, which consumes oxygen and releases energy. Immobilisation of nitrogen refers to retention of nitrogen by micro-organisms under certain conditions, making it unavailable for plants."
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rmaint-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rMaint-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "rMaint",
+    "out_name": "rMaint",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 11,
+    "contributing_models": 25,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Carbon Mass Flux into Atmosphere Due to Maintenance Autotrophic Respiration on Land [kgC m-2 s-1]",
+    "comment": "Maintenance respiration is defined as the carbon cost to support the metabolic activity of existing live tissue."
+}

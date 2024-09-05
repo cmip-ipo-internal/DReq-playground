@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/msftyrho-dec-op-tavg-rhon-ht",
+    "@type": "dr-variable",
+    "standard_name": "ocean_y_overturning_mass_streamfunction",
+    "variable_root_name": "msftyz",
+    "units": "kg s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "rhon",
+        "horizontalLabelDD": "ht",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "ocean y overturning mass streamfunction: time means provided on multiple (potential) density surfaces and characterizing transport across a 'line' (not necessarily coincident with a latitude circle) where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "gridlatitude",
+        "rho",
+        "basin",
+        "time"
+    ],
+    "cell_methods": "time: mean grid_longitude: mean",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "dec"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/msftyrho-dec-op-tavg-rhon-ht"
+        }
+    }
+}

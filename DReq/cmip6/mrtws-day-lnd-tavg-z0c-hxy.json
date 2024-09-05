@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/mrtws-day-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mrtws-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "mrtws",
+    "out_name": "mrtws",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 5,
+    "contributing_models": 7,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Terrestrial Water Storage",
+    "comment": "Mass of water in all phases and in all components including soil, canopy, vegetation, ice sheets, rivers and ground water."
+}

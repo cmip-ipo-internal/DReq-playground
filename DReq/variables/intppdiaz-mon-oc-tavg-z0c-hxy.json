@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/intppdiaz-mon-oc-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "net_primary_mole_productivity_of_biomass_expressed_as_carbon_by_diazotrophic_phytoplankton",
+    "variable_root_name": "intppdiaz",
+    "units": "mol m-2 s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "net primary mole productivity of biomass expressed as carbon by diazotrophic phytoplankton: time means reported on a 2-d horizontal grid where sea (over entire ocean column)",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/intppdiaz-mon-oc-tavg-z0c-hxy"
+        }
+    }
+}

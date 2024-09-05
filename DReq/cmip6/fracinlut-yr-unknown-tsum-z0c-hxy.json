@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/fracinlut-yr-unknown-tsum-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fracInLut-Eyr",
+    "mip_table": [
+        "Eyr"
+    ],
+    "table_entry": "fracInLut",
+    "out_name": "fracInLut",
+    "questions_and_notes": "Shouldn't this have a different standard name?  Is this the difference between the area_fraction at the end and beginning of the year?  Possible standard names: area_fraction_change (units: %) or area_fraction_tendency (units: % s-1).  Is this variable needed if fracLut-tpt-z0-hxy-x (fracLut-Eyr) is provided?",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 4,
+    "contributing_models": 5,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude landUse time",
+    "cell_methods": "area: mean where land over all_area_types time: sum",
+    "long_name": "Annual Gross Percentage That Was Transferred into This Tile from Other Land-Use Tiles",
+    "comment": "Cumulative percentage transitions over the year; note that percentage should be reported as a percentage of atmospheric grid cell"
+}

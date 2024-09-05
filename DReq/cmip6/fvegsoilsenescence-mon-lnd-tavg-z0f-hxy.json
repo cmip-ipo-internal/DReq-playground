@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/fvegsoilsenescence-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fVegSoilSenescence-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fVegSoilSenescence",
+    "out_name": "fVegSoilSenescence",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Total Carbon Mass Flux from Vegetation to Soil as a Result of Leaf, Branch, and Root Senescence",
+    "comment": "needed to separate changing vegetation C turnover times resulting from changing allocation versus changing mortality"
+}

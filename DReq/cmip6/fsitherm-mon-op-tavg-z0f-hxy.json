@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/fsitherm-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fsitherm-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "fsitherm",
+    "out_name": "fsitherm",
+    "questions_and_notes": "Why should this be saved in addition to siflfwbot-SImon?  Can't it be calculated from that variable knowing the sea ice fraction? ",
+    "specific_issues": [
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 18,
+    "contributing_models": 42,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Water Flux into Sea Water Due to Sea Ice Thermodynamics",
+    "comment": "computed as the sea ice thermodynamic water flux into the ocean divided by the area of the ocean portion of the grid cell."
+}

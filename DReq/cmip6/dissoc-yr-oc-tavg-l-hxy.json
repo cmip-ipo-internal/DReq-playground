@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/dissoc-yr-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "dissoc-Oyr",
+    "mip_table": [
+        "Oyr"
+    ],
+    "table_entry": "dissoc",
+    "out_name": "dissoc",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 7,
+    "contributing_models": 13,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Dissolved Organic Carbon Concentration",
+    "comment": "Sum of dissolved carbon component concentrations explicitly represented (i.e. not ~40 uM refractory unless explicit)"
+}

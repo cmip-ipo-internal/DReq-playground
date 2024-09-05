@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/clws-3hr-unknown-tpt-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "clws-CF3hr",
+    "mip_table": [
+        "CF3hr"
+    ],
+    "table_entry": "clws",
+    "out_name": "clws",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 4,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Mass Fraction of Stratiform Cloud Liquid Water",
+    "comment": "Calculated as the mass of stratiform cloud liquid water in the grid cell divided by the mass of air (including the water in all phases) in the grid cell.  This includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model."
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/lwsrfasdust-mon-unknown-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "lwsrfasdust-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "lwsrfasdust",
+    "out_name": "lwsrfasdust",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 2,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "All-Sky Surface Longwave Radiative Flux Due to Dust",
+    "comment": "The direct radiative effect refers to the instantaneous radiative impact on the Earth's energy balance, excluding secondary effects such as changes in cloud cover."
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/cheaqpso4-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cheaqpso4-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "cheaqpso4",
+    "out_name": "cheaqpso4",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 10,
+    "contributing_models": 11,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Aqueous-Phase Production Rate of SO4",
+    "comment": "proposed name: tendency_of_atmosphere_mass_content_of_sulfate_dry_aerosol_due_to_aqueous_phase_net_chemical_production"
+}

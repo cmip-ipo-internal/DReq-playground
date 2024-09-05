@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/osaltpsmadvect-mon-op-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "osaltpsmadvect-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "osaltpsmadvect",
+    "out_name": "osaltpsmadvect",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 6,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Tendency of Sea Water Salinity Expressed as Salt Content Due to Parameterized Submesoscale Advection",
+    "comment": "Tendency of salt content for a grid cell from parameterized submesoscale eddy advection."
+}

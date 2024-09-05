@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/flittersoil-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fLitterSoil-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "fLitterSoil",
+    "out_name": "fLitterSoil",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 12,
+    "contributing_models": 25,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Total Carbon Mass Flux from Litter to Soil",
+    "comment": "Carbon mass flux per unit area into soil from litter (dead plant material in or above the soil)."
+}

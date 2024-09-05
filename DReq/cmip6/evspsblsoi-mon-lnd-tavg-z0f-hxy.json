@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/evspsblsoi-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "evspsblsoi-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "evspsblsoi",
+    "out_name": "evspsblsoi",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 28,
+    "contributing_models": 75,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Water Evaporation from Soil",
+    "comment": "Water evaporation from soil (including sublimation)."
+}

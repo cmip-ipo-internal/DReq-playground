@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/flulccproductlut-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fLulccProductLut-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fLulccProductLut",
+    "out_name": "fLulccProductLut",
+    "questions_and_notes": "remove \"Lut\" from root; this information is in the branding suffix.",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 4,
+    "contributing_models": 18,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude landUse time",
+    "cell_methods": "area: time: mean where sector",
+    "long_name": "Carbon Harvested Due to Land-Use or Land-Cover Change Process That Enters Anthropogenic Product Pools on Tile",
+    "comment": "This annual mean flux refers to the transfer of carbon primarily through harvesting land use into anthropogenic product pools, e.g.,deforestation or wood harvesting from primary or secondary lands, food harvesting on croplands, harvesting (grazing) by animals on pastures."
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/tnhuspbl-subhr-unknown-tpt-l-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tnhuspbl-Esubhr",
+    "mip_table": [
+        "Esubhr"
+    ],
+    "table_entry": "tnhuspbl",
+    "out_name": "tnhuspbl",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 5,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "alevel site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "Tendency of Specific Humidity Due to Boundary Layer Mixing",
+    "comment": "Includes all boundary layer terms including diffusive terms."
+}

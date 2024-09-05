@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/loaddust-day-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "loaddust-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "loaddust",
+    "out_name": "loaddust",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 7,
+    "contributing_models": 11,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Load of Dust",
+    "comment": "The total dry mass of dust aerosol particles per unit area."
+}

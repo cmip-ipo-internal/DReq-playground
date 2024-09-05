@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/ts-3hr-unknown-tpt-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ts-CF3hr",
+    "mip_table": [
+        "CF3hr"
+    ],
+    "table_entry": "ts",
+    "out_name": "ts",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 9,
+    "contributing_models": 15,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Surface Temperature",
+    "comment": "Temperature of the lower boundary of the atmosphere"
+}

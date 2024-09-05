@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/reffclwtop-mon-ap-tavg-z0-hxy",
+    "@type": "dr-variable",
+    "standard_name": "effective_radius_of_cloud_liquid_water_particles_at_liquid_water_cloud_top",
+    "variable_root_name": "reffclwtop",
+    "units": "m",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "cl"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "effective radius of cloud liquid water particles at liquid water cloud top: time means reported on a 2-d horizontal grid where cloud (weighted by area of cloud in the upper-most layer of liquid water cloud)",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/reffclwtop-mon-ap-tavg-z0-hxy"
+        }
+    }
+}

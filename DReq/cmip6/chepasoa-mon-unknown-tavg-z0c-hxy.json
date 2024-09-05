@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/chepasoa-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "chepasoa-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "chepasoa",
+    "out_name": "chepasoa",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Total Net Production of Anthropogenic Secondary Organic Aerosol",
+    "comment": "anthropogenic part of chepsoa"
+}

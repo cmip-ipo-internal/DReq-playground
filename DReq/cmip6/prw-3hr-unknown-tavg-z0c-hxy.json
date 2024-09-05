@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/prw-3hr-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "prw-E3hr",
+    "mip_table": [
+        "E3hr"
+    ],
+    "table_entry": "prw",
+    "out_name": "prw",
+    "questions_and_notes": "Can we use  synoptic data here? Why not?",
+    "specific_issues": [
+        "7:Deprecate? Eliminate one of 'point' or 'mean' variable options."
+    ],
+    "contributing_institutions": 8,
+    "contributing_models": 13,
+    "frequency": "3hr",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Water Vapor Path",
+    "comment": "vertically integrated through the atmospheric column"
+}

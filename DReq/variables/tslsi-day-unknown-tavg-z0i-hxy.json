@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/tslsi-day-unknown-tavg-z0i-hxy",
+    "@type": "dr-variable",
+    "standard_name": "surface_temperature",
+    "variable_root_name": "tslsi",
+    "units": "K",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": " excluding ice-free sea",
+    "brand_description": "surface temperature excluding ice-free sea: time means reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean (comment: over land and sea ice)",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/tslsi-day-unknown-tavg-z0i-hxy"
+        }
+    }
+}

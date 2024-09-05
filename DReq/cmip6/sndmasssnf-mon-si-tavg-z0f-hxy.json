@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/sndmasssnf-mon-si-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sndmasssnf-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sndmasssnf",
+    "out_name": "sndmasssnf",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 22,
+    "contributing_models": 45,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "long_name": "Snow Mass Change Through Snow Fall",
+    "comment": "mass of solid precipitation falling onto sea ice divided by sea-ice area"
+}

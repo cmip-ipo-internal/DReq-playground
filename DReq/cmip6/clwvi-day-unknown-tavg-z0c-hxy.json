@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/clwvi-day-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "clwvi-CFday",
+    "mip_table": [
+        "CFday"
+    ],
+    "table_entry": "clwvi",
+    "out_name": "clwvi",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 16,
+    "contributing_models": 35,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Condensed Water Path",
+    "comment": "Mass of condensed (liquid + ice) water in the column divided by the area of the column (not just the area of the cloudy portion of the column). Includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model."
+}

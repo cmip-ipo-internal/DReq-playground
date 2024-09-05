@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/dtesn-day-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "dtesn-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "dtesn",
+    "out_name": "dtesn",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Change in Snow and Ice Cold Content",
+    "comment": "Change in cold content over the snow layer for which the energy balance is calculated, accumulated over the sampling time interval. This should also include the energy contained in the liquid water in the snow pack."
+}

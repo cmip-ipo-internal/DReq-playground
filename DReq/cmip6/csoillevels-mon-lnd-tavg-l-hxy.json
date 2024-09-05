@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/csoillevels-mon-lnd-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cSoilLevels-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "cSoilLevels",
+    "out_name": "cSoilLevels",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 33,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude sdepth time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Carbon Mass in Each Model Soil Level (Summed over All Soil Carbon Pools in That Level)",
+    "comment": "for models with vertically discretised soil carbon, report total soil carbon for each level"
+}

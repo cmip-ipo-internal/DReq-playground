@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/c13veg-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "c13Veg-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "c13Veg",
+    "out_name": "c13Veg",
+    "questions_and_notes": "for consistency with other, similar variables, specify \"where vegetation\"",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 3,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Mass of 13C in Vegetation",
+    "comment": "Carbon-13 mass content per unit area in vegetation (any living plants e.g. trees, shrubs, grass)."
+}

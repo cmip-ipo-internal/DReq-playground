@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/dissicnatos-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "dissicnatos-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "dissicnatos",
+    "out_name": "dissicnatos",
+    "questions_and_notes": "need vertical depth scalar coordinate",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 7,
+    "contributing_models": 12,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Natural Dissolved Inorganic Carbon Concentration",
+    "comment": "Dissolved inorganic carbon (CO3+HCO3+H2CO3) concentration at preindustrial atmospheric xCO2"
+}

@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/vegheightpasture-mon-lnd-tavg-z0i-hxy",
+    "@type": "dr-variable",
+    "standard_name": "canopy_height",
+    "variable_root_name": "vegHeight",
+    "units": "m",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "pst"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "canopy height: time means reported on a 2-d horizontal grid where pastures",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean where pastures (comment: mask=pastureFrac)",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/vegheightpasture-mon-lnd-tavg-z0i-hxy"
+        }
+    }
+}

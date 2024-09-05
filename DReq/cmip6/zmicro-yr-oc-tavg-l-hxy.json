@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/zmicro-yr-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "zmicro-Oyr",
+    "mip_table": [
+        "Oyr"
+    ],
+    "table_entry": "zmicro",
+    "out_name": "zmicro",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 5,
+    "contributing_models": 6,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Mole Concentration of Microzooplankton Expressed as Carbon in Sea Water",
+    "comment": "carbon  concentration from the microzooplankton (<20 um) component alone"
+}

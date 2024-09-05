@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/uas-6hr-unknown-tpt-h010-hxy",
+    "@type": "dr-variable",
+    "standard_name": "eastward_wind",
+    "variable_root_name": "uas",
+    "units": "m s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "h010",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "eastward wind: synoptic samples at a height of (or near) 10 m reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "height10m"
+    ],
+    "cell_methods": "area: mean time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "6hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/uas-6hr-unknown-tpt-h010-hxy"
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/zfull-fx-ap-ti-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "height_above_reference_ellipsoid",
+    "variable_root_name": "zfull",
+    "units": "m",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "ti",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": " on model full-levels",
+    "brand_description": "height above reference ellipsoid on model full-levels: time-independent field provided on multiple model levels and reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        ""
+    ],
+    "cell_methods": "area: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "fx"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/zfull-fx-ap-ti-l-hxy"
+        }
+    }
+}

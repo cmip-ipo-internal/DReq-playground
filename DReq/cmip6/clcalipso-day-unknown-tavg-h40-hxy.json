@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/clcalipso-day-unknown-tavg-h40-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "clcalipso-CFday",
+    "mip_table": [
+        "CFday"
+    ],
+    "table_entry": "clcalipso",
+    "out_name": "clcalipso",
+    "questions_and_notes": "To accommodate data that has been regridded, \"area: mean\" should be included in cell_methods",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 10,
+    "contributing_models": 17,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alt40 time",
+    "cell_methods": "time: mean",
+    "long_name": "CALIPSO Percentage Cloud Cover",
+    "comment": "Percentage cloud cover in CALIPSO standard atmospheric layers."
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/fldcapacity-fx-lnd-ti-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fldcapacity-Efx",
+    "mip_table": [
+        "Efx"
+    ],
+    "table_entry": "fldcapacity",
+    "out_name": "fldcapacity",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 2,
+    "frequency": "fx",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude sdepth ",
+    "cell_methods": "area: mean where land",
+    "long_name": "Field Capacity",
+    "comment": "The field capacity of soil is the maximum content of water it can retain against gravitational drainage. Provide as a percentage of the soil volume."
+}

@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/n2o-mon-unknown-tcla-p19-hxy",
+    "@type": "dr-variable",
+    "standard_name": "mole_fraction_of_nitrous_oxide_in_air",
+    "variable_root_name": "n2o",
+    "units": "mol mol-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tcla",
+        "verticalLabelDD": "p19",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "mole fraction of nitrous oxide in air: climatology requested on 19 pressure levels and reported on a 2-d horizontal grid where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev19",
+        "time2"
+    ],
+    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/n2o-mon-unknown-tcla-p19-hxy"
+        }
+    }
+}

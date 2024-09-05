@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/siage-mon-si-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "siage-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "siage",
+    "out_name": "siage",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 13,
+    "contributing_models": 39,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "long_name": "Age of Sea Ice",
+    "comment": "Age of sea ice"
+}

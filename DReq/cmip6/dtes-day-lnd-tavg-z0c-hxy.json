@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/dtes-day-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "dtes-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "dtes",
+    "out_name": "dtes",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Change in Surface Heat Storage",
+    "comment": "Change in heat storage over the soil layer and the vegetation for which the energy balance is calculated, accumulated over the sampling time interval."
+}

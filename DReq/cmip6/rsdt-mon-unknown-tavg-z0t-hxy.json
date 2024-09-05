@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rsdt-mon-unknown-tavg-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsdt-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "rsdt",
+    "out_name": "rsdt",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 36,
+    "contributing_models": 100,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "TOA Incident Shortwave Radiation",
+    "comment": "Shortwave radiation incident at the top of the atmosphere"
+}

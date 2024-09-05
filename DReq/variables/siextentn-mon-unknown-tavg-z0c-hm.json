@@ -1,0 +1,36 @@
+{
+    "@id": "dr:variables/siextentn-mon-unknown-tavg-z0c-hm",
+    "@type": "dr-variable",
+    "standard_name": "sea_ice_extent",
+    "variable_root_name": "siextent",
+    "units": "1e6 km2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hm",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": " (area-total over region)",
+    "brand_description": "sea ice extent (area-total over region): time means",
+    "bn_status": "accepted",
+    "dimensions": [
+        "",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "northern_hemisphere"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/siextentn-mon-unknown-tavg-z0c-hm"
+        }
+    }
+}

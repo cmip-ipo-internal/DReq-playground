@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/pcalc-yr-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "pcalc-Oyr",
+    "mip_table": [
+        "Oyr"
+    ],
+    "table_entry": "pcalc",
+    "out_name": "pcalc",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 8,
+    "contributing_models": 12,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Calcite Production",
+    "comment": "Production rate of Calcite, a mineral that is a polymorph of calcium carbonate. The chemical formula of calcite is CaCO3. "
+}

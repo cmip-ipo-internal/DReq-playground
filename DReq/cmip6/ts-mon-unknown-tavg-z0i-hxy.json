@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/ts-mon-unknown-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ts-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "ts",
+    "out_name": "ts",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 39,
+    "contributing_models": 101,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Surface Temperature",
+    "comment": "Temperature of the lower boundary of the atmosphere"
+}

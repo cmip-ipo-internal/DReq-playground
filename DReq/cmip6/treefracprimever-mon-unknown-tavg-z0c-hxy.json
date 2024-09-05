@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/treefracprimever-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "treeFracPrimEver-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "treeFracPrimEver",
+    "out_name": "treeFracPrimEver",
+    "questions_and_notes": "Should this be undefined where sea?  Should deprecate in favor of \"where all_area_types\".  Consider eliminating scalar dimension.",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 9,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time typepever",
+    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "long_name": "Percentage Cover by Primary Evergreen Trees",
+    "comment": "Percentage of entire grid cell  that is covered by primary evergreen trees."
+}

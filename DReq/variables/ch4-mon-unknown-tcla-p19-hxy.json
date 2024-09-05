@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/ch4-mon-unknown-tcla-p19-hxy",
+    "@type": "dr-variable",
+    "standard_name": "mole_fraction_of_methane_in_air",
+    "variable_root_name": "ch4",
+    "units": "mol mol-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tcla",
+        "verticalLabelDD": "p19",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "mole fraction of methane in air: climatology requested on 19 pressure levels and reported on a 2-d horizontal grid where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev19",
+        "time2"
+    ],
+    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/ch4-mon-unknown-tcla-p19-hxy"
+        }
+    }
+}

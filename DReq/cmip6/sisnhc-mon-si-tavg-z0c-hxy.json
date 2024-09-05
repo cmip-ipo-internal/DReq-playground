@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/sisnhc-mon-si-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sisnhc-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sisnhc",
+    "out_name": "sisnhc",
+    "questions_and_notes": "Why does description say \"divided by grid-cell area\".  I would think what is of interest (and consistent with current cell_methods) is \"divided by area of sea_ice\".",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 15,
+    "contributing_models": 29,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "long_name": "Snow Heat Content per Unit Area",
+    "comment": "Heat-content of all snow in grid cell divided by total grid-cell area. Snow-water equivalent at 0 Celsius is assumed to have a heat content of 0 J.  Does not include heat content of sea ice."
+}

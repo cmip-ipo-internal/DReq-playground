@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/chldiaz-mon-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "chldiaz-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "chldiaz",
+    "out_name": "chldiaz",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 9,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Mass Concentration of Diazotrophs Expressed as Chlorophyll in Sea Water",
+    "comment": "Chlorophyll concentration from the diazotrophic phytoplankton component alone"
+}

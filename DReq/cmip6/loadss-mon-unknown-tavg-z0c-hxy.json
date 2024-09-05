@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/loadss-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "loadss-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "loadss",
+    "out_name": "loadss",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 11,
+    "contributing_models": 19,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Load of Sea-Salt Aerosol",
+    "comment": "The total dry mass of sea salt aerosol particles per unit area."
+}

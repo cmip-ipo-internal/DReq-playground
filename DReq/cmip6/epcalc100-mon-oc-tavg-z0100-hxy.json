@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/epcalc100-mon-oc-tavg-z0100-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "epcalc100-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "epcalc100",
+    "out_name": "epcalc100",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 19,
+    "contributing_models": 29,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time depth100m",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Downward Flux of Calcite",
+    "comment": "The phrase 'expressed_as' is used in the construction A_expressed_as_B, where B is a chemical constituent of A. It means that the quantity indicated by the standard name is calculated solely with respect to the B contained in A, neglecting all other chemical constituents of A. In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics.   'Sinking' is the gravitational settling of particulate matter suspended in a liquid. A sinking flux is positive downwards and is calculated relative to the movement of the surrounding fluid. Calcite is a mineral that is a polymorph of calcium carbonate. The chemical formula of calcite is CaCO3. Standard names also exist for aragonite, another polymorph of calcium carbonate."
+}

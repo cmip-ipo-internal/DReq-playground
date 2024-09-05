@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/tr-day-lnd-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tr-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "tr",
+    "out_name": "tr",
+    "questions_and_notes": "How does radiative temperature differ from surface temperature? If it's different, can't we get radiative temperature from rlus?  If it's different, should have a different standard name.  If not different, then this pretty much duplicates variable tsland-Eday or tslsi-day.",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "6:Modify variable root.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 6,
+    "contributing_models": 7,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Surface Radiative Temperature",
+    "comment": "Effective radiative surface temperature, averaged over the grid cell"
+}

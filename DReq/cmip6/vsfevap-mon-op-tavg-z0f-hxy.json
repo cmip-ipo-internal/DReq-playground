@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/vsfevap-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "vsfevap-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "vsfevap",
+    "out_name": "vsfevap",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 4,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Virtual Salt Flux into Sea Water Due to Evaporation",
+    "comment": "zero for models using real water fluxes."
+}

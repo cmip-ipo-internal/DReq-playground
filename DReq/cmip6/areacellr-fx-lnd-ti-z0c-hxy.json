@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/areacellr-fx-lnd-ti-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "areacellr-fx",
+    "mip_table": [
+        "fx"
+    ],
+    "table_entry": "areacellr",
+    "out_name": "areacellr",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 7,
+    "frequency": "fx",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude ",
+    "cell_methods": "area: sum",
+    "long_name": "Grid-Cell Area for River Model Variables",
+    "comment": "For river routing model, if grid differs from the atmospheric grid."
+}

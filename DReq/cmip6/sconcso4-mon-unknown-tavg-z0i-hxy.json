@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/sconcso4-mon-unknown-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sconcso4-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "sconcso4",
+    "out_name": "sconcso4",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 8,
+    "contributing_models": 5,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Surface Concentration of SO4",
+    "comment": "mass concentration of sulfate dry aerosol in air in model lowest layer."
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/npproot-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "nppRoot-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "nppRoot",
+    "out_name": "nppRoot",
+    "questions_and_notes": "eliminate by including in nppLut? Remove \"positive down\" attribute?",
+    "specific_issues": [
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 7,
+    "contributing_models": 17,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Net Primary Production Allocated to Roots as Carbon Mass Flux [kgC m-2 s-1]",
+    "comment": "This is the rate of carbon uptake by roots due to NPP"
+}

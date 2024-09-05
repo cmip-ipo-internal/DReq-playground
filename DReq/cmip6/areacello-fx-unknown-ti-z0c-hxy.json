@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/areacello-fx-unknown-ti-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "areacello-Ofx",
+    "mip_table": [
+        "Ofx"
+    ],
+    "table_entry": "areacello",
+    "out_name": "areacello",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 32,
+    "contributing_models": 79,
+    "frequency": "fx",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude ",
+    "cell_methods": "area: sum",
+    "long_name": "Grid-Cell Area for Ocean Variables",
+    "comment": "Horizontal area of ocean grid cells"
+}

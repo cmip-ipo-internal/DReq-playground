@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/hfss-3hr-ap-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hfss-3hr",
+    "mip_table": [
+        "3hr"
+    ],
+    "table_entry": "hfss",
+    "out_name": "hfss",
+    "questions_and_notes": "Can we use  synoptic data here? Why not?",
+    "specific_issues": [
+        "7:Deprecate? Eliminate one of 'point' or 'mean' variable options."
+    ],
+    "contributing_institutions": 25,
+    "contributing_models": 55,
+    "frequency": "3hr",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Surface Upward Sensible Heat Flux",
+    "comment": "The surface sensible heat flux, also called turbulent heat flux, is the exchange of heat between the surface and the air by motion of air."
+}

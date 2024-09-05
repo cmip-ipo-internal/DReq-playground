@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/sbl-mon-li-tavg-z0f??-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sbl-ImonGre",
+    "mip_table": [
+        "ImonGre"
+    ],
+    "table_entry": "sbl",
+    "out_name": "sbl",
+    "questions_and_notes": "eliminate.  duplicates the \"noname\" ice sheet variable: sbl-tavg-z0-hxy-is",
+    "specific_issues": [
+        "1:Modify dimensions.  No need for special horizontal coordinates.",
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 4,
+    "frequency": "mon",
+    "region": "greenland",
+    "modeling_realm": [
+        "landIce"
+    ],
+    "dimensions": "xgre ygre time",
+    "cell_methods": "area: time: mean where ice_sheet",
+    "long_name": "Surface Snow and Ice Sublimation Flux",
+    "comment": "The snow and ice sublimation flux is the loss of snow and ice mass per unit area from the surface resulting from their direct conversion to water vapor that enters the atmosphere."
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/dsn-day-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "dsn-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "dsn",
+    "out_name": "dsn",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Change in Snow Water Equivalent",
+    "comment": "Change in time of the mass per unit area of ice in glaciers, ice caps, ice sheets and shelves, river and lake ice, any other ice on a land surface, such as frozen flood water, and snow lying on such ice or on the land surface."
+}

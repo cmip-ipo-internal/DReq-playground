@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/reffcclwtop-day-ap-tavg-z0-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "reffcclwtop-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "reffcclwtop",
+    "out_name": "reffcclwtop",
+    "questions_and_notes": "Contributions should be weighted by convective cloud area.",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 2,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Cloud-Top Effective Droplet Radius in Convective Cloud",
+    "comment": "Droplets are liquid only.  This is the effective radius \"as seen from space\" over convective liquid cloudy portion of grid cell.  This is the value from uppermost model layer with liquid cloud or, if available, or for some models it is the sum over all liquid cloud tops, no matter where they occur, as long as they are seen from the top of the atmosphere. Reported values are weighted by total liquid cloud top fraction of  (as seen from TOA) each time sample when computing monthly mean.daily data, separated to large-scale clouds, convective clouds. If any of the cloud is from more than one process (i.e. shallow convection), please provide them separately."
+}

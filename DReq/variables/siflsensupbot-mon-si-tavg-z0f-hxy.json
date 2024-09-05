@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/siflsensupbot-mon-si-tavg-z0f-hxy",
+    "@type": "dr-variable",
+    "standard_name": "upward_sea_ice_basal_heat_flux",
+    "variable_root_name": "siflsensupbot",
+    "units": "W m-2",
+    "type": "real",
+    "positive": "up",
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "si"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "upward sea ice basal heat flux: time means reported on a 2-d horizontal grid where sea_ice",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/siflsensupbot-mon-si-tavg-z0f-hxy"
+        }
+    }
+}

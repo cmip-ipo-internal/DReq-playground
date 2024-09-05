@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/vegheightpasture-mon-lnd-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "vegHeightPasture-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "vegHeightPasture",
+    "out_name": "vegHeightPasture",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 1,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where pastures (comment: mask=pastureFrac)",
+    "long_name": "Height of Pastures",
+    "comment": "Vegetation height averaged over the pasture fraction of a grid cell."
+}

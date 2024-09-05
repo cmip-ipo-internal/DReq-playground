@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/va-day-unknown-tavg-p19-hy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "va-EdayZ",
+    "mip_table": [
+        "EdayZ"
+    ],
+    "table_entry": "va",
+    "out_name": "va",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 18,
+    "contributing_models": 28,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "latitude plev19 time",
+    "cell_methods": "longitude: mean time: mean",
+    "long_name": "Northward Wind",
+    "comment": "Meridional wind (positive in a northward direction)."
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rlutcs-subhr-unknown-tpt-z0t-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rlutcs-CFsubhr",
+    "mip_table": [
+        "CFsubhr"
+    ],
+    "table_entry": "rlutcs",
+    "out_name": "rlutcs",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 8,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "TOA Outgoing Clear-Sky Longwave Radiation",
+    "comment": "Upwelling clear-sky longwave radiation at top of atmosphere"
+}

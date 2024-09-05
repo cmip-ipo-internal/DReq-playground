@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/difvho-mon-op-tcla-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "difvho-Oclim",
+    "mip_table": [
+        "Oclim"
+    ],
+    "table_entry": "difvho",
+    "out_name": "difvho",
+    "questions_and_notes": "cell_methods should include \"where sea\"",
+    "specific_issues": [
+        "11:Modify cell methods.  Include 'where sea'."
+    ],
+    "contributing_institutions": 6,
+    "contributing_models": 8,
+    "frequency": "monC",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude olevel time2",
+    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "long_name": "Ocean Vertical Heat Diffusivity",
+    "comment": "Vertical/dianeutral diffusivity applied to prognostic temperature field."
+}

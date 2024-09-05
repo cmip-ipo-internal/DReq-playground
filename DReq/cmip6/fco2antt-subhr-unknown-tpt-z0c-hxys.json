@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/fco2antt-subhr-unknown-tpt-z0c-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fco2antt-CFsubhr",
+    "mip_table": [
+        "CFsubhr"
+    ],
+    "table_entry": "fco2antt",
+    "out_name": "fco2antt",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "Carbon Mass Flux into Atmosphere Due to All Anthropogenic Emissions of CO2 [kgC m-2 s-1]",
+    "comment": "This is requested only for the emission-driven coupled carbon climate model runs.  Does not include natural fire sources but, includes all anthropogenic sources, including fossil fuel use, cement production, agricultural burning, and sources associated with anthropogenic land use change excluding forest regrowth."
+}

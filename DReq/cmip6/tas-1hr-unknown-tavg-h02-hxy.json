@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/tas-1hr-unknown-tavg-h02-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tas-Aerhr",
+    "mip_table": [
+        "Aerhr"
+    ],
+    "table_entry": "tas",
+    "out_name": "tas",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 8,
+    "frequency": "1hr",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time height2m",
+    "cell_methods": "area: time: mean",
+    "long_name": "Near-Surface Air Temperature",
+    "comment": "near-surface (usually, 2 meter) air temperature"
+}

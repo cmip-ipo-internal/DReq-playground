@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/sidconcdyn-mon-si-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sidconcdyn-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sidconcdyn",
+    "out_name": "sidconcdyn",
+    "questions_and_notes": "In cell_methods replace \"where sea\" with  \"where sea_ice\" because this is used for sea-ice budgets.",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 17,
+    "contributing_models": 31,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Sea-Ice Area Percentage Tendency Due to Dynamics",
+    "comment": "Total change in sea-ice area fraction through dynamics-related processes (advection, divergence...)"
+}

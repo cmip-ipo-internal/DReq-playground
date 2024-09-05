@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/aod550volso4-day-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "aod550volso4-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "aod550volso4",
+    "out_name": "aod550volso4",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 2,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time lambda550nm",
+    "cell_methods": "area: time: mean",
+    "long_name": "Aerosol Optical Depth at 550nm Due to Stratospheric Volcanic Aerosols",
+    "comment": "Aerosol optical depth at 550nm due to stratospheric volcanic aerosols"
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/expc-yr-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "expc-Oyr",
+    "mip_table": [
+        "Oyr"
+    ],
+    "table_entry": "expc",
+    "out_name": "expc",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 9,
+    "contributing_models": 13,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Downward Flux of Particulate Organic Carbon",
+    "comment": "Downward flux of particulate organic carbon"
+}

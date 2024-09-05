@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/lailut-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "laiLut-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "laiLut",
+    "out_name": "laiLut",
+    "questions_and_notes": "no need to include \"Lut\" in root prefix because it already appears in branded suffix.",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 13,
+    "contributing_models": 18,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude landUse time",
+    "cell_methods": "area: time: mean where sector",
+    "long_name": "Leaf Area Index on Land-Use Tile",
+    "comment": "A ratio obtained by dividing the total upper leaf surface area of vegetation by the (horizontal) surface area of the land on which it grows."
+}

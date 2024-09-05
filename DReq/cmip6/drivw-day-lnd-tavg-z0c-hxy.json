@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/drivw-day-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "drivw-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "drivw",
+    "out_name": "drivw",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Change in River Storage",
+    "comment": "Change over time of the mass of water per unit area in the fluvial system (stream and floodplain)."
+}

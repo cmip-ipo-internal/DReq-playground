@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rlut-subhr-unknown-tpt-z0t-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rlut-CFsubhr",
+    "mip_table": [
+        "CFsubhr"
+    ],
+    "table_entry": "rlut",
+    "out_name": "rlut",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 8,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "TOA Outgoing Longwave Radiation",
+    "comment": "at the top of the atmosphere (to be compared with satellite measurements)"
+}

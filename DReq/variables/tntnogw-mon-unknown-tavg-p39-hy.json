@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/tntnogw-mon-unknown-tavg-p39-hy",
+    "@type": "dr-variable",
+    "standard_name": "tendency_of_air_temperature_due_to_dissipation_of_nonorographic_gravity_waves",
+    "variable_root_name": "tntnogw",
+    "units": "K s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "p39",
+        "horizontalLabelDD": "hy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "tendency of air temperature due to dissipation of nonorographic gravity waves: time means requested on 39 pressure levels and reported as a function of latitude where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "cell_methods": "longitude: mean time: mean",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/tntnogw-mon-unknown-tavg-p39-hy"
+        }
+    }
+}

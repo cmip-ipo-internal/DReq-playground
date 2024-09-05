@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/ua-subhr-unknown-tpt-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ua-Esubhr",
+    "mip_table": [
+        "Esubhr"
+    ],
+    "table_entry": "ua",
+    "out_name": "ua",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Eastward Wind",
+    "comment": "Zonal wind (positive in a eastward direction)."
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/tas-subhr-unknown-tpt-h02-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tas-Esubhr",
+    "mip_table": [
+        "Esubhr"
+    ],
+    "table_entry": "tas",
+    "out_name": "tas",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time1 height2m",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Near-Surface Air Temperature",
+    "comment": "near-surface (usually, 2 meter) air temperature"
+}

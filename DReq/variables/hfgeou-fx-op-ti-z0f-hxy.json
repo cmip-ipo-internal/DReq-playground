@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/hfgeou-fx-op-ti-z0f-hxy",
+    "@type": "dr-variable",
+    "standard_name": "upward_geothermal_heat_flux_at_sea_floor",
+    "variable_root_name": "hfgeou",
+    "units": "W m-2",
+    "type": "real",
+    "positive": "up",
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "ti",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "upward geothermal heat flux at sea floor: time-independent field reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        ""
+    ],
+    "cell_methods": "area: mean where sea",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "fx"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/hfgeou-fx-op-ti-z0f-hxy"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/cltmodis-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cltmodis-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "cltmodis",
+    "out_name": "cltmodis",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 10,
+    "contributing_models": 12,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "MODIS Total Cloud Cover Percentage",
+    "comment": "Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen by the  Moderate Resolution Imaging Spectroradiometer (MODIS). Includes both large-scale and convective cloud."
+}

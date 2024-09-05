@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/csoil-yr-lnd-tpt-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cSoil-Eyr",
+    "mip_table": [
+        "Eyr"
+    ],
+    "table_entry": "cSoil",
+    "out_name": "cSoil",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 8,
+    "contributing_models": 12,
+    "frequency": "yrPt",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean where land time: point",
+    "long_name": "Carbon Mass in Model Soil Pool",
+    "comment": "Carbon mass in the full depth of the soil model."
+}

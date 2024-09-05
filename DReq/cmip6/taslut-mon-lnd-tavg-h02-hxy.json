@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/taslut-mon-lnd-tavg-h02-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tasLut-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "tasLut",
+    "out_name": "tasLut",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 7,
+    "contributing_models": 12,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude landUse time height2m",
+    "cell_methods": "area: time: mean where sector",
+    "long_name": "Near-Surface Air Temperature on Land Use Tile",
+    "comment": "Air temperature is the bulk temperature of the air, not the surface (skin) temperature."
+}

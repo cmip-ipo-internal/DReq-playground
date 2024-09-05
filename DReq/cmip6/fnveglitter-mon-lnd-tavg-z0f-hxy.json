@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/fnveglitter-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fNVegLitter-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fNVegLitter",
+    "out_name": "fNVegLitter",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Total Nitrogen Mass Flux from Vegetation to Litter",
+    "comment": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics. \"Litter\" is dead plant material in or above the soil. \"Vegetation\" means any living plants e.g. trees, shrubs, grass."
+}

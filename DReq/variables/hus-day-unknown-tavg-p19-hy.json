@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/hus-day-unknown-tavg-p19-hy",
+    "@type": "dr-variable",
+    "standard_name": "specific_humidity",
+    "variable_root_name": "hus",
+    "units": 1.0,
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "p19",
+        "horizontalLabelDD": "hy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "specific humidity: time means requested on 19 pressure levels and reported as a function of latitude where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "latitude",
+        "plev19",
+        "time"
+    ],
+    "cell_methods": "longitude: mean time: mean",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/hus-day-unknown-tavg-p19-hy"
+        }
+    }
+}

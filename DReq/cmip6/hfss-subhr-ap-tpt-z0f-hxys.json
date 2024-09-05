@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/hfss-subhr-ap-tpt-z0f-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hfss-CFsubhr",
+    "mip_table": [
+        "CFsubhr"
+    ],
+    "table_entry": "hfss",
+    "out_name": "hfss",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 8,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "Surface Upward Sensible Heat Flux",
+    "comment": "The surface sensible heat flux, also called turbulent heat flux, is the exchange of heat between the surface and the air by motion of air."
+}

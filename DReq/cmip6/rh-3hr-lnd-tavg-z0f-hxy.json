@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rh-3hr-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rh-E3hr",
+    "mip_table": [
+        "E3hr"
+    ],
+    "table_entry": "rh",
+    "out_name": "rh",
+    "questions_and_notes": "Won't this root name likely be confused with \"relative humidity\"?   Replace \"rh\" with \"fresph\", more consistent with other similar variables.",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 6,
+    "contributing_models": 9,
+    "frequency": "3hr",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Total Heterotrophic Respiration on Land as Carbon Mass Flux [kgC m-2 s-1]",
+    "comment": "Carbon mass flux per unit area into atmosphere due to heterotrophic respiration on land (respiration by consumers)"
+}

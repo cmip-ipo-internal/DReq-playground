@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/prsn-day-unknown-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "prsn-day",
+    "mip_table": [
+        "day"
+    ],
+    "table_entry": "prsn",
+    "out_name": "prsn",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 29,
+    "contributing_models": 72,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Snowfall Flux",
+    "comment": "At surface; includes precipitation of all forms of water in the solid phase"
+}

@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/zmiscos-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "zmiscos-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "zmiscos",
+    "out_name": "zmiscos",
+    "questions_and_notes": "need vertical depth scalar coordinate",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "6:Modify variable root.",
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Mole Concentration of Other Zooplankton Expressed as Carbon in Sea Water",
+    "comment": "carbon from additional zooplankton component concentrations alone (e.g. Micro, meso).  Since the models all have different numbers of components, this variable has been included to provide a check for intercomparison between models since some phytoplankton groups are supersets."
+}

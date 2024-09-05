@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/sistresave-mon-si-tpt-z0c??-hxy",
+    "@type": "dr-variable",
+    "standard_name": "sea_ice_average_normal_horizontal_stress",
+    "variable_root_name": "sistresave",
+    "units": "N m-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "si"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "sea ice average normal horizontal stress: synoptic samples reported on a 2-d horizontal grid where sea_ice",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "cell_methods": "area: mean where sea_ice (comment: mask=siconc) time: point",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/sistresave-mon-si-tpt-z0c??-hxy"
+        }
+    }
+}

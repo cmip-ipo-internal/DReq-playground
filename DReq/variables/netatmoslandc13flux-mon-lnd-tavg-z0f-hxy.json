@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/netatmoslandc13flux-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable",
+    "standard_name": "surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_13C_due_to_all_land_processes",
+    "variable_root_name": "netAtmosLandC13Flux",
+    "units": "kg m-2 s-1",
+    "type": "real",
+    "positive": "down",
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "lnd"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "surface net downward mass flux of carbon dioxide expressed as 13C due to all land processes: time means reported on a 2-d horizontal grid where land",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where land time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/netatmoslandc13flux-mon-lnd-tavg-z0f-hxy"
+        }
+    }
+}

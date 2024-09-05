@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/mrsofc-fx-lnd-ti-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mrsofc-fx",
+    "mip_table": [
+        "fx"
+    ],
+    "table_entry": "mrsofc",
+    "out_name": "mrsofc",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 13,
+    "contributing_models": 31,
+    "frequency": "fx",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude ",
+    "cell_methods": "area: mean where land",
+    "long_name": "Capacity of Soil to Store Water (Field Capacity)",
+    "comment": "The bulk water content retained by the soil at -33 J/kg of suction pressure, expressed as mass per unit land area; report as missing where there is no land"
+}

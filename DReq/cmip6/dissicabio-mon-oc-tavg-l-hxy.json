@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/dissicabio-mon-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "dissicabio-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "dissicabio",
+    "out_name": "dissicabio",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 5,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Abiotic Dissolved Inorganic Carbon Concentration",
+    "comment": "Abiotic Dissolved inorganic carbon (CO3+HCO3+H2CO3) concentration"
+}

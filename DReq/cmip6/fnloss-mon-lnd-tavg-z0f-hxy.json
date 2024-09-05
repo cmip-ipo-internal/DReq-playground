@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/fnloss-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fNloss-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fNloss",
+    "out_name": "fNloss",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 11,
+    "contributing_models": 15,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Total Nitrogen Lost (Including NHx, NOx, N2O, N2 and Leaching)",
+    "comment": "Not all models split losses into gaseous and leaching"
+}

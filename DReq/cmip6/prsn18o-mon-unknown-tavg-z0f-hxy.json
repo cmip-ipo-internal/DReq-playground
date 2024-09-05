@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/prsn18o-mon-unknown-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "prsn18O-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "prsn18O",
+    "out_name": "prsn18O",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Precipitation Flux of Snow and Ice Containing Oxygen-18 (H2 18O)",
+    "comment": "Precipitation mass flux of water molecules that contain the oxygen-18 isotope (H2 18O), including solid phase only."
+}

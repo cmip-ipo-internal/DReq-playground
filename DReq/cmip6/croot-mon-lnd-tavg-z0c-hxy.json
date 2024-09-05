@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/croot-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cRoot-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "cRoot",
+    "out_name": "cRoot",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 17,
+    "contributing_models": 31,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Carbon Mass in Roots",
+    "comment": "Carbon mass per unit area in roots, including fine and coarse roots."
+}

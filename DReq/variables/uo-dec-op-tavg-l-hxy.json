@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/uo-dec-op-tavg-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "sea_water_x_velocity",
+    "variable_root_name": "uo",
+    "units": "m s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "sea water x velocity: time means provided on multiple model levels and reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "cell_methods": "time: mean",
+    "cell_measures": "--OPT",
+    "samplingIntervals": [
+        "dec"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/uo-dec-op-tavg-l-hxy"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/chlpico-yr-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "chlpico-Oyr",
+    "mip_table": [
+        "Oyr"
+    ],
+    "table_entry": "chlpico",
+    "out_name": "chlpico",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 5,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Mass Concentration of Picophytoplankton Expressed as Chlorophyll in Sea Water",
+    "comment": "chlorophyll concentration from the picophytoplankton (<2 um) component alone"
+}

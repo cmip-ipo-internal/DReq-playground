@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/limirrcalc-mon-oc-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "limirrcalc-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "limirrcalc",
+    "out_name": "limirrcalc",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 2,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Irradiance Limitation of Calcareous Phytoplankton",
+    "comment": "Growth limitation of calcareous phytoplankton due to solar irradiance. \"Growth limitation due to solar irradiance\" means the ratio of the growth rate of a species population in the environment (where the amount of sunlight reaching a location may be limited) to the theoretical growth rate if there were no such limit on solar irradiance."
+}

@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/sisnthick-mon-si-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sisnthick-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sisnthick",
+    "out_name": "sisnthick",
+    "questions_and_notes": "The \"where snow over sea_ice\" directive is going to give weird results for regridded data that includes contributions from both sea ice and from land or land ice.  Also I don't think \"where area type\" can appear twice in a cell methods.  Finally, I might request \"where sea_ice\", with the thickness set to zero where there is no snow.  If we did this, we would need to know the fraction of sea-ice area covered by snow.  Think it better to request \"where sea ice\"",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 31,
+    "contributing_models": 75,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where snow over sea_ice area: time: mean where sea_ice",
+    "long_name": "Snow Thickness",
+    "comment": "Actual thickness of snow (snow volume divided by snow-covered area)"
+}

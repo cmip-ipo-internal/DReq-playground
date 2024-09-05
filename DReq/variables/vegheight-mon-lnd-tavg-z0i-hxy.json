@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/vegheight-mon-lnd-tavg-z0i-hxy",
+    "@type": "dr-variable",
+    "standard_name": "canopy_height",
+    "variable_root_name": "vegHeight",
+    "units": "m",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "veg"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "canopy height: time means reported on a 2-d horizontal grid where vegetation",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean where vegetation (comment: mask=vegFrac)",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/vegheight-mon-lnd-tavg-z0i-hxy"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/od550oa-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "od550oa-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "od550oa",
+    "out_name": "od550oa",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 11,
+    "contributing_models": 31,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time lambda550nm",
+    "cell_methods": "area: time: mean",
+    "long_name": "Total Organic Aerosol Optical Depth at 550nm",
+    "comment": "Total aerosol AOD due to organic aerosol at a wavelength of 550 nanometres."
+}

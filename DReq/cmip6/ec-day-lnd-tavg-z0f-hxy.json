@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/ec-day-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ec-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "ec",
+    "out_name": "ec",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 6,
+    "contributing_models": 8,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Interception Evaporation",
+    "comment": "Evaporation flux from water in all phases on the vegetation canopy."
+}

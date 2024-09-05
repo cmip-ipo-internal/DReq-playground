@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/wap-3hr-unknown-tpt-p7h-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "wap-E3hrPt",
+    "mip_table": [
+        "E3hrPt"
+    ],
+    "table_entry": "wap7h",
+    "out_name": "wap",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 7,
+    "contributing_models": 10,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude plev7h time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Omega (=dp/dt)",
+    "comment": "Omega (vertical velocity in pressure coordinates, positive downwards)"
+}

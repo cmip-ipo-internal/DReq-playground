@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/co3os-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "co3os-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "co3os",
+    "out_name": "co3os",
+    "questions_and_notes": "need vertical depth scalar coordinate",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 9,
+    "contributing_models": 14,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Carbonate Ion Concentration",
+    "comment": "Near surface mole concentration (number of moles per unit volume: molarity) of the carbonate anion (CO3)."
+}

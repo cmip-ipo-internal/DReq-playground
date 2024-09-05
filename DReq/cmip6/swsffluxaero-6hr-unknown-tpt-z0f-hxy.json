@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/swsffluxaero-6hr-unknown-tpt-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "swsffluxaero-6hrPlevPt",
+    "mip_table": [
+        "6hrPlevPt"
+    ],
+    "table_entry": "swsffluxaero",
+    "out_name": "swsffluxaero",
+    "questions_and_notes": "not clear why 6-hour sampling is appropriate.",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 2,
+    "frequency": "6hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Shortwave Heating Rate Due to Volcanic Aerosols",
+    "comment": "Shortwave heating rate due to volcanic aerosols to be diagnosed through double radiation call"
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rsdcs-3hr-unknown-tpt-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsdcs-E3hrPt",
+    "mip_table": [
+        "E3hrPt"
+    ],
+    "table_entry": "rsdcs",
+    "out_name": "rsdcs",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 3,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevhalf time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Downwelling Clear-Sky Shortwave Radiation",
+    "comment": "Downwelling clear-sky shortwave radiation (includes the fluxes at the surface and top-of-atmosphere)"
+}

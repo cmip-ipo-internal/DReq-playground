@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/agesno-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "agesno-LImon",
+    "mip_table": [
+        "LImon"
+    ],
+    "table_entry": "agesno",
+    "out_name": "agesno",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 10,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "landIce land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean (with samples weighted by snow mass)",
+    "long_name": "Mean Age of Snow",
+    "comment": "Age of Snow (when computing the time-mean here, the time samples, weighted by the mass of snow on the land portion of the grid cell, are accumulated and then divided by the sum of the weights.  Reported as missing data in regions free of snow on land."
+}

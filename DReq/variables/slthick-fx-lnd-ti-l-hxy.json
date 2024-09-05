@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/slthick-fx-lnd-ti-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "cell_thickness",
+    "variable_root_name": "thkcellsl",
+    "units": "m",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "ti",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "lnd"
+    },
+    "definition_qualifier": " of soil model",
+    "brand_description": "cell thickness of soil model: time-independent field provided on multiple model levels and reported on a 2-d horizontal grid where land",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth",
+        ""
+    ],
+    "cell_methods": "area: mean where land",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "fx"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/slthick-fx-lnd-ti-l-hxy"
+        }
+    }
+}

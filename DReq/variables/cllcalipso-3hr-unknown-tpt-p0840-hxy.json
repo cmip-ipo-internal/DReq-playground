@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/cllcalipso-3hr-unknown-tpt-p0840-hxy",
+    "@type": "dr-variable",
+    "standard_name": "cloud_area_fraction_in_atmosphere_layer",
+    "variable_root_name": "clcalipso",
+    "units": "%",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "p0840",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": " consistent with CALIPSO",
+    "brand_description": "cloud area fraction in atmosphere layer consistent with CALIPSO: synoptic samples at 840 hPa reported on a 2-d horizontal grid where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "p840"
+    ],
+    "cell_methods": "area: mean time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "3hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/cllcalipso-3hr-unknown-tpt-p0840-hxy"
+        }
+    }
+}

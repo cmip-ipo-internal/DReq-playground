@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/zg100-day-unknown-tavg-p0100-hxy",
+    "@type": "dr-variable",
+    "standard_name": "geopotential_height",
+    "variable_root_name": "zg",
+    "units": "m",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "p0100",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "geopotential height: time means at 100 hPa reported on a 2-d horizontal grid where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p100"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/zg100-day-unknown-tavg-p0100-hxy"
+        }
+    }
+}

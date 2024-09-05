@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/fnfert-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "tendency_of_soil_mass_content_of_nitrogen_compounds_expressed_as_nitrogen_due_to_fertilization",
+    "variable_root_name": "fNfert",
+    "units": "kg m-2 s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "lnd"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "tendency of soil mass content of nitrogen compounds expressed as nitrogen due to fertilization: time means reported on a 2-d horizontal grid where land",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where land time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/fnfert-mon-lnd-tavg-z0c-hxy"
+        }
+    }
+}

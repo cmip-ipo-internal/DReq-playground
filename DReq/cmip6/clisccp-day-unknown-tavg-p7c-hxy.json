@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/clisccp-day-unknown-tavg-p7c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "clisccp-CFday",
+    "mip_table": [
+        "CFday"
+    ],
+    "table_entry": "clisccp",
+    "out_name": "clisccp",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 10,
+    "contributing_models": 18,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude plev7c tau time",
+    "cell_methods": "area: time: mean",
+    "long_name": "ISCCP Cloud Area Percentage",
+    "comment": "Percentage cloud cover in optical depth categories."
+}

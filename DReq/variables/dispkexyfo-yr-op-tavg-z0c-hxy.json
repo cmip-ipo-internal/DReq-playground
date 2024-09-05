@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/dispkexyfo-yr-op-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "ocean_kinetic_energy_dissipation_per_unit_area_due_to_xy_friction",
+    "variable_root_name": "dispkexyfo",
+    "units": "W m-2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "ocean kinetic energy dissipation per unit area due to xy friction: time means reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "yr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/dispkexyfo-yr-op-tavg-z0c-hxy"
+        }
+    }
+}

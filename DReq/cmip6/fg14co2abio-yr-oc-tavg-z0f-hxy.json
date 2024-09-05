@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/fg14co2abio-yr-oc-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fg14co2abio-Oyr",
+    "mip_table": [
+        "Oyr"
+    ],
+    "table_entry": "fg14co2abio",
+    "out_name": "fg14co2abio",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Downward Mass Flux of Carbon-14 as Abiotic 14CO2 [kgC m-2 s-1]",
+    "comment": "Gas exchange flux of abiotic 14CO2 (positive into ocean)"
+}

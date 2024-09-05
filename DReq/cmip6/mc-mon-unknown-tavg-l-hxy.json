@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/mc-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mc-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "mc",
+    "out_name": "mc",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 18,
+    "contributing_models": 41,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevhalf time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Convective Mass Flux",
+    "comment": "The net mass flux should represent the difference between the updraft and downdraft components.  The flux is computed as the mass divided by the area of the grid cell."
+}

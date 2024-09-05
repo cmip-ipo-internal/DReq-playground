@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/snicefreez-mon-li-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "snicefreez-ImonGre",
+    "mip_table": [
+        "ImonGre"
+    ],
+    "table_entry": "snicefreez",
+    "out_name": "snicefreez",
+    "questions_and_notes": "eliminate.  duplicates \"Ant\" entry.",
+    "specific_issues": [
+        "1:Modify dimensions.  No need for special horizontal coordinates.",
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 4,
+    "frequency": "mon",
+    "region": "greenland",
+    "modeling_realm": [
+        "landIce"
+    ],
+    "dimensions": "xgre ygre time",
+    "cell_methods": "area: time: mean where ice_sheet",
+    "long_name": "Surface Snow and Ice Refreeze Flux",
+    "comment": "Mass flux of surface meltwater which refreezes within the snowpack. Computed as the total refreezing on the land ice portion of the grid cell divided by land ice area in the grid cell."
+}

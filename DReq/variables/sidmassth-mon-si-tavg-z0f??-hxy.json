@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/sidmassth-mon-si-tavg-z0f??-hxy",
+    "@type": "dr-variable",
+    "standard_name": "tendency_of_sea_ice_amount_due_to_sea_ice_thermodynamics",
+    "variable_root_name": "sidmassth",
+    "units": "kg m-2 s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "si"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "tendency of sea ice amount due to sea ice thermodynamics: time means reported on a 2-d horizontal grid where sea_ice",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/sidmassth-mon-si-tavg-z0f??-hxy"
+        }
+    }
+}

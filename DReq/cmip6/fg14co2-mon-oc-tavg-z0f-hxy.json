@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/fg14co2-mon-oc-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fg14co2-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fg14co2",
+    "out_name": "fg14co2",
+    "questions_and_notes": "What's the difference between this variable and fg14co2abio-Omon?",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Downward Mass Flux of Carbon-14 as 14CO2 [kgC m-2 s-1]",
+    "comment": "Gas exchange flux of carbon-14 as CO2 (positive into ocean)"
+}

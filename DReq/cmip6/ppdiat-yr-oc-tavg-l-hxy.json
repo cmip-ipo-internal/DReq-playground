@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/ppdiat-yr-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ppdiat-Oyr",
+    "mip_table": [
+        "Oyr"
+    ],
+    "table_entry": "ppdiat",
+    "out_name": "ppdiat",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 4,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Net Primary Organic Carbon Production by Diatoms",
+    "comment": "Primary (organic carbon) production by the diatom component alone"
+}

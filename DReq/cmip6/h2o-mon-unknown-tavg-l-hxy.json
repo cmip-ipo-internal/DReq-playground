@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/h2o-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "h2o-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "h2o",
+    "out_name": "h2o",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 12,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Mass Fraction of Water",
+    "comment": "includes all phases of water"
+}

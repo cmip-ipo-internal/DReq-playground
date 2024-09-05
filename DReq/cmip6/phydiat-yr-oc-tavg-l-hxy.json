@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/phydiat-yr-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "phydiat-Oyr",
+    "mip_table": [
+        "Oyr"
+    ],
+    "table_entry": "phydiat",
+    "out_name": "phydiat",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 10,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Mole Concentration of Diatoms Expressed as Carbon in Sea Water",
+    "comment": "carbon from the diatom phytoplankton component concentration alone"
+}

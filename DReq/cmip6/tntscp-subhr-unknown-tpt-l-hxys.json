@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/tntscp-subhr-unknown-tpt-l-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tntscp-Esubhr",
+    "mip_table": [
+        "Esubhr"
+    ],
+    "table_entry": "tntscp",
+    "out_name": "tntscp",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 5,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "alevel site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "Tendency of Air Temperature Due to Stratiform Clouds and Precipitation",
+    "comment": "The phrase \"tendency_of_X\" means derivative of X with respect to time. Air temperature is the bulk temperature of the air, not the surface (skin) temperature. The specification of a physical process by the phrase \"due_to_\" process means that the quantity named is a single term in a sum of terms which together compose the general quantity named by omitting the phrase. A variable with the standard name tendency_of_air_temperature_due_to_stratiform_cloud_and_precipitation should contain net latent heating effects of all processes which convert stratiform clouds and precipitation between water vapour, liquid or ice phases. In an atmosphere model, stratiform cloud is that produced by large-scale convergence (not the convection schemes)."
+}

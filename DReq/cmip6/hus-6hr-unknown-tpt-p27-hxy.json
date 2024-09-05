@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/hus-6hr-unknown-tpt-p27-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hus-6hrPlevPt",
+    "mip_table": [
+        "6hrPlevPt"
+    ],
+    "table_entry": "hus27",
+    "out_name": "hus",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 16,
+    "contributing_models": 37,
+    "frequency": "6hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude plev27 time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Specific Humidity",
+    "comment": "Specific humidity is the mass fraction of water vapor in (moist) air."
+}

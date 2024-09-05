@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/od870aer-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "od870aer-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "od870aer",
+    "out_name": "od870aer",
+    "questions_and_notes": " lambda870nm should be included in dimensions",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate."
+    ],
+    "contributing_institutions": 13,
+    "contributing_models": 23,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Ambient Aerosol Optical Depth at 870nm",
+    "comment": "AOD from the ambient aerosols (i.e., includes aerosol water).  Does not include AOD from stratospheric aerosols if these are prescribed but includes other possible background aerosol types. Needs a comment attribute \"wavelength: 870nm\""
+}

@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/reffclis-mon-ap-tavg-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "effective_radius_of_stratiform_cloud_ice_particles",
+    "variable_root_name": "reffclis",
+    "units": "m",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "scl"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "effective radius of stratiform cloud ice particles: time means provided on multiple model levels and reported on a 2-d horizontal grid where stratiform_cloud",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/reffclis-mon-ap-tavg-l-hxy"
+        }
+    }
+}

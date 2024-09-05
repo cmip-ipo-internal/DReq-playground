@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rldscs-day-unknown-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rldscs-CFday",
+    "mip_table": [
+        "CFday"
+    ],
+    "table_entry": "rldscs",
+    "out_name": "rldscs",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 20,
+    "contributing_models": 43,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Surface Downwelling Clear-Sky Longwave Radiation",
+    "comment": "Surface downwelling clear-sky longwave radiation"
+}

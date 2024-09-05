@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/eminox-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "eminox-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "eminox",
+    "out_name": "eminox",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 10,
+    "contributing_models": 10,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Total Emission Rate of NOx",
+    "comment": "NOx=NO+NO2. Integrate 3D emission field vertically to 2d field."
+}

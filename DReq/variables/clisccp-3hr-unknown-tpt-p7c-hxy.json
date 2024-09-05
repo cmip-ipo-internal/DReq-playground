@@ -1,0 +1,39 @@
+{
+    "@id": "dr:variables/clisccp-3hr-unknown-tpt-p7c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "cloud_area_fraction_in_atmosphere_layer",
+    "variable_root_name": "clisccp",
+    "units": "%",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "p7c",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": " and optical depth category consistent with ISSCP",
+    "brand_description": "cloud area fraction in atmosphere layer and optical depth category consistent with ISSCP: synoptic samples requested on 7c pressure levels and reported on a 2-d horizontal grid where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev7c",
+        "tau",
+        "time1"
+    ],
+    "cell_methods": "area: mean time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "3hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/clisccp-3hr-unknown-tpt-p7c-hxy"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/tasmincrop-mon-lnd-tstat-h02-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tasminCrop-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "tasminCrop",
+    "out_name": "tasminCrop",
+    "questions_and_notes": "Can \"where land\" be applied instead of \"where crops\"?  See comment regarding tasmaxCrop-Eday.  Note that in general \"area: mean\" will give a higher minimum if data are mapped to a coarser grid than the original.",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 4,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time height2m",
+    "cell_methods": "area: mean where crops time: minimum within days time: mean over days",
+    "long_name": "Daily Minimum Near-Surface Air Temperature over Crop Tile",
+    "comment": "minimum near-surface (usually, 2 meter) air temperature (add cell_method attribute \"time: min\")"
+}

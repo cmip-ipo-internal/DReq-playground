@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/mlotst-day-op-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mlotst-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "mlotst",
+    "out_name": "mlotst",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 10,
+    "contributing_models": 20,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Ocean Mixed Layer Thickness Defined by Sigma T",
+    "comment": "Sigma T is potential density referenced to ocean surface."
+}

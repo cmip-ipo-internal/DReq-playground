@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/clcalipsoliq-mon-unknown-tavg-h40-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "clcalipsoliq-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "clcalipsoliq",
+    "out_name": "clcalipsoliq",
+    "questions_and_notes": "cell_methods should include area: mean",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 8,
+    "contributing_models": 5,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alt40 time",
+    "cell_methods": "time: mean",
+    "long_name": "CALIPSO Liquid Cloud Percentage",
+    "comment": "Percentage liquid water ice cloud cover in CALIPSO standard atmospheric layers."
+}

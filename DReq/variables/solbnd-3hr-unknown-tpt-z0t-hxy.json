@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/solbnd-3hr-unknown-tpt-z0t-hxy",
+    "@type": "dr-variable",
+    "standard_name": "toa_incoming_shortwave_flux",
+    "variable_root_name": "rsdtbnd",
+    "units": "W m-2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": ", spectrally resolved",
+    "brand_description": "toa incoming shortwave flux, spectrally resolved: synoptic samples reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "spectband",
+        "time1"
+    ],
+    "cell_methods": "time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "3hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/solbnd-3hr-unknown-tpt-z0t-hxy"
+        }
+    }
+}

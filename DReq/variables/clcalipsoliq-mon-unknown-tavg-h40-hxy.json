@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/clcalipsoliq-mon-unknown-tavg-h40-hxy",
+    "@type": "dr-variable",
+    "standard_name": "liquid_water_cloud_area_fraction_in_atmosphere_layer",
+    "variable_root_name": "clcalipsoliq",
+    "units": "%",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "h40",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "liquid water cloud area fraction in atmosphere layer: time means requested at 40 heights and reported on a 2-d horizontal grid where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alt40",
+        "time"
+    ],
+    "cell_methods": "time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/clcalipsoliq-mon-unknown-tavg-h40-hxy"
+        }
+    }
+}

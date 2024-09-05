@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rlutcs-3hr-unknown-tpt-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rlutcs-CF3hr",
+    "mip_table": [
+        "CF3hr"
+    ],
+    "table_entry": "rlutcs",
+    "out_name": "rlutcs",
+    "questions_and_notes": "Can we use time-mean data here? Why not?",
+    "specific_issues": [
+        "7:Deprecate? Eliminate one of 'point' or 'mean' variable options."
+    ],
+    "contributing_institutions": 5,
+    "contributing_models": 6,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "TOA Outgoing Clear-Sky Longwave Radiation",
+    "comment": "Upwelling clear-sky longwave radiation at top of atmosphere"
+}

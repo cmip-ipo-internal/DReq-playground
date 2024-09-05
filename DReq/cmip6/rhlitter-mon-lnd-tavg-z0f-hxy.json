@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/rhlitter-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rhLitter-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "rhLitter",
+    "out_name": "rhLitter",
+    "questions_and_notes": "Why is this flux inconsistent with other, similar variables (\"flux_of_carbon\" vs. \"flux_of_carbon_dioxide_expressed_as_carbon\")?   Also,won't this root name likely be confused with \"relative humidity\"? ",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 7,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Carbon Mass Flux into Atmosphere Due to Heterotrophic Respiration from Litter on Land",
+    "comment": "Needed to calculate litter bulk turnover time. Includes respiration from CWD as well."
+}

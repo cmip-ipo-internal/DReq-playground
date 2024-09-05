@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/opottempmint-mon-op-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "opottempmint-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "opottempmint",
+    "out_name": "opottempmint",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 10,
+    "contributing_models": 14,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Integral with Respect to Depth of Product of Sea Water Density and Potential Temperature",
+    "comment": "Integral over the full ocean depth of the product of sea water density and potential temperature."
+}

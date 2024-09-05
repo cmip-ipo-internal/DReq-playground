@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/o3-mon-unknown-tavg-p19-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "o3-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "o3",
+    "out_name": "o3",
+    "questions_and_notes": "cell_methods should include \"area: mean\"",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 20,
+    "contributing_models": 36,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos atmosChem"
+    ],
+    "dimensions": "longitude latitude plev19 time",
+    "cell_methods": "time: mean",
+    "long_name": "Mole Fraction of O3",
+    "comment": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y."
+}

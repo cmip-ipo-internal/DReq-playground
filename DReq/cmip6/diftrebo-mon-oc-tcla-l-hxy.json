@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/diftrebo-mon-oc-tcla-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "diftrebo-Oclim",
+    "mip_table": [
+        "Oclim"
+    ],
+    "table_entry": "diftrebo",
+    "out_name": "diftrebo",
+    "questions_and_notes": "cell_methods should include \"where sea\"",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
+        "11:Modify cell methods.  Include 'where sea'."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "monC",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude olevel time2",
+    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "long_name": "Ocean Tracer Epineutral Biharmonic Diffusivity",
+    "comment": "Epineutral diffusivity means a lateral diffusivity along a either a neutral or isopycnal density surface due to motion which is not resolved on the grid scale of an ocean model. The type of density surface is dependent on the model formulation. "
+}

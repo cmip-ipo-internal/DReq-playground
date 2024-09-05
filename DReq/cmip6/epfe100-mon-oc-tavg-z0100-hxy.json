@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/epfe100-mon-oc-tavg-z0100-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "epfe100-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "epfe100",
+    "out_name": "epfe100",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 9,
+    "contributing_models": 16,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time depth100m",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Downward Flux of Particulate Iron",
+    "comment": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics.   'Sinking' is the gravitational settling of particulate matter suspended in a liquid. A sinking flux is positive downwards and is calculated relative to the movement of the surrounding fluid."
+}

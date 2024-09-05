@@ -1,0 +1,40 @@
+standard_name - P - 15 - CF Standard Name
+units - F - 5 - units
+type - AN - 39 - CMIP6 attribute: type
+positive - AM - 38 - CMIP6 attribute: positive
+variable_root_name - BY - 76 - variable registry root names
+definition_qualifier - CR - 95 - definition_qualifier:  additional description of variable.
+branding_suffix - HL - 219 - branding suffix
+brand_description - CT - 97 - brand description: automatically generated based on branded variable information
+dimensions - AZ - 51 - corrected CMIP6 dimensions
+cell_methods - T - 19 - new cell_methods
+temporalLabelDD - BE - 56 - temporalLabelDD
+verticalLabelDD - AV - 47 - verticalLabelDD (final)
+horizontalLabelDD - AW - 48 - horizontalLabelDD
+areaLabelDD - AA - 26 - areaLabelDD (more refined)
+cell_measures - BF - 57 - cell_measures
+samplingIntervals - BD - 55 - new frequency (intervalReportedDD)
+regions - CV - 99 - dataRegionDD
+mip_table - A - 0 - ntl
+table_entry - BA - 52 - original CMOR entry label
+out_name - BG - 58 - CMIP6 variable name (referred to as "out_name"; also original "root" name)
+questions_and_notes - H - 7 - Notes, Corrections, & Questions
+specific issues 1 - GX - 205 - Modify dimensions.  No need for special horizontal coordinates. 
+specific issues 2 - GY - 206 - Modify dimensions.  Add or remove scalar coordinate.
+specific issues 3 - GZ - 207 - Modify dimension.  Other
+specific issues 4 - HA - 208 - Check units.
+specific issues 5 - HB - 209 - Standard name issue.
+specific issues 6 - HC - 210 - Modiy root name.
+specific issues 7 - HD - 211 - Deprecate? Eliminate one of "point" or "mean" variable options.
+specific issues 8 - HE - 212 - Depricate?  Few institutions contributed variable to CMIP6.
+specific issues 9 - HF - 213 - Eliminate or deprecate?  
+specific issues 10 - HG - 214 - Modify cell methods.  Include "where air".
+specific issues 11 - HH - 215 - Modify cell methods.  Include "where sea".
+specific issues 12 - HI - 216 - Modify cell methods.
+contributing_institutions - M - 12 - # institutions reporting per out_name
+contributing_models - N - 13 - # models reporting per out_name
+frequency - BC - 54 - original CMIP6 frequency
+region - CV - 99 - dataRegionDD
+modeling_realm - BB - 53 - original CMIP6 modeling_realm (1st listed is primary)
+long_name - D - 3 - Longname
+comment - E - 4 - description (appears as variable "comment" in CMIP6 netCDF files)

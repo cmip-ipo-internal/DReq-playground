@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rsdcsafbnd-3hr-unknown-tpt-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsdcsafbnd-E3hrPt",
+    "mip_table": [
+        "E3hrPt"
+    ],
+    "table_entry": "rsdcsafbnd",
+    "out_name": "rsdcsafbnd",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude alevhalf spectband time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Downwelling Clear-Sky, Aerosol-Free, Shortwave Radiation in Bands",
+    "comment": "Calculated in the absence of aerosols and clouds (following Ghan). This requires a double-call in the radiation code with precisely the same meteorology."
+}

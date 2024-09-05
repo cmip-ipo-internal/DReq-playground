@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/tsn-mon-mr-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "temperature_in_surface_snow",
+    "variable_root_name": "tsnis",
+    "units": "K",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sn"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "temperature in surface snow: time means reported on a 2-d horizontal grid where snow (on ice_sheet, with samples weighted by snow mass)",
+    "bn_status": "accepted",
+    "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+    ],
+    "cell_methods": "area: time: mean where ice_sheet",
+    "cell_measures": "area: areacellg",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "greenland"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/tsn-mon-mr-tavg-z0c-hxy"
+        }
+    }
+}

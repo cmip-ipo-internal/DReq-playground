@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/co3-mon-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "co3-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "co3",
+    "out_name": "co3",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 14,
+    "contributing_models": 21,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Carbonate Ion Concentration",
+    "comment": "Mole concentration (number of moles per unit volume: molarity) of the carbonate anion (CO3)."
+}

@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/ta850-day-unknown-tavg-p0850-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ta850-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "ta850",
+    "out_name": "ta850",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 16,
+    "contributing_models": 31,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time p850",
+    "cell_methods": "area: time: mean",
+    "long_name": "Air Temperature",
+    "comment": "Air temperature at 850hPa"
+}

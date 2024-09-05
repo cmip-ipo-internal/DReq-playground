@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rsuscs-mon-unknown-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsuscs-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "rsuscs",
+    "out_name": "rsuscs",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 35,
+    "contributing_models": 96,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Surface Upwelling Clear-Sky Shortwave Radiation",
+    "comment": "Surface Upwelling Clear-sky Shortwave Radiation"
+}

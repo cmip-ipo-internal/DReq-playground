@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/clittershrub-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cLitterShrub-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "cLitterShrub",
+    "out_name": "cLitterShrub",
+    "questions_and_notes": "For consistency with cLitter-tavg-z0-hxy-lnd (cLitter-Lmon) and cLitter-tpt-z0-hxy-lnd (cLitter-Eyr), shouldn't cell methods have \"where shrubs over land\"?",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 4,
+    "contributing_models": 1,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where shrubs (comment: mask=shrubFrac)",
+    "long_name": "Carbon Mass in Litter on Shrub Tiles",
+    "comment": "\"Litter\" is dead plant material in or above the soil. It is distinct from coarse wood debris. The precise distinction between \"fine\" and \"coarse\" is model dependent. \"Content\" indicates a quantity per unit area. The sum of the quantities with standard names surface_litter_mass_content_of_carbon and subsurface_litter_mass_content_of_carbon has the standard name litter_mass_content_of_carbon."
+}

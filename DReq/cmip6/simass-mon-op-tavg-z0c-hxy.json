@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/simass-mon-op-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "simass-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "simass",
+    "out_name": "simass",
+    "questions_and_notes": "Shouldn't comment say \"divided by sea area in grid cell\", rather than \"divided by grid cell area\"?  Replace \"where sea\" with \"where sea_ice over sea\", or preferably replace with \"where sea_ice\"",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 28,
+    "contributing_models": 72,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Sea-Ice Mass per Area",
+    "comment": "Total mass of sea ice divided by grid-cell area"
+}

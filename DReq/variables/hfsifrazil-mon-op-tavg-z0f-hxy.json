@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/hfsifrazil-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable",
+    "standard_name": "heat_flux_into_sea_water_due_to_freezing_of_frazil_ice",
+    "variable_root_name": "hfsifrazilsea",
+    "units": "W m-2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "heat flux into sea water due to freezing of frazil ice: time means reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/hfsifrazil-mon-op-tavg-z0f-hxy"
+        }
+    }
+}

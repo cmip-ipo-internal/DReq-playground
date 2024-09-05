@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/demc-3hr-ap-tpt-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "convective_cloud_longwave_emissivity",
+    "variable_root_name": "demc",
+    "units": 1.0,
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "cl"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "convective cloud longwave emissivity: synoptic samples provided on multiple model levels and reported on a 2-d horizontal grid where cloud",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time1"
+    ],
+    "cell_methods": "area: mean time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "3hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/demc-3hr-ap-tpt-l-hxy"
+        }
+    }
+}

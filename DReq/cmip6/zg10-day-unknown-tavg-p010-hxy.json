@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/zg10-day-unknown-tavg-p010-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "zg10-AERday",
+    "mip_table": [
+        "AERday"
+    ],
+    "table_entry": "zg10",
+    "out_name": "zg10",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 14,
+    "contributing_models": 15,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time p10",
+    "cell_methods": "area: time: mean",
+    "long_name": "Geopotential Height at 10hPa",
+    "comment": "Geopotential height on the 10hPa surface"
+}

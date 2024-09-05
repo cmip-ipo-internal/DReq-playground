@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/sispeed-day-si-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sispeed-SIday",
+    "mip_table": [
+        "SIday"
+    ],
+    "table_entry": "sispeed",
+    "out_name": "sispeed",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 14,
+    "contributing_models": 25,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "long_name": "Sea-Ice Speed",
+    "comment": "Speed of ice (i.e. mean absolute velocity) to account for back-and-forth movement of the ice"
+}

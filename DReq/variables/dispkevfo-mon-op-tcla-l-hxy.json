@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/dispkevfo-mon-op-tcla-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "ocean_kinetic_energy_dissipation_per_unit_area_due_to_vertical_friction",
+    "variable_root_name": "dispkevfo",
+    "units": "W m-2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tcla",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "ocean kinetic energy dissipation per unit area due to vertical friction: climatology provided on multiple model levels and reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time2"
+    ],
+    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "cell_measures": "area: areacello volume: volcello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/dispkevfo-mon-op-tcla-l-hxy"
+        }
+    }
+}

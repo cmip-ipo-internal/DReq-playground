@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rlu-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rlu-CFmon",
+    "mip_table": [
+        "CFmon"
+    ],
+    "table_entry": "rlu",
+    "out_name": "rlu",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 15,
+    "contributing_models": 30,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevhalf time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Upwelling Longwave Radiation",
+    "comment": "Upwelling longwave radiation (includes the fluxes at the surface and TOA)"
+}

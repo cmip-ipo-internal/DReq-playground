@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/psitem-day-unknown-tavg-p39-hy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "psitem-EdayZ",
+    "mip_table": [
+        "EdayZ"
+    ],
+    "table_entry": "psitem",
+    "out_name": "psitem",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 8,
+    "contributing_models": 12,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "latitude plev39 time",
+    "cell_methods": "longitude: mean time: mean",
+    "long_name": "Transformed Eulerian Mean Mass Streamfunction",
+    "comment": "Residual mass streamfunction, computed from vstar and integrated from the top of the atmosphere (on the native model grid). Reference: Andrews et al (1987): Middle Atmospheric Dynamics. Academic Press."
+}

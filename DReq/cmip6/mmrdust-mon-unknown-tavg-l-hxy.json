@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/mmrdust-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mmrdust-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "mmrdust",
+    "out_name": "mmrdust",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 17,
+    "contributing_models": 28,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Dust Aerosol Mass Mixing Ratio",
+    "comment": "Dry mass fraction of dust aerosol particles in air."
+}

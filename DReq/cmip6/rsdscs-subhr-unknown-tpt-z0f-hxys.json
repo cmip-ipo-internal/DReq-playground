@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rsdscs-subhr-unknown-tpt-z0f-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsdscs-CFsubhr",
+    "mip_table": [
+        "CFsubhr"
+    ],
+    "table_entry": "rsdscs",
+    "out_name": "rsdscs",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 8,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "Surface Downwelling Clear-Sky Shortwave Radiation",
+    "comment": "Surface solar irradiance clear sky for UV calculations"
+}

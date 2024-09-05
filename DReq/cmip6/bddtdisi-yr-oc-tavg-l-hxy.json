@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/bddtdisi-yr-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "bddtdisi-Oyr",
+    "mip_table": [
+        "Oyr"
+    ],
+    "table_entry": "bddtdisi",
+    "out_name": "bddtdisi",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 5,
+    "contributing_models": 7,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Rate of Change of Dissolved Inorganic Silicon Due to Biological Activity",
+    "comment": "Net of biological terms in time rate of change of dissolved inorganic silicon"
+}

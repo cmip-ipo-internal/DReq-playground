@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/va100m-6hr-unknown-tavg-h0100-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "va100m-6hrPlev",
+    "mip_table": [
+        "6hrPlev"
+    ],
+    "table_entry": "va100m",
+    "out_name": "va100m",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "6hr",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time height100m",
+    "cell_methods": "area: time: mean",
+    "long_name": "Northward Wind at 100m",
+    "comment": "Meridional wind at 100m above the surface."
+}

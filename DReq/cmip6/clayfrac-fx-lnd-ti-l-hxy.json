@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/clayfrac-fx-lnd-ti-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "clayfrac-Efx",
+    "mip_table": [
+        "Efx"
+    ],
+    "table_entry": "clayfrac",
+    "out_name": "clayfrac",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 9,
+    "frequency": "fx",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude sdepth ",
+    "cell_methods": "area: mean where land",
+    "long_name": "Clay Fraction",
+    "comment": "\"Volume fraction\" is used in the construction volume_fraction_of_X_in_Y, where X is a material constituent of Y."
+}

@@ -1,0 +1,39 @@
+{
+    "@id": "dr:variables/clisccp-day-unknown-tavg-p7c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "cloud_area_fraction_in_atmosphere_layer",
+    "variable_root_name": "clisccp",
+    "units": "%",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "p7c",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": " and optical depth category consistent with ISSCP",
+    "brand_description": "cloud area fraction in atmosphere layer and optical depth category consistent with ISSCP: time means requested on 7c pressure levels and reported on a 2-d horizontal grid where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev7c",
+        "tau",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/clisccp-day-unknown-tavg-p7c-hxy"
+        }
+    }
+}

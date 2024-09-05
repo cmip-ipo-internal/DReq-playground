@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/pod0-mon-unknown-tsum-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "pod0-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "pod0",
+    "out_name": "pod0",
+    "questions_and_notes": " Wouldn't it be better to record a rate rather than a time-integral?  Is \"sum over time\" right?  Shouldn't it be a sum with samples weighted by (multiplied by) the length of the time-interval of the sample? ",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean time: sum",
+    "long_name": "Phytotoxic Ozone Dose",
+    "comment": "Accumulated stomatal ozone flux over the threshold of 0 mol m-2 s-1; Computation: Time Integral of (hourly above canopy ozone concentration * stomatal conductance * Rc/(Rb+Rc) )"
+}

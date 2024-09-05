@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/utendnogw-day-unknown-tavg-p39-hy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "utendnogw-EdayZ",
+    "mip_table": [
+        "EdayZ"
+    ],
+    "table_entry": "utendnogw",
+    "out_name": "utendnogw",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 13,
+    "contributing_models": 19,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "latitude plev39 time",
+    "cell_methods": "longitude: mean time: mean",
+    "long_name": "Eastward Acceleration Due to Non-Orographic Gravity Wave Drag",
+    "comment": "Tendency of the eastward wind by parameterized nonorographic gravity waves."
+}

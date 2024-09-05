@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/vas-day-unknown-tavg-h010-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "vas-day",
+    "mip_table": [
+        "day"
+    ],
+    "table_entry": "vas",
+    "out_name": "vas",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 28,
+    "contributing_models": 69,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time height10m",
+    "cell_methods": "area: time: mean",
+    "long_name": "Northward Near-Surface Wind",
+    "comment": "Northward component of the near surface wind"
+}

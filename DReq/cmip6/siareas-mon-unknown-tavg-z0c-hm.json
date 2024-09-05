@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/siareas-mon-unknown-tavg-z0c-hm",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "siareas-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "siareas",
+    "out_name": "siareas",
+    "questions_and_notes": "Can't this be calculated from gridded field?  This duplicates variable above it; NH & SH distinguisable using regionDD.  Replace \"area: mean\" with \"area: sum\"",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "9:Eliminate or deprecate?",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 16,
+    "contributing_models": 33,
+    "frequency": "mon",
+    "region": "southern_hemisphere",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": " time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Sea-Ice Area South",
+    "comment": "total area of sea ice in the Southern hemisphere"
+}

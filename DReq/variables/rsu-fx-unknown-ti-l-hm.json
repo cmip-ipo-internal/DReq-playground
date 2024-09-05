@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/rsu-fx-unknown-ti-l-hm",
+    "@type": "dr-variable",
+    "standard_name": "upwelling_shortwave_flux_in_air",
+    "variable_root_name": "rsubnd",
+    "units": "W m-2",
+    "type": "real",
+    "positive": "up",
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "ti",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hm",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": ", spectrally resolved (reported for a single column)",
+    "brand_description": "upwelling shortwave flux in air, spectrally resolved (reported for a single column): time-independent field provided on multiple model levels and",
+    "bn_status": "accepted",
+    "dimensions": [
+        "alevhalf",
+        "spectband",
+        ""
+    ],
+    "cell_methods": "area: point",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "fx"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/rsu-fx-unknown-ti-l-hm"
+        }
+    }
+}

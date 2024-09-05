@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/rldsis-mon-li-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rldsIs-LImon",
+    "mip_table": [
+        "LImon"
+    ],
+    "table_entry": "rldsIs",
+    "out_name": "rldsIs",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 7,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "landIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where ice_sheet",
+    "long_name": "Ice Sheet Surface Downwelling Longwave Radiation",
+    "comment": "The surface called \"surface\" means the lower boundary of the atmosphere. \"longwave\" means longwave radiation. Downwelling radiation is radiation from above. It does not mean \"net downward\". When thought of as being incident on a surface, a radiative flux is sometimes called \"irradiance\". In addition, it is identical with the quantity measured by a cosine-collector light-meter and sometimes called \"vector irradiance\". In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics."
+}

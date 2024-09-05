@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/clt-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "clt-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "clt",
+    "out_name": "clt",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 37,
+    "contributing_models": 100,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Total Cloud Cover Percentage",
+    "comment": "Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen from the surface or the top of the atmosphere. Includes both large-scale and convective cloud."
+}

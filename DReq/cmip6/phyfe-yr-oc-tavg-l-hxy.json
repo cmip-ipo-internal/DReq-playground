@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/phyfe-yr-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "phyfe-Oyr",
+    "mip_table": [
+        "Oyr"
+    ],
+    "table_entry": "phyfe",
+    "out_name": "phyfe",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 11,
+    "contributing_models": 14,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Mole Concentration of Total Phytoplankton Expressed as Iron in Sea Water",
+    "comment": "sum of phytoplankton iron component concentrations"
+}

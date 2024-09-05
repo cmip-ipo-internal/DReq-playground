@@ -1,0 +1,36 @@
+{
+    "@id": "dr:variables/fco2antt-subhr-unknown-tpt-z0c-hxys",
+    "@type": "dr-variable",
+    "standard_name": "tendency_of_atmosphere_mass_content_of_carbon_dioxide_expressed_as_carbon_due_to_anthropogenic_emission",
+    "variable_root_name": "fco2antt",
+    "units": "kg m-2 s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxys",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "tendency of atmosphere mass content of carbon dioxide expressed as carbon due to anthropogenic emission: synoptic samples reported at assorted individual sites",
+    "bn_status": "accepted",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "cell_methods": "area: point time: point",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "subhr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/fco2antt-subhr-unknown-tpt-z0c-hxys"
+        }
+    }
+}

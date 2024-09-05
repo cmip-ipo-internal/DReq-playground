@@ -1,0 +1,36 @@
+{
+    "@id": "dr:variables/rldscs-subhr-unknown-tpt-z0f-hxys",
+    "@type": "dr-variable",
+    "standard_name": "surface_downwelling_longwave_flux_in_air_assuming_clear_sky",
+    "variable_root_name": "rldscs",
+    "units": "W m-2",
+    "type": "real",
+    "positive": "down",
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxys",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "surface downwelling longwave flux in air assuming clear sky: synoptic samples reported at assorted individual sites",
+    "bn_status": "accepted",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "cell_methods": "area: point time: point",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "subhr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/rldscs-subhr-unknown-tpt-z0f-hxys"
+        }
+    }
+}

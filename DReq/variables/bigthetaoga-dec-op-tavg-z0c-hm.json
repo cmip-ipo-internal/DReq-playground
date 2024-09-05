@@ -1,0 +1,36 @@
+{
+    "@id": "dr:variables/bigthetaoga-dec-op-tavg-z0c-hm",
+    "@type": "dr-variable",
+    "standard_name": "sea_water_conservative_temperature",
+    "variable_root_name": "bigthetao",
+    "units": "degC",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hm",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": " (area-mean over region)",
+    "brand_description": "sea water conservative temperature (area-mean over region): time means where sea (over entire ocean column)",
+    "bn_status": "accepted",
+    "dimensions": [
+        "",
+        "time"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "dec"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/bigthetaoga-dec-op-tavg-z0c-hm"
+        }
+    }
+}

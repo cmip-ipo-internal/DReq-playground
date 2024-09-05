@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/minpblz-day-unknown-tstat-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "minpblz-AERday",
+    "mip_table": [
+        "AERday"
+    ],
+    "table_entry": "minpblz",
+    "out_name": "minpblz",
+    "questions_and_notes": "Note that in general \"area: mean\" will give a higher minimum if data are mapped to a coarser grid than the original.",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 7,
+    "contributing_models": 5,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean time: minimum",
+    "long_name": "Minimum PBL Height",
+    "comment": "minimum boundary layer height during the day (add cell_methods attribute: \"time: minimum\")"
+}

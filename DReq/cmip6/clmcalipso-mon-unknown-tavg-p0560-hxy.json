@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/clmcalipso-mon-unknown-tavg-p0560-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "clmcalipso-CFmon",
+    "mip_table": [
+        "CFmon"
+    ],
+    "table_entry": "clmcalipso",
+    "out_name": "clmcalipso",
+    "questions_and_notes": "no need to use root to distinguish among the calipso layers since the information is in the branding suffix.",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 16,
+    "contributing_models": 30,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time p560",
+    "cell_methods": "area: time: mean",
+    "long_name": "CALIPSO Mid Level Cloud Cover Percentage",
+    "comment": "Percentage cloud cover in layer centred on 560hPa"
+}

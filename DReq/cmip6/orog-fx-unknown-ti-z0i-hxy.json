@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/orog-fx-unknown-ti-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "orog-fx",
+    "mip_table": [
+        "fx"
+    ],
+    "table_entry": "orog",
+    "out_name": "orog",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 29,
+    "contributing_models": 75,
+    "frequency": "fx",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude ",
+    "cell_methods": "area: mean",
+    "long_name": "Surface Altitude",
+    "comment": "The surface called \"surface\" means the lower boundary of the atmosphere. Altitude is the (geometric) height above the geoid, which is the reference geopotential surface. The geoid is similar to mean sea level."
+}

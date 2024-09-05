@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/fnlandtoocean-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fNLandToOcean-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fNLandToOcean",
+    "out_name": "fNLandToOcean",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 4,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Lateral Transfer of Nitrogen out of Grid Cell That Eventually Goes into Ocean",
+    "comment": "leached nitrogen etc that goes into run off or river routing and finds its way into ocean should be reported here."
+}

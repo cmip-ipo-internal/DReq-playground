@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rzwc-day-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rzwc-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "rzwc",
+    "out_name": "rzwc",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 7,
+    "contributing_models": 8,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Root Zone Soil Moisture",
+    "comment": "\"Content\" indicates a quantity per unit area. The content of a soil layer is the vertical integral of the specified quantity within the layer. The quantity with standard name mass_content_of_water_in_soil_layer_defined_by_root_depth is the vertical integral between the surface and the depth to which plant roots penetrate. A coordinate variable or scalar coordinate variable with standard name root_depth can be used to specify the extent of the layer. \"Water\" means water in all phases."
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/fescav-yr-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fescav-Oyr",
+    "mip_table": [
+        "Oyr"
+    ],
+    "table_entry": "fescav",
+    "out_name": "fescav",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 7,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Non-Biogenic Iron Scavenging",
+    "comment": "Dissolved Fe removed through nonbiogenic scavenging onto particles"
+}

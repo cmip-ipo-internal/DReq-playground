@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/dtaus-6hr-ap-tpt-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "dtaus-6hrPlevPt",
+    "mip_table": [
+        "6hrPlevPt"
+    ],
+    "table_entry": "dtaus",
+    "out_name": "dtaus",
+    "questions_and_notes": "This should probably be weighted by area of stratiform_cloud?",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "6hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Stratiform Cloud Optical Depth",
+    "comment": "This is the in-cloud optical depth obtained by considering only the cloudy portion of the grid cell."
+}

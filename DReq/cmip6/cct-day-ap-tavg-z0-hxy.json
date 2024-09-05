@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/cct-day-ap-tavg-z0-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cct-CFday",
+    "mip_table": [
+        "CFday"
+    ],
+    "table_entry": "cct",
+    "out_name": "cct",
+    "questions_and_notes": "cell_methods should include \"where convective_cloud\".  When regridding, should these be weighted by *total* convective cloud area or by convective cloud area in the grid cell located at cloud base?",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 13,
+    "contributing_models": 27,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Air Pressure at Convective Cloud Top",
+    "comment": "Where convective cloud is present in the grid cell, the instantaneous cloud top altitude should be that of the top of the highest level containing convective cloud. Missing data should be reported in the absence of convective cloud. The time mean should be calculated from these quantities averaging over occasions when convective cloud is present only, and should contain missing data for occasions when no convective cloud is present during the meaning period."
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/mrro-day-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mrro-day",
+    "mip_table": [
+        "day"
+    ],
+    "table_entry": "mrro",
+    "out_name": "mrro",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 26,
+    "contributing_models": 61,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Total Runoff",
+    "comment": "The total run-off (including drainage through the base of the soil model) per unit area leaving the land portion of the grid cell."
+}

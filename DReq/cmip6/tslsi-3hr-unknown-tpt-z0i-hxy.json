@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/tslsi-3hr-unknown-tpt-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tslsi-3hr",
+    "mip_table": [
+        "3hr"
+    ],
+    "table_entry": "tslsi",
+    "out_name": "tslsi",
+    "questions_and_notes": "We already defined this variable \"where land\"; why not just ask  for it \"where sea_ice\".  If someone wants a combined value for land and sea_ice, they can compute the weighted mean (weighting by fractions)",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 12,
+    "contributing_models": 35,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean (comment: over land and sea ice) time: point",
+    "long_name": "Surface Temperature Where Land or Sea Ice",
+    "comment": "Surface temperature of all surfaces except open ocean."
+}

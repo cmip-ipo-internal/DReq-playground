@@ -1,0 +1,36 @@
+{
+    "@id": "dr:variables/co2mass-mon-unknown-tavg-z0c-hm",
+    "@type": "dr-variable",
+    "standard_name": "atmosphere_mass_of_carbon_dioxide",
+    "variable_root_name": "co2mass",
+    "units": "kg",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hm",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": " (area-total over region)",
+    "brand_description": "atmosphere mass of carbon dioxide (area-total over region): time means",
+    "bn_status": "accepted",
+    "dimensions": [
+        "",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/co2mass-mon-unknown-tavg-z0c-hm"
+        }
+    }
+}

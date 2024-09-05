@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rld4co2-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rld4co2-CFmon",
+    "mip_table": [
+        "CFmon"
+    ],
+    "table_entry": "rld4co2",
+    "out_name": "rld4co2",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 5,
+    "contributing_models": 13,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevhalf time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Downwelling Longwave Radiation 4XCO2 Atmosphere",
+    "comment": "Downwelling longwave radiation calculated using carbon dioxide concentrations increased fourfold (includes the fluxes at the surface and TOA)"
+}

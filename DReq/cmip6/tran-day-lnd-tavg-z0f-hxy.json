@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/tran-day-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tran-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "tran",
+    "out_name": "tran",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 10,
+    "contributing_models": 11,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Transpiration",
+    "comment": "Transpiration (may include dew formation as a negative flux)."
+}

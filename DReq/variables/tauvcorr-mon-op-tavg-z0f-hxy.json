@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/tauvcorr-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable",
+    "standard_name": "downward_y_stress_correction_at_sea_water_surface",
+    "variable_root_name": "tauvcorr",
+    "units": "N m-2",
+    "type": "real",
+    "positive": "down",
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "downward y stress correction at sea water surface: time means reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "time: mean",
+    "cell_measures": "--OPT",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/tauvcorr-mon-op-tavg-z0f-hxy"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/msftmrho-mon-op-tavg-rhon-hys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "msftmrho-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "msftmrho",
+    "out_name": "msftmrho",
+    "questions_and_notes": "Since it is stored on rho surfaces, not depth, I don't think cell_methods should include \"depth\".  For longitude, check whether sum is correct and consistent with msftyrho-Omon, msftyz-Odec, msftyz-Omon msftyrhompa-Omon, and msftyzmpa-Omon.  cell_methods should include \"where sea\" .",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "11:Modify cell methods.  Include 'where sea'.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 5,
+    "contributing_models": 8,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "latitude rho basin time",
+    "cell_methods": "longitude: sum (comment: basin sum [along zig-zag grid path]) depth: sum time: mean",
+    "long_name": "Ocean Meridional Overturning Mass Streamfunction",
+    "comment": "Overturning mass streamfunction arising from all advective mass transport processes, resolved and parameterized."
+}

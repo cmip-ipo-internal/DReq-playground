@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/ch4global-mon-unknown-tavg-z0c-hm",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ch4global-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "ch4global",
+    "out_name": "ch4global",
+    "questions_and_notes": "remove \"global\" from variable root because \"global\" is specified external to the list of variables.",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 12,
+    "contributing_models": 25,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos atmosChem"
+    ],
+    "dimensions": " time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Global Mean Mole Fraction of CH4",
+    "comment": "Global Mean Mole Fraction of CH4"
+}

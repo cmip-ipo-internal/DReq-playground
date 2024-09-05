@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/jpdftaureicemodis-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "jpdftaureicemodis-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "jpdftaureicemodis",
+    "out_name": "jpdftaureicemodis",
+    "questions_and_notes": "I think this needs a different standard name since it is not a function of atmosphere layer.  Also root name can be simpler than CMIP6 outname.",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 5,
+    "contributing_models": 6,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude effectRadIc tau time",
+    "cell_methods": "area: time: mean",
+    "long_name": "MODIS Joint Distribution of Optical Thickness and Particle Size, Ice",
+    "comment": "Joint probability distribution function, giving probability of cloud as a function of optical thickness and particle size, as measured by MODIS. For cloud ice particles."
+}

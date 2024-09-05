@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/masso-dec-op-tavg-z0c-hm",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "masso-Odec",
+    "mip_table": [
+        "Odec"
+    ],
+    "table_entry": "masso",
+    "out_name": "masso",
+    "questions_and_notes": "Why not go with annual samples and eliminate masso-Omon?  Or let user calculate from monthly samples (which is quite easy).",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "dec",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": " time",
+    "cell_methods": "area: sum where sea time: mean",
+    "long_name": "Sea Water Mass",
+    "comment": "Total mass of liquid sea water. For Boussinesq models, report this diagnostic as Boussinesq reference density times total volume."
+}

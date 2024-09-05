@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/sivoln-mon-unknown-tavg-z0c-hm",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sivoln-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sivoln",
+    "out_name": "sivoln",
+    "questions_and_notes": "Can't this be calculated from gridded field (thicknesses x areas)?  Should be sum not mean over area.  NH & SH distinguisable using regionDD",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 15,
+    "contributing_models": 31,
+    "frequency": "mon",
+    "region": "northern_hemisphere",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": " time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Sea-Ice Volume North",
+    "comment": "total volume of sea ice in the Northern hemisphere"
+}

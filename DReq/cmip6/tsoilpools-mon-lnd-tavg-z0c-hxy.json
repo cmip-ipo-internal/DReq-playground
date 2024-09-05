@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/tsoilpools-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tSoilPools-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "tSoilPools",
+    "out_name": "tSoilPools",
+    "questions_and_notes": "These should be weighted by the mass of soil in the pool so that grid cell and time samples with little of a given soilpool contribute little to the mean.",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude soilpools time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Turnover Rate of Each Model Soil Carbon Pool",
+    "comment": "defined as 1/(turnover time) for each soil pool. Use the same pools reported under cSoilPools"
+}

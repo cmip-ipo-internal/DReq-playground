@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/mmrno3-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mmrno3-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "mmrno3",
+    "out_name": "mmrno3",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 7,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "NO3 Aerosol Mass Mixing Ratio",
+    "comment": "Dry mass fraction of nitrate aerosol particles in air."
+}

@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/fanthdisturb-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fAnthDisturb-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fAnthDisturb",
+    "out_name": "fAnthDisturb",
+    "questions_and_notes": "Although the emissions come only from land, we want to compare the tendency to other tendencies, so replace \"where land\" with \"where land over all_area_types\"?  This should probably have a different standard name to distinguish it from the following 2 variables.",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "6:Modify variable root.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 7,
+    "contributing_models": 11,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Carbon Mass Flux from Vegetation, Litter or Soil Pools into the Atmosphere Due to any Human Activity [kgC m-2 s-1]",
+    "comment": "Anthropogenic flux of carbon as carbon dioxide into the atmosphere. That is, emissions influenced, caused, or created by human activity. Anthropogenic emission of carbon dioxide includes fossil fuel use, cement production, agricultural burning and sources associated with anthropogenic land use change, except forest regrowth."
+}

@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/dissicos-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "dissicos-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "dissicos",
+    "out_name": "dissicos",
+    "questions_and_notes": "need vertical depth scalar coordinate",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 16,
+    "contributing_models": 25,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Dissolved Inorganic Carbon Concentration",
+    "comment": "Dissolved inorganic carbon (CO3+HCO3+H2CO3) concentration"
+}

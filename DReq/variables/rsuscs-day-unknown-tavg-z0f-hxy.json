@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/rsuscs-day-unknown-tavg-z0f-hxy",
+    "@type": "dr-variable",
+    "standard_name": "surface_upwelling_shortwave_flux_in_air_assuming_clear_sky",
+    "variable_root_name": "rsuscs",
+    "units": "W m-2",
+    "type": "real",
+    "positive": "up",
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "surface upwelling shortwave flux in air assuming clear sky: time means reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/rsuscs-day-unknown-tavg-z0f-hxy"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/noy-mon-unknown-tavg-p39-hy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "noy-AERmonZ",
+    "mip_table": [
+        "AERmonZ"
+    ],
+    "table_entry": "noy",
+    "out_name": "noy",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 9,
+    "contributing_models": 9,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "latitude plev39 time",
+    "cell_methods": "longitude: mean time: mean",
+    "long_name": "Total Reactive Nitrogen Volume Mixing Ratio",
+    "comment": "Total family (the sum of all appropriate species in the model); list the species in the netCDF header, e.g. NOy = N + NO + NO2 + NO3 + HNO3 + 2N2O5 + HNO4 + ClONO2 + BrONO2 Definition: Total reactive nitrogen; usually includes atomic nitrogen (N), nitric oxide (NO), NO2, nitrogen trioxide (NO3), dinitrogen radical (N2O5), nitric acid (HNO3), peroxynitric acid (HNO4), BrONO2, ClONO2 add comment attribute with detailed description about how the model calculates these fields"
+}

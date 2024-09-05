@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/tnt-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tnt-CFmon",
+    "mip_table": [
+        "CFmon"
+    ],
+    "table_entry": "tnt",
+    "out_name": "tnt",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 12,
+    "contributing_models": 24,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Tendency of Air Temperature",
+    "comment": "Tendency of Air Temperature"
+}

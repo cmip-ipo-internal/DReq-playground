@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/ccn-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ccn-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "ccn",
+    "out_name": "ccn",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Cloud Condensation Nuclei Concentration at Liquid Cloud Top",
+    "comment": "proposed name: number_concentration_of_ambient_aerosol_in_air_at_liquid_water_cloud_top"
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/fharvesttoproduct-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fHarvestToProduct-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fHarvestToProduct",
+    "out_name": "fHarvestToProduct",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 8,
+    "contributing_models": 13,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Harvested Biomass That Goes into Product Pool",
+    "comment": "be it food or wood harvest, any carbon that is subsequently stored is reported here"
+}

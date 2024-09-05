@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/uas-3hr-unknown-tavg-h010-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "uas-E3hr",
+    "mip_table": [
+        "E3hr"
+    ],
+    "table_entry": "uas",
+    "out_name": "uas",
+    "questions_and_notes": "Can we use  synoptic data here? Why not?",
+    "specific_issues": [
+        "7:Deprecate? Eliminate one of 'point' or 'mean' variable options."
+    ],
+    "contributing_institutions": 10,
+    "contributing_models": 15,
+    "frequency": "3hr",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time height10m",
+    "cell_methods": "area: time: mean",
+    "long_name": "Eastward Near-Surface Wind",
+    "comment": "Eastward component of the near-surface (usually, 10 meters)  wind"
+}

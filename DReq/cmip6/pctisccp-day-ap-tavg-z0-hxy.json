@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/pctisccp-day-ap-tavg-z0-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "pctisccp-CFday",
+    "mip_table": [
+        "CFday"
+    ],
+    "table_entry": "pctisccp",
+    "out_name": "pctisccp",
+    "questions_and_notes": "need to indicate in cell_methods that ISCCCP cloud area should be used in weighting",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 9,
+    "contributing_models": 19,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where cloud",
+    "long_name": "ISCCP Mean Cloud Top Pressure",
+    "comment": "ISCCP Mean Cloud Top Pressure. Time-means are weighted by the ISCCP Total Cloud Fraction {:cltisccp} - see  http://cfmip.metoffice.com/COSP.html"
+}

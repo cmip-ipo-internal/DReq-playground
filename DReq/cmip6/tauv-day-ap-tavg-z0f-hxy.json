@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/tauv-day-ap-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tauv-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "tauv",
+    "out_name": "tauv",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 20,
+    "contributing_models": 49,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Surface Downward Northward Wind Stress",
+    "comment": "Downward northward wind stress at the surface"
+}

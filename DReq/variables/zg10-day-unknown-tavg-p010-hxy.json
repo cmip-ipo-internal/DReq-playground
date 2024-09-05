@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/zg10-day-unknown-tavg-p010-hxy",
+    "@type": "dr-variable",
+    "standard_name": "geopotential_height",
+    "variable_root_name": "zg",
+    "units": "m",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "p010",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "geopotential height: time means at 10 hPa reported on a 2-d horizontal grid where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p10"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/zg10-day-unknown-tavg-p010-hxy"
+        }
+    }
+}

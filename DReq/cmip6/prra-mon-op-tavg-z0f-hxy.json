@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/prra-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "prra-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "prra",
+    "out_name": "prra",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 15,
+    "contributing_models": 29,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where ice_free_sea over sea time: mean",
+    "long_name": "Rainfall Flux",
+    "comment": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics."
+}

@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/orogis-mon-li-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "orogIs-LImon",
+    "mip_table": [
+        "LImon"
+    ],
+    "table_entry": "orogIs",
+    "out_name": "orogIs",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 7,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "landIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where ice_sheet",
+    "long_name": "Ice Sheet Surface Altitude",
+    "comment": "The surface called \"surface\" means the lower boundary of the atmosphere. Altitude is the (geometric) height above the geoid, which is the reference geopotential surface. The geoid is similar to mean sea level."
+}

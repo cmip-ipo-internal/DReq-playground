@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rsntds-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsntds-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "rsntds",
+    "out_name": "rsntds",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 20,
+    "contributing_models": 49,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Net Downward Shortwave Radiation at Sea Water Surface",
+    "comment": "This is the flux into the surface of liquid sea water only. This excludes shortwave flux absorbed by sea ice, but includes any light that passes through the ice and is absorbed by the ocean."
+}

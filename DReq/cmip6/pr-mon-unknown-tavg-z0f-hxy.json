@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/pr-mon-unknown-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "pr-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "pr",
+    "out_name": "pr",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 39,
+    "contributing_models": 101,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Precipitation",
+    "comment": "includes both liquid and solid phases"
+}

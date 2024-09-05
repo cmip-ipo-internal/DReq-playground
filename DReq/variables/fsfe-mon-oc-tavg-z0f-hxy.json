@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/fsfe-mon-oc-tavg-z0f-hxy",
+    "@type": "dr-variable",
+    "standard_name": "tendency_of_ocean_mole_content_of_iron_due_to_deposition_and_runoff_and_sediment_dissolution",
+    "variable_root_name": "fsfe",
+    "units": "mol m-2 s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "tendency of ocean mole content of iron due to deposition and runoff and sediment dissolution: time means reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/fsfe-mon-oc-tavg-z0f-hxy"
+        }
+    }
+}

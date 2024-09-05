@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rlu-fx-unknown-ti-l-hm",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rlu-Efx",
+    "mip_table": [
+        "Efx"
+    ],
+    "table_entry": "rlu",
+    "out_name": "rlu",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 9,
+    "contributing_models": 13,
+    "frequency": "fx",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "alevhalf spectband ",
+    "cell_methods": "area: point",
+    "long_name": "Upwelling Longwave Radiation",
+    "comment": "Upwelling longwave radiation (includes the fluxes at the surface and TOA)"
+}

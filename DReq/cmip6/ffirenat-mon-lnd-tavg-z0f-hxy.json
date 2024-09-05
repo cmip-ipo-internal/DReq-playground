@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/ffirenat-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fFireNat-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fFireNat",
+    "out_name": "fFireNat",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 8,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Carbon Mass Flux into Atmosphere Due to CO2 Emission from Natural Fire [kgC m-2 s-1]",
+    "comment": "CO2 emissions from natural fires"
+}

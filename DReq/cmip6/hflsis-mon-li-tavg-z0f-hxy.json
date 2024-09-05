@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/hflsis-mon-li-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hflsIs-LImon",
+    "mip_table": [
+        "LImon"
+    ],
+    "table_entry": "hflsIs",
+    "out_name": "hflsIs",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 12,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "landIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where ice_sheet",
+    "long_name": "Ice Sheet Surface Upward Latent Heat Flux",
+    "comment": "Upward latent heat flux from the ice sheet surface"
+}

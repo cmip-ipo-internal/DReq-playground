@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/tosga-mon-op-tavg-z0i-hm",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tosga-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "tosga",
+    "out_name": "tosga",
+    "questions_and_notes": "Eliminate? Can't this be easily calculated from gridded field?",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 26,
+    "contributing_models": 56,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": " time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Global Average Sea Surface Temperature",
+    "comment": "Temperature of upper boundary of the liquid ocean, including temperatures below sea-ice and floating ice shelves."
+}

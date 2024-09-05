@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/hflso-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hflso-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "hflso",
+    "out_name": "hflso",
+    "questions_and_notes": "Correct cell_methods to indicate time mean also is only for ice_free_sea",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 11,
+    "contributing_models": 22,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where ice_free_sea over sea time: mean",
+    "long_name": "Surface Downward Latent Heat Flux",
+    "comment": "This is defined as with the cell methods string: where ice_free_sea over sea"
+}

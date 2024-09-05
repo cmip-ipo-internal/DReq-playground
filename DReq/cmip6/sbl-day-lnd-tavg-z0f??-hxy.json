@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/sbl-day-lnd-tavg-z0f??-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sbl-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "sbl",
+    "out_name": "sbl",
+    "questions_and_notes": "For consistency with sbl-CF3hr, shouldn't the sea ice portion of a cell also be included here?  If so, specify cell_methods \"area: time: mean\".  Also, should include in the comment or the description: \"surface upward flux of water vapor due to sublimation of surface snow and ice\".     I don't think \"where land\" is needed.  If it is, then should be \"where land over all_area_types\"",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 8,
+    "contributing_models": 8,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "landIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Surface Snow and Ice Sublimation Flux",
+    "comment": "The snow and ice sublimation flux is the loss of snow and ice mass per unit area from the surface resulting from their direct conversion to water vapor that enters the atmosphere."
+}

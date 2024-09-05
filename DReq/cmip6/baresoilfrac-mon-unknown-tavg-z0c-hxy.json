@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/baresoilfrac-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "baresoilFrac-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "baresoilFrac",
+    "out_name": "baresoilFrac",
+    "questions_and_notes": "Should this be undefined where sea?  Should deprecate in favor of \"where all_area_types\".  Also, it seems to be redundant with monthly fracLut; Is this the same as area_type=\"bare_ground\"?  Consider eliminating scalar dimension.",
+    "specific_issues": [
+        "9:Eliminate or deprecate?",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 21,
+    "contributing_models": 44,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time typebare",
+    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "long_name": "Bare Soil Percentage Area Coverage",
+    "comment": "Percentage of entire grid cell  that is covered by bare soil."
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/mc-day-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mc-CFday",
+    "mip_table": [
+        "CFday"
+    ],
+    "table_entry": "mc",
+    "out_name": "mc",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 9,
+    "contributing_models": 19,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevhalf time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Convective Mass Flux",
+    "comment": "The net mass flux should represent the difference between the updraft and downdraft components.  The flux is computed as the mass divided by the area of the grid cell."
+}

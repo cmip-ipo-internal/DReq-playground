@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/sfcwind-3hr-unknown-tpt-h010-hxy",
+    "@type": "dr-variable",
+    "standard_name": "wind_speed",
+    "variable_root_name": "sfcWind",
+    "units": "m s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "h010",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "wind speed: synoptic samples at a height of (or near) 10 m reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "height10m"
+    ],
+    "cell_methods": "area: mean time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "3hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/sfcwind-3hr-unknown-tpt-h010-hxy"
+        }
+    }
+}

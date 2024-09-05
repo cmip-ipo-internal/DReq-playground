@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/snicefreezis-mon-li-tavg-z0f-hxy",
+    "@type": "dr-variable",
+    "standard_name": "surface_snow_and_ice_refreezing_flux",
+    "variable_root_name": "snicefreez",
+    "units": "kg m-2 s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "is"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "surface snow and ice refreezing flux: time means reported on a 2-d horizontal grid where ice_sheet",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean where ice_sheet",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/snicefreezis-mon-li-tavg-z0f-hxy"
+        }
+    }
+}

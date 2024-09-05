@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/reffclis-3hr-ap-tpt-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "reffclis-CF3hr",
+    "mip_table": [
+        "CF3hr"
+    ],
+    "table_entry": "reffclis",
+    "out_name": "reffclis",
+    "questions_and_notes": "Contributions should be weighted by stratiform cloud area.",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 6,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Hydrometeor Effective Radius of Stratiform Cloud Ice",
+    "comment": "This is defined as the in-cloud ratio of the third moment over the second moment of the particle size distribution (obtained by considering only the cloudy portion of the grid cell)."
+}

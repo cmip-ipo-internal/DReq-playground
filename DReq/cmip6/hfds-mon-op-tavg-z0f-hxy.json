@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/hfds-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hfds-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "hfds",
+    "out_name": "hfds",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 33,
+    "contributing_models": 79,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Downward Heat Flux at Sea Water Surface",
+    "comment": "This is the net flux of heat entering the liquid water column through its upper surface (excluding any \"flux adjustment\") ."
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/sfcwind-day-unknown-tavg-h010-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sfcWind-day",
+    "mip_table": [
+        "day"
+    ],
+    "table_entry": "sfcWind",
+    "out_name": "sfcWind",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 29,
+    "contributing_models": 78,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time height10m",
+    "cell_methods": "area: time: mean",
+    "long_name": "Near-Surface Wind Speed",
+    "comment": "near-surface (usually, 10 meters) wind speed."
+}

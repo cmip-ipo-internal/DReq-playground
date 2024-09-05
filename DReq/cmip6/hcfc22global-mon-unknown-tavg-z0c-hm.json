@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/hcfc22global-mon-unknown-tavg-z0c-hm",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hcfc22global-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "hcfc22global",
+    "out_name": "hcfc22global",
+    "questions_and_notes": "remove \"global\" from variable root because \"global\" is specified external to the list of variables.",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 2,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos atmosChem"
+    ],
+    "dimensions": " time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Global Mean Mole Fraction of HCFC22",
+    "comment": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y.  A chemical species denoted by X may be described by a single term such as 'nitrogen' or a phrase such as 'nox_expressed_as_nitrogen'. The chemical formula for HCFC22 is CHClF2.  The IUPAC name for HCFC22 is chloro-difluoro-methane."
+}

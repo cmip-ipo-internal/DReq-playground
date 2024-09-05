@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/hfbasinpadv-mon-unknown-tavg-z0c-hys",
+    "@type": "dr-variable",
+    "standard_name": "northward_ocean_heat_transport_due_to_parameterized_eddy_advection",
+    "variable_root_name": "hfbasinpadv",
+    "units": "W",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hys",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "northward ocean heat transport due to parameterized eddy advection: time means reported as a function of latitude and ocean basin",
+    "bn_status": "accepted",
+    "dimensions": [
+        "latitude",
+        "basin",
+        "time"
+    ],
+    "cell_methods": "longitude: sum (comment: basin sum [along zig-zag grid path]) depth: sum time: mean",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/hfbasinpadv-mon-unknown-tavg-z0c-hys"
+        }
+    }
+}

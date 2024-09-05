@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rlutaf-mon-unknown-tavg-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rlutaf-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "rlutaf",
+    "out_name": "rlutaf",
+    "questions_and_notes": "Should have a different standard name: propose toa_outgoing_longwave_flux_assuming_no_aerosol.  Or why not report longwave radiative forcing due to aerosols instead?",
+    "specific_issues": [
+        "5:Standard name issue."
+    ],
+    "contributing_institutions": 11,
+    "contributing_models": 16,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "TOA Outgoing Aerosol-Free Longwave Radiation",
+    "comment": "Flux corresponding to rlut resulting from aerosol-free call to radiation, following Ghan (ACP, 2013)"
+}

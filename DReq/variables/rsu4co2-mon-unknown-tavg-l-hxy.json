@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/rsu4co2-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "upwelling_shortwave_flux_in_air",
+    "variable_root_name": "rsu4co2",
+    "units": "W m-2",
+    "type": "real",
+    "positive": "up",
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": " with CO2 quadrupled",
+    "brand_description": "upwelling shortwave flux in air with CO2 quadrupled: time means provided on multiple model levels and reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevhalf",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/rsu4co2-mon-unknown-tavg-l-hxy"
+        }
+    }
+}

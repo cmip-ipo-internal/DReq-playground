@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/reffclwc-3hr-ap-tpt-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "effective_radius_of_convective_cloud_liquid_water_particles",
+    "variable_root_name": "reffclwc",
+    "units": "m",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "ccl"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "effective radius of convective cloud liquid water particles: synoptic samples provided on multiple model levels and reported on a 2-d horizontal grid where convective_cloud",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time1"
+    ],
+    "cell_methods": "area: mean time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "3hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/reffclwc-3hr-ap-tpt-l-hxy"
+        }
+    }
+}

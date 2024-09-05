@@ -1,0 +1,36 @@
+{
+    "@id": "dr:variables/siareaacrossline-mon-op-tavg-z0c-ht",
+    "@type": "dr-variable",
+    "standard_name": "sea_ice_area_transport_across_line",
+    "variable_root_name": "siareaacrossline",
+    "units": "m2 s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "ht",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "sea ice area transport across line: time means characterizing transport across a 'line' (not necessarily coincident with a latitude circle) where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "siline",
+        "time"
+    ],
+    "cell_methods": "time: mean",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/siareaacrossline-mon-op-tavg-z0c-ht"
+        }
+    }
+}

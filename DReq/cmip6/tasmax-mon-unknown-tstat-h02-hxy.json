@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/tasmax-mon-unknown-tstat-h02-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tasmax-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "tasmax",
+    "out_name": "tasmax",
+    "questions_and_notes": "Note that in general \"area: mean\" will give a lower maximum if data are mapped to a coarser grid than the original.  Consider computing time-mean first, but operationally that might be difficult.",
+    "specific_issues": [],
+    "contributing_institutions": 31,
+    "contributing_models": 79,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time height2m",
+    "cell_methods": "area: mean time: maximum within days time: mean over days",
+    "long_name": "Daily Maximum Near-Surface Air Temperature",
+    "comment": "maximum near-surface (usually, 2 meter) air temperature (add cell_method attribute \"time: max\")"
+}

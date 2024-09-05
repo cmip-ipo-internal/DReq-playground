@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/fgco2-yr-oc-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fgco2-Oyr",
+    "mip_table": [
+        "Oyr"
+    ],
+    "table_entry": "fgco2",
+    "out_name": "fgco2",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 15,
+    "contributing_models": 23,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Downward Mass Flux of Carbon as CO2 [kgC m-2 s-1]",
+    "comment": "Gas exchange flux of CO2 (positive into ocean)"
+}

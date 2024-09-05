@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/hfrs-day-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hfrs-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "hfrs",
+    "out_name": "hfrs",
+    "questions_and_notes": "Should this apply to snow on sea ice and ice shelves too?  If so, remove \"where land\"",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Heat Transferred to Snowpack by Rainfall",
+    "comment": "Heat transferred to a snow cover by rain.."
+}

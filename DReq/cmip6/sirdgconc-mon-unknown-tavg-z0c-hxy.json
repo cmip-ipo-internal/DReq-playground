@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/sirdgconc-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sirdgconc-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sirdgconc",
+    "out_name": "sirdgconc",
+    "questions_and_notes": "Units should be % for consistency with long name and other like variables. For consistency with other surface type fractions, remove \"where sea_ice\".  Consider eliminating scalar dimension.",
+    "specific_issues": [
+        "4:Check units.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 5,
+    "contributing_models": 10,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time typesirdg",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "long_name": "Percentage Cover of Sea Ice by Ridging",
+    "comment": "Fraction of sea ice, by area, which is covered by sea ice ridges, giving equal weight to every square metre of sea ice ."
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/tsl-6hr-lnd-tpt-z0p1-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tsl-6hrPlevPt",
+    "mip_table": [
+        "6hrPlevPt"
+    ],
+    "table_entry": "tsl",
+    "out_name": "tsl",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 8,
+    "contributing_models": 10,
+    "frequency": "6hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time1 sdepth1",
+    "cell_methods": "area: mean where land time: point",
+    "long_name": "Temperature of Soil",
+    "comment": "Temperature of soil. Reported as missing for grid cells with no land."
+}

@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/siflfwbot-mon-si-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "siflfwbot-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "siflfwbot",
+    "out_name": "siflfwbot",
+    "questions_and_notes": "In description, \"divided by grid-cell area\" should be replaced by \"divided by sea ice area\".",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 17,
+    "contributing_models": 30,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "long_name": "Freshwater Flux from Sea Ice",
+    "comment": "Total flux of fresh water from water into sea ice divided by grid-cell area; This flux is negative during ice growth (liquid water mass decreases, hence upward flux of freshwater), positive during ice melt (liquid water mass increases, hence downward flux of freshwater)"
+}

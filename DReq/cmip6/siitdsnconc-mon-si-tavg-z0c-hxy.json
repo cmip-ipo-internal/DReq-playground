@@ -1,0 +1,28 @@
+{
+    "@id": "dr:cmip6/siitdsnconc-mon-si-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "siitdsnconc-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "siitdsnconc",
+    "out_name": "siitdsnconc",
+    "questions_and_notes": "compare variable root with \"siitdsnthick\".  Is this 1) the fraction of grid cell with snow cover, as stated, or 2) fraction of area covered by each ice-thickness band that is snow covered or 3) fraction of sea-ice area occupied by a given thickness category *and* snow? I've assumed 2. ",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
+        "9:Eliminate or deprecate?",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 4,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude iceband time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siitdconc)",
+    "long_name": "Snow Area Percentages in Ice Thickness Categories",
+    "comment": "Percentage of grid cell covered by snow in each ice-thickness category (vector with one entry for each thickness category starting from the thinnest category, netcdf file should use thickness bounds of the categories as third coordinate axis)"
+}

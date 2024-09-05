@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/tossq-mon-op-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tossq-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "tossq",
+    "out_name": "tossq",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 24,
+    "contributing_models": 54,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Square of Sea Surface Temperature",
+    "comment": "Square of temperature of liquid ocean."
+}

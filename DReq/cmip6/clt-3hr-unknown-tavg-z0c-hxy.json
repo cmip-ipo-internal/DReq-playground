@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/clt-3hr-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "clt-3hr",
+    "mip_table": [
+        "3hr"
+    ],
+    "table_entry": "clt",
+    "out_name": "clt",
+    "questions_and_notes": "Can we use  synoptic data here? Why not?",
+    "specific_issues": [
+        "7:Deprecate? Eliminate one of 'point' or 'mean' variable options."
+    ],
+    "contributing_institutions": 26,
+    "contributing_models": 57,
+    "frequency": "3hr",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Total Cloud Cover Percentage",
+    "comment": "Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen from the surface or the top of the atmosphere. Includes both large-scale and convective cloud."
+}

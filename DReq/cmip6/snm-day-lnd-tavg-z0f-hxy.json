@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/snm-day-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "snm-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "snm",
+    "out_name": "snm",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 7,
+    "contributing_models": 12,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "landIce land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Surface Snow Melt",
+    "comment": "The total surface snow melt rate on the land portion of the grid cell divided by the land area in the grid cell; report as zero for snow-free land regions and missing where there is no land."
+}

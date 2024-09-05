@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/prra-3hr-unknown-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "prra-E3hr",
+    "mip_table": [
+        "E3hr"
+    ],
+    "table_entry": "prra",
+    "out_name": "prra",
+    "questions_and_notes": "Isn't this the difference between precip. and snowfall and therefore not needed?",
+    "specific_issues": [
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 6,
+    "contributing_models": 5,
+    "frequency": "3hr",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Rainfall Flux",
+    "comment": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics."
+}

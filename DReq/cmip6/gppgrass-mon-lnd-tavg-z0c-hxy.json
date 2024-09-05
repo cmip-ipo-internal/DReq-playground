@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/gppgrass-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "gppGrass-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "gppGrass",
+    "out_name": "gppGrass",
+    "questions_and_notes": "Why is this variable needed given request for gppLut-Emon?  If this is only of interest to understanding the atmospheric budget cell_methods should include \"over all_area_types.  Root can be simplified by leaving off the suffix and just define as \"gpp\" since the area type is indicated in suffix.",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 10,
+    "contributing_models": 16,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where natural_grasses (comment: mask=grassFrac)",
+    "long_name": "Gross Primary Production on Grass Tiles as Carbon Mass Flux [kgC m-2 s-1]",
+    "comment": "Total GPP of grass in the grid cell"
+}

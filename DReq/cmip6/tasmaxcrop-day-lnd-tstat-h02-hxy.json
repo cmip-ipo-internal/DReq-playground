@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/tasmaxcrop-day-lnd-tstat-h02-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tasmaxCrop-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "tasmaxCrop",
+    "out_name": "tasmaxCrop",
+    "questions_and_notes": "Can \"where land\" be applied instead of \"where crops\"?  Do models differentiate between air temperature over crops and air temperature over land?  Or is this needed because sometimes you will have a crop-covered cell next to one without crops, and if you interpolate you want to get the crop air temperature unpolluted by the grid cell without crops?  Note that in general \"area: mean\" will give a lower maximum if data are mapped to a coarser grid than the original.",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time height2m",
+    "cell_methods": "area: mean where crops time: maximum",
+    "long_name": "Daily Maximum Near-Surface Air Temperature over Crop Tile",
+    "comment": "maximum near-surface (usually, 2 meter) air temperature (add cell_method attribute \"time: max\")"
+}

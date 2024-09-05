@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/sitimefrac-mon-op-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sitimefrac-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sitimefrac",
+    "out_name": "sitimefrac",
+    "questions_and_notes": "Is this variable needed?  What should cell_methods be? Note that there is no sensible way to regrid this field to a coarser grid.  The resulting values would be impossible to interpret.  Isn't the the sea ice fraction field the better one to request?  ",
+    "specific_issues": [
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 25,
+    "contributing_models": 66,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Fraction of Time Steps with Sea Ice",
+    "comment": "Fraction of time steps of the averaging period during which sea ice is present (siconc >0 ) in a grid cell"
+}

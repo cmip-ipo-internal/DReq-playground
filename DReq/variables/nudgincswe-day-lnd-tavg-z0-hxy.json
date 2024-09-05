@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/nudgincswe-day-lnd-tavg-z0-hxy",
+    "@type": "dr-variable",
+    "standard_name": "nudging_increment_in_snow_and_ice_amount_on_land",
+    "variable_root_name": "nudgincswe",
+    "units": "kg m-2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "lnd"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "nudging increment in snow and ice amount on land: time means reported on a 2-d horizontal grid where land",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where land time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/nudgincswe-day-lnd-tavg-z0-hxy"
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/vortmean-6hr-unknown-tpt-p0700-hxy",
+    "@type": "dr-variable",
+    "standard_name": "atmosphere_relative_vorticity",
+    "variable_root_name": "rv",
+    "units": "s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "p0700",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "atmosphere relative vorticity: synoptic samples at 700 hPa reported on a 2-d horizontal grid where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "pl700"
+    ],
+    "cell_methods": "area: mean time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "6hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/vortmean-6hr-unknown-tpt-p0700-hxy"
+        }
+    }
+}

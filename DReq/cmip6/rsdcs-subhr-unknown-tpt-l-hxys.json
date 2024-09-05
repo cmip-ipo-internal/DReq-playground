@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rsdcs-subhr-unknown-tpt-l-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsdcs-CFsubhr",
+    "mip_table": [
+        "CFsubhr"
+    ],
+    "table_entry": "rsdcs",
+    "out_name": "rsdcs",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 4,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "alevhalf site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "Downwelling Clear-Sky Shortwave Radiation",
+    "comment": "Downwelling clear-sky shortwave radiation (includes the fluxes at the surface and top-of-atmosphere)"
+}

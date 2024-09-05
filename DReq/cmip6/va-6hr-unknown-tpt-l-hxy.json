@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/va-6hr-unknown-tpt-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "va-6hrLev",
+    "mip_table": [
+        "6hrLev"
+    ],
+    "table_entry": "va",
+    "out_name": "va",
+    "questions_and_notes": "cell_methods should include \"area: mean\"",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 25,
+    "contributing_models": 39,
+    "frequency": "6hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time1",
+    "cell_methods": "time: point",
+    "long_name": "Northward Wind",
+    "comment": "Meridional wind (positive in a northward direction)."
+}

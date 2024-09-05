@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/tsns-day-mr-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tsns-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "tsns",
+    "out_name": "tsns",
+    "questions_and_notes": " The temperature of snow is undefined in snow-free portions of a cell, so the cell_methods should be \"where snow\" (not \"where land\").   this however includes snow on sea_ice so requiress a parenthetical qualifier in the \"where\" directive.  Should snow on sea-ice really be excluded?",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 5,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Snow Surface Temperature",
+    "comment": "Temperature of the snow surface as it interacts with the atmosphere, averaged over a grid cell."
+}

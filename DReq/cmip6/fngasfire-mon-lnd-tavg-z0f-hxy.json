@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/fngasfire-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fNgasFire-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fNgasFire",
+    "out_name": "fNgasFire",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 7,
+    "contributing_models": 8,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Total Nitrogen Lost to the Atmosphere (Including NHx, NOx, N2O, N2) from Fire",
+    "comment": "Flux of Nitrogen from the land into the atmosphere due to fire"
+}

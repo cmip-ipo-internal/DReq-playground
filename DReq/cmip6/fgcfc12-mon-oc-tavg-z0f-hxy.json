@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/fgcfc12-mon-oc-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fgcfc12-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "fgcfc12",
+    "out_name": "fgcfc12",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 10,
+    "contributing_models": 15,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Downward CFC12 Flux",
+    "comment": "gas exchange flux of CFC12"
+}

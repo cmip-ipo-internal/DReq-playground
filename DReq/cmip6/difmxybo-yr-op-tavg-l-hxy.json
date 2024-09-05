@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/difmxybo-yr-op-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "difmxybo-Oyr",
+    "mip_table": [
+        "Oyr"
+    ],
+    "table_entry": "difmxybo",
+    "out_name": "difmxybo",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Ocean Momentum XY Biharmonic Diffusivity",
+    "comment": "Lateral biharmonic viscosity applied to the momentum equations."
+}

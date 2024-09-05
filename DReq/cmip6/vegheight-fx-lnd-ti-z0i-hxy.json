@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/vegheight-fx-lnd-ti-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "vegHeight-Efx",
+    "mip_table": [
+        "Efx"
+    ],
+    "table_entry": "vegHeight",
+    "out_name": "vegHeight",
+    "questions_and_notes": "this should be  evaluated \"where vegetation\" to be consistent with vegHeight-Emon.  Also shouldn't it be time dependent?",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "fx",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude ",
+    "cell_methods": "area: mean where land",
+    "long_name": "Height of the Vegetation Canopy",
+    "comment": "Vegetation height averaged over all vegetation types and over the vegetated fraction of a grid cell."
+}

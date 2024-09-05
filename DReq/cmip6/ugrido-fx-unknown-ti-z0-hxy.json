@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/ugrido-fx-unknown-ti-z0-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ugrido-Ofx",
+    "mip_table": [
+        "Ofx"
+    ],
+    "table_entry": "ugrido",
+    "out_name": "ugrido",
+    "questions_and_notes": "What is this variable and why is it needed?",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "fx",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude ",
+    "cell_methods": null,
+    "long_name": "UGRID Grid Specification",
+    "comment": "Ony required for models with unstructured grids: this label should be used for a file containing information about the grid structure, following the UGRID convention."
+}

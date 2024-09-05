@@ -1,0 +1,28 @@
+{
+    "@id": "dr:cmip6/rv850-6hr-unknown-tavg-p0850-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rv850-6hrPlev",
+    "mip_table": [
+        "6hrPlev"
+    ],
+    "table_entry": "rv850",
+    "out_name": "rv850",
+    "questions_and_notes": "Can we use  synoptic data here? Why not?",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "7:Deprecate? Eliminate one of 'point' or 'mean' variable options.",
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "6hr",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time p850",
+    "cell_methods": "area: time: mean",
+    "long_name": "Relative Vorticity at 850hPa",
+    "comment": "Relative vorticity is the upward component of the vorticity vector i.e. the component which arises from horizontal velocity."
+}

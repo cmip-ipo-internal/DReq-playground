@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/thetaot700-mon-op-tavg-z0700-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "thetaot700-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "thetaot700",
+    "out_name": "thetaot700",
+    "questions_and_notes": "cell_methods should include \"where sea\"",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "11:Modify cell methods.  Include 'where sea'."
+    ],
+    "contributing_institutions": 9,
+    "contributing_models": 15,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time depth700m",
+    "cell_methods": "area: depth: time: mean",
+    "long_name": "Depth Average Potential Temperature of Upper 700m",
+    "comment": "Upper 700m, 2D field"
+}

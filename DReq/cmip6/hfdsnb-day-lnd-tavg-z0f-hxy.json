@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/hfdsnb-day-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hfdsnb-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "hfdsnb",
+    "out_name": "hfdsnb",
+    "questions_and_notes": "Note that \"ground\" level is interpreted as the land surface (which might be covered by snow) except when land is covered by \"permanent\" ice (on human time-scales), in which case \"ground\" is interpreted as the top of the ice (which may be  covered by snow).",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 2,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Downward Heat Flux at Snow Base",
+    "comment": "Heat flux from snow into the ice or land under the snow."
+}

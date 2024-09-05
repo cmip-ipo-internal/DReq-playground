@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/sbl-mon-lnd-tavg-z0f??-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sbl-LImon",
+    "mip_table": [
+        "LImon"
+    ],
+    "table_entry": "sbl",
+    "out_name": "sbl",
+    "questions_and_notes": "should probably be where Ice_sheet or where land_ice.",
+    "specific_issues": [
+        "9:Eliminate or deprecate?",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 12,
+    "contributing_models": 32,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "landIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Surface Snow and Ice Sublimation Flux",
+    "comment": "The snow and ice sublimation flux is the loss of snow and ice mass per unit area from the surface resulting from their direct conversion to water vapor that enters the atmosphere."
+}

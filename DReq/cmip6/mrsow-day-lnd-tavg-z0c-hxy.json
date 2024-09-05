@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/mrsow-day-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mrsow-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "mrsow",
+    "out_name": "mrsow",
+    "questions_and_notes": "Something wrong here.  Shouldn't the standard name be different from the one in the previous line?  Should it be volume_fraction_of_condensed_water_in_soil?  Shouldn't the units be the same as fldcapacity-Efx?  If it's the same standard_name, it should have same variable root name.",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 4,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Total Soil Wetness",
+    "comment": "Vertically integrated soil moisture divided by maximum allowable soil moisture above wilting point."
+}

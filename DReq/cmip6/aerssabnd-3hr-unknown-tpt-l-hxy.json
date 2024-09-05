@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/aerssabnd-3hr-unknown-tpt-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "aerssabnd-E3hrPt",
+    "mip_table": [
+        "E3hrPt"
+    ],
+    "table_entry": "aerssabnd",
+    "out_name": "aerssabnd",
+    "questions_and_notes": "Should these be weighted somehow?",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel spectband time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Aerosol Level Single Scattering Albedo for Each Band",
+    "comment": "The single scattering albedo is the fraction of radiation in an incident light beam scattered by the particles of an aerosol reference volume for a given wavelength. It is the ratio of the scattering and the extinction coefficients of the aerosol particles in the reference volume. "
+}

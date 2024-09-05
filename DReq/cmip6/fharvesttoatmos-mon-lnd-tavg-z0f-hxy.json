@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/fharvesttoatmos-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fHarvestToAtmos-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fHarvestToAtmos",
+    "out_name": "fHarvestToAtmos",
+    "questions_and_notes": "How exactly does this differ from fHarvest-Lmon?",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 5,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Harvested Biomass That Goes Straight into Atmosphere as Carbon Mass Flux [kgC m-2 s-1]",
+    "comment": "any harvested carbon that is assumed to decompose immediately into the atmosphere is reported here"
+}

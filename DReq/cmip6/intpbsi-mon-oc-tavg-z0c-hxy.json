@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/intpbsi-mon-oc-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "intpbsi-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "intpbsi",
+    "out_name": "intpbsi",
+    "questions_and_notes": "ocean_mole_content means the column integrated amount so no need to include sum over depth.",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 11,
+    "contributing_models": 12,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+    "long_name": "Silicon Production",
+    "comment": "Vertically integrated biogenic silica production"
+}

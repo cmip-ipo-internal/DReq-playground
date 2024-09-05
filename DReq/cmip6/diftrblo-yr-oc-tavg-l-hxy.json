@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/diftrblo-yr-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "diftrblo-Oyr",
+    "mip_table": [
+        "Oyr"
+    ],
+    "table_entry": "diftrblo",
+    "out_name": "diftrblo",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 9,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Ocean Tracer Diffusivity Due to Parameterized Mesoscale Advection",
+    "comment": "Ocean tracer diffusivity associated with parameterized eddy-induced advective transport. Sometimes this diffusivity is called the 'thickness' diffusivity. For CMIP5, this diagnostic was called 'ocean tracer bolus laplacian diffusivity'.  The CMIP6 name is physically more relevant."
+}

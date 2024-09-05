@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/uo-dec-op-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "uo-Odec",
+    "mip_table": [
+        "Odec"
+    ],
+    "table_entry": "uo",
+    "out_name": "uo",
+    "questions_and_notes": "cell_methods should include \"where sea\"",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
+        "11:Modify cell methods.  Include 'where sea'."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 5,
+    "frequency": "dec",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "time: mean",
+    "long_name": "Sea Water X Velocity",
+    "comment": "Prognostic x-ward velocity component resolved by the model."
+}

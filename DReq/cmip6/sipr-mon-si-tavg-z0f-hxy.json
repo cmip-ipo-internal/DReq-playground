@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/sipr-mon-si-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sipr-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sipr",
+    "out_name": "sipr",
+    "questions_and_notes": "The description says \"precip. Falling onto sea ice divided by grid-cell area, but I think it would be better to just ask for \"rain falling onto sea ice\"  (divided by sea-ice area), which is also consistent with what was specifed in cell_methods and standard_name.",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 15,
+    "contributing_models": 34,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "long_name": "Rainfall Rate over Sea Ice",
+    "comment": "mass of liquid precipitation falling onto sea ice divided by grid-cell area"
+}

@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/topg-yr-li-tavg-z0i-hxy",
+    "@type": "dr-variable",
+    "standard_name": "bedrock_altitude",
+    "variable_root_name": "topg",
+    "units": "m",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "gis"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "bedrock altitude: time means reported on a 2-d horizontal grid where grounded_ice_sheet",
+    "bn_status": "accepted",
+    "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+    ],
+    "cell_methods": "area: time: mean where ice_sheet",
+    "cell_measures": "area: areacellg",
+    "samplingIntervals": [
+        "yr"
+    ],
+    "regions": [
+        "greenland"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/topg-yr-li-tavg-z0i-hxy"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/co3sataragos-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "co3sataragos-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "co3sataragos",
+    "out_name": "co3sataragos",
+    "questions_and_notes": "need vertical depth scalar coordinate",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 5,
+    "contributing_models": 10,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Mole Concentration of Carbonate Ion in Equilibrium with Pure Aragonite in Sea Water",
+    "comment": "Near surface mole concentration (number of moles per unit volume: molarity) of the carbonate anion (CO3) for sea water in equilibrium with pure Aragonite. Aragonite  (CaCO3) is a mineral that is a polymorph of calcium carbonate."
+}

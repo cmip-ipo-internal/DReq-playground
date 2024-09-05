@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/siitdthick-mon-si-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "siitdthick-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "siitdthick",
+    "out_name": "siitdthick",
+    "questions_and_notes": "For variables siitdconc-SImon, siitdsnconc-SImon, and siitdsnthick-SImon, \"sea ice categories\" appears to mean \"sea ice thickness categories\".  If that is the case, isn't the sea ice thickness in each category already defined, so what is actually supposed to get reported here?  ",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 6,
+    "contributing_models": 11,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude iceband time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siitdconc)",
+    "long_name": "Sea-Ice Thickness in Thickness Categories",
+    "comment": "Actual (floe) thickness of sea ice in each  category (NOT volume divided by grid area),  (vector with one entry for each thickness category starting from the thinnest category, netcdf file should use thickness bounds of categories as third coordinate axis)"
+}

@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/ksat-fx-lnd-ti-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "soil_hydraulic_conductivity_at_saturation",
+    "variable_root_name": "ksat",
+    "units": "micron s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "ti",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "lnd"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "soil hydraulic conductivity at saturation: time-independent field provided on multiple model levels and reported on a 2-d horizontal grid where land",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth",
+        ""
+    ],
+    "cell_methods": "area: mean where land",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "fx"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/ksat-fx-lnd-ti-l-hxy"
+        }
+    }
+}

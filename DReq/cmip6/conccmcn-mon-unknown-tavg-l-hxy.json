@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/conccmcn-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "conccmcn-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "conccmcn",
+    "out_name": "conccmcn",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 6,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Number Concentration Coarse Mode Aerosol",
+    "comment": "includes all particles with diameter larger than 1 micron"
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/dissicnat-mon-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "dissicnat-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "dissicnat",
+    "out_name": "dissicnat",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 5,
+    "contributing_models": 9,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Natural Dissolved Inorganic Carbon Concentration",
+    "comment": "Dissolved inorganic carbon (CO3+HCO3+H2CO3) concentration at preindustrial atmospheric xCO2"
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/hursmax-day-unknown-tstat-h02-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hursmax-day",
+    "mip_table": [
+        "day"
+    ],
+    "table_entry": "hursmax",
+    "out_name": "hursmax",
+    "questions_and_notes": "Note that in general \"area: mean\" will give a lower maximum if data are mapped to a coarser grid than the original.",
+    "specific_issues": [],
+    "contributing_institutions": 25,
+    "contributing_models": 53,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time height2m",
+    "cell_methods": "area: mean time: maximum",
+    "long_name": "Daily Maximum Near-Surface Relative Humidity",
+    "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C."
+}

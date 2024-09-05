@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/cfaddbze94-3hr-unknown-tpt-h40-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cfadDbze94-E3hrPt",
+    "mip_table": [
+        "E3hrPt"
+    ],
+    "table_entry": "cfadDbze94",
+    "out_name": "cfadDbze94",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 4,
+    "contributing_models": 4,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alt40 dbze time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "CloudSat Radar Reflectivity CFAD",
+    "comment": "CFAD (Cloud Frequency Altitude Diagrams) are frequency distributions of radar  reflectivity (or lidar scattering ratio) as a function of altitude. The variable cfadDbze94 is defined as the simulated relative frequency of occurrence of radar reflectivity in sampling volumes defined by altitude bins. The radar is observing at a frequency of 94GHz."
+}

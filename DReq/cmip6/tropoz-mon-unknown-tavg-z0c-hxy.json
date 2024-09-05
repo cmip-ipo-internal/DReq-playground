@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/tropoz-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tropoz-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "tropoz",
+    "out_name": "tropoz",
+    "questions_and_notes": "Isn't this the wrong standard name?  CF defines \"content\" as covering the entire atmos. column, not just the troposphere.",
+    "specific_issues": [
+        "5:Standard name issue."
+    ],
+    "contributing_institutions": 11,
+    "contributing_models": 12,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Tropospheric Ozone Column",
+    "comment": "Tropospheric ozone column, should be consistent with definition of tropopause used to calculate the pressure of the tropopause (ptp). Calculated at 0 degrees C and 1 bar, such that 1m = 1e5 DU."
+}

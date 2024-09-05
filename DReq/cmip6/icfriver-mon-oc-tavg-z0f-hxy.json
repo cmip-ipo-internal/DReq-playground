@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/icfriver-mon-oc-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "icfriver-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "icfriver",
+    "out_name": "icfriver",
+    "questions_and_notes": "ocean_mole_content means the column integrated amount so why does this variable have depth0m?  I think depth0m should be removed because the standard_name already provides this information.",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate."
+    ],
+    "contributing_institutions": 9,
+    "contributing_models": 12,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time depth0m",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Flux of Inorganic Carbon into Ocean Surface by Runoff",
+    "comment": "Inorganic Carbon supply to ocean through runoff (separate from gas exchange)"
+}

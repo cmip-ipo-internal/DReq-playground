@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/reffclic-mon-ap-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "reffclic-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "reffclic",
+    "out_name": "reffclic",
+    "questions_and_notes": "Contributions should be weighted by convective cloud area.",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 4,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Hydrometeor Effective Radius of Convective Cloud Ice",
+    "comment": "This is defined as the in-cloud ratio of the third moment over the second moment of the particle size distribution (obtained by considering only the cloudy portion of the grid cell)."
+}

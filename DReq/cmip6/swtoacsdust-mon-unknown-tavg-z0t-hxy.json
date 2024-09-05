@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/swtoacsdust-mon-unknown-tavg-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "swtoacsdust-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "swtoacsdust",
+    "out_name": "swtoacsdust",
+    "questions_and_notes": "this is for clear-sky only and should have a different standard name.  How about: toa_instantaneous_shortwave_forcing_due_to_dust_assuming_clear_sky",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "6:Modify variable root.",
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 10,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Clear Sky Shortwave Flux Due to Dust at Toa",
+    "comment": "Instantaneous forcing is the radiative flux change caused instantaneously by an imposed change in radiative forcing agent (greenhouse gases, aerosol, solar radiation, etc.)."
+}

@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/sifllwutop-mon-si-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sifllwutop-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sifllwutop",
+    "out_name": "sifllwutop",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 17,
+    "contributing_models": 35,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconca)",
+    "long_name": "Upwelling Longwave Flux over Sea Ice",
+    "comment": "the upwelling longwave flux over sea ice (always negative)"
+}

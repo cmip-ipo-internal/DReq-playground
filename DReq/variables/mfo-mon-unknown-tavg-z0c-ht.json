@@ -1,0 +1,36 @@
+{
+    "@id": "dr:variables/mfo-mon-unknown-tavg-z0c-ht",
+    "@type": "dr-variable",
+    "standard_name": "sea_water_transport_across_line",
+    "variable_root_name": "mfo",
+    "units": "kg s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "ht",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "sea water transport across line: time means characterizing transport across a 'line' (not necessarily coincident with a latitude circle)",
+    "bn_status": "accepted",
+    "dimensions": [
+        "oline",
+        "time"
+    ],
+    "cell_methods": "time: mean",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/mfo-mon-unknown-tavg-z0c-ht"
+        }
+    }
+}

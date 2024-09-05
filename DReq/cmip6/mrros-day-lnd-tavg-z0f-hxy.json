@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/mrros-day-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mrros-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "mrros",
+    "out_name": "mrros",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 10,
+    "contributing_models": 14,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Surface Runoff",
+    "comment": "The total surface run off leaving the land portion of the grid cell (excluding drainage through the base of the soil model)."
+}

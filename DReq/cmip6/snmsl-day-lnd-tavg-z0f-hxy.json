@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/snmsl-day-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "snmsl-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "snmsl",
+    "out_name": "snmsl",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Water Flowing out of Snowpack",
+    "comment": "Mass flow rate of water draining out of the snow pack."
+}

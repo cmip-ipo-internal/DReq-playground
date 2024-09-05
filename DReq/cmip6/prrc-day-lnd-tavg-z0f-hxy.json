@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/prrc-day-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "prrc-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "prrc",
+    "out_name": "prrc",
+    "questions_and_notes": "Is this variable really necessary?  Wouldn't prc-tavg-z0-hxy-x (day-prc) do?",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 2,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Convective Rainfall Rate",
+    "comment": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics."
+}

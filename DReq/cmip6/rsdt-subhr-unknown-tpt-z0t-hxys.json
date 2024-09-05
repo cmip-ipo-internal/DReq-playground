@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rsdt-subhr-unknown-tpt-z0t-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsdt-CFsubhr",
+    "mip_table": [
+        "CFsubhr"
+    ],
+    "table_entry": "rsdt",
+    "out_name": "rsdt",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 7,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "TOA Incident Shortwave Radiation",
+    "comment": "Shortwave radiation incident at the top of the atmosphere"
+}

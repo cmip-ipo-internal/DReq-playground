@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/fnfert-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fNfert-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fNfert",
+    "out_name": "fNfert",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 11,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Total Nitrogen Added for Cropland Fertilisation (Artificial and Manure)",
+    "comment": "Total Nitrogen added for cropland fertilisation (artificial and manure). Relative to total land area of a grid cell, not relative to agricultural area"
+}

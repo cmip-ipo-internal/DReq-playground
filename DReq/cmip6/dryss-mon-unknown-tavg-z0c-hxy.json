@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/dryss-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "dryss-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "dryss",
+    "out_name": "dryss",
+    "questions_and_notes": "I would think that dry deposition would be restricted to a transfer to the surface from the air immediately above it.  If so, why not define standard names of the form \"surface_mass_flux_of_<species>_due_to_dry_depostion\", which I think would be easier to interpret by most users?",
+    "specific_issues": [
+        "5:Standard name issue."
+    ],
+    "contributing_institutions": 15,
+    "contributing_models": 24,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Dry Deposition Rate of Sea-Salt Aerosol",
+    "comment": "Dry deposition includes gravitational settling and turbulent deposition."
+}

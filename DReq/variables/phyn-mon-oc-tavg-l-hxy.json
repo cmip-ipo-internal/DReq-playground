@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/phyn-mon-oc-tavg-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "mole_concentration_of_phytoplankton_expressed_as_nitrogen_in_sea_water",
+    "variable_root_name": "phyn",
+    "units": "mol m-3",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "mole concentration of phytoplankton expressed as nitrogen in sea water: time means provided on multiple model levels and reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": "area: areacello volume: volcello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/phyn-mon-oc-tavg-l-hxy"
+        }
+    }
+}

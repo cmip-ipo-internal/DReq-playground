@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/hfdsl-day-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hfdsl-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "hfdsl",
+    "out_name": "hfdsl",
+    "questions_and_notes": "This variable is just the sum of  rls, rss, hfls, and hfss.  Could be eliminated if those are requested individually.",
+    "specific_issues": [
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 4,
+    "contributing_models": 6,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Downward Heat Flux at Land Surface",
+    "comment": "The surface called \"surface\" means the lower boundary of the atmosphere. \"Downward\" indicates a vector component which is positive when directed downward (negative upward). The vertical heat flux in air is the sum of all heat fluxes i.e. radiative, latent and sensible. In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics."
+}

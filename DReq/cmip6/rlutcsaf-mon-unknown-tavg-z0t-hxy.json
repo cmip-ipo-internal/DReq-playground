@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rlutcsaf-mon-unknown-tavg-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rlutcsaf-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "rlutcsaf",
+    "out_name": "rlutcsaf",
+    "questions_and_notes": "Should have a different standard name: propose toa_outgoing_longwave_flux_assuming_clear_sky_and_no_aerosol.  Need to check whether there is duplication between this variable and lwtoacsaer-Emon.",
+    "specific_issues": [
+        "5:Standard name issue."
+    ],
+    "contributing_institutions": 12,
+    "contributing_models": 17,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "TOA Outgoing Clear-Sky, Aerosol-Free Longwave Radiation",
+    "comment": "Flux corresponding to rlutcs resulting from aerosol-free call to radiation, following Ghan (ACP, 2013)"
+}

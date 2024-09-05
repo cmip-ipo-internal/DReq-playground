@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/sncis-mon-li-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "surface_snow_area_fraction",
+    "variable_root_name": "snc",
+    "units": "%",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "is"
+    },
+    "definition_qualifier": " of ice-sheet portion of cell",
+    "brand_description": "surface snow area fraction of ice-sheet portion of cell: time means reported on a 2-d horizontal grid where ice_sheet",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean where ice_sheet",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/sncis-mon-li-tavg-z0c-hxy"
+        }
+    }
+}

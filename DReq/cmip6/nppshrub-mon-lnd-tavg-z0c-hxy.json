@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/nppshrub-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "nppShrub-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "nppShrub",
+    "out_name": "nppShrub",
+    "questions_and_notes": "eliminate by including in nppLut?  ",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 8,
+    "contributing_models": 9,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where shrubs (comment: mask=shrubFrac)",
+    "long_name": "Net Primary Production on Shrub Tiles as Carbon Mass Flux [kgC m-2 s-1]",
+    "comment": "Total NPP of shrubs in the grid cell"
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/od550csaer-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "od550csaer-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "od550csaer",
+    "out_name": "od550csaer",
+    "questions_and_notes": "How does this differ from od550aer-AERmon?  If the one above  is \"all-sky\" and this is clear sky only, then this variable needs a new standard name.",
+    "specific_issues": [
+        "5:Standard name issue."
+    ],
+    "contributing_institutions": 6,
+    "contributing_models": 11,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time lambda550nm",
+    "cell_methods": "area: time: mean",
+    "long_name": "Ambient Aerosol Optical Thickness at 550nm",
+    "comment": "AOD from the ambient aerosols in clear skies if od550aer is for all-sky (i.e., includes aerosol water).  Does not include AOD from stratospheric aerosols if these are prescribed but includes other possible background aerosol types. Needs a comment attribute \"wavelength: 550nm\""
+}

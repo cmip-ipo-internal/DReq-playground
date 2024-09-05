@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/sidmasslat-mon-si-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sidmasslat-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sidmasslat",
+    "out_name": "sidmasslat",
+    "questions_and_notes": "In cell_methods replace \"where sea\" with  \"where sea_ice\" because this is used for sea-ice budgets.",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 12,
+    "contributing_models": 27,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Lateral Sea Ice Melt Rate",
+    "comment": "The rate of change of sea ice mass through lateral melting divided by grid-cell area (report 0 if not explicitly calculated thermodynamically)"
+}

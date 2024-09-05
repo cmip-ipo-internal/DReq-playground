@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/reffcclwtop-day-ap-tavg-z0-hxy",
+    "@type": "dr-variable",
+    "standard_name": "effective_radius_of_convective_cloud_liquid_water_particles_at_convective_liquid_water_cloud_top",
+    "variable_root_name": "reffcclwtop",
+    "units": "m",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "ccl"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "effective radius of convective cloud liquid water particles at convective liquid water cloud top: time means reported on a 2-d horizontal grid where convective_cloud (weighted by area of convective cloud in the upper-most layer of convective liquid water cloud)",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/reffcclwtop-day-ap-tavg-z0-hxy"
+        }
+    }
+}

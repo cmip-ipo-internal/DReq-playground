@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/diftrbbo-mon-oc-tcla-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "diftrbbo-Oclim",
+    "mip_table": [
+        "Oclim"
+    ],
+    "table_entry": "diftrbbo2d",
+    "out_name": "diftrbbo",
+    "questions_and_notes": "cell_methods should include \"where sea\"",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
+        "11:Modify cell methods.  Include 'where sea'."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "monC",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time2",
+    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "long_name": "Ocean Tracer Bolus Biharmonic Diffusivity",
+    "comment": "Parameterized mesoscale eddy advection occurs on a spatial scale of many tens of kilometres and an evolutionary time of weeks(sometimes called bolus advection). Reference: James C. McWilliams 2016, Submesoscale currents in the ocean, Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences, volume 472, issue 2189. DOI: 10.1098/rspa.2016.0117. "
+}

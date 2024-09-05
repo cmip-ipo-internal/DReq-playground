@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rsutcs-day-unknown-tavg-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsutcs-CFday",
+    "mip_table": [
+        "CFday"
+    ],
+    "table_entry": "rsutcs",
+    "out_name": "rsutcs",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 19,
+    "contributing_models": 42,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "TOA Outgoing Clear-Sky Shortwave Radiation",
+    "comment": "Calculated in the absence of clouds."
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/hfbasinpadv-mon-unknown-tavg-z0c-hys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hfbasinpadv-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "hfbasinpadv",
+    "out_name": "hfbasinpadv",
+    "questions_and_notes": "cell_methods should include \"where sea\"",
+    "specific_issues": [
+        "11:Modify cell methods.  Include 'where sea'."
+    ],
+    "contributing_institutions": 11,
+    "contributing_models": 17,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "latitude basin time",
+    "cell_methods": "longitude: sum (comment: basin sum [along zig-zag grid path]) depth: sum time: mean",
+    "long_name": "Northward Ocean Heat Transport Due to Parameterized Eddy Advection",
+    "comment": "Contributions to heat transport from parameterized eddy-induced advective transport due to any subgrid advective process. Diagnosed here as a function of latitude and basin.  Use Celsius for temperature scale."
+}

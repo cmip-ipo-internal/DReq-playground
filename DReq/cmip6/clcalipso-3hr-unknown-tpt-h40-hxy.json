@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/clcalipso-3hr-unknown-tpt-h40-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "clcalipso-E3hrPt",
+    "mip_table": [
+        "E3hrPt"
+    ],
+    "table_entry": "clcalipso",
+    "out_name": "clcalipso",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 6,
+    "contributing_models": 5,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alt40 time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "CALIPSO Percentage Cloud Cover",
+    "comment": "Percentage cloud cover in CALIPSO standard atmospheric layers."
+}

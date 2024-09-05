@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/bldep-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "bldep-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "bldep",
+    "out_name": "bldep",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 15,
+    "contributing_models": 31,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Boundary Layer Depth",
+    "comment": "Boundary layer depth"
+}

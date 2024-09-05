@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/mmrno3-mon-unknown-tavg-x??-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mmrno3-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "mmrno3",
+    "out_name": "mmrno3",
+    "questions_and_notes": "Is this a column mean or a surface value?  Might need a scalar  vertical coordinate.   Is it identical to mmrno3-AERmon?",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 1,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "NO3 Aerosol Mass Mixing Ratio",
+    "comment": "Dry mass fraction of nitrate aerosol particles in air."
+}

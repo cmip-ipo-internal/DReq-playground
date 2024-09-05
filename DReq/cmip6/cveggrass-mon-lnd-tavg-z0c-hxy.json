@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/cveggrass-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cVegGrass-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "cVegGrass",
+    "out_name": "cVegGrass",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 11,
+    "contributing_models": 4,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where natural_grasses (comment: mask=grassFrac)",
+    "long_name": "Carbon Mass in Vegetation on Grass Tiles",
+    "comment": "\"Content\" indicates a quantity per unit area. \"Vegetation\" means any plants e.g. trees, shrubs, grass. Plants are autotrophs i.e. \"producers\" of biomass using carbon obtained from carbon dioxide."
+}

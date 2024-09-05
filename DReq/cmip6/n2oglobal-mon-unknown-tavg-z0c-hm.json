@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/n2oglobal-mon-unknown-tavg-z0c-hm",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "n2oglobal-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "n2oglobal",
+    "out_name": "n2oglobal",
+    "questions_and_notes": "remove \"global\" from variable root because \"global\" is specified external to the list of variables.",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 11,
+    "contributing_models": 24,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos atmosChem"
+    ],
+    "dimensions": " time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Global Mean Mole Fraction of N2O",
+    "comment": "Global mean Nitrous Oxide (N2O)"
+}

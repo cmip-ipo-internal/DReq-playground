@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/phyfeos-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "phyfeos-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "phyfeos",
+    "out_name": "phyfeos",
+    "questions_and_notes": "need vertical depth scalar coordinate",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 7,
+    "contributing_models": 14,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Mole Concentration of Total Phytoplankton Expressed as Iron in Sea Water",
+    "comment": "sum of phytoplankton iron component concentrations"
+}

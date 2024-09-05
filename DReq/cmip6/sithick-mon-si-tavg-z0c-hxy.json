@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/sithick-mon-si-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sithick-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sithick",
+    "out_name": "sithick",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 29,
+    "contributing_models": 78,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "long_name": "Sea Ice Thickness",
+    "comment": "Actual (floe) thickness of sea ice (NOT volume divided by grid area as was done in CMIP5)"
+}

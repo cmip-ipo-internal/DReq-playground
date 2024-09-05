@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/mlotstmin-mon-op-tstat-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "ocean_mixed_layer_thickness_defined_by_sigma_t",
+    "variable_root_name": "mlotstmin",
+    "units": "m",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tstat",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "ocean mixed layer thickness defined by sigma t: minimum reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean time: minimum",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/mlotstmin-mon-op-tstat-z0c-hxy"
+        }
+    }
+}

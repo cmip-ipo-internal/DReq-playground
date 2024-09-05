@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/wap500-day-unknown-tavg-p0500-hxy",
+    "@type": "dr-variable",
+    "standard_name": "lagrangian_tendency_of_air_pressure",
+    "variable_root_name": "wap",
+    "units": "Pa s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "p0500",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "lagrangian tendency of air pressure: time means at 500 hPa reported on a 2-d horizontal grid where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p500"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/wap500-day-unknown-tavg-p0500-hxy"
+        }
+    }
+}

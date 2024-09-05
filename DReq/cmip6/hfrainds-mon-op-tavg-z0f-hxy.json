@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/hfrainds-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hfrainds-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "hfrainds",
+    "out_name": "hfrainds",
+    "questions_and_notes": "Correct cell_methods to indicate time mean also is only for ice_free_sea",
+    "specific_issues": [],
+    "contributing_institutions": 11,
+    "contributing_models": 22,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where ice_free_sea over sea time: mean",
+    "long_name": "Temperature Flux Due to Rainfall Expressed as Heat Flux into Sea Water",
+    "comment": "This is defined as \"where ice_free_sea over sea\"; i.e., the total flux (considered here) entering the ice-free portion of the grid cell divided by the area of the ocean portion of the grid cell.  All such heat fluxes are computed based on Celsius scale."
+}

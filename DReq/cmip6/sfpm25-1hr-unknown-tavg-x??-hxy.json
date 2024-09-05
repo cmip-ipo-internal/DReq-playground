@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/sfpm25-1hr-unknown-tavg-x??-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sfpm25-Aerhr",
+    "mip_table": [
+        "Aerhr"
+    ],
+    "table_entry": "sfpm25",
+    "out_name": "sfpm25",
+    "questions_and_notes": "Is this a column mean or a surface value?  Might need a scalar  vertical coordinate.",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 4,
+    "frequency": "1hr",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "PM2.5 Mass Mixing Ratio in Lowest Model Layer",
+    "comment": "Mass fraction of atmospheric particulate compounds with an aerodynamic diameter of less than or equal to 2.5 micrometers. To specify the relative humidity and temperature at which the particle size applies, provide scalar coordinate variables with the standard names of \"relative_humidity\" and \"air_temperature\"."
+}

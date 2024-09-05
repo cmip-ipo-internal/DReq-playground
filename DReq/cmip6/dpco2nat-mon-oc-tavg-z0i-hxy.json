@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/dpco2nat-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "dpco2nat-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "dpco2nat",
+    "out_name": "dpco2nat",
+    "questions_and_notes": "I think depth0m should be removed because the standard_name already provides this information.",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 6,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time depth0m",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Natural Delta CO2 Partial Pressure ",
+    "comment": "Difference in partial pressure of natural-analogue carbon dioxide between sea water and air.  The partial pressure of a dissolved gas in sea water is the partial pressure in air with which it would be in equilibrium.  A natural analogue is used to simulate the effect on a modelled variable of imposing preindustrial atmospheric carbon dioxide concentrations, even when the model as a whole may be subjected to varying forcings. "
+}

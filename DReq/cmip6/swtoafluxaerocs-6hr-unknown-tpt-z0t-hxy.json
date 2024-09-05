@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/swtoafluxaerocs-6hr-unknown-tpt-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "swtoafluxaerocs-6hrPlevPt",
+    "mip_table": [
+        "6hrPlevPt"
+    ],
+    "table_entry": "swtoafluxaerocs",
+    "out_name": "swtoafluxaerocs",
+    "questions_and_notes": "It is not clear whether this is the *difference* in radiation when the volcanic aerosols are removed or are added or whether it is the actual result of the second radiation call, but with aerosols removed (or added?). This should have a standard name like the ones proposed for rsut4co2-CFmon, rlutaf-AERmon, and rsutcs4co2-CFmon. Consider using the term \"forcing\" as in some variables above.  Also not clear why 6-hour sampling is appropriate here (does not resolve the diurnal cycle; why not daily?)  And why isn't all-sky SW flux requested (also or instead)?",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 3,
+    "frequency": "6hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "TOA Outgoing Clear-Sky Shortwave Flux Due to Volcanic Aerosols",
+    "comment": "Downwelling shortwave flux due to volcanic aerosols at TOA under clear sky to be diagnosed through double radiation call"
+}

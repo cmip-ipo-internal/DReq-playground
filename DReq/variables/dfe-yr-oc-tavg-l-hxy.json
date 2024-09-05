@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/dfe-yr-oc-tavg-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "mole_concentration_of_dissolved_iron_in_sea_water",
+    "variable_root_name": "dfe",
+    "units": "mol m-3",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "mole concentration of dissolved iron in sea water: time means provided on multiple model levels and reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": "area: areacello volume: volcello",
+    "samplingIntervals": [
+        "yr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/dfe-yr-oc-tavg-l-hxy"
+        }
+    }
+}

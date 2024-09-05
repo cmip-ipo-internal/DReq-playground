@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/sw17o-mon-op-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sw17O-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "sw17O",
+    "out_name": "sw17O",
+    "questions_and_notes": "pr17O, prsn17O, sw17O, prw17O should probably all be evaluated consistently (all \"where sea\" or all for the entire grid cell).  And they should be consistent with the 18O variables",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Isotopic Ratio of Oxygen-17 in Sea Water",
+    "comment": "Ratio of abundance of oxygen-17 (17O) atoms to oxygen-16 (16O) atoms in sea water"
+}

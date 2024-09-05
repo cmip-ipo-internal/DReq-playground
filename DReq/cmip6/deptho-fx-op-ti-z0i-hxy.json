@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/deptho-fx-op-ti-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "deptho-Ofx",
+    "mip_table": [
+        "Ofx"
+    ],
+    "table_entry": "deptho",
+    "out_name": "deptho",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 28,
+    "contributing_models": 66,
+    "frequency": "fx",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude ",
+    "cell_methods": "area: mean where sea",
+    "long_name": "Sea Floor Depth Below Geoid",
+    "comment": "Ocean bathymetry.   Reported here is the sea floor depth for present day relative to z=0 geoid. Reported as missing for land grid cells."
+}

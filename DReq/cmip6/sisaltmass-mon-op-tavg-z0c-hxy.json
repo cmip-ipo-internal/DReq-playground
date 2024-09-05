@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/sisaltmass-mon-op-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sisaltmass-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sisaltmass",
+    "out_name": "sisaltmass",
+    "questions_and_notes": "description should say \"divided by area of sea in the grid cell\".  Or wouldn't sea ice folks prefer \"where sea_ice\" instead?",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 10,
+    "contributing_models": 20,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Mass of Salt in Sea Ice per Area",
+    "comment": "Total mass of all salt in sea ice divided by grid-cell area"
+}

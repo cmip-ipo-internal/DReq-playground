@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/epfz-day-unknown-tavg-p39-hy",
+    "@type": "dr-variable",
+    "standard_name": "upward_eliassen_palm_flux_in_air",
+    "variable_root_name": "epfz",
+    "units": "m3 s-2",
+    "type": "real",
+    "positive": "up",
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "p39",
+        "horizontalLabelDD": "hy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "upward eliassen palm flux in air: time means requested on 39 pressure levels and reported as a function of latitude where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "cell_methods": "longitude: mean time: mean",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/epfz-day-unknown-tavg-p39-hy"
+        }
+    }
+}

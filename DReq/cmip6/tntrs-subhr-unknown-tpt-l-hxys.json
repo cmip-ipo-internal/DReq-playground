@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/tntrs-subhr-unknown-tpt-l-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tntrs-Esubhr",
+    "mip_table": [
+        "Esubhr"
+    ],
+    "table_entry": "tntrs",
+    "out_name": "tntrs",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 2,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "alevel site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "Tendency of Air Temperature Due to Shortwave Radiative Heating",
+    "comment": "Tendency of air temperature due to shortwave radiative heating"
+}

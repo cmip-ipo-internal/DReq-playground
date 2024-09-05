@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/zo2min-mon-oc-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "zo2min-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "zo2min",
+    "out_name": "zo2min",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 10,
+    "contributing_models": 16,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Depth of Oxygen Minimum Concentration",
+    "comment": "Depth of vertical minimum concentration of dissolved oxygen gas (if two, then the shallower)"
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/tasmin-day-unknown-tstat-h02-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tasmin-day",
+    "mip_table": [
+        "day"
+    ],
+    "table_entry": "tasmin",
+    "out_name": "tasmin",
+    "questions_and_notes": "Note that in general \"area: mean\" will give a higher minimum if data are mapped to a coarser grid than the original.  Consider computing time-mean first, but operationally that might be difficult.",
+    "specific_issues": [],
+    "contributing_institutions": 34,
+    "contributing_models": 82,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time height2m",
+    "cell_methods": "area: mean time: minimum",
+    "long_name": "Daily Minimum Near-Surface Air Temperature",
+    "comment": "minimum near-surface (usually, 2 meter) air temperature (add cell_method attribute \"time: min\")"
+}

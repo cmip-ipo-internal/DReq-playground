@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/vqint-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "vqint-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "vqint",
+    "out_name": "vqint",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 5,
+    "contributing_models": 17,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Northward Humidity Transport",
+    "comment": "Column integrated northward wind times specific humidity"
+}

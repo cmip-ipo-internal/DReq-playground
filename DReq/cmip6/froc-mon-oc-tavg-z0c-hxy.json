@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/froc-mon-oc-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "froc-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "froc",
+    "out_name": "froc",
+    "questions_and_notes": "I would think that sedimentation would be restricted to a transfer to the ocean floor from the water immediately above it.  If so, why not define standard names of the form \"mole_flux_of_<species>_into_seabed_due_to_sedimentation\", which I think would be easier to interpret by most users?",
+    "specific_issues": [
+        "5:Standard name issue."
+    ],
+    "contributing_institutions": 11,
+    "contributing_models": 16,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Downward Organic Carbon Flux at Ocean Bottom",
+    "comment": "Organic Carbon loss to sediments"
+}

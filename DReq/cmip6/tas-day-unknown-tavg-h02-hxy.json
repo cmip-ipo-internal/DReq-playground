@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/tas-day-unknown-tavg-h02-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tas-day",
+    "mip_table": [
+        "day"
+    ],
+    "table_entry": "tas",
+    "out_name": "tas",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 34,
+    "contributing_models": 85,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time height2m",
+    "cell_methods": "area: time: mean",
+    "long_name": "Near-Surface Air Temperature",
+    "comment": "near-surface (usually, 2 meter) air temperature"
+}

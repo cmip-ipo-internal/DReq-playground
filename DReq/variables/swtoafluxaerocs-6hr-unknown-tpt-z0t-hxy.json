@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/swtoafluxaerocs-6hr-unknown-tpt-z0t-hxy",
+    "@type": "dr-variable",
+    "standard_name": "toa_outgoing_shortwave_flux_due_to_volcanic_ambient_aerosol_particles_assuming_clear_sky",
+    "variable_root_name": "swtoafluxaerocs",
+    "units": "W m-2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "toa outgoing shortwave flux due to volcanic ambient aerosol particles assuming clear sky: synoptic samples reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "cell_methods": "area: mean time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "6hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/swtoafluxaerocs-6hr-unknown-tpt-z0t-hxy"
+        }
+    }
+}

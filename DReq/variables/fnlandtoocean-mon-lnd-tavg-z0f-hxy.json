@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/fnlandtoocean-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable",
+    "standard_name": "mass_flux_of_nitrogen_compounds_expressed_as_nitrogen_into_sea_from_rivers",
+    "variable_root_name": "fNLandToOcean",
+    "units": "kg m-2 s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "lnd"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "mass flux of nitrogen compounds expressed as nitrogen into sea from rivers: time means reported on a 2-d horizontal grid where land",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where land time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/fnlandtoocean-mon-lnd-tavg-z0f-hxy"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rsdscs-day-unknown-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsdscs-CFday",
+    "mip_table": [
+        "CFday"
+    ],
+    "table_entry": "rsdscs",
+    "out_name": "rsdscs",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 21,
+    "contributing_models": 43,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Surface Downwelling Clear-Sky Shortwave Radiation",
+    "comment": "Surface solar irradiance clear sky for UV calculations"
+}

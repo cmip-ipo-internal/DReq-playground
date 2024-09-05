@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/huss-3hr-unknown-tpt-h02-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "huss-3hr",
+    "mip_table": [
+        "3hr"
+    ],
+    "table_entry": "huss",
+    "out_name": "huss",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 25,
+    "contributing_models": 48,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time1 height2m",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Near-Surface Specific Humidity",
+    "comment": "Near-surface (usually, 2 meter) specific humidity."
+}

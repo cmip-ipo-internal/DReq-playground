@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/concnmcn-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "concnmcn-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "concnmcn",
+    "out_name": "concnmcn",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 1,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Number Concentration of Nucleation Mode Aerosol",
+    "comment": "includes all particles with diameter smaller than 3 nm"
+}

@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/od550oa-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "atmosphere_optical_thickness_due_to_particulate_organic_matter_ambient_aerosol_particles",
+    "variable_root_name": "od550oa",
+    "units": 1.0,
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": " at 550 nm (anthropogenic contribution only)",
+    "brand_description": "atmosphere optical thickness due to particulate organic matter ambient aerosol particles at 550 nm (anthropogenic contribution only): time means reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "lambda550nm"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/od550oa-mon-unknown-tavg-z0c-hxy"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/sbl-mon-unknown-tavg-z0f??-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sbl-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "sbl",
+    "out_name": "sbl",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 14,
+    "contributing_models": 37,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "landIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Surface Snow and Ice Sublimation Flux",
+    "comment": "The snow and ice sublimation flux is the loss of snow and ice mass per unit area from the surface resulting from their direct conversion to water vapor that enters the atmosphere."
+}

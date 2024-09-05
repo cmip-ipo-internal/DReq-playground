@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rtmt-mon-unknown-tavg-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rtmt-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "rtmt",
+    "out_name": "rtmt",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 26,
+    "contributing_models": 68,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Net Downward Radiative Flux at Top of Model",
+    "comment": "Net Downward Radiative Flux at Top of Model : I.e., at the top of that portion of the atmosphere where dynamics are explicitly treated by the model. This is reported only if it differs from the net downward radiative flux at the top of the atmosphere."
+}

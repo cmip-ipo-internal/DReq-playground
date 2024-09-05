@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/nveg-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "nVeg-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "nVeg",
+    "out_name": "nVeg",
+    "questions_and_notes": "for consistency with other, similar variables, specify \"where vegetation\"",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 13,
+    "contributing_models": 19,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Nitrogen Mass in Vegetation",
+    "comment": "Report missing data over ocean grid cells. For fractional land report value averaged over the land fraction."
+}

@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/fahlut-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fahLut-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fahLut",
+    "out_name": "fahLut",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 4,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude landUse time",
+    "cell_methods": "area: time: mean where sector",
+    "long_name": "Anthropogenic Heat Flux Generated from non-Renewable Human Primary Energy Consumption",
+    "comment": "Anthropogenic heat flux generated from non-renewable human primary energy consumption, including energy use by vehicles, commercial and residential buildings, industry, and power plants.  Primary energy refers to energy in natural resources, fossil and nonfossil, before conversion into other forms, such as electricity."
+}

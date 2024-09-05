@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/ua-6hr-unknown-tpt-p3-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ua-6hrPlevPt",
+    "mip_table": [
+        "6hrPlevPt"
+    ],
+    "table_entry": "ua",
+    "out_name": "ua",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 27,
+    "contributing_models": 59,
+    "frequency": "6hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude plev3 time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Eastward Wind",
+    "comment": "Zonal wind (positive in a eastward direction)."
+}

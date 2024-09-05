@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/huss-6hr-unknown-tpt-h02-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "huss-6hrPlevPt",
+    "mip_table": [
+        "6hrPlevPt"
+    ],
+    "table_entry": "huss",
+    "out_name": "huss",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 10,
+    "contributing_models": 13,
+    "frequency": "6hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time1 height2m",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Near-Surface Specific Humidity",
+    "comment": "Near-surface (usually, 2 meter) specific humidity."
+}

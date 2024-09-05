@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/mrrois-mon-li-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mrroIs-LImon",
+    "mip_table": [
+        "LImon"
+    ],
+    "table_entry": "mrroIs",
+    "out_name": "mrroIs",
+    "questions_and_notes": "Shouldn't standard name be land_ice_runoff_flux?",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "6:Modify variable root.",
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 9,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "landIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where ice_sheet",
+    "long_name": "Ice Sheet Total Runoff",
+    "comment": "The total run-off (including drainage through the base of the soil model) per unit area leaving the land portion of the grid cell."
+}

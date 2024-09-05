@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/prveg-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "prveg-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "prveg",
+    "out_name": "prveg",
+    "questions_and_notes": "consider replacing \"where land\" with \"where vegetation\" so that when regridding we get a more accurate report of precipitation onto the canopy.  (I presume canopy is found only where vegetation.)  Should this be \"where vegetation over land\"?",
+    "specific_issues": [],
+    "contributing_institutions": 16,
+    "contributing_models": 46,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Precipitation onto Canopy",
+    "comment": "The precipitation flux that is intercepted by the vegetation canopy (if present in model) before reaching the ground."
+}

@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/siflswdtop-mon-si-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "siflswdtop-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "siflswdtop",
+    "out_name": "siflswdtop",
+    "questions_and_notes": "The variable name should be \"rsds\", for consistency with other fluxes.  ",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 19,
+    "contributing_models": 43,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconca)",
+    "long_name": "Downwelling Shortwave Flux over Sea Ice",
+    "comment": "The downwelling shortwave flux over sea ice (always positive by sign convention)"
+}

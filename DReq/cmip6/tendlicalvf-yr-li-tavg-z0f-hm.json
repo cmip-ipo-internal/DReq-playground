@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/tendlicalvf-yr-li-tavg-z0f-hm",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tendlicalvf-IyrGre",
+    "mip_table": [
+        "IyrGre"
+    ],
+    "table_entry": "tendlicalvf",
+    "out_name": "tendlicalvf",
+    "questions_and_notes": "eliminate.  duplicates \"Ant\" entry.",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "yr",
+    "region": "greenland",
+    "modeling_realm": [
+        "landIce"
+    ],
+    "dimensions": " time",
+    "cell_methods": "area: sum where ice_sheet time: mean",
+    "long_name": "Total Calving Flux",
+    "comment": "The total calving flux over land ice is a spatial integration of the calving flux"
+}

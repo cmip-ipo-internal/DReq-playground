@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/vegheighttree-mon-lnd-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "vegHeightTree-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "vegHeightTree",
+    "out_name": "vegHeightTree",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 5,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where trees (comment: mask=treeFrac)",
+    "long_name": "Height of Trees",
+    "comment": "Vegetation height averaged over the tree fraction of a grid cell."
+}

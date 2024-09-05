@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/mrsll-mon-lnd-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mrsll-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "mrsll",
+    "out_name": "mrsll",
+    "questions_and_notes": "check that only 2 of following 3 water contents are requested: frozen, liquid, frozen+liquid.  root modified to be consistent with mrsol-Emon and mrlso-Emon.   Also see https://github.com/WCRP-CORDEX/cordex-cmip6-data-request/issues/2 .",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 15,
+    "contributing_models": 10,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude sdepth time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Liquid Water Content of Soil Layer",
+    "comment": "in each soil layer, the mass of water in liquid phase.  Reported as \"missing\" for grid cells occupied entirely by \"sea\""
+}

@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/bldep-subhr-unknown-tpt-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "bldep-Esubhr",
+    "mip_table": [
+        "Esubhr"
+    ],
+    "table_entry": "bldep",
+    "out_name": "bldep",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Boundary Layer Depth",
+    "comment": "Boundary layer depth"
+}

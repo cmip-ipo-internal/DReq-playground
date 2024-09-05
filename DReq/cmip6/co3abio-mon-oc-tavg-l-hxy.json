@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/co3abio-mon-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "co3abio-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "co3abio",
+    "out_name": "co3abio",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Abiotic Carbonate Ion Concentration",
+    "comment": "Mole concentration (number of moles per unit volume: molarity) of the abiotic-analogue carbonate anion (CO3). An abiotic analogue is used to simulate the effect on a modelled variable when biological effects on ocean carbon concentration and alkalinity are ignored. "
+}

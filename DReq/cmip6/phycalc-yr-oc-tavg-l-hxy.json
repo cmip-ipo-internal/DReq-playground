@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/phycalc-yr-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "phycalc-Oyr",
+    "mip_table": [
+        "Oyr"
+    ],
+    "table_entry": "phycalc",
+    "out_name": "phycalc",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Mole Concentration of Calcareous Phytoplankton Expressed as Carbon in Sea Water",
+    "comment": "carbon concentration from calcareous (calcite-producing) phytoplankton component alone"
+}

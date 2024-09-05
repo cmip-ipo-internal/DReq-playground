@@ -1,0 +1,36 @@
+{
+    "@id": "dr:variables/iareagr-yr-unknown-tavg-z0c-hm",
+    "@type": "dr-variable",
+    "standard_name": "grounded_ice_sheet_area",
+    "variable_root_name": "iareagr",
+    "units": "m2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hm",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": " (area-total over region)",
+    "brand_description": "grounded ice sheet area (area-total over region): time means",
+    "bn_status": "accepted",
+    "dimensions": [
+        "",
+        "time"
+    ],
+    "cell_methods": "area: time: mean where grounded_ice_sheet (comment: mask=sfgrlf)",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "yr"
+    ],
+    "regions": [
+        "greenland"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/iareagr-yr-unknown-tavg-z0c-hm"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/phyc-mon-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "phyc-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "phyc",
+    "out_name": "phyc",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 17,
+    "contributing_models": 27,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Phytoplankton Carbon Concentration",
+    "comment": "sum of phytoplankton carbon component concentrations.  In most (all?) cases this is the sum of phycdiat and phycmisc (i.e., \"Diatom Carbon Concentration\" and \"Non-Diatom Phytoplankton Carbon Concentration\""
+}

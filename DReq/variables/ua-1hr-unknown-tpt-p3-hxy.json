@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/ua-1hr-unknown-tpt-p3-hxy",
+    "@type": "dr-variable",
+    "standard_name": "eastward_wind",
+    "variable_root_name": "ua",
+    "units": "m s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "p3",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "eastward wind: synoptic samples requested on 3 pressure levels and reported on a 2-d horizontal grid where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev3",
+        "time1"
+    ],
+    "cell_methods": "area: mean time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "1hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/ua-1hr-unknown-tpt-p3-hxy"
+        }
+    }
+}

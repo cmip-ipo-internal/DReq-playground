@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/clws-3hr-unknown-tpt-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "mass_fraction_of_stratiform_cloud_liquid_water_in_air",
+    "variable_root_name": "clws",
+    "units": 1.0,
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "mass fraction of stratiform cloud liquid water in air: synoptic samples provided on multiple model levels and reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time1"
+    ],
+    "cell_methods": "area: mean time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "3hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/clws-3hr-unknown-tpt-l-hxy"
+        }
+    }
+}

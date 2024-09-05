@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/ta-6hr-unknown-tpt-p27-hxy",
+    "@type": "dr-variable",
+    "standard_name": "air_temperature",
+    "variable_root_name": "ta",
+    "units": "K",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "p27",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "air temperature: synoptic samples requested on 27 pressure levels and reported on a 2-d horizontal grid where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev27",
+        "time1"
+    ],
+    "cell_methods": "area: mean time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "6hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/ta-6hr-unknown-tpt-p27-hxy"
+        }
+    }
+}

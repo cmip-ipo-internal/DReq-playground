@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/rsutcs4co2-mon-unknown-tavg-z0t-hxy",
+    "@type": "dr-variable",
+    "standard_name": "toa_outgoing_shortwave_flux_assuming_clear_sky",
+    "variable_root_name": "rsutcs4co2",
+    "units": "W m-2",
+    "type": "real",
+    "positive": "up",
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": " with CO2 quadrupled",
+    "brand_description": "toa outgoing shortwave flux assuming clear sky with CO2 quadrupled: time means reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/rsutcs4co2-mon-unknown-tavg-z0t-hxy"
+        }
+    }
+}

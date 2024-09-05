@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/qgwr-day-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "qgwr-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "qgwr",
+    "out_name": "qgwr",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 5,
+    "contributing_models": 7,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Groundwater Recharge from Soil Layer",
+    "comment": "Mass flux of water from the soil layer into ground water."
+}

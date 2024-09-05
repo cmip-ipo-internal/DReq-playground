@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/reffclwtop-mon-ap-tavg-z0-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "reffclwtop-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "reffclwtop",
+    "out_name": "reffclwtop",
+    "questions_and_notes": "Contributions should probably be weighted as indicated now in cell_methods.",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 13,
+    "contributing_models": 31,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Cloud-Top Effective Droplet Radius",
+    "comment": "Droplets are liquid only.  This is the effective radius as seen from space over liquid cloudy portion of grid cell. This is the value from uppermost model layer with liquid cloud or, if available, or for some models it is the sum over all liquid cloud tops, no matter where they occur, as long as they are seen from the top of the atmosphere (TOA) each time sample when computing monthly mean. Reported values are weighted by total liquid cloud top fraction of  (as seen from TOA) each time sample when computing monthly mean."
+}

@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/utendnogw-mon-unknown-tavg-p19-hxy",
+    "@type": "dr-variable",
+    "standard_name": "tendency_of_eastward_wind_due_to_nonorographic_gravity_wave_drag",
+    "variable_root_name": "utendnogw",
+    "units": "m s-2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "p19",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "tendency of eastward wind due to nonorographic gravity wave drag: time means requested on 19 pressure levels and reported on a 2-d horizontal grid where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev19",
+        "time"
+    ],
+    "cell_methods": "time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/utendnogw-mon-unknown-tavg-p19-hxy"
+        }
+    }
+}

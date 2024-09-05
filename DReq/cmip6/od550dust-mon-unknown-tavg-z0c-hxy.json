@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/od550dust-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "od550dust-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "od550dust",
+    "out_name": "od550dust",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 18,
+    "contributing_models": 39,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time lambda550nm",
+    "cell_methods": "area: time: mean",
+    "long_name": "Dust Optical Thickness at 550nm",
+    "comment": "Total aerosol AOD due to dust aerosol at a wavelength of 550 nanometres."
+}

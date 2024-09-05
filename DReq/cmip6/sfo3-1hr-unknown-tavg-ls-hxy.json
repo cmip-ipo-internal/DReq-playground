@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/sfo3-1hr-unknown-tavg-ls-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sfo3-Aerhr",
+    "mip_table": [
+        "Aerhr"
+    ],
+    "table_entry": "sfo3",
+    "out_name": "sfo3",
+    "questions_and_notes": "Can we describe this as the \"surface air\" value or would that differ from the value in the lowest layer? It needs a scalar vertical coordinate.",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 8,
+    "contributing_models": 6,
+    "frequency": "1hr",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "O3 Volume Mixing Ratio in Lowest Model Layer",
+    "comment": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y."
+}

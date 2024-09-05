@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/rsucs-3hr-unknown-tpt-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "upwelling_shortwave_flux_in_air_assuming_clear_sky",
+    "variable_root_name": "rsucs",
+    "units": "W m-2",
+    "type": "real",
+    "positive": "up",
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "upwelling shortwave flux in air assuming clear sky: synoptic samples provided on multiple model levels and reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevhalf",
+        "time1"
+    ],
+    "cell_methods": "area: mean time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "3hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/rsucs-3hr-unknown-tpt-l-hxy"
+        }
+    }
+}

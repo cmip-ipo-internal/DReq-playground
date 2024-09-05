@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/mrsos-day-lnd-tavg-z0p1-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mrsos-day",
+    "mip_table": [
+        "day"
+    ],
+    "table_entry": "mrsos",
+    "out_name": "mrsos",
+    "questions_and_notes": "root modified for consistency with mrsol-Emon.   Also see https://github.com/WCRP-CORDEX/cordex-cmip6-data-request/issues/2 .",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 27,
+    "contributing_models": 60,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time sdepth1",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Moisture in Upper Portion of Soil Column",
+    "comment": "The mass of water in all phases in the upper 10cm of the  soil layer."
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/shrubfrac-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "shrubFrac-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "shrubFrac",
+    "out_name": "shrubFrac",
+    "questions_and_notes": "Should this be undefined where sea?  Should deprecate in favor of \"where all_area_types\".  Consider eliminating scalar dimension.",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 18,
+    "contributing_models": 27,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time typeshrub",
+    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "long_name": "Percentage Cover by Shrub",
+    "comment": "Percentage of entire grid cell  that is covered by shrub."
+}

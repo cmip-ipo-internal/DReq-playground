@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/snw-day-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "snw-day",
+    "mip_table": [
+        "day"
+    ],
+    "table_entry": "snw",
+    "out_name": "snw",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 21,
+    "contributing_models": 50,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "landIce land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Surface Snow Amount",
+    "comment": "The mass of surface snow on the land portion of the grid cell divided by the land area in the grid cell; reported as missing where the land fraction is 0; excludes snow on vegetation canopy or on sea ice."
+}

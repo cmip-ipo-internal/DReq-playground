@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rsds-subhr-unknown-tpt-z0f-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsds-CFsubhr",
+    "mip_table": [
+        "CFsubhr"
+    ],
+    "table_entry": "rsds",
+    "out_name": "rsds",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 9,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "Surface Downwelling Shortwave Radiation",
+    "comment": "Surface solar irradiance for UV calculations."
+}

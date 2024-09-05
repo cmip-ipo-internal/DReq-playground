@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/fproductdecomplut-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fProductDecompLut-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fProductDecompLut",
+    "out_name": "fProductDecompLut",
+    "questions_and_notes": "Although the emissions come only from land, we want to compare the tendency to other tendencies, so replace \"where land\" with \"where sector over all_area_types\".",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 4,
+    "contributing_models": 7,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude landUse time",
+    "cell_methods": "area: time: mean where sector",
+    "long_name": "Net Carbon Mass Flux from Wood and Agricultural Product Pools on Land Use Tile into Atmosphere [kgC m-2 s-1]",
+    "comment": "Flux of CO2 from product pools into the atmosphere. Examples of \"forestry and agricultural products\" are paper, cardboard, furniture, timber for construction, biofuels and food for both humans and livestock. Models that simulate land use changes have one or more pools of carbon that represent these products in order to conserve carbon and allow its eventual release into the atmosphere, for example, when the products decompose in landfill sites. Produce this variable i  a model has explicit anthropogenic product pools by land use tile"
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/prlsprof-3hr-unknown-tpt-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "prlsprof-CF3hr",
+    "mip_table": [
+        "CF3hr"
+    ],
+    "table_entry": "prlsprof",
+    "out_name": "prlsprof",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 5,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevhalf time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Stratiform Rainfall Flux",
+    "comment": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics.  Stratiform precipitation, whether liquid or frozen, is precipitation that formed in stratiform cloud."
+}

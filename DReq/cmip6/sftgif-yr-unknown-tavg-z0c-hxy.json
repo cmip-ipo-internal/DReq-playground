@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/sftgif-yr-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sftgif-IyrGre",
+    "mip_table": [
+        "IyrGre"
+    ],
+    "table_entry": "sftgif",
+    "out_name": "sftgif",
+    "questions_and_notes": "eliminate.  duplicates \"Ant\" entry.",
+    "specific_issues": [
+        "1:Modify dimensions.  No need for special horizontal coordinates.",
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "yr",
+    "region": "greenland",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "xgre ygre time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Land Ice Area Percentage",
+    "comment": "Percentage of grid cell covered by land ice (ice sheet, ice shelf, ice cap, glacier)"
+}

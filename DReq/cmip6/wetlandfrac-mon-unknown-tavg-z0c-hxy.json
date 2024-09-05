@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/wetlandfrac-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "wetlandFrac-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "wetlandFrac",
+    "out_name": "wetlandFrac",
+    "questions_and_notes": "Should this be undefined where sea?  Should deprecate in favor of \"where all_area_types\".  Consider eliminating scalar dimension.",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 10,
+    "contributing_models": 16,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time typewetla",
+    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "long_name": "Wetland Percentage Cover",
+    "comment": "Percentage of grid cell covered by wetland. Report only one year if  fixed percentage is used, or time series if values are determined dynamically."
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/difvso-yr-op-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "difvso-Oyr",
+    "mip_table": [
+        "Oyr"
+    ],
+    "table_entry": "difvso",
+    "out_name": "difvso",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 10,
+    "contributing_models": 15,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Ocean Vertical Salt Diffusivity",
+    "comment": "Vertical/dianeutral diffusivity applied to prognostic salinity field."
+}

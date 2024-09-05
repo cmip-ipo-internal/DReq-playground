@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/fgsf6-mon-oc-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fgsf6-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "fgsf6",
+    "out_name": "fgsf6",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 11,
+    "contributing_models": 16,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Downward SF6 Flux",
+    "comment": "gas exchange flux of SF6"
+}

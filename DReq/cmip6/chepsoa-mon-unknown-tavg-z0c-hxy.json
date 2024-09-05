@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/chepsoa-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "chepsoa-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "chepsoa",
+    "out_name": "chepsoa",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 7,
+    "contributing_models": 14,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Chemical Production of Dry Aerosol Secondary Organic Matter",
+    "comment": "If model lumps secondary organic aerosol (SOA) emissions with primary organic aerosol (POA), then the sum of POA and SOA emissions is reported as OA emissions. Here, mass refers to the mass of primary organic matter, not mass of organic carbon alone."
+}

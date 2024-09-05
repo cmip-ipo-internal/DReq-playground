@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/od550soa-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "od550soa-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "od550soa",
+    "out_name": "od550soa",
+    "questions_and_notes": "Why is this standard name not different from od550soa-tavg-z0-hxy-x?  How does this variable differ from od550bb-tavg-z0-hxy-x",
+    "specific_issues": [
+        "5:Standard name issue."
+    ],
+    "contributing_institutions": 5,
+    "contributing_models": 11,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time lambda550nm",
+    "cell_methods": "area: time: mean",
+    "long_name": "Particulate Organic Aerosol Optical Depth at 550nm",
+    "comment": "Total organic aerosol AOD due to secondary aerosol  at a wavelength of 550 nanometres."
+}

@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/sishevel-mon-si-tpt-x??-hxy",
+    "@type": "dr-variable",
+    "standard_name": "maximum_over_coordinate_rotation_of_sea_ice_horizontal_shear_strain_rate",
+    "variable_root_name": "sishevel",
+    "units": "s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "si"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "maximum over coordinate rotation of sea ice horizontal shear strain rate: synoptic samples reported on a 2-d horizontal grid where sea_ice",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "cell_methods": "area: mean where sea_ice (comment: mask=siconc) time: point",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/sishevel-mon-si-tpt-x??-hxy"
+        }
+    }
+}

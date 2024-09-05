@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/zg-mon-unknown-tavg-p27-hxy",
+    "@type": "dr-variable",
+    "standard_name": "geopotential_height",
+    "variable_root_name": "zg",
+    "units": "m",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "p27",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "geopotential height: time means requested on 27 pressure levels and reported on a 2-d horizontal grid where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev27",
+        "time"
+    ],
+    "cell_methods": "time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/zg-mon-unknown-tavg-p27-hxy"
+        }
+    }
+}

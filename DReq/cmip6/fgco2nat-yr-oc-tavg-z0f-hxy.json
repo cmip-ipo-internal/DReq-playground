@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/fgco2nat-yr-oc-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fgco2nat-Oyr",
+    "mip_table": [
+        "Oyr"
+    ],
+    "table_entry": "fgco2nat",
+    "out_name": "fgco2nat",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 7,
+    "contributing_models": 12,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Downward Mass Flux of Carbon as Natural CO2 [kgC m-2 s-1]",
+    "comment": "Gas exchange flux of natural CO2 (positive into ocean)"
+}

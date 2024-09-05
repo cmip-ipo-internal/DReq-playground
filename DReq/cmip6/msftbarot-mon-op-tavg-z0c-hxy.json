@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/msftbarot-mon-op-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "msftbarot-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "msftbarot",
+    "out_name": "msftbarot",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 22,
+    "contributing_models": 46,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Ocean Barotropic Mass Streamfunction",
+    "comment": "Streamfunction or its approximation for free surface models. See OMDP document for details."
+}

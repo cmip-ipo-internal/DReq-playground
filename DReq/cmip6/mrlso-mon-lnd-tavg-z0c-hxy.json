@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/mrlso-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mrlso-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "mrlso",
+    "out_name": "mrlso",
+    "questions_and_notes": "This is summed over all layers, so a new standard_name is needed here:  soil_liquid_water_content (like the existing soil_frozen_water_content).  This name has been approved 11/30/23.  Also, check that only 2 of following 3 water contents are requested: frozen, liquid, frozen+liquid.   Also see https://github.com/WCRP-CORDEX/cordex-cmip6-data-request/issues/2 .",
+    "specific_issues": [
+        "5:Standard name issue."
+    ],
+    "contributing_institutions": 14,
+    "contributing_models": 30,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Soil Liquid Water Content",
+    "comment": "The mass (summed over all all layers) of liquid water."
+}

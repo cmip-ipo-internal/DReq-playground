@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/nmineralno3-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "nMineralNO3-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "nMineralNO3",
+    "out_name": "nMineralNO3",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 23,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Mineral Nitrate in the Soil",
+    "comment": "SUM of nitrate over all soil layers"
+}

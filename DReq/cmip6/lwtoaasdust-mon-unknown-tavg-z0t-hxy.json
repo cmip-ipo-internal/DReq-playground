@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/lwtoaasdust-mon-unknown-tavg-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "lwtoaasdust-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "lwtoaasdust",
+    "out_name": "lwtoaasdust",
+    "questions_and_notes": "New standard name needed: toa_instantaneous_longwave_forcing_due_to_dust",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "6:Modify variable root.",
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "TOA All-Sky Longwave Radiative Forcing Due to Dust",
+    "comment": "Instantaneous forcing is the radiative flux change caused instantaneously by an imposed change in radiative forcing agent (greenhouse gases, aerosol, solar radiation, etc.)."
+}

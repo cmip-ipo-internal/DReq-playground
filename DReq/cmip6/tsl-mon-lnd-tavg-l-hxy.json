@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/tsl-mon-lnd-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tsl-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "tsl",
+    "out_name": "tsl",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 29,
+    "contributing_models": 76,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude sdepth time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Temperature of Soil",
+    "comment": "Temperature of soil. Reported as missing for grid cells with no land."
+}

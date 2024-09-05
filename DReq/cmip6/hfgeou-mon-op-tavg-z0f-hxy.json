@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/hfgeou-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hfgeou-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "hfgeou",
+    "out_name": "hfgeou",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 9,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Upward Geothermal Heat Flux at Sea Floor",
+    "comment": "Upward geothermal heat flux per unit area on the sea floor"
+}

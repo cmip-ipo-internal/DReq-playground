@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/prw17o-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "mass_content_of_water_vapor_containing_17O_in_atmosphere_layer",
+    "variable_root_name": "prw17O",
+    "units": "kg m-2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "mass content of water vapor containing 17O in atmosphere layer: time means provided on multiple model levels and reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/prw17o-mon-unknown-tavg-l-hxy"
+        }
+    }
+}

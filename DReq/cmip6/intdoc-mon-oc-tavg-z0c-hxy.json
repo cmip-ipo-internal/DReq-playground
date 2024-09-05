@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/intdoc-mon-oc-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "intdoc-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "intdoc",
+    "out_name": "intdoc",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 10,
+    "contributing_models": 14,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+    "long_name": "Dissolved Organic Carbon Content",
+    "comment": "Vertically integrated DOC (explicit pools only)"
+}

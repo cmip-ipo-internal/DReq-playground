@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/zmswaero-6hr-unknown-tpt-l-hy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "zmswaero-E6hrZ",
+    "mip_table": [
+        "E6hrZ"
+    ],
+    "table_entry": "zmswaero",
+    "out_name": "zmswaero",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "6hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "latitude alevel time1",
+    "cell_methods": "longitude: mean time: point",
+    "long_name": "Zonal Mean Shortwave Heating Rate Due to Volcanic Aerosols",
+    "comment": "shortwave heating rate due to volcanic aerosols to be diagnosed through double radiation call, zonal average values required"
+}

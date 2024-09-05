@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/sihc-mon-op-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sihc-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sihc",
+    "out_name": "sihc",
+    "questions_and_notes": "Should this be \"where sea_ice over sea\" or \"where sea_ice over all_area_types\" or simply \"where sea_ice\"?   Mention of \"brine\" should say specifically \"brine in sea ice\".  ",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 17,
+    "contributing_models": 39,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Sea-Ice Heat Content per Unit Area",
+    "comment": "Heat content of all ice in grid cell divided by total grid-cell area. Water at 0 Celsius is assumed to have a heat content of 0 J.  Does not include heat content of snow, but does include heat content of brine. Heat content is always negative, since both the sensible and the latent heat content of ice are less than that of water"
+}

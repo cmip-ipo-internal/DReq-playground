@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/ua-mon-unknown-tavg-p19-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ua-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "ua",
+    "out_name": "ua",
+    "questions_and_notes": "To accommodate data that has been regridded,  \"area: mean\" should be included in cell_methods",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 38,
+    "contributing_models": 99,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude plev19 time",
+    "cell_methods": "time: mean",
+    "long_name": "Eastward Wind",
+    "comment": "Zonal wind (positive in a eastward direction)."
+}

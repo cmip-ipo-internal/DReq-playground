@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rsut-1hr-unknown-tcld-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsut-E1hrClimMon",
+    "mip_table": [
+        "E1hrClimMon"
+    ],
+    "table_entry": "rsut",
+    "out_name": "rsut",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 3,
+    "frequency": "1hrCM",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time3",
+    "cell_methods": "area: mean time: mean within days time: mean over days",
+    "long_name": "TOA Outgoing Shortwave Radiation",
+    "comment": "at the top of the atmosphere"
+}

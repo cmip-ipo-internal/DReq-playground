@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/sci-mon-ap-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sci-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "sci",
+    "out_name": "sci",
+    "questions_and_notes": "Shouldn't description be worded \"atmospheric column\" rather than \"grid cell\"?",
+    "specific_issues": [],
+    "contributing_institutions": 16,
+    "contributing_models": 42,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Fraction of Time Shallow Convection Occurs",
+    "comment": "Fraction of time that shallow convection occurs in the grid cell."
+}

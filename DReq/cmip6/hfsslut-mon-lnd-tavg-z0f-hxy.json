@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/hfsslut-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hfssLut-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "hfssLut",
+    "out_name": "hfssLut",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 7,
+    "contributing_models": 12,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude landUse time",
+    "cell_methods": "area: time: mean where sector",
+    "long_name": "Sensible Heat Flux on Land-Use Tile",
+    "comment": "Upward sensible heat flux on land use tiles. The surface sensible heat flux, also called turbulent heat flux, is the exchange of heat between the surface and the air by motion of air."
+}

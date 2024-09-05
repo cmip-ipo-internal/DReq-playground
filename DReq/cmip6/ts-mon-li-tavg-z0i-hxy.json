@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/ts-mon-li-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ts-ImonGre",
+    "mip_table": [
+        "ImonGre"
+    ],
+    "table_entry": "ts",
+    "out_name": "ts",
+    "questions_and_notes": "eliminate.  duplicates the \"noname\" ice sheet variable: ts-tavg-z0-hxy-is",
+    "specific_issues": [
+        "1:Modify dimensions.  No need for special horizontal coordinates.",
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 4,
+    "frequency": "mon",
+    "region": "greenland",
+    "modeling_realm": [
+        "landIce land"
+    ],
+    "dimensions": "xgre ygre time",
+    "cell_methods": "area: time: mean where ice_sheet",
+    "long_name": "Surface Temperature",
+    "comment": "Temperature of the lower boundary of the atmosphere"
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/somint-mon-op-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "somint-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "somint",
+    "out_name": "somint",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 14,
+    "contributing_models": 19,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Depth Integral of Product of Sea Water Density and Prognostic Salinity",
+    "comment": "Full column sum of density*cell thickness*prognostic salinity. If the model is Boussinesq, then use Boussinesq reference density for the density factor."
+}

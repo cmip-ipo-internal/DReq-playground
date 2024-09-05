@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/sisali-mon-si-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sisali-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sisali",
+    "out_name": "sisali",
+    "questions_and_notes": "Can't this be calculated as quotient of sea_ice_mass / sea_ice_mass_content_of_salt (simass-SImon/ sisaltmass-SImon)?",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
+        "9:Eliminate or deprecate?",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 13,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "long_name": "Sea Ice Salinity",
+    "comment": "Mean sea-ice salinity of all sea ice in grid cell"
+}

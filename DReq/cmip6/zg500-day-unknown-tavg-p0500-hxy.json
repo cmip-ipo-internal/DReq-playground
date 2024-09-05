@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/zg500-day-unknown-tavg-p0500-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "zg500-AERday",
+    "mip_table": [
+        "AERday"
+    ],
+    "table_entry": "zg500",
+    "out_name": "zg500",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 18,
+    "contributing_models": 33,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time p500",
+    "cell_methods": "area: time: mean",
+    "long_name": "Geopotential Height at 500hPa",
+    "comment": "geopotential height on the 500 hPa surface"
+}

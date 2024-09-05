@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/nmineral-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "nMineral-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "nMineral",
+    "out_name": "nMineral",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 12,
+    "contributing_models": 17,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Mineral Nitrogen in the Soil",
+    "comment": "SUM of ammonium, nitrite, nitrate, etc over all soil layers"
+}

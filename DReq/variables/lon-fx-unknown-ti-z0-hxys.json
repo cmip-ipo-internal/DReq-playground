@@ -1,0 +1,36 @@
+{
+    "@id": "dr:variables/lon-fx-unknown-ti-z0-hxys",
+    "@type": "dr-variable",
+    "standard_name": "longitude",
+    "variable_root_name": "lon",
+    "units": "degrees_east",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "ti",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxys",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "longitude: time-independent field reported at assorted individual sites",
+    "bn_status": "accepted",
+    "dimensions": [
+        "site",
+        ""
+    ],
+    "cell_methods": "area: point",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "fx"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/lon-fx-unknown-ti-z0-hxys"
+        }
+    }
+}

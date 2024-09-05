@@ -1,0 +1,28 @@
+{
+    "@id": "dr:cmip6/libmassbfgr-mon-li-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "libmassbfgr-ImonGre",
+    "mip_table": [
+        "ImonGre"
+    ],
+    "table_entry": "libmassbfgr",
+    "out_name": "libmassbfgr",
+    "questions_and_notes": "eliminate.  duplicates \"Ant\" entry.  No need for \"gr\" in root since that info appears in branding suffix.",
+    "specific_issues": [
+        "1:Modify dimensions.  No need for special horizontal coordinates.",
+        "6:Modify variable root.",
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "mon",
+    "region": "greenland",
+    "modeling_realm": [
+        "landIce"
+    ],
+    "dimensions": "xgre ygre time",
+    "cell_methods": "area: time: mean where grounded_ice_sheet (comment: mask=sfgrlf)",
+    "long_name": "Basal Specific Mass Balance Flux of Grounded Ice Sheet",
+    "comment": "Specific mass balance means the net rate at which ice is added per unit area at the land ice base.  A negative value means loss of ice. Computed as the total basal mass balance on the grounded land ice portion of the grid cell divided by grounded land ice area in the grid cell. Cell_methods: area: mean where grounded_ice_sheet"
+}

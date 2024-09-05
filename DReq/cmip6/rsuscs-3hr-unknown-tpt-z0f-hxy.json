@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rsuscs-3hr-unknown-tpt-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsuscs-CF3hr",
+    "mip_table": [
+        "CF3hr"
+    ],
+    "table_entry": "rsuscs",
+    "out_name": "rsuscs",
+    "questions_and_notes": "Can we use time-mean data here? Why not?",
+    "specific_issues": [
+        "7:Deprecate? Eliminate one of 'point' or 'mean' variable options."
+    ],
+    "contributing_institutions": 9,
+    "contributing_models": 14,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Surface Upwelling Clear-Sky Shortwave Radiation",
+    "comment": "Surface Upwelling Clear-sky Shortwave Radiation"
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/wetlandch4-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "wetlandCH4-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "wetlandCH4",
+    "out_name": "wetlandCH4",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 7,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Grid Averaged Methane Emissions from Wetlands",
+    "comment": "Net upward flux of methane (NH4) from wetlands (areas where water covers the soil, or is present either at or near the surface of the soil all year or for varying periods of time during the year, including during the growing season). "
+}

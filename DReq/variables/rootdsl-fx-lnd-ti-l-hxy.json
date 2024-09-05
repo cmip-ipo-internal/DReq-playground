@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/rootdsl-fx-lnd-ti-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "root_mass_content_of_carbon",
+    "variable_root_name": "cRoot",
+    "units": "kg m-2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "ti",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "lnd"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "root mass content of carbon: time-independent field provided on multiple model levels and reported on a 2-d horizontal grid where land",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "sdepth",
+        ""
+    ],
+    "cell_methods": "area: mean where land",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "fx"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/rootdsl-fx-lnd-ti-l-hxy"
+        }
+    }
+}

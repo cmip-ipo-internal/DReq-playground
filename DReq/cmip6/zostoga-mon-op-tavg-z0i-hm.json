@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/zostoga-mon-op-tavg-z0i-hm",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "zostoga-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "zostoga",
+    "out_name": "zostoga",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 22,
+    "contributing_models": 48,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": " time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Global Average Thermosteric Sea Level Change",
+    "comment": "There is no CMIP6 request for zosga nor zossga."
+}

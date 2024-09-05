@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/hfx-mon-op-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hfx-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "hfx",
+    "out_name": "hfx",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 15,
+    "contributing_models": 25,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Ocean Heat X Transport",
+    "comment": "Contains all contributions to \"x-ward\" heat transport from resolved and parameterized processes.  Use Celsius for temperature scale."
+}

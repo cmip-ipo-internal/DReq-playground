@@ -1,0 +1,36 @@
+{
+    "@id": "dr:variables/cct-subhr-ap-tpt-z0-hxys",
+    "@type": "dr-variable",
+    "standard_name": "air_pressure_at_convective_cloud_top",
+    "variable_root_name": "cct",
+    "units": "Pa",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxys",
+        "areaLabelDD": "ccl"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "air pressure at convective cloud top: time means reported at assorted individual sites where convective_cloud (weighted by total convective cloud area)",
+    "bn_status": "accepted",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "cell_methods": "area: point time: point",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "subhr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/cct-subhr-ap-tpt-z0-hxys"
+        }
+    }
+}

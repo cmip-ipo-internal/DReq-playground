@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/tntscpbl-subhr-unknown-tpt-l-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tntscpbl-CFsubhr",
+    "mip_table": [
+        "CFsubhr"
+    ],
+    "table_entry": "tntscpbl",
+    "out_name": "tntscpbl",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 5,
+    "contributing_models": 9,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "alevel site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "Tendency of Air Temperature Due to Stratiform Cloud and Precipitation and Boundary Layer Mixing",
+    "comment": "Tendency of Air Temperature Due to Stratiform Cloud and Precipitation and Boundary Layer Mixing (to be specified only in  models which do not separate cloud, precipitation and boundary layer terms.  Includes all boundary layer terms including diffusive ones.)"
+}

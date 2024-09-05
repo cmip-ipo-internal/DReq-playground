@@ -1,0 +1,36 @@
+{
+    "@id": "dr:variables/tosga-dec-op-tavg-z0i-hm",
+    "@type": "dr-variable",
+    "standard_name": "sea_surface_temperature",
+    "variable_root_name": "tos",
+    "units": "degC",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hm",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": " (area-mean over region)",
+    "brand_description": "sea surface temperature (area-mean over region): time means where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "",
+        "time"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "dec"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/tosga-dec-op-tavg-z0i-hm"
+        }
+    }
+}

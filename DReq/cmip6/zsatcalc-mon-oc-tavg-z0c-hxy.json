@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/zsatcalc-mon-oc-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "zsatcalc-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "zsatcalc",
+    "out_name": "zsatcalc",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 10,
+    "contributing_models": 13,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Calcite Saturation Depth",
+    "comment": "Depth of calcite saturation horizon (0 if undersaturated at all depths, and missing saturated through whole depth; if two or more horizons exist, then the shallowest is reported)"
+}

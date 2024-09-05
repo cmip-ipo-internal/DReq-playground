@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/wetlandch4prod-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable",
+    "standard_name": "surface_upward_mass_flux_of_methane_due_to_emission_from_wetland_biological_production",
+    "variable_root_name": "fCH4prod",
+    "units": "kg m-2 s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "wl"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "surface upward mass flux of methane due to emission from wetland biological production: time means reported on a 2-d horizontal grid where wetland",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where land time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/wetlandch4prod-mon-lnd-tavg-z0f-hxy"
+        }
+    }
+}

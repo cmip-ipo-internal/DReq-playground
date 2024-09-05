@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/simprefrozen-mon-si-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "simprefrozen-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "simprefrozen",
+    "out_name": "simprefrozen",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where sea_ice_melt_pond (comment: mask=simpconc)",
+    "long_name": "Thickness of Refrozen Ice on Melt Pond",
+    "comment": "Volume of refrozen ice on melt ponds divided by meltpond covered area"
+}

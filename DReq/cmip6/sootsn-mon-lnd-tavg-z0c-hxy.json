@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/sootsn-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sootsn-LImon",
+    "mip_table": [
+        "LImon"
+    ],
+    "table_entry": "sootsn",
+    "out_name": "sootsn",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 9,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "landIce land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Snow Soot Content",
+    "comment": "the entire land portion of the grid cell is considered, with snow soot content set to 0.0 in regions free of snow."
+}

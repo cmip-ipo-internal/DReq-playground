@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/evspsblpot-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "evspsblpot-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "evspsblpot",
+    "out_name": "evspsblpot",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 5,
+    "contributing_models": 14,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Potential Evapotranspiration",
+    "comment": "at surface; potential flux of water into the atmosphere due to conversion of both liquid and solid phases to vapor (from underlying surface and vegetation)"
+}

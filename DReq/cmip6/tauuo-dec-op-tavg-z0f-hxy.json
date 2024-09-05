@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/tauuo-dec-op-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tauuo-Odec",
+    "mip_table": [
+        "Odec"
+    ],
+    "table_entry": "tauuo",
+    "out_name": "tauuo",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 5,
+    "frequency": "dec",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Sea Water Surface Downward X Stress",
+    "comment": "This is the stress on the liquid ocean from overlying atmosphere, sea ice, ice shelf, etc."
+}

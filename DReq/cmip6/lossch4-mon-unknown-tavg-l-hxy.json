@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/lossch4-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "lossch4-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "lossch4",
+    "out_name": "lossch4",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 11,
+    "contributing_models": 12,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Monthly Loss of Atmospheric Methane",
+    "comment": "monthly averaged atmospheric loss"
+}

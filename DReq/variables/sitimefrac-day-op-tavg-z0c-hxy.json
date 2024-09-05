@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/sitimefrac-day-op-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "fraction_of_time_with_sea_ice_area_fraction_above_threshold",
+    "variable_root_name": "sitimefrac",
+    "units": 1.0,
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "fraction of time with sea ice area fraction above threshold: time means reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/sitimefrac-day-op-tavg-z0c-hxy"
+        }
+    }
+}

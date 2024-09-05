@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rsdsdiff-3hr-unknown-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsdsdiff-3hr",
+    "mip_table": [
+        "3hr"
+    ],
+    "table_entry": "rsdsdiff",
+    "out_name": "rsdsdiff",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 15,
+    "contributing_models": 26,
+    "frequency": "3hr",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Surface Diffuse Downwelling Shortwave Radiation",
+    "comment": "Surface downwelling solar irradiance from diffuse radiation for UV calculations."
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rsdscs-3hr-unknown-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsdscs-3hr",
+    "mip_table": [
+        "3hr"
+    ],
+    "table_entry": "rsdscs",
+    "out_name": "rsdscs",
+    "questions_and_notes": "Can we use  synoptic data here? Why not?",
+    "specific_issues": [
+        "7:Deprecate? Eliminate one of 'point' or 'mean' variable options."
+    ],
+    "contributing_institutions": 24,
+    "contributing_models": 53,
+    "frequency": "3hr",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Surface Downwelling Clear-Sky Shortwave Radiation",
+    "comment": "Surface solar irradiance clear sky for UV calculations"
+}

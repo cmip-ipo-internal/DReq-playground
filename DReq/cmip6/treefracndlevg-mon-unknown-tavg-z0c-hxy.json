@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/treefracndlevg-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "treeFracNdlEvg-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "treeFracNdlEvg",
+    "out_name": "treeFracNdlEvg",
+    "questions_and_notes": "How exactly is \"Needleleaf Evergreen Tree\" defined.  This is not an area type found in the CF conventions.  Consider eliminating scalar dimension.",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 11,
+    "contributing_models": 23,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time typetreene",
+    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "long_name": "Needleleaf Evergreen Tree Area Percentage",
+    "comment": "This is the percentage of the entire grid cell that is covered by needleleaf evergreen trees."
+}

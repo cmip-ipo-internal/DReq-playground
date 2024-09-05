@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/burntfractionall-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "burntFractionAll-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "burntFractionAll",
+    "out_name": "burntFractionAll",
+    "questions_and_notes": "Should this be undefined where sea?  Should deprecate in favor of \"where all_area_types\".  Also, it seems to be redundant with monthly fracLut.  Consider eliminating scalar dimension.",
+    "specific_issues": [
+        "9:Eliminate or deprecate?",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 6,
+    "contributing_models": 12,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time typeburnt",
+    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "long_name": "Percentage of Entire Grid Cell That Is Covered by Burnt Vegetation (All Classes)",
+    "comment": "Percentage of grid cell burned due to all fires including natural and anthropogenic fires and those associated with anthropogenic Land-use change"
+}

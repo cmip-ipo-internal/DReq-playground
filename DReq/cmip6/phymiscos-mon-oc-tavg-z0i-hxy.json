@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/phymiscos-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "phymiscos-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "phymiscos",
+    "out_name": "phymiscos",
+    "questions_and_notes": "need vertical depth scalar coordinate",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 4,
+    "contributing_models": 5,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Mole Concentration of Miscellaneous Phytoplankton Expressed as Carbon in Sea Water",
+    "comment": "carbon concentration from additional phytoplankton component alone"
+}

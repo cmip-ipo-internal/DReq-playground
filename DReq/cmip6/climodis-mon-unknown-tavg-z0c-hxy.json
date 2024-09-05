@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/climodis-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "climodis-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "climodis",
+    "out_name": "climodis",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 10,
+    "contributing_models": 12,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "MODIS Ice Cloud Area Percentage",
+    "comment": "Total ice cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen by the  Moderate Resolution Imaging Spectroradiometer (MODIS). "
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/siforcetiltx-mon-si-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "siforcetiltx-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "siforcetiltx",
+    "out_name": "siforcetiltx",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 8,
+    "contributing_models": 15,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "long_name": "Sea-Surface Tilt Term in Force Balance (X-Component)",
+    "comment": "X-component of force on sea ice caused by sea-surface tilt"
+}

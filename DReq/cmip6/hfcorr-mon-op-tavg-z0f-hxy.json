@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/hfcorr-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hfcorr-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "hfcorr",
+    "out_name": "hfcorr",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 8,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Heat Flux Correction",
+    "comment": "Flux correction is also called \"flux adjustment\". A positive flux correction is downward i.e. added to the ocean. In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics."
+}

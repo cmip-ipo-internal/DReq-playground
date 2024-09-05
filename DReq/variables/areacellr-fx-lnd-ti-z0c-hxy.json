@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/areacellr-fx-lnd-ti-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "cell_area",
+    "variable_root_name": "areacellr",
+    "units": "m2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "ti",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": " (river model)",
+    "brand_description": "cell area (river model): time-independent field reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        ""
+    ],
+    "cell_methods": "area: sum",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "fx"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/areacellr-fx-lnd-ti-z0c-hxy"
+        }
+    }
+}

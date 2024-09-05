@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/edt-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "edt-CFmon",
+    "mip_table": [
+        "CFmon"
+    ],
+    "table_entry": "edt",
+    "out_name": "edt",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 14,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Eddy Diffusivity Coefficient for Temperature",
+    "comment": "Vertical diffusion coefficient for temperature due to parametrised eddies"
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rsdo-mon-op-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsdo-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "rsdo",
+    "out_name": "rsdo",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 11,
+    "contributing_models": 26,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Downwelling Shortwave Radiation in Sea Water",
+    "comment": "Downwelling radiation is radiation from above. It does not mean \"net downward\".  When thought of as being incident on a surface, a radiative flux is sometimes called \"irradiance\".  In addition, it is identical with the quantity measured by a cosine-collector light-meter and sometimes called \"vector irradiance\".  In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics.  \"shortwave\" means shortwave radiation."
+}

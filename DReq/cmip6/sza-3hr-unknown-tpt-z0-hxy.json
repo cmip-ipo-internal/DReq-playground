@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/sza-3hr-unknown-tpt-z0-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sza-E3hrPt",
+    "mip_table": [
+        "E3hrPt"
+    ],
+    "table_entry": "sza",
+    "out_name": "sza",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Solar Zenith Angle",
+    "comment": "The angle between the line of sight to the sun and the local vertical"
+}

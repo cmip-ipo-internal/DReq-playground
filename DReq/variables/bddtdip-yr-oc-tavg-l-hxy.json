@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/bddtdip-yr-oc-tavg-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "tendency_of_mole_concentration_of_dissolved_inorganic_phosphorus_in_sea_water_due_to_biological_processes",
+    "variable_root_name": "bddtdip",
+    "units": "mol m-3 s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "tendency of mole concentration of dissolved inorganic phosphorus in sea water due to biological processes: time means provided on multiple model levels and reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": "area: areacello volume: volcello",
+    "samplingIntervals": [
+        "yr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/bddtdip-yr-oc-tavg-l-hxy"
+        }
+    }
+}

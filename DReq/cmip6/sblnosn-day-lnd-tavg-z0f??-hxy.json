@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/sblnosn-day-lnd-tavg-z0f??-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sblnosn-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "sblnosn",
+    "out_name": "sblnosn",
+    "questions_and_notes": "Should include in a comment or the description: \"surface upward flux of water vapor due to sublimation of surface ice\".  Consider changing standard_name to \"snow and ice\" for consistency with other, similar variables.  Nearly redundant with sbl-Eday.  Also is sea ice included?  I don't think \"where land\" is needed.  If it is, then should be \"where land over all_area_types\"",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Sublimation of the Snow Free Area",
+    "comment": "Rate of sublimation of ice into the atmosphere from areas with no snow."
+}

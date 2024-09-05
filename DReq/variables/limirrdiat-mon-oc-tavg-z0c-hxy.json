@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/limirrdiat-mon-oc-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "growth_limitation_of_diatoms_due_to_solar_irradiance",
+    "variable_root_name": "limirrdiat",
+    "units": 1.0,
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "growth limitation of diatoms due to solar irradiance: time means reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/limirrdiat-mon-oc-tavg-z0c-hxy"
+        }
+    }
+}

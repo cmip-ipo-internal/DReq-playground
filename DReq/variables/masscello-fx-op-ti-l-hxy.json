@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/masscello-fx-op-ti-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "sea_water_mass_per_unit_area",
+    "variable_root_name": "masscello",
+    "units": "kg m-2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "ti",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "sea water mass per unit area: time-independent field provided on multiple model levels and reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        ""
+    ],
+    "cell_methods": "area: sum",
+    "cell_measures": "area: areacello volume: volcello",
+    "samplingIntervals": [
+        "fx"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/masscello-fx-op-ti-l-hxy"
+        }
+    }
+}

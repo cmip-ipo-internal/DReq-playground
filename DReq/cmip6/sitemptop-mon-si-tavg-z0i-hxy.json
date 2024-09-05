@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/sitemptop-mon-si-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sitemptop-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sitemptop",
+    "out_name": "sitemptop",
+    "questions_and_notes": "Wrong standard_name (or description is wrong): For consistency with surface temperature over other area types, the standard name should  be \"surface_temperature\".  sea_ice_surface_temperature is the temperature *under* any surface snow.   (where sea ice indicates surface temperature of what).  Eliminate cell_methods comment.  check that it doesn't duplicate sitempsnic-SImon.",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 30,
+    "contributing_models": 68,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "long_name": "Surface Temperature of Sea Ice",
+    "comment": "Report surface temperature of snow where snow covers the sea ice."
+}

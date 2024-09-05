@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/phydiazos-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "phydiazos-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "phydiazos",
+    "out_name": "phydiazos",
+    "questions_and_notes": "need vertical depth scalar coordinate",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "6:Modify variable root.",
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 7,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Mole Concentration of Diazotrophs Expressed as Carbon in Sea Water",
+    "comment": "carbon concentration from the diazotrophic phytoplankton component alone"
+}

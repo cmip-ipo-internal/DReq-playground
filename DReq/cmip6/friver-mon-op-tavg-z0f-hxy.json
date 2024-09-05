@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/friver-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "friver-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "friver",
+    "out_name": "friver",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 20,
+    "contributing_models": 55,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Water Flux into Sea Water from Rivers",
+    "comment": "computed as the river flux of water into the ocean divided by the area of the ocean portion of the grid cell."
+}

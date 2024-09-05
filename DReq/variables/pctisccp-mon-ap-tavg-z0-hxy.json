@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/pctisccp-mon-ap-tavg-z0-hxy",
+    "@type": "dr-variable",
+    "standard_name": "air_pressure_at_cloud_top",
+    "variable_root_name": "pctisccp",
+    "units": "Pa",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "cl"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "air pressure at cloud top: time means reported on a 2-d horizontal grid where cloud (weighted by ISCCP total cloud area)",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean where cloud",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/pctisccp-mon-ap-tavg-z0-hxy"
+        }
+    }
+}

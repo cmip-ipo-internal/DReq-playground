@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/prw2h-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "prw2H-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "prw2H",
+    "out_name": "prw2H",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Mass of Water Containing Deuterium (1H 2H O) in Layer",
+    "comment": "Water vapor path for water molecules that contain one atom of the hydrogen-2 isotope (1H 2H O)"
+}

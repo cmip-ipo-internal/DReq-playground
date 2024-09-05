@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/vt100-mon-unknown-tavg-p0100-hy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "vt100-AERmonZ",
+    "mip_table": [
+        "AERmonZ"
+    ],
+    "table_entry": "vt100",
+    "out_name": "vt100",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 5,
+    "contributing_models": 8,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "latitude time p100",
+    "cell_methods": "longitude: mean time: mean",
+    "long_name": "Northward Eddy Temperature Flux",
+    "comment": "Zonally averaged eddy temperature flux at 100hPa as monthly means derived from daily (or higher frequency) fields."
+}

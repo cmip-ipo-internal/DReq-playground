@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/emiisop-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "emiisop-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "emiisop",
+    "out_name": "emiisop",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 11,
+    "contributing_models": 11,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Total Emission Rate of Isoprene",
+    "comment": "Integrate 3D emission field vertically to 2d field"
+}

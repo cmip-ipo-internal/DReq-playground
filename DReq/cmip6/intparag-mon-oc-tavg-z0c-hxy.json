@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/intparag-mon-oc-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "intparag-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "intparag",
+    "out_name": "intparag",
+    "questions_and_notes": "ocean_mole_content means the column integrated amount so no need to include sum over depth.",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+    "long_name": "Aragonite Production",
+    "comment": "Vertically integrated aragonite production"
+}

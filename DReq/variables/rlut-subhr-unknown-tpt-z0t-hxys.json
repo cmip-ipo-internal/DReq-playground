@@ -1,0 +1,36 @@
+{
+    "@id": "dr:variables/rlut-subhr-unknown-tpt-z0t-hxys",
+    "@type": "dr-variable",
+    "standard_name": "toa_outgoing_longwave_flux",
+    "variable_root_name": "rlut",
+    "units": "W m-2",
+    "type": "real",
+    "positive": "up",
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxys",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "toa outgoing longwave flux: synoptic samples reported at assorted individual sites",
+    "bn_status": "accepted",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "cell_methods": "area: point time: point",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "subhr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/rlut-subhr-unknown-tpt-z0t-hxys"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/loadnh4-day-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "loadnh4-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "loadnh4",
+    "out_name": "loadnh4",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Load of NH4",
+    "comment": "The total dry mass of ammonium aerosol particles per unit area."
+}

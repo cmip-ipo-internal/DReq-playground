@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rlut-3hr-unknown-tavg-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rlut-E3hr",
+    "mip_table": [
+        "E3hr"
+    ],
+    "table_entry": "rlut",
+    "out_name": "rlut",
+    "questions_and_notes": "Can we use  synoptic data here? Why not?",
+    "specific_issues": [
+        "7:Deprecate? Eliminate one of 'point' or 'mean' variable options."
+    ],
+    "contributing_institutions": 9,
+    "contributing_models": 10,
+    "frequency": "3hr",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "TOA Outgoing Longwave Radiation",
+    "comment": "at the top of the atmosphere (to be compared with satellite measurements)"
+}

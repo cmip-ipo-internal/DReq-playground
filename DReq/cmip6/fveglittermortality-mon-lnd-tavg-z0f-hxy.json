@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/fveglittermortality-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fVegLitterMortality-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fVegLitterMortality",
+    "out_name": "fVegLitterMortality",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 28,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Total Carbon Mass Flux from Vegetation to Litter as a Result of Mortality",
+    "comment": "needed to separate changing vegetation C turnover times resulting from changing allocation versus changing mortality"
+}

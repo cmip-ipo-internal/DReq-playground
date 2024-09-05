@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/baccos-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "baccos-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "baccos",
+    "out_name": "baccos",
+    "questions_and_notes": "need vertical depth scalar coordinate",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "6:Modify variable root.",
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Bacterial Carbon Concentration",
+    "comment": "Sum of bacterial carbon component concentrations"
+}

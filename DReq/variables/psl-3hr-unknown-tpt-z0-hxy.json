@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/psl-3hr-unknown-tpt-z0-hxy",
+    "@type": "dr-variable",
+    "standard_name": "air_pressure_at_mean_sea_level",
+    "variable_root_name": "psl",
+    "units": "Pa",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "air pressure at mean sea level: synoptic samples reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "cell_methods": "area: mean time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "3hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/psl-3hr-unknown-tpt-z0-hxy"
+        }
+    }
+}

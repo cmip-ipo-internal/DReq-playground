@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/areacellg-fx-unknown-ti-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "areacellg-IfxGre",
+    "mip_table": [
+        "IfxGre"
+    ],
+    "table_entry": "areacellg",
+    "out_name": "areacellg",
+    "questions_and_notes": "eliminate.  duplicates \"Ant\" entry.",
+    "specific_issues": [
+        "1:Modify dimensions.  No need for special horizontal coordinates.",
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "fx",
+    "region": "greenland",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude ",
+    "cell_methods": "area: sum",
+    "long_name": "Grid-Cell Area for Ice Sheet Variables",
+    "comment": "Area of the target grid (not the interpolated area of the source grid)."
+}

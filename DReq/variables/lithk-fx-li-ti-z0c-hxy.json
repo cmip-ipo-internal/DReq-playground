@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/lithk-fx-li-ti-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "land_ice_thickness",
+    "variable_root_name": "lithk",
+    "units": "m",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "ti",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "is"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "land ice thickness: time-independent field reported on a 2-d horizontal grid where ice_sheet",
+    "bn_status": "accepted",
+    "dimensions": [
+        "xgre",
+        "ygre",
+        ""
+    ],
+    "cell_methods": "area: mean where ice_sheet",
+    "cell_measures": "area: areacellg",
+    "samplingIntervals": [
+        "fx"
+    ],
+    "regions": [
+        "greenland"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/lithk-fx-li-ti-z0c-hxy"
+        }
+    }
+}

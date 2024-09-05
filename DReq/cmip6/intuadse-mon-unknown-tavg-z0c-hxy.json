@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/intuadse-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "intuadse-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "intuadse",
+    "out_name": "intuadse",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 9,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Vertically Integrated Eastward Dry Statice Energy Transport",
+    "comment": "Vertically integrated eastward dry static energy transport (cp.T +zg).v (Mass_weighted_vertical integral of the product of eastward wind by dry static_energy per mass unit)"
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/sconcss-mon-unknown-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sconcss-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "sconcss",
+    "out_name": "sconcss",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 8,
+    "contributing_models": 21,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Surface Concentration of Sea-Salt Aerosol",
+    "comment": "mass concentration of sea-salt dry aerosol in air in model lowest layer"
+}

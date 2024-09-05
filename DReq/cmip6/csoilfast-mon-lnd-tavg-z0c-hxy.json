@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/csoilfast-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cSoilFast-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "cSoilFast",
+    "out_name": "cSoilFast",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 13,
+    "contributing_models": 22,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Carbon Mass in Fast Soil Pool",
+    "comment": "Carbon mass per unit area in fast soil pool. Fast means a lifetime of less than 10 years for reference climate conditions (20th century) in the absence of water limitations."
+}

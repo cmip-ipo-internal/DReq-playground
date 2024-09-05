@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/tsland-day-lnd-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tsland-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "tsland",
+    "out_name": "tsland",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 6,
+    "contributing_models": 8,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Land Surface Temperature",
+    "comment": "Temperature of the lower boundary of the atmosphere"
+}

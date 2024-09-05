@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/emiaco-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "emiaco-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "emiaco",
+    "out_name": "emiaco",
+    "questions_and_notes": "What exactly is the difference between this and emico-AERmon?  Should they have different standard_names?  Maybe this one should have standard name: tendency_of_atmosphere_mass_content_of_carbon_monoxide_due_to_anthropogenic_emission",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 3,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Total Emission Rate of Anthropogenic CO",
+    "comment": "Anthropogenic  emission of CO."
+}

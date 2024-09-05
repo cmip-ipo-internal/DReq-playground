@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/cllcalipso-3hr-unknown-tpt-p0840-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cllcalipso-E3hrPt",
+    "mip_table": [
+        "E3hrPt"
+    ],
+    "table_entry": "cllcalipso",
+    "out_name": "cllcalipso",
+    "questions_and_notes": "no need to use root to distinguish among the calipso layers since the information is in the branding suffix.",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 6,
+    "contributing_models": 7,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time1 p840",
+    "cell_methods": "area: mean time: point",
+    "long_name": "CALIPSO Low Level Cloud Cover Percentage",
+    "comment": "Percentage cloud cover in layer centred on 840hPa"
+}

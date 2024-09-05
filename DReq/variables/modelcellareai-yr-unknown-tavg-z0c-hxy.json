@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/modelcellareai-yr-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "cell_area",
+    "variable_root_name": "areacellg",
+    "units": "m2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": " (ice sheet)",
+    "brand_description": "cell area (ice sheet): time means reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacellg",
+    "samplingIntervals": [
+        "yr"
+    ],
+    "regions": [
+        "greenland"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/modelcellareai-yr-unknown-tavg-z0c-hxy"
+        }
+    }
+}

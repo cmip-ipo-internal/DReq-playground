@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/fddtdic-mon-oc-tavg-z0100-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fddtdic-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "fddtdic",
+    "out_name": "fddtdic",
+    "questions_and_notes": "sum over depth should be performed first.  A different standard_name is needed since \"ocean_mole_content\" is vertically integrated through the whole ocean column",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 7,
+    "contributing_models": 9,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time olayer100m",
+    "cell_methods": "area: mean where sea depth: sum where sea (top 100m only) time: mean",
+    "long_name": "Rate of Change of Net Dissolved Inorganic Carbon",
+    "comment": "\"Content\" indicates a quantity per unit area.  \"tendency_of_X\" means derivative of X with respect to time. \"Dissolved inorganic carbon\" describes a family of chemical species in solution, including carbon dioxide, carbonic acid and the carbonate and bicarbonate anions. \"Dissolved inorganic carbon\" is the term used in standard names for all species belonging to the family that are represented within a given model. The list of individual species that are included in a quantity having a group chemical standard name can vary between models.  Where possible, the data variable should be accompanied by a complete description of the species represented, for example, by using a comment attribute."
+}

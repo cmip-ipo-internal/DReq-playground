@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/libmassbfgr-yr-li-tavg-z0f-hxy",
+    "@type": "dr-variable",
+    "standard_name": "land_ice_basal_specific_mass_balance_flux",
+    "variable_root_name": "libmassbf",
+    "units": "kg m-2 s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "gis"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "land ice basal specific mass balance flux: time means reported on a 2-d horizontal grid where grounded_ice_sheet",
+    "bn_status": "accepted",
+    "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+    ],
+    "cell_methods": "area: time: mean where grounded_ice_sheet (comment: mask=sfgrlf)",
+    "cell_measures": "area: areacellg",
+    "samplingIntervals": [
+        "yr"
+    ],
+    "regions": [
+        "greenland"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/libmassbfgr-yr-li-tavg-z0f-hxy"
+        }
+    }
+}

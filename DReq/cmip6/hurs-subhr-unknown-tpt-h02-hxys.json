@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/hurs-subhr-unknown-tpt-h02-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hurs-CFsubhr",
+    "mip_table": [
+        "CFsubhr"
+    ],
+    "table_entry": "hurs",
+    "out_name": "hurs",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 8,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "site time1 height2m",
+    "cell_methods": "area: point time: point",
+    "long_name": "Near-Surface Relative Humidity",
+    "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C."
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/siu-day-si-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "siu-SIday",
+    "mip_table": [
+        "SIday"
+    ],
+    "table_entry": "siu",
+    "out_name": "siu",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 22,
+    "contributing_models": 51,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "long_name": "X-Component of Sea-Ice Velocity",
+    "comment": "The x-velocity of ice on native model grid"
+}

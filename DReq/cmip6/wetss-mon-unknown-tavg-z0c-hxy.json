@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/wetss-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "wetss-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "wetss",
+    "out_name": "wetss",
+    "questions_and_notes": "I would think that deposition would be restricted to a transfer to the surface from the air immediately above it.  If so, why not define standard names of the form \"surface_mass_flux_of_<species>_due_to_wet_depostion\", which I think would be easier to interpret by most users?",
+    "specific_issues": [
+        "5:Standard name issue."
+    ],
+    "contributing_institutions": 13,
+    "contributing_models": 24,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Wet Deposition Rate of Sea-Salt Aerosol",
+    "comment": "Deposition rate of sea salt aerosols (measured by the dry mass) due to wet processes"
+}

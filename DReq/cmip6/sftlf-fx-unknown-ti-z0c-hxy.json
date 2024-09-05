@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/sftlf-fx-unknown-ti-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sftlf-fx",
+    "mip_table": [
+        "fx"
+    ],
+    "table_entry": "sftlf",
+    "out_name": "sftlf",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 29,
+    "contributing_models": 76,
+    "frequency": "fx",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude ",
+    "cell_methods": "area: mean",
+    "long_name": "Percentage of the Grid Cell Occupied by Land (Including Lakes)",
+    "comment": "Percentage of horizontal area occupied by land."
+}

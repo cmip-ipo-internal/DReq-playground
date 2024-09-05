@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/simpconc-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "simpconc-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "simpconc",
+    "out_name": "simpconc",
+    "questions_and_notes": "For consistency with other surface type fractions, remove \"where sea_ice\".  If fraction of area covered by sea ice occupied by melt ponds is needed, user can divide amount reported by sea ice area fraction.  Consider eliminating scalar dimension.",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 6,
+    "contributing_models": 12,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time typemp",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "long_name": "Percentage Cover of Sea Ice by Meltpond",
+    "comment": "Percentage of sea ice, by area, which is covered by melt ponds, giving equal weight to every square metre of sea ice ."
+}

@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/sifllatstop-mon-si-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sifllatstop-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sifllatstop",
+    "out_name": "sifllatstop",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 19,
+    "contributing_models": 38,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconca)",
+    "long_name": "Net Latent Heat Flux over Sea Ice",
+    "comment": "the net latent heat flux over sea ice"
+}

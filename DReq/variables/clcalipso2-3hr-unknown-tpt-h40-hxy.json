@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/clcalipso2-3hr-unknown-tpt-h40-hxy",
+    "@type": "dr-variable",
+    "standard_name": "cloud_area_fraction_in_atmosphere_layer",
+    "variable_root_name": "clcalipso2",
+    "units": "%",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "h40",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": " consistent with CALIPSO but undetected by CloudSat",
+    "brand_description": "cloud area fraction in atmosphere layer consistent with CALIPSO but undetected by CloudSat: synoptic samples requested at 40 heights and reported on a 2-d horizontal grid where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alt40",
+        "time1"
+    ],
+    "cell_methods": "area: mean time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "3hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/clcalipso2-3hr-unknown-tpt-h40-hxy"
+        }
+    }
+}

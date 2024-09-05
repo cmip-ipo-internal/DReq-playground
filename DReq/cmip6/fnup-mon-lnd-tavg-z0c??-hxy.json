@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/fnup-mon-lnd-tavg-z0c??-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fNup-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fNup",
+    "out_name": "fNup",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 13,
+    "contributing_models": 19,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Total Plant Nitrogen Uptake (Sum of Ammonium and Nitrate) Irrespective of the Source of Nitrogen",
+    "comment": "The uptake of nitrogen by fixation: nitrogen fixation means the uptake of nitrogen gas directly from the atmosphere. "
+}

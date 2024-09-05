@@ -1,0 +1,36 @@
+{
+    "@id": "dr:variables/masso-mon-op-tavg-z0c-hm",
+    "@type": "dr-variable",
+    "standard_name": "sea_water_mass",
+    "variable_root_name": "masso",
+    "units": "kg",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hm",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": " (area-total over region)",
+    "brand_description": "sea water mass (area-total over region): time means where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "",
+        "time"
+    ],
+    "cell_methods": "area: sum where sea time: mean",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/masso-mon-op-tavg-z0c-hm"
+        }
+    }
+}

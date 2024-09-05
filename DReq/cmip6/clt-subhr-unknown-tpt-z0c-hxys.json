@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/clt-subhr-unknown-tpt-z0c-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "clt-CFsubhr",
+    "mip_table": [
+        "CFsubhr"
+    ],
+    "table_entry": "clt",
+    "out_name": "clt",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 5,
+    "contributing_models": 7,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "Total Cloud Cover Percentage",
+    "comment": "Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen from the surface or the top of the atmosphere. Includes both large-scale and convective cloud."
+}

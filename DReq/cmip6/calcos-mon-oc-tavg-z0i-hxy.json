@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/calcos-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "calcos-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "calcos",
+    "out_name": "calcos",
+    "questions_and_notes": "need vertical depth scalar coordinate",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 5,
+    "contributing_models": 7,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Calcite Concentration",
+    "comment": "sum of particulate calcite component concentrations (e.g. Phytoplankton, Detrital, etc.)"
+}

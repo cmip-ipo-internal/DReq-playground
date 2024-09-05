@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/sftgrf-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sftgrf-LImon",
+    "mip_table": [
+        "LImon"
+    ],
+    "table_entry": "sftgrf",
+    "out_name": "sftgrf",
+    "questions_and_notes": "Wouldn't sampling each \"yr\", rather than \"mon\" be sufficient?  If so, this variable is redundant with sftgrf-IyrAnt.",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 10,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "landIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Grounded Ice Sheet Area Percentage",
+    "comment": "Percentage of grid cell covered by grounded ice sheet"
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/edt-subhr-unknown-tpt-l-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "edt-CFsubhr",
+    "mip_table": [
+        "CFsubhr"
+    ],
+    "table_entry": "edt",
+    "out_name": "edt",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 9,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "alevel site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "Eddy Diffusivity Coefficient for Temperature",
+    "comment": "Vertical diffusion coefficient for temperature due to parametrised eddies"
+}

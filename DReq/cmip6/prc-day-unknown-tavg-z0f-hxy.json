@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/prc-day-unknown-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "prc-day",
+    "mip_table": [
+        "day"
+    ],
+    "table_entry": "prc",
+    "out_name": "prc",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 30,
+    "contributing_models": 70,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Convective Precipitation",
+    "comment": "Convective precipitation at surface; includes both liquid and solid phases."
+}

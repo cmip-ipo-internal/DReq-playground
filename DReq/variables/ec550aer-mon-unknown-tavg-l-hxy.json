@@ -1,0 +1,39 @@
+{
+    "@id": "dr:variables/ec550aer-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "volume_extinction_coefficient_in_air_due_to_ambient_aerosol_particles",
+    "variable_root_name": "ec550aer",
+    "units": "m-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "volume extinction coefficient in air due to ambient aerosol particles: time means provided on multiple model levels and reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time",
+        "lambda550nm"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/ec550aer-mon-unknown-tavg-l-hxy"
+        }
+    }
+}

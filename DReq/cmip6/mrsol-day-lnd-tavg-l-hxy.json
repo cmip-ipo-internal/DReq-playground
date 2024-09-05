@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/mrsol-day-lnd-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mrsol-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "mrsol",
+    "out_name": "mrsol",
+    "questions_and_notes": "See https://github.com/WCRP-CORDEX/cordex-cmip6-data-request/issues/2 .",
+    "specific_issues": [],
+    "contributing_institutions": 16,
+    "contributing_models": 30,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude sdepth time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Total Water Content of Soil Layer",
+    "comment": "in each soil layer, the mass of water in all phases, including ice.  Reported as \"missing\" for grid cells occupied entirely by \"sea\""
+}

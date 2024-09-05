@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/difmxybo-mon-op-tcla-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "difmxybo-Oclim",
+    "mip_table": [
+        "Oclim"
+    ],
+    "table_entry": "difmxybo2d",
+    "out_name": "difmxybo",
+    "questions_and_notes": "cell_methods should include \"where sea\"",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
+        "11:Modify cell methods.  Include 'where sea'."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "monC",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time2",
+    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "long_name": "Ocean Momentum XY Biharmonic Diffusivity",
+    "comment": "Lateral biharmonic viscosity applied to the momentum equations."
+}

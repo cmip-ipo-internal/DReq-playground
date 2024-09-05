@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/clitter-yr-lnd-tpt-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cLitter-Eyr",
+    "mip_table": [
+        "Eyr"
+    ],
+    "table_entry": "cLitter",
+    "out_name": "cLitter",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 7,
+    "contributing_models": 11,
+    "frequency": "yrPt",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean where land time: point",
+    "long_name": "Carbon Mass in Litter Pool",
+    "comment": "\"Litter\" is dead plant material in or above the soil. It is distinct from coarse wood debris. The precise distinction between \"fine\" and \"coarse\" is model dependent. \"Content\" indicates a quantity per unit area. The sum of the quantities with standard names surface_litter_mass_content_of_carbon and subsurface_litter_mass_content_of_carbon has the standard name litter_mass_content_of_carbon."
+}

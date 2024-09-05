@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/lwsnl-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "lwsnl-LImon",
+    "mip_table": [
+        "LImon"
+    ],
+    "table_entry": "lwsnl",
+    "out_name": "lwsnl",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 9,
+    "contributing_models": 30,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "landIce land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Liquid Water Content of Snow Layer",
+    "comment": "The total mass of liquid water contained interstitially within the whole depth of the snow layer of the land portion of a grid cell divided by the area of the land portion of the cell."
+}

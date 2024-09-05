@@ -1,0 +1,36 @@
+{
+    "@id": "dr:variables/zostoga-mon-op-tavg-z0i-hm",
+    "@type": "dr-variable",
+    "standard_name": "global_average_thermosteric_sea_level_change",
+    "variable_root_name": "zostoga",
+    "units": "m",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hm",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "global average thermosteric sea level change: time means where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "",
+        "time"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/zostoga-mon-op-tavg-z0i-hm"
+        }
+    }
+}

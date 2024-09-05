@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/hurs-mon-unknown-tavg-h02-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hurs-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "hurs",
+    "out_name": "hurs",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 32,
+    "contributing_models": 83,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time height2m",
+    "cell_methods": "area: time: mean",
+    "long_name": "Near-Surface Relative Humidity",
+    "comment": "The relative humidity with respect to liquid water for T> 0 C, and with respect to ice for T<0 C."
+}

@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/utendvtem-day-unknown-tavg-p39-hy",
+    "@type": "dr-variable",
+    "standard_name": "tendency_of_eastward_wind_due_to_advection_by_northward_transformed_eulerian_mean_air_velocity",
+    "variable_root_name": "utendvtem",
+    "units": "m s-1 d-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "p39",
+        "horizontalLabelDD": "hy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "tendency of eastward wind due to advection by northward transformed eulerian mean air velocity: time means requested on 39 pressure levels and reported as a function of latitude where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "cell_methods": "longitude: mean time: mean",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/utendvtem-day-unknown-tavg-p39-hy"
+        }
+    }
+}

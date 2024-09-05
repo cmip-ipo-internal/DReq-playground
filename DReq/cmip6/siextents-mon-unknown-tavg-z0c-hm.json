@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/siextents-mon-unknown-tavg-z0c-hm",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "siextents-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "siextents",
+    "out_name": "siextents",
+    "questions_and_notes": "Can't this be easily calculated from gridded field?  This duplicates variable above it; NH & SH distinguisable using regionDD",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 14,
+    "contributing_models": 30,
+    "frequency": "mon",
+    "region": "southern_hemisphere",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": " time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Sea-Ice Extent South",
+    "comment": "Total area of all Southern-Hemisphere grid cells that are covered by at least 15 % areal fraction of sea ice"
+}

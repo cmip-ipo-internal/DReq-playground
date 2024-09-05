@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rsutcsaf-mon-unknown-tavg-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsutcsaf-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "rsutcsaf",
+    "out_name": "rsutcsaf",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 12,
+    "contributing_models": 17,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "TOA Outgoing Clear-Sky, Aerosol-Free Shortwave Radiation",
+    "comment": "Flux corresponding to rsutcs resulting from aerosol-free call to radiation, following Ghan (ACP, 2013)"
+}

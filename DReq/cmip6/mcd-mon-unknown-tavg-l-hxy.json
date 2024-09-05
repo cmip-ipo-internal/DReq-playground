@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/mcd-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mcd-CFmon",
+    "mip_table": [
+        "CFmon"
+    ],
+    "table_entry": "mcd",
+    "out_name": "mcd",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 5,
+    "contributing_models": 10,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevhalf time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Downdraft Convective Mass Flux",
+    "comment": "Calculated as the convective mass flux divided by the area of the whole grid cell (not just the area of the cloud)."
+}

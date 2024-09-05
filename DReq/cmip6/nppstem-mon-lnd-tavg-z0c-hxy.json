@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/nppstem-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "nppStem-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "nppStem",
+    "out_name": "nppStem",
+    "questions_and_notes": "eliminate by including in nppLut?  ",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 9,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Net Primary Production Allocated to Stem as Carbon Mass Flux [kgC m-2 s-1]",
+    "comment": "added for completeness with npp_root"
+}

@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/sndmassmelt-mon-si-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sndmassmelt-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sndmassmelt",
+    "out_name": "sndmassmelt",
+    "questions_and_notes": "The variable root should be \"snm\" like snm-Eday and snm-LImon.",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 15,
+    "contributing_models": 34,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "long_name": "Snow Mass Rate of Change Through Melt",
+    "comment": "the rate of change of snow mass through melt divided by sea-ice area"
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/toz-day-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "toz-AERday",
+    "mip_table": [
+        "AERday"
+    ],
+    "table_entry": "toz",
+    "out_name": "toz",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 9,
+    "contributing_models": 8,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Total Column Ozone",
+    "comment": "Total ozone column calculated at 0 degrees C and 1 bar, such that 1m = 1e5 DU."
+}

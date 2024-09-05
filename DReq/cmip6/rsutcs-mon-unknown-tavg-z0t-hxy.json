@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rsutcs-mon-unknown-tavg-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsutcs-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "rsutcs",
+    "out_name": "rsutcs",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 35,
+    "contributing_models": 100,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "TOA Outgoing Clear-Sky Shortwave Radiation",
+    "comment": "Calculated in the absence of clouds."
+}

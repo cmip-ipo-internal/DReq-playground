@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/sedustci-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sedustCI-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "sedustCI",
+    "out_name": "sedustCI",
+    "questions_and_notes": "I would think that deposition would be restricted to a transfer to the surface from the air immediately above it.  If so, why not define standard names of the form \"surface_mass_flux_of_<species>_due_to_depostion\", which I think would be easier to interpret by most users?",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Sedimentation Flux of Dust Mode Coarse Insoluble",
+    "comment": "Dry mass deposition rate of dust aerosol."
+}

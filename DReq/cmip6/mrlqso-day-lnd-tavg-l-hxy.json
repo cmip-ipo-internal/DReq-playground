@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/mrlqso-day-lnd-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mrlqso-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "mrlqso",
+    "out_name": "mrlqso",
+    "questions_and_notes": "The CF conventions defines this as the mass of frozen water in soil divided by the mass of the (soil + frozen water).  To make any practical use of this you would need to know the mass of soil in each layer.  Wouldn't it be better to keep track of the mean frozen water density or the actual mass of frozen water? ",
+    "specific_issues": [
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 5,
+    "contributing_models": 6,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude sdepth time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Average Layer Fraction of Liquid Moisture",
+    "comment": "Fraction of soil moisture mass in the liquid phase in each user-defined soil layer (3D variable)"
+}

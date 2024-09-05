@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/hursmax-day-unknown-tstat-h02-hxy",
+    "@type": "dr-variable",
+    "standard_name": "relative_humidity",
+    "variable_root_name": "hursmax",
+    "units": "%",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tstat",
+        "verticalLabelDD": "h02",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "relative humidity: maximum at a height of (or near) 2 m reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "height2m"
+    ],
+    "cell_methods": "area: mean time: maximum",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/hursmax-day-unknown-tstat-h02-hxy"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/nlittersubsurf-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "nLitterSubSurf-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "nLitterSubSurf",
+    "out_name": "nLitterSubSurf",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 2,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Nitrogen Mass in Below-Ground Litter (non CWD)",
+    "comment": "\"Content\" indicates a quantity per unit area. \"Litter\" is dead plant material in or above the soil. It is distinct from coarse wood debris. The precise distinction between \"fine\" and \"coarse\" is model dependent. \"Subsurface litter\" means the part of the litter mixed within the soil below the surface. The sum of the quantities with standard names wood_debris_mass_content_of_nitrogen, surface_litter_mass_content_of_nitrogen and subsurface_litter_mass_content_of_nitrogen is the total nitrogen mass content of dead plant material."
+}

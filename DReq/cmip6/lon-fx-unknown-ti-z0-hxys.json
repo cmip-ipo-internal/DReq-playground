@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/lon-fx-unknown-ti-z0-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "lon-CFsubhr",
+    "mip_table": [
+        "CFsubhr"
+    ],
+    "table_entry": "longitude",
+    "out_name": "lon",
+    "questions_and_notes": "Is this needed?    The longitudes must be stored as coordinates or auxiliary coordinates, not as a separate variable.",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "fx",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "site ",
+    "cell_methods": "area: point",
+    "long_name": "Longitude",
+    "comment": "Longitude is positive eastward; its units of degree_east (or equivalent) indicate this explicitly. In a latitude-longitude system defined with respect to a rotated North Pole, the standard name of grid_longitude should be used instead of longitude. Grid longitude is positive in the grid-eastward direction, but its units should be plain degree."
+}

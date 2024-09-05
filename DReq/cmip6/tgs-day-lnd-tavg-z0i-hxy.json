@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/tgs-day-lnd-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tgs-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "tgs",
+    "out_name": "tgs",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 6,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Temperature of Bare Soil",
+    "comment": "Surface bare soil temperature"
+}

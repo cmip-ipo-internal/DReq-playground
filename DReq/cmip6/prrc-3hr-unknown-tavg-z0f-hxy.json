@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/prrc-3hr-unknown-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "prrc-E3hr",
+    "mip_table": [
+        "E3hr"
+    ],
+    "table_entry": "prrc",
+    "out_name": "prrc",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 7,
+    "contributing_models": 10,
+    "frequency": "3hr",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Convective Rainfall Rate",
+    "comment": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics."
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/flashrate-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "flashrate-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "flashrate",
+    "out_name": "flashrate",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 6,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmosChem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Lightning Flash Rate",
+    "comment": "proposed name: lightning_flash_rate (units to be interpreted as \"counts km-2 s-1)"
+}

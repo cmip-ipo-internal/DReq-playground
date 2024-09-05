@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/limirrdiat-mon-oc-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "limirrdiat-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "limirrdiat",
+    "out_name": "limirrdiat",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 9,
+    "contributing_models": 12,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Irradiance Limitation of Diatoms",
+    "comment": "Growth limitation of diatoms due to solar irradiance. \"Growth limitation due to solar irradiance\" means the ratio of the growth rate of a species population in the environment (where the amount of sunlight reaching a location may be limited) to the theoretical growth rate if there were no such limit on solar irradiance."
+}

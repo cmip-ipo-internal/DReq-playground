@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/sftgif-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sftgif-LImon",
+    "mip_table": [
+        "LImon"
+    ],
+    "table_entry": "sftgif",
+    "out_name": "sftgif",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 14,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Land Ice Area Percentage",
+    "comment": "Percentage of grid cell covered by land ice (ice sheet, ice shelf, ice cap, glacier)"
+}

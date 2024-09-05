@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/nppwood-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "nppWood-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "nppWood",
+    "out_name": "nppWood",
+    "questions_and_notes": "eliminate by including in nppLut? Remove \"positive down\" attribute?",
+    "specific_issues": [
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 8,
+    "contributing_models": 18,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Net Primary Production Allocated to Wood as Carbon Mass Flux [kgC m-2 s-1]",
+    "comment": "This is the rate of carbon uptake by wood due to NPP"
+}

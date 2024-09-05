@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/clt-day-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "clt-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "clt",
+    "out_name": "clt",
+    "questions_and_notes": "This is \"where land\" whereas the variable above it is unmasked.  I know if data are mapped to a target grid, you might mix ocean and land cloudiness, but is it absolutely necessary to avoid that? Consider eliminating one of these.",
+    "specific_issues": [
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 8,
+    "contributing_models": 9,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Total Cloud Cover Percentage",
+    "comment": "Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen from the surface or the top of the atmosphere. Includes both large-scale and convective cloud."
+}

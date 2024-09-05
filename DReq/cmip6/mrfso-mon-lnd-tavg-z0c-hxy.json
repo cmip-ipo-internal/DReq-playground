@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/mrfso-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mrfso-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "mrfso",
+    "out_name": "mrfso",
+    "questions_and_notes": "check that only 2 of following 3 water contents are requested: frozen, liquid, frozen+liquid.",
+    "specific_issues": [],
+    "contributing_institutions": 26,
+    "contributing_models": 66,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land landIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Soil Frozen Water Content",
+    "comment": "The mass per unit area (summed over all model layers) of frozen water."
+}

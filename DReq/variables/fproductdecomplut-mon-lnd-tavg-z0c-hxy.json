@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/fproductdecomplut-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "tendency_of_atmosphere_mass_content_of_carbon_dioxide_expressed_as_carbon_due_to_emission_from_forestry_and_agricultural_products",
+    "variable_root_name": "fProductDecomp",
+    "units": "kg m-2 s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "lus"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "tendency of atmosphere mass content of carbon dioxide expressed as carbon due to emission from forestry and agricultural products: time means reported on a 2-d horizontal grid where sector over all_area_types",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "landUse",
+        "time"
+    ],
+    "cell_methods": "area: time: mean where sector",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/fproductdecomplut-mon-lnd-tavg-z0c-hxy"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/ppos-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ppos-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "ppos",
+    "out_name": "ppos",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 7,
+    "contributing_models": 11,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time depth0m",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Primary Carbon Production by Phytoplankton",
+    "comment": "total primary (organic carbon) production by phytoplankton"
+}

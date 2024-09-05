@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rlutcs4co2-mon-unknown-tavg-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rlutcs4co2-CFmon",
+    "mip_table": [
+        "CFmon"
+    ],
+    "table_entry": "rlutcs4co2",
+    "out_name": "rlutcs4co2",
+    "questions_and_notes": "Needs a more specific standard name: toa_outgoing_longwave_flux_assuming_clear_sky_and_quadrupled_carbon_dioxide.  Or why not report clear-sky OLR forcing due to 4xCO2 instead?",
+    "specific_issues": [
+        "5:Standard name issue."
+    ],
+    "contributing_institutions": 5,
+    "contributing_models": 13,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "TOA Outgoing Clear-Sky Longwave Radiation 4XCO2 Atmosphere",
+    "comment": "Top-of-atmosphere outgoing clear-sky longwave radiation calculated using carbon dioxide concentrations increased fourfold"
+}

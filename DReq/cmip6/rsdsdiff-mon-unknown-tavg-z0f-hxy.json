@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rsdsdiff-mon-unknown-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsdsdiff-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "rsdsdiff",
+    "out_name": "rsdsdiff",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 8,
+    "contributing_models": 18,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Surface Diffuse Downwelling Shortwave Radiation",
+    "comment": "Surface downwelling solar irradiance from diffuse radiation for UV calculations."
+}

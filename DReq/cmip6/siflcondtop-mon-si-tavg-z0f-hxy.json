@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/siflcondtop-mon-si-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "siflcondtop-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "siflcondtop",
+    "out_name": "siflcondtop",
+    "questions_and_notes": "Shouldn't this be simply the net surface heat flux, rather than the sensible heat flux?  (The conduction is equal to the net flux between the surface and atmosphere unless light penetrates the ice.).  ",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 17,
+    "contributing_models": 36,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "long_name": "Net Conductive Heat Flux in Ice at the Surface",
+    "comment": "the net heat conduction flux at the ice surface"
+}

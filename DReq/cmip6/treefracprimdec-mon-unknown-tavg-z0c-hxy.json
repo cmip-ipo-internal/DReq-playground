@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/treefracprimdec-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "treeFracPrimDec-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "treeFracPrimDec",
+    "out_name": "treeFracPrimDec",
+    "questions_and_notes": "Should this be undefined where sea?  Should deprecate in favor of \"where all_area_types\".  Consider eliminating scalar dimension.",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 9,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time typepdec",
+    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "long_name": "Percentage Cover by Primary Deciduous Tree",
+    "comment": "Percentage of the entire grid cell  that is covered by total primary deciduous trees."
+}

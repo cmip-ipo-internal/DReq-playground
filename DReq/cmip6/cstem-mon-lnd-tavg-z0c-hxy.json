@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/cstem-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cStem-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "cStem",
+    "out_name": "cStem",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 11,
+    "contributing_models": 17,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Carbon Mass in Stem",
+    "comment": "including sapwood and hardwood."
+}

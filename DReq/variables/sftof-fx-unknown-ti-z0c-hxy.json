@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/sftof-fx-unknown-ti-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "sea_area_fraction",
+    "variable_root_name": "sftof",
+    "units": "%",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "ti",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "sea area fraction: time-independent field reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        ""
+    ],
+    "cell_methods": "area: mean",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "fx"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/sftof-fx-unknown-ti-z0c-hxy"
+        }
+    }
+}

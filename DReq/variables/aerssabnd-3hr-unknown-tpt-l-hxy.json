@@ -1,0 +1,39 @@
+{
+    "@id": "dr:variables/aerssabnd-3hr-unknown-tpt-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "single_scattering_albedo_in_air_due_to_ambient_aerosol_particles",
+    "variable_root_name": "aerssabnd",
+    "units": 1.0,
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": ", spectrally resolved",
+    "brand_description": "single scattering albedo in air due to ambient aerosol particles, spectrally resolved: synoptic samples provided on multiple model levels and reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "spectband",
+        "time1"
+    ],
+    "cell_methods": "area: mean time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "3hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/aerssabnd-3hr-unknown-tpt-l-hxy"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/clittersurf-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cLitterSurf-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "cLitterSurf",
+    "out_name": "cLitterSurf",
+    "questions_and_notes": "How exactly does this variable differ from cLitterAbove-Lmon?  If they are different, do they need a different standard names?",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 7,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Carbon Mass in Above-Ground Litter",
+    "comment": "Surface or near-surface litter pool fed by leaf and above-ground litterfall"
+}

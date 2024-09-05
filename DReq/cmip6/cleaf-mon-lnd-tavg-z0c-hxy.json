@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/cleaf-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cLeaf-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "cLeaf",
+    "out_name": "cLeaf",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 17,
+    "contributing_models": 31,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Carbon Mass in Leaves",
+    "comment": "Carbon mass per unit area in leaves."
+}

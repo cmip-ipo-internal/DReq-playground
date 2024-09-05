@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/pfull-mon-unknown-tcla-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "pfull-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "pfull",
+    "out_name": "pfull",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 9,
+    "contributing_models": 22,
+    "frequency": "monC",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time2",
+    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "long_name": "Pressure at Model Full-Levels",
+    "comment": "Air pressure on model levels"
+}

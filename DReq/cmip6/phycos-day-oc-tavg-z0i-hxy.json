@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/phycos-day-oc-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "phycos-Oday",
+    "mip_table": [
+        "Oday"
+    ],
+    "table_entry": "phycos",
+    "out_name": "phycos",
+    "questions_and_notes": "need vertical depth scalar coordinate",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 7,
+    "contributing_models": 8,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Sea Surface Phytoplankton Carbon Concentration",
+    "comment": "sum of phytoplankton organic carbon component concentrations at the sea surface"
+}

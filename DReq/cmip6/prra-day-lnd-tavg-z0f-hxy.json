@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/prra-day-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "prra-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "prra",
+    "out_name": "prra",
+    "questions_and_notes": "Wouldn't  \"precipitation flux\" do here?   Note also that \"where crops\", which is requested by prCrop-Eday, should be almost the same as \"where land\".   ",
+    "specific_issues": [
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 5,
+    "contributing_models": 6,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Rainfall Flux",
+    "comment": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics."
+}

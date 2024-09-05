@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/od550aerso-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "od550aerso-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "od550aerso",
+    "out_name": "od550aerso",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 3,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time lambda550nm",
+    "cell_methods": "area: time: mean",
+    "long_name": "Stratospheric Optical Depth at 550nm (All Aerosols) 2D-Field (Stratosphere Only)",
+    "comment": "From tropopause to stratopause as defined by the model"
+}

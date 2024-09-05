@@ -1,0 +1,28 @@
+{
+    "@id": "dr:cmip6/msftmrhompa-mon-op-tavg-rhon-hys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "msftmrhompa-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "msftmrhompa",
+    "out_name": "msftmrhompa",
+    "questions_and_notes": "Since it is stored on rho surfaces, not depth, I don't think cell_methods should include \"depth\".  For longitude, check whether sum is correct and consistent with msftyrho-Omon, msftyz-Odec, msftyz-Omon msftyrhompa-Omon, and msftyzmpa-Omon.  cell_methods should include \"where sea\" .",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
+        "11:Modify cell methods.  Include 'where sea'.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "latitude rho basin time",
+    "cell_methods": "longitude: sum (comment: basin sum [along zig-zag grid path]) depth: sum time: mean",
+    "long_name": "Ocean Meridional Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection",
+    "comment": "CMIP5 called this \"due to Bolus Advection\".  Name change respects the more general physics of the mesoscale parameterizations."
+}

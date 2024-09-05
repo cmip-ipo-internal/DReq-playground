@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/albdirbnd-3hr-unknown-tpt-z0i??-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "albdirbnd-E3hrPt",
+    "mip_table": [
+        "E3hrPt"
+    ],
+    "table_entry": "albdirbnd",
+    "out_name": "albdirbnd",
+    "questions_and_notes": "Should this get weighted somehow?  What value does it get at night?  Cell_methods should include area: mean.",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude spectband time1",
+    "cell_methods": "time: point",
+    "long_name": "Direct Surface Albedo for Each Band",
+    "comment": "The fraction of the surface direct downwelling shortwave radiation flux which is reflected. It is equivalent to the surface bidirectional reflectance at the incident angle of the incoming solar radiation and integrated over all outgoing angles in the hemisphere above the surface.  Reported in spectral frequency bands."
+}

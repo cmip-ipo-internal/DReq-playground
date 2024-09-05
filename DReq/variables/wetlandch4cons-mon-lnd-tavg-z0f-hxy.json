@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/wetlandch4cons-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable",
+    "standard_name": "surface_downward_mass_flux_of_methane_due_to_wetland_biological_consumption",
+    "variable_root_name": "wetlandCH4cons",
+    "units": "kg m-2 s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "lnd"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "surface downward mass flux of methane due to wetland biological consumption: time means reported on a 2-d horizontal grid where land",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where land time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/wetlandch4cons-mon-lnd-tavg-z0f-hxy"
+        }
+    }
+}

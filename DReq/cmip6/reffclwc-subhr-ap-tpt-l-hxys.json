@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/reffclwc-subhr-ap-tpt-l-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "reffclwc-Esubhr",
+    "mip_table": [
+        "Esubhr"
+    ],
+    "table_entry": "reffclwc",
+    "out_name": "reffclwc",
+    "questions_and_notes": "cell_methods should include \"where convective_cloud\" because it is undefined elsewhere.",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "alevel site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "Convective Cloud Liquid Droplet Effective Radius",
+    "comment": "Droplets are liquid.  The effective radius is defined as the ratio of the third moment over the second moment of the particle size distribution and the time-mean should be calculated, weighting the individual samples by the cloudy fraction of the grid cell."
+}

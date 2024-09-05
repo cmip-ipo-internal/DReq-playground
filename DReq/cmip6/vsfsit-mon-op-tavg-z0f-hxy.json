@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/vsfsit-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "vsfsit-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "vsfsit",
+    "out_name": "vsfsit",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 9,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Virtual Salt Flux into Sea Water Due to Sea Ice Thermodynamics",
+    "comment": "This variable measures the virtual salt flux into sea water due to the melting of sea ice. It is set to zero in models which receive a real water flux."
+}

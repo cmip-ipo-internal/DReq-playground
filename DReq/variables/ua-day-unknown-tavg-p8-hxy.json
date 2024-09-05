@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/ua-day-unknown-tavg-p8-hxy",
+    "@type": "dr-variable",
+    "standard_name": "eastward_wind",
+    "variable_root_name": "ua",
+    "units": "m s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "p8",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "eastward wind: time means requested on 8 pressure levels and reported on a 2-d horizontal grid where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev8",
+        "time"
+    ],
+    "cell_methods": "time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/ua-day-unknown-tavg-p8-hxy"
+        }
+    }
+}

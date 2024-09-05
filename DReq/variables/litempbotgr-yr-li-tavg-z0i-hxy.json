@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/litempbotgr-yr-li-tavg-z0i-hxy",
+    "@type": "dr-variable",
+    "standard_name": "land_ice_basal_temperature",
+    "variable_root_name": "litempbot",
+    "units": "K",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "gis"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "land ice basal temperature: time means reported on a 2-d horizontal grid where grounded_ice_sheet",
+    "bn_status": "accepted",
+    "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+    ],
+    "cell_methods": "area: time: mean where grounded_ice_sheet (comment: mask=sfgrlf)",
+    "cell_measures": "area: areacellg",
+    "samplingIntervals": [
+        "yr"
+    ],
+    "regions": [
+        "greenland"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/litempbotgr-yr-li-tavg-z0i-hxy"
+        }
+    }
+}

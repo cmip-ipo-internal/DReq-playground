@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/volcello-fx-op-ti-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "ocean_volume",
+    "variable_root_name": "volcello",
+    "units": "m3",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "ti",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "ocean volume: time-independent field provided on multiple model levels and reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        ""
+    ],
+    "cell_methods": "area: sum",
+    "cell_measures": "area: areacello volume: volcello",
+    "samplingIntervals": [
+        "fx"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/volcello-fx-op-ti-l-hxy"
+        }
+    }
+}

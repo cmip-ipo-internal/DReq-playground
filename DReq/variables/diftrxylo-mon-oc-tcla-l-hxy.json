@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/diftrxylo-mon-oc-tcla-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "ocean_tracer_xy_laplacian_diffusivity",
+    "variable_root_name": "diftrxylo",
+    "units": "m2 s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tcla",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "ocean tracer xy laplacian diffusivity: climatology provided on multiple model levels and reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time2"
+    ],
+    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "cell_measures": "area: areacello volume: volcello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/diftrxylo-mon-oc-tcla-l-hxy"
+        }
+    }
+}

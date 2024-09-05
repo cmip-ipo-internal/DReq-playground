@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/obvfsq-mon-op-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "obvfsq-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "obvfsq",
+    "out_name": "obvfsq",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 20,
+    "contributing_models": 35,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Square of Brunt Vaisala Frequency in Sea Water",
+    "comment": "The phrase \"square_of_X\" means X*X. Frequency is the number of oscillations of a wave per unit time. Brunt-Vaisala frequency is also sometimes called \"buoyancy frequency\" and is a measure of the vertical stratification of the medium."
+}

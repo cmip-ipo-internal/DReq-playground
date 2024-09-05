@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/rsds-3hr-unknown-tpt-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsds-CF3hr",
+    "mip_table": [
+        "CF3hr"
+    ],
+    "table_entry": "rsds",
+    "out_name": "rsds",
+    "questions_and_notes": "Can we use time-mean data here? Why not?",
+    "specific_issues": [
+        "7:Deprecate? Eliminate one of 'point' or 'mean' variable options.",
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 5,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Surface Downwelling Shortwave Radiation",
+    "comment": "Surface solar irradiance for UV calculations."
+}

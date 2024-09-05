@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/residualfrac-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "residualFrac-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "residualFrac",
+    "out_name": "residualFrac",
+    "questions_and_notes": "Should this be undefined where sea?  Should deprecate in favor of \"where all_area_types\".  Consider eliminating scalar dimension.  \"residual\" is not an area-type recognized by CF, which could be a problem.",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 19,
+    "contributing_models": 39,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time typeresidual",
+    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "long_name": "Percentage of Grid Cell That Is Land but neither Vegetation Covered nor Bare Soil",
+    "comment": "Percentage of entire grid cell  that is land and is covered by  neither vegetation nor bare-soil (e.g., urban, ice, lakes, etc.)"
+}

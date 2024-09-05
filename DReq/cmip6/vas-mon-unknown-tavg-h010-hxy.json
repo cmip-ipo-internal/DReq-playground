@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/vas-mon-unknown-tavg-h010-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "vas-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "vas",
+    "out_name": "vas",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 30,
+    "contributing_models": 78,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time height10m",
+    "cell_methods": "area: time: mean",
+    "long_name": "Northward Near-Surface Wind",
+    "comment": "Northward component of the near surface wind"
+}

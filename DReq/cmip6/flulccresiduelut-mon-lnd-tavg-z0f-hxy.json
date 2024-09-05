@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/flulccresiduelut-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fLulccResidueLut-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fLulccResidueLut",
+    "out_name": "fLulccResidueLut",
+    "questions_and_notes": "remove \"Lut\" from root; this information is in the branding suffix.",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 5,
+    "contributing_models": 11,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude landUse time",
+    "cell_methods": "area: time: mean where sector",
+    "long_name": "Carbon Transferred to Soil or Litter Pools Due to Land-Use or Land-Cover Change Processes on Tile",
+    "comment": "This annual mean flux refers to the transfer of carbon into soil or litter pools due to any land use or land-cover change activities"
+}

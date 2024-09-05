@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/prsn-mon-unknown-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "prsn-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "prsn",
+    "out_name": "prsn",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 37,
+    "contributing_models": 95,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Snowfall Flux",
+    "comment": "At surface; includes precipitation of all forms of water in the solid phase"
+}

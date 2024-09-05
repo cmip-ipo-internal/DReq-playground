@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/cli-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cli-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "cli",
+    "out_name": "cli",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 33,
+    "contributing_models": 70,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Mass Fraction of Cloud Ice",
+    "comment": "Includes both large-scale and convective cloud. This is calculated as the mass of cloud ice in the grid cell divided by the mass of air (including the water in all phases) in the grid cell. It includes precipitating hydrometeors ONLY if the precipitating hydrometeors affect the calculation of radiative transfer in model."
+}

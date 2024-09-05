@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/tdps-mon-unknown-tavg-h02-hxy",
+    "@type": "dr-variable",
+    "standard_name": "dew_point_temperature",
+    "variable_root_name": "tdps",
+    "units": "K",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "h02",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "dew point temperature: time means at a height of (or near) 2 m reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/tdps-mon-unknown-tavg-h02-hxy"
+        }
+    }
+}

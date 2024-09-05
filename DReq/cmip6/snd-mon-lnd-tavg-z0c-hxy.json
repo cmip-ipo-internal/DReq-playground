@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/snd-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "snd-LImon",
+    "mip_table": [
+        "LImon"
+    ],
+    "table_entry": "snd",
+    "out_name": "snd",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 22,
+    "contributing_models": 66,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "landIce land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Snow Depth",
+    "comment": "where land over land, this is computed as the mean thickness of snow in the land portion of the grid cell (averaging over the entire land portion, including the snow-free fraction).  Reported as 0.0 where the land fraction is 0."
+}

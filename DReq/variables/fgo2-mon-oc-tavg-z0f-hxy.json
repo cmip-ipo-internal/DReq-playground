@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/fgo2-mon-oc-tavg-z0f-hxy",
+    "@type": "dr-variable",
+    "standard_name": "surface_downward_mole_flux_of_molecular_oxygen",
+    "variable_root_name": "fgo2",
+    "units": "mol m-2 s-1",
+    "type": "real",
+    "positive": "down",
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "surface downward mole flux of molecular oxygen: time means reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "depth0m"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/fgo2-mon-oc-tavg-z0f-hxy"
+        }
+    }
+}

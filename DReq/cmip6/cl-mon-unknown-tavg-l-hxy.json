@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/cl-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cl-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "cl",
+    "out_name": "cl",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 34,
+    "contributing_models": 73,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Percentage Cloud Cover",
+    "comment": "Percentage cloud cover, including both large-scale and convective cloud."
+}

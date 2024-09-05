@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/ra-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ra-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "ra",
+    "out_name": "ra",
+    "questions_and_notes": "For consistency with other similar variables, replace \"ra\" with \"frespa\".",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 27,
+    "contributing_models": 56,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Carbon Mass Flux into Atmosphere Due to Autotrophic (Plant) Respiration on Land [kgC m-2 s-1]",
+    "comment": "Carbon mass flux per unit area into atmosphere due to autotrophic respiration on land (respiration by producers) [see rh for heterotrophic production]"
+}

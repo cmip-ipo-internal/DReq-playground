@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/tos-3hr-op-tpt-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tos-3hr",
+    "mip_table": [
+        "3hr"
+    ],
+    "table_entry": "tos",
+    "out_name": "tos",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 18,
+    "contributing_models": 34,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean where sea time: point",
+    "long_name": "Sea Surface Temperature",
+    "comment": "Temperature of upper boundary of the liquid ocean, including temperatures below sea-ice and floating ice shelves."
+}

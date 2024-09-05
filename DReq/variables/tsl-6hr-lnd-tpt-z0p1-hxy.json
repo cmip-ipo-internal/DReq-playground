@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/tsl-6hr-lnd-tpt-z0p1-hxy",
+    "@type": "dr-variable",
+    "standard_name": "soil_temperature",
+    "variable_root_name": "tsl",
+    "units": "K",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "z0p1",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "lnd"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "soil temperature: synoptic samples integrated over the uppermost 10 cm and reported on a 2-d horizontal grid where land",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "sdepth1"
+    ],
+    "cell_methods": "area: mean where land time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "6hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/tsl-6hr-lnd-tpt-z0p1-hxy"
+        }
+    }
+}

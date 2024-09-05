@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/pod0-mon-unknown-tsum-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "integral_wrt_time_of_mole_stomatal_uptake_of_ozone",
+    "variable_root_name": "pod0",
+    "units": "mol m-2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tsum",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "integral wrt time of mole stomatal uptake of ozone: accumulations reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean time: sum",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/pod0-mon-unknown-tsum-z0c-hxy"
+        }
+    }
+}

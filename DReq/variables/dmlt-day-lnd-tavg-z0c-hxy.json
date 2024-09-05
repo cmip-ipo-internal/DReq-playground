@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/dmlt-day-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "depth_at_shallowest_isotherm_defined_by_soil_temperature",
+    "variable_root_name": "dmlt",
+    "units": "m",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "ufs"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "depth at shallowest isotherm defined by soil temperature: time means reported on a 2-d horizontal grid where unfrozen_soil (at the surface, but frozen below the surface)",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "stempzero"
+    ],
+    "cell_methods": "area: time: mean where unfrozen_soil",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/dmlt-day-lnd-tavg-z0c-hxy"
+        }
+    }
+}

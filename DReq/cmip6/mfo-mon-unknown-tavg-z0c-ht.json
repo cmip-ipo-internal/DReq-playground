@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/mfo-mon-unknown-tavg-z0c-ht",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mfo-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "mfo",
+    "out_name": "mfo",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 12,
+    "contributing_models": 19,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "oline time",
+    "cell_methods": "time: mean",
+    "long_name": "Sea Water Transport",
+    "comment": "Transport across_line means that which crosses a particular line on the Earth's surface; formally this means the integral along the line of the normal component of the transport."
+}

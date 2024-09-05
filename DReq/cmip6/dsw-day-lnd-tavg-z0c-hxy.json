@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/dsw-day-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "dsw-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "dsw",
+    "out_name": "dsw",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Change in Surface Water Storage",
+    "comment": "The phrase \"land_water_amount\", often known as \"Terrestrial Water Storage\", includes: surface liquid water (water in rivers, wetlands, lakes, reservoirs, rainfall intercepted by the canopy); surface ice and snow (glaciers, ice caps, grounded ice sheets not displacing sea water, river and lake ice, other surface ice such as frozen flood water, snow lying on the surface and intercepted by the canopy); subsurface water (liquid and frozen soil water, groundwater)."
+}

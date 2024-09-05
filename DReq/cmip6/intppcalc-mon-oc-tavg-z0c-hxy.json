@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/intppcalc-mon-oc-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "intppcalc-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "intppcalc",
+    "out_name": "intppcalc",
+    "questions_and_notes": "In cell_methods it should be a \"sum\" over depth and the order of depth and area should be reversed.  \"where sea\" is needed only once. After applying first method (\"where sea\") second method will be applied only \"where sea\" because elsewhere, data is considered missing.",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 2,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+    "long_name": "Net Primary Mole Productivity of Carbon by Calcareous Phytoplankton",
+    "comment": "Vertically integrated primary (organic carbon) production by the calcareous phytoplankton component alone"
+}

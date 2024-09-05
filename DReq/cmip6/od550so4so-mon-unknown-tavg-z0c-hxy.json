@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/od550so4so-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "od550so4so-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "od550so4so",
+    "out_name": "od550so4so",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time lambda550nm",
+    "cell_methods": "area: time: mean",
+    "long_name": "Stratospheric Optical Depth at 550nm (Sulphate Only) 2D-Field (Stratosphere Only)",
+    "comment": "Stratospheric aerosol AOD due to sulfate aerosol at a wavelength of 550 nanometres."
+}

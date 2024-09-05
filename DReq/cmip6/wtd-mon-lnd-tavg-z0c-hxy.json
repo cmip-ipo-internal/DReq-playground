@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/wtd-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "wtd-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "wtd",
+    "out_name": "wtd",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 9,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Water Table Depth",
+    "comment": "Depth is the vertical distance below the surface. The water table is the surface below which the soil is saturated with water such that all pore spaces are filled."
+}

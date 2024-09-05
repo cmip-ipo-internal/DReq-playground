@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/fgrazing-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fGrazing-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "fGrazing",
+    "out_name": "fGrazing",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 5,
+    "contributing_models": 6,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Carbon Mass Flux into Atmosphere Due to Grazing on Land [kgC m-2 s-1]",
+    "comment": "Carbon mass flux per unit area due to grazing on land"
+}

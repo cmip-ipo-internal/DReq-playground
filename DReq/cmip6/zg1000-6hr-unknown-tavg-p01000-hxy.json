@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/zg1000-6hr-unknown-tavg-p01000-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "zg1000-6hrPlev",
+    "mip_table": [
+        "6hrPlev"
+    ],
+    "table_entry": "zg1000",
+    "out_name": "zg1000",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 7,
+    "contributing_models": 10,
+    "frequency": "6hr",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time p1000",
+    "cell_methods": "area: time: mean",
+    "long_name": "Geopotential Height at 1000hPa",
+    "comment": "Geopotential height on the 1000 hPa surface"
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/clitterabove-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cLitterAbove-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "cLitterAbove",
+    "out_name": "cLitterAbove",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 7,
+    "contributing_models": 14,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Carbon Mass in Above-Ground Litter",
+    "comment": "\"Litter\" is dead plant material in or above the soil. It is distinct from coarse wood debris. The precise distinction between \"fine\" and \"coarse\" is model dependent. \"Surface litter\" means the part of the litter resting above the soil surface. \"Content\" indicates a quantity per unit area. The sum of the quantities with standard names surface_litter_mass_content_of_carbon and subsurface_litter_mass_content_of_carbon has the standard name litter_mass_content_of_carbon."
+}

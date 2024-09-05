@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/cldnci-day-ap-tavg-z0-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cldnci-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "cldnci",
+    "out_name": "cldnci",
+    "questions_and_notes": "cell_methods need to include \"area: mean (in upper-most layer of ice  cloud)",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Ice Crystal Number Concentration of Cloud Tops",
+    "comment": "Concentration 'as seen from space' over ice-cloud portion of grid cell.  This is the value from uppermost model layer with ice cloud or, if available, it is the sum over all ice cloud tops, no matter where they occur, as long as they are seen from the top of the atmosphere. Weight by total ice cloud top fraction (as seen from TOA) of each time sample when computing monthly mean."
+}

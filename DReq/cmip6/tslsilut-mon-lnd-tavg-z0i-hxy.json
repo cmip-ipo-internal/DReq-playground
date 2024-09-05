@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/tslsilut-mon-lnd-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tslsiLut-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "tslsiLut",
+    "out_name": "tslsiLut",
+    "questions_and_notes": "why does the root name include \"si\" (sea-ice)? Probably root should be \"tsl\". I don't think sea_ice  surface temperature should be included as a landUse \"sector\".",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 7,
+    "contributing_models": 13,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude landUse time",
+    "cell_methods": "area: time: mean where sector",
+    "long_name": "Surface Temperature on Landuse Tile",
+    "comment": "Surface temperature (i.e. temperature at which long-wave radiation emitted)"
+}

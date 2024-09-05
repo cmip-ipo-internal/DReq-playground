@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/ttop-mon-ap-tavg-z0-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ttop-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "ttop",
+    "out_name": "ttop",
+    "questions_and_notes": "Should samples with cloud be weighted by grid cell area or total cloud area?  If total cloud area, then \"where cloud\" should be included in cell_methods.",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 4,
+    "contributing_models": 10,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Air Temperature at Cloud Top",
+    "comment": "cloud_top refers to the top of the highest cloud. Air temperature is the bulk temperature of the air, not the surface (skin) temperature."
+}

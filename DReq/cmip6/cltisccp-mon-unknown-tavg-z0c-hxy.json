@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/cltisccp-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cltisccp-CFmon",
+    "mip_table": [
+        "CFmon"
+    ],
+    "table_entry": "cltisccp",
+    "out_name": "cltisccp",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 19,
+    "contributing_models": 41,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "ISCCP Total Cloud Cover Percentage",
+    "comment": "Total cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen by the International Satellite Cloud Climatology Project (ISCCP) analysis. Includes both large-scale and convective cloud.  (MODIS). Includes both large-scale and convective cloud."
+}

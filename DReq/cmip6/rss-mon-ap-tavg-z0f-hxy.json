@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rss-mon-ap-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rss-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "rss",
+    "out_name": "rss",
+    "questions_and_notes": "Isn't this the difference between rlds and rlus and therefore not needed?",
+    "specific_issues": [
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 17,
+    "contributing_models": 6,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Net Shortwave Surface Radiation",
+    "comment": "Net downward shortwave radiation at the surface"
+}

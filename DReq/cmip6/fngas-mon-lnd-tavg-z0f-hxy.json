@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/fngas-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fNgas-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fNgas",
+    "out_name": "fNgas",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 11,
+    "contributing_models": 16,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Total Nitrogen Lost to the Atmosphere (Sum of NHx, NOx, N2O, N2)",
+    "comment": "Total flux of Nitrogen from the land into the atmosphere."
+}

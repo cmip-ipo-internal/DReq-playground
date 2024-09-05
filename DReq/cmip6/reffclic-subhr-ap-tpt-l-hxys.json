@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/reffclic-subhr-ap-tpt-l-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "reffclic-Esubhr",
+    "mip_table": [
+        "Esubhr"
+    ],
+    "table_entry": "reffclic",
+    "out_name": "reffclic",
+    "questions_and_notes": "cell_methods should include \"where cloud\" because it is undefined elsewhere.",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "alevel site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "Hydrometeor Effective Radius of Convective Cloud Ice",
+    "comment": "This is defined as the in-cloud ratio of the third moment over the second moment of the particle size distribution (obtained by considering only the cloudy portion of the grid cell)."
+}

@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/o3-mon-unknown-tavg-p19-hxy",
+    "@type": "dr-variable",
+    "standard_name": "mole_fraction_of_ozone_in_air",
+    "variable_root_name": "o3",
+    "units": "mol mol-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "p19",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "mole fraction of ozone in air: time means requested on 19 pressure levels and reported on a 2-d horizontal grid where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev19",
+        "time"
+    ],
+    "cell_methods": "time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/o3-mon-unknown-tavg-p19-hxy"
+        }
+    }
+}

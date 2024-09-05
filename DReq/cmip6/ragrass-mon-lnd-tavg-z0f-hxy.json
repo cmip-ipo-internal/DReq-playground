@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/ragrass-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "raGrass-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "raGrass",
+    "out_name": "raGrass",
+    "questions_and_notes": "For consistency with other similar variables, replace \"ra\" with \"frespa\".  \"over land\" o.k.?",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 10,
+    "contributing_models": 12,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where natural_grasses (comment: mask=grassFrac)",
+    "long_name": "Autotrophic Respiration on Grass Tiles as Carbon Mass Flux [kgC m-2 s-1]",
+    "comment": "Total RA of grass in the grid cell"
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/ph-mon-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ph-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "ph",
+    "out_name": "ph",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 16,
+    "contributing_models": 26,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "pH",
+    "comment": "negative log of hydrogen ion concentration with the concentration expressed as mol H kg-1."
+}

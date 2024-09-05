@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rsdscsdiff-day-unknown-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsdscsdiff-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "rsdscsdiff",
+    "out_name": "rsdscsdiff",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 6,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Surface Diffuse Downwelling Clear Sky Shortwave Radiation",
+    "comment": "Surface downwelling solar irradiance from diffuse radiation for UV calculations in clear sky conditions"
+}

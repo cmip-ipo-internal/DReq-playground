@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/ci-3hr-ap-tpt-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ci-CF3hr",
+    "mip_table": [
+        "CF3hr"
+    ],
+    "table_entry": "ci",
+    "out_name": "ci",
+    "questions_and_notes": "In description/comment say \"grid cell column\" rather than \"grid cell\"?",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 6,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Fraction of Time Convection Occurs in Cell",
+    "comment": "Fraction of time that convection occurs in the grid cell."
+}

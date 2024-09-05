@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/ta500-day-unknown-tavg-p0500-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ta500-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "ta500",
+    "out_name": "ta500",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 14,
+    "contributing_models": 21,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time p500",
+    "cell_methods": "area: time: mean",
+    "long_name": "Air Temperature",
+    "comment": "Temperature on the 500 hPa surface"
+}

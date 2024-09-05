@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/mlotstsq-mon-op-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "square_of_ocean_mixed_layer_thickness_defined_by_sigma_t",
+    "variable_root_name": "mlotstsq",
+    "units": "m2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "square of ocean mixed layer thickness defined by sigma t: time means reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/mlotstsq-mon-op-tavg-z0c-hxy"
+        }
+    }
+}

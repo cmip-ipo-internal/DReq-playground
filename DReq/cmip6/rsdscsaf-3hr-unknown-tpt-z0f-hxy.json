@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rsdscsaf-3hr-unknown-tpt-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsdscsaf-E3hrPt",
+    "mip_table": [
+        "E3hrPt"
+    ],
+    "table_entry": "rsdscsaf",
+    "out_name": "rsdscsaf",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Surface Downwelling Clear-Sky, Aerosol-Free Shortwave Radiation",
+    "comment": "Calculated in the absence of aerosols and clouds."
+}

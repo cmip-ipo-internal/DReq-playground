@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/tnt-subhr-unknown-tpt-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tnt-Esubhr",
+    "mip_table": [
+        "Esubhr"
+    ],
+    "table_entry": "tnt",
+    "out_name": "tnt",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Tendency of Air Temperature",
+    "comment": "Tendency of Air Temperature"
+}

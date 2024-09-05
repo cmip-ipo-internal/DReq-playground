@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/vo-mon-op-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "vo-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "vo",
+    "out_name": "vo",
+    "questions_and_notes": "cell_methods should include \"where sea\"",
+    "specific_issues": [
+        "11:Modify cell methods.  Include 'where sea'."
+    ],
+    "contributing_institutions": 35,
+    "contributing_models": 89,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "time: mean",
+    "long_name": "Sea Water Y Velocity",
+    "comment": "Prognostic y-ward velocity component resolved by the model."
+}

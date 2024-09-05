@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/rootdsl-fx-lnd-ti-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rootdsl-Efx",
+    "mip_table": [
+        "Efx"
+    ],
+    "table_entry": "rootdsl",
+    "out_name": "rootdsl",
+    "questions_and_notes": "Why no time coordinate?  How does it differ from cRoot-Lmon?",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "fx",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude sdepth ",
+    "cell_methods": "area: mean where land",
+    "long_name": "Root Distribution",
+    "comment": "Mass of carbon in roots."
+}

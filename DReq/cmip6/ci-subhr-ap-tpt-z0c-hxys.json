@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/ci-subhr-ap-tpt-z0c-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ci-CFsubhr",
+    "mip_table": [
+        "CFsubhr"
+    ],
+    "table_entry": "ci",
+    "out_name": "ci",
+    "questions_and_notes": "In description/comment say \"grid cell column\" rather than \"grid cell\"?",
+    "specific_issues": [],
+    "contributing_institutions": 5,
+    "contributing_models": 8,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "Fraction of Time Convection Occurs in Cell",
+    "comment": "Fraction of time that convection occurs in the grid cell."
+}

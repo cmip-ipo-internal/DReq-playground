@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/zhalfo-mon-op-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "zhalfo-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "zhalfo",
+    "out_name": "zhalfo",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 12,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude olevhalf time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Depth Below Geoid of Interfaces Between Ocean Layers",
+    "comment": "Depth below geoid"
+}

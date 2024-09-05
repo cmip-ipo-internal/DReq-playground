@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/phypicoos-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "phypicoos-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "phypicoos",
+    "out_name": "phypicoos",
+    "questions_and_notes": "need vertical depth scalar coordinate",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "6:Modify variable root.",
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 7,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Mole Concentration of Picophytoplankton Expressed as Carbon in Sea Water",
+    "comment": "carbon concentration from the picophytoplankton (<2 um) component alone"
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/fco2nat-mon-ac-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fco2nat-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "fco2nat",
+    "out_name": "fco2nat",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 8,
+    "contributing_models": 11,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Surface Carbon Mass Flux into the Atmosphere Due to Natural Sources [kgC m-2 s-1]",
+    "comment": "This is what the atmosphere sees (on its own grid).  This field should be equivalent to the combined natural fluxes of carbon  that account for natural exchanges between the atmosphere and land (nep) or ocean (fgco2) reservoirs."
+}

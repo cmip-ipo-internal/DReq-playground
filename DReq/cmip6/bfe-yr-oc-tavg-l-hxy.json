@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/bfe-yr-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "bfe-Oyr",
+    "mip_table": [
+        "Oyr"
+    ],
+    "table_entry": "bfe",
+    "out_name": "bfe",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 9,
+    "contributing_models": 11,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Mole Concentration of Particulate Organic Matter Expressed as Iron in Sea Water",
+    "comment": "Sum of particulate organic iron component concentrations"
+}

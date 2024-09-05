@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/chldiazos-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable",
+    "standard_name": "mass_concentration_of_diazotrophic_phytoplankton_expressed_as_chlorophyll_in_sea_water",
+    "variable_root_name": "chldiaz",
+    "units": "kg m-3",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z00",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "mass concentration of diazotrophic phytoplankton expressed as chlorophyll in sea water: time means at the surface reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/chldiazos-mon-oc-tavg-z0i-hxy"
+        }
+    }
+}

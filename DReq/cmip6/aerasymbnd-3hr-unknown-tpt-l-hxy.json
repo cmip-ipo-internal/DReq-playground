@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/aerasymbnd-3hr-unknown-tpt-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "aerasymbnd-E3hrPt",
+    "mip_table": [
+        "E3hrPt"
+    ],
+    "table_entry": "aerasymbnd",
+    "out_name": "aerasymbnd",
+    "questions_and_notes": "In the description \"The asymmetry coefficient is here an integral over all wavelength bands\" must be wrong, given the presence of the dimension, spectband.  Should these be weighted by aerosol number density or mass or something?",
+    "specific_issues": [
+        "3:Modify dimensions",
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alevel spectband time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Aerosol Level Asymmetry Parameter for Each Band",
+    "comment": "The asymmetry factor is the angular integral of the aerosol scattering phase function weighted by the cosine of the angle with the incident radiation flux. The asymmetry coefficient is here an integral over all wavelength bands."
+}

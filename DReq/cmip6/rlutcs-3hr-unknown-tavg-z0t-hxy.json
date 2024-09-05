@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rlutcs-3hr-unknown-tavg-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rlutcs-E3hr",
+    "mip_table": [
+        "E3hr"
+    ],
+    "table_entry": "rlutcs",
+    "out_name": "rlutcs",
+    "questions_and_notes": "Can we use  synoptic data here? Why not?",
+    "specific_issues": [
+        "7:Deprecate? Eliminate one of 'point' or 'mean' variable options."
+    ],
+    "contributing_institutions": 8,
+    "contributing_models": 9,
+    "frequency": "3hr",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "TOA Outgoing Clear-Sky Longwave Radiation",
+    "comment": "Upwelling clear-sky longwave radiation at top of atmosphere"
+}

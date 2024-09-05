@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/pr-3hr-unknown-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "pr-3hr",
+    "mip_table": [
+        "3hr"
+    ],
+    "table_entry": "pr",
+    "out_name": "pr",
+    "questions_and_notes": "Can we use  synoptic data here? Why not?",
+    "specific_issues": [
+        "7:Deprecate? Eliminate one of 'point' or 'mean' variable options."
+    ],
+    "contributing_institutions": 29,
+    "contributing_models": 63,
+    "frequency": "3hr",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Precipitation",
+    "comment": "includes both liquid and solid phases"
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/sfdsi-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sfdsi-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "sfdsi",
+    "out_name": "sfdsi",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 14,
+    "contributing_models": 32,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Downward Sea Ice Basal Salt Flux",
+    "comment": "This field is physical, and it arises since sea ice has a nonzero salt content, so it exchanges salt with the liquid ocean upon melting and freezing."
+}

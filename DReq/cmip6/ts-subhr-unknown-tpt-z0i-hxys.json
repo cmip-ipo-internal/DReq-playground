@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/ts-subhr-unknown-tpt-z0i-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ts-CFsubhr",
+    "mip_table": [
+        "CFsubhr"
+    ],
+    "table_entry": "ts",
+    "out_name": "ts",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 5,
+    "contributing_models": 8,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "Surface Temperature",
+    "comment": "Temperature of the lower boundary of the atmosphere"
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/sbl-subhr-unknown-tpt-z0f??-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sbl-CFsubhr",
+    "mip_table": [
+        "CFsubhr"
+    ],
+    "table_entry": "sbl",
+    "out_name": "sbl",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 9,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "landIce"
+    ],
+    "dimensions": "site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "Surface Snow and Ice Sublimation Flux",
+    "comment": "The snow and ice sublimation flux is the loss of snow and ice mass per unit area from the surface resulting from their direct conversion to water vapor that enters the atmosphere."
+}

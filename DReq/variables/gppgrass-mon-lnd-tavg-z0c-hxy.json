@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/gppgrass-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "gross_primary_productivity_of_biomass_expressed_as_carbon",
+    "variable_root_name": "gpp",
+    "units": "kg m-2 s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "ng"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "gross primary productivity of biomass expressed as carbon: time means reported on a 2-d horizontal grid where natural_grasses",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean where natural_grasses (comment: mask=grassFrac)",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/gppgrass-mon-lnd-tavg-z0c-hxy"
+        }
+    }
+}

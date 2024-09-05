@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/chl-yr-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "chl-Oyr",
+    "mip_table": [
+        "Oyr"
+    ],
+    "table_entry": "chl",
+    "out_name": "chl",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 14,
+    "contributing_models": 20,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Mass Concentration of Total Phytoplankton Expressed as Chlorophyll in Sea Water",
+    "comment": "Sum of chlorophyll from all phytoplankton group concentrations.  In most models this is equal to chldiat+chlmisc, that is the sum of Diatom Chlorophyll Mass Concentration and Other Phytoplankton Chlorophyll Mass Concentration"
+}

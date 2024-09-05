@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/mrso-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mrso-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "mrso",
+    "out_name": "mrso",
+    "questions_and_notes": "See https://github.com/WCRP-CORDEX/cordex-cmip6-data-request/issues/2 .",
+    "specific_issues": [],
+    "contributing_institutions": 33,
+    "contributing_models": 83,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Total Soil Moisture Content",
+    "comment": "the mass per unit area  (summed over all soil layers) of water in all phases."
+}

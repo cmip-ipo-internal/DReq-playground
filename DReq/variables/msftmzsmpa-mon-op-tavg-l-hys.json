@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/msftmzsmpa-mon-op-tavg-l-hys",
+    "@type": "dr-variable",
+    "standard_name": "ocean_meridional_overturning_mass_streamfunction_due_to_parameterized_submesoscale_eddy_advection",
+    "variable_root_name": "msftmzsmpa",
+    "units": "kg s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hys",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "ocean meridional overturning mass streamfunction due to parameterized submesoscale eddy advection: time means provided on multiple model levels and reported as a function of latitude and ocean basin where sea (along a zig-zag grid path spanning a basin)",
+    "bn_status": "accepted",
+    "dimensions": [
+        "latitude",
+        "olevel",
+        "basin",
+        "time"
+    ],
+    "cell_methods": "longitude: sum (comment: basin sum [along zig-zag grid path]) depth: sum time: mean",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/msftmzsmpa-mon-op-tavg-l-hys"
+        }
+    }
+}

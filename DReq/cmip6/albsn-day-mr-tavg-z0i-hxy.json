@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/albsn-day-mr-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "albsn-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "albsn",
+    "out_name": "albsn",
+    "questions_and_notes": "For more general use, keep downwelling and upwelling surface SW where snow instead.  If albedo is requested, it should be weighted by incident shortwave.",
+    "specific_issues": [
+        "9:Eliminate or deprecate?",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 5,
+    "contributing_models": 7,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where snow (comment: mask=snc)",
+    "long_name": "Snow Albedo",
+    "comment": "Albedo of the snow-covered surface, averaged over the grid cell."
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/sfcwindmax-day-unknown-tstat-h010-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sfcWindmax-day",
+    "mip_table": [
+        "day"
+    ],
+    "table_entry": "sfcWindmax",
+    "out_name": "sfcWindmax",
+    "questions_and_notes": "Note that in general \"area: mean\" will give a lower maximum if data are mapped to a coarser grid than the original.  Consider reversing order of operations.",
+    "specific_issues": [],
+    "contributing_institutions": 25,
+    "contributing_models": 64,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time height10m",
+    "cell_methods": "area: mean time: maximum",
+    "long_name": "Daily Maximum Near-Surface Wind Speed",
+    "comment": "Daily maximum near-surface (usually, 10 meters) wind speed."
+}

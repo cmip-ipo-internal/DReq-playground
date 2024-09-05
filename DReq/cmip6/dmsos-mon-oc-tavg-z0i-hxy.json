@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/dmsos-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "dmsos-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "dmsos",
+    "out_name": "dmsos",
+    "questions_and_notes": "need vertical depth scalar coordinate",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 4,
+    "contributing_models": 7,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Mole Concentration of Dimethyl Sulphide in Sea Water",
+    "comment": "Mole concentration of dimethyl sulphide in water in the near surface layer"
+}

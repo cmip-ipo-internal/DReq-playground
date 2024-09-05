@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/hfdsn-day-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hfdsn-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "hfdsn",
+    "out_name": "hfdsn",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 5,
+    "contributing_models": 7,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "landIce land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Downward Heat Flux into Snow Where Land over Land",
+    "comment": "the net downward heat flux from the atmosphere into the snow that lies on land divided by the land area in the grid cell; reported as 0.0 for snow-free land regions or where the land fraction is 0."
+}

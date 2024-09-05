@@ -1,0 +1,36 @@
+{
+    "@id": "dr:variables/clt-subhr-unknown-tpt-z0c-hxys",
+    "@type": "dr-variable",
+    "standard_name": "cloud_area_fraction",
+    "variable_root_name": "clt",
+    "units": "%",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxys",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "cloud area fraction: synoptic samples reported at assorted individual sites",
+    "bn_status": "accepted",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "cell_methods": "area: point time: point",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "subhr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/clt-subhr-unknown-tpt-z0c-hxys"
+        }
+    }
+}

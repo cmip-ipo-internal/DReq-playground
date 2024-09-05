@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/jno2-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "jno2-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "jno2",
+    "out_name": "jno2",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 12,
+    "contributing_models": 12,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Photolysis Rate of NO2",
+    "comment": "Photolysis rate of nitrogen dioxide (NO2)"
+}

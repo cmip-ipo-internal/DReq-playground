@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/parasolrefl-3hr-op-tpt-z0t-hxy",
+    "@type": "dr-variable",
+    "standard_name": "toa_bidirectional_reflectance",
+    "variable_root_name": "parasolRefl",
+    "units": 1.0,
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": " as a function of solar zenith angle",
+    "brand_description": "toa bidirectional reflectance as a function of solar zenith angle: synoptic samples reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "sza5",
+        "time1"
+    ],
+    "cell_methods": "area: mean where sea time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "3hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/parasolrefl-3hr-op-tpt-z0t-hxy"
+        }
+    }
+}

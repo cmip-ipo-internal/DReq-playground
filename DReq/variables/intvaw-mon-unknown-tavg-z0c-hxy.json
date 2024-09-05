@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/intvaw-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "northward_atmosphere_water_transport_across_unit_distance",
+    "variable_root_name": "intvaw",
+    "units": "kg m-1 s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "northward atmosphere water transport across unit distance: time means reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/intvaw-mon-unknown-tavg-z0c-hxy"
+        }
+    }
+}

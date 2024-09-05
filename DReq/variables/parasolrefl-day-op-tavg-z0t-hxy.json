@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/parasolrefl-day-op-tavg-z0t-hxy",
+    "@type": "dr-variable",
+    "standard_name": "toa_bidirectional_reflectance",
+    "variable_root_name": "parasolRefl",
+    "units": 1.0,
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": " as a function of solar zenith angle",
+    "brand_description": "toa bidirectional reflectance as a function of solar zenith angle: time means reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "sza5",
+        "time"
+    ],
+    "cell_methods": "area: mean where sea time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/parasolrefl-day-op-tavg-z0t-hxy"
+        }
+    }
+}

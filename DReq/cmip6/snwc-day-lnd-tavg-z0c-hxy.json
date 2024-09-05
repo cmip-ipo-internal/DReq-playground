@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/snwc-day-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "snwc-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "snwc",
+    "out_name": "snwc",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 3,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Snow Water Equivalent Intercepted by the Vegetation",
+    "comment": "Total water mass of the snowpack (liquid or frozen), averaged over a grid cell and intercepted by the canopy."
+}

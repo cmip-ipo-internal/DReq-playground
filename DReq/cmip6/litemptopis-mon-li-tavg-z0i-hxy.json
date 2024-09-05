@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/litemptopis-mon-li-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "litemptopIs-LImon",
+    "mip_table": [
+        "LImon"
+    ],
+    "table_entry": "litemptopIs",
+    "out_name": "litemptopIs",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 4,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "landIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where ice_sheet",
+    "long_name": "Ice Sheet Temperature at Top of Ice Sheet Model",
+    "comment": "Upper boundary temperature that is used to force ice sheet models. It is the temperature at the base of the snowpack models, and does not vary with seasons. Report surface temperature of ice sheet where snow thickness is zero"
+}

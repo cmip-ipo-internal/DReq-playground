@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rsut4co2-mon-unknown-tavg-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsut4co2-CFmon",
+    "mip_table": [
+        "CFmon"
+    ],
+    "table_entry": "rsut4co2",
+    "out_name": "rsut4co2",
+    "questions_and_notes": "should have a more specific standard_name: toa_outgoing_shortwave_flux_assuming_quadrupled_carbon_dioxide",
+    "specific_issues": [
+        "5:Standard name issue."
+    ],
+    "contributing_institutions": 5,
+    "contributing_models": 13,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "TOA Outgoing Shortwave Radiation in 4XCO2 Atmosphere",
+    "comment": "TOA Outgoing Shortwave Radiation calculated using carbon dioxide concentrations increased fourfold"
+}

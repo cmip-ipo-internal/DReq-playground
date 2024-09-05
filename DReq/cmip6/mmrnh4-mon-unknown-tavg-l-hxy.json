@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/mmrnh4-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mmrnh4-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "mmrnh4",
+    "out_name": "mmrnh4",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 9,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "NH4 Mass Mixing Ratio",
+    "comment": "Dry mass fraction of ammonium aerosol particles in air."
+}

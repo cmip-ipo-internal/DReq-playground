@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/cw-day-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cw-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "cw",
+    "out_name": "cw",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 4,
+    "contributing_models": 6,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Total Canopy Water Storage",
+    "comment": "\"Amount\" means mass per unit area. \"Water\" means water in all phases, including frozen i.e. ice and snow. \"Canopy\" means the plant or vegetation canopy. The canopy water is the water on the canopy."
+}

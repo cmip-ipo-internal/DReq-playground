@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/hfrs-day-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable",
+    "standard_name": "tendency_of_thermal_energy_content_of_surface_snow_due_to_rainfall_temperature_excess_above_freezing",
+    "variable_root_name": "hfrs",
+    "units": "W m-2",
+    "type": "real",
+    "positive": "down",
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "lnd"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "tendency of thermal energy content of surface snow due to rainfall temperature excess above freezing: time means reported on a 2-d horizontal grid where land",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where land time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/hfrs-day-lnd-tavg-z0f-hxy"
+        }
+    }
+}

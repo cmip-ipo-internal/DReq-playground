@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/emiso4-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "emiso4-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "emiso4",
+    "out_name": "emiso4",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 15,
+    "contributing_models": 23,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Total Direct Emission Rate of SO4",
+    "comment": "Direct primary emission does not include secondary sulfate production. Integrate 3D emission field vertically to 2d field."
+}

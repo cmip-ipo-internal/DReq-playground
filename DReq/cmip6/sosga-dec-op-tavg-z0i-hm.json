@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/sosga-dec-op-tavg-z0i-hm",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sosga-Odec",
+    "mip_table": [
+        "Odec"
+    ],
+    "table_entry": "sosga",
+    "out_name": "sosga",
+    "questions_and_notes": "Eliminate? Can't this be easily calculated from gridded field?",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "dec",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": " time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Global Average Sea Surface Salinity",
+    "comment": "Sea water salinity is the salt content of sea water, often on the Practical Salinity Scale of 1978. However, the unqualified term 'salinity' is generic and does not necessarily imply any particular method of calculation. The units of salinity are dimensionless and the units attribute should normally be given as 1e-3 or 0.001 i.e. parts per thousand. "
+}

@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/columnmassflux-mon-unknown-tavg-z0c??-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "columnmassflux-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "columnmassflux",
+    "out_name": "columnmassflux",
+    "questions_and_notes": "Are the units not wrong for vertical integral of flux.  Should this be the column *mean* (averaged over the vertical coordinate) mass flux, which would have the units indicated.  Or is it the maximum flux found in the column?",
+    "specific_issues": [
+        "4:Check units.",
+        "6:Modify variable root.",
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Column Integrated Mass Flux",
+    "comment": "Column integral of (mcu-mcd)"
+}

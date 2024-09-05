@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/huss-day-unknown-tavg-h02-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "huss-day",
+    "mip_table": [
+        "day"
+    ],
+    "table_entry": "huss",
+    "out_name": "huss",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 30,
+    "contributing_models": 70,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time height2m",
+    "cell_methods": "area: time: mean",
+    "long_name": "Near-Surface Specific Humidity",
+    "comment": "Near-surface (usually, 2 meter) specific humidity."
+}

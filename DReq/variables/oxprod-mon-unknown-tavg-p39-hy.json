@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/oxprod-mon-unknown-tavg-p39-hy",
+    "@type": "dr-variable",
+    "standard_name": "tendency_of_mole_concentration_of_ox_in_air_due_to_chemical_and_photolytic_production",
+    "variable_root_name": "oxprod",
+    "units": "mol m-3 s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "p39",
+        "horizontalLabelDD": "hy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "tendency of mole concentration of ox in air due to chemical and photolytic production: time means requested on 39 pressure levels and reported as a function of latitude where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "cell_methods": "longitude: mean time: mean",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/oxprod-mon-unknown-tavg-p39-hy"
+        }
+    }
+}

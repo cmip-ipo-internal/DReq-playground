@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/hfmlt-day-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hfmlt-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "hfmlt",
+    "out_name": "hfmlt",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 5,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Energy of Fusion",
+    "comment": "Energy consumed or released during liquid/solid phase changes."
+}

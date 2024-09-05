@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rsutcs-3hr-unknown-tavg-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsutcs-E3hr",
+    "mip_table": [
+        "E3hr"
+    ],
+    "table_entry": "rsutcs",
+    "out_name": "rsutcs",
+    "questions_and_notes": "Can we use  synoptic data here? Why not?",
+    "specific_issues": [
+        "7:Deprecate? Eliminate one of 'point' or 'mean' variable options."
+    ],
+    "contributing_institutions": 9,
+    "contributing_models": 17,
+    "frequency": "3hr",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "TOA Outgoing Clear-Sky Shortwave Radiation",
+    "comment": "Calculated in the absence of clouds."
+}

@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/od550aerso-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "stratosphere_optical_thickness_due_to_ambient_aerosol_particles",
+    "variable_root_name": "od550aerso",
+    "units": 1.0,
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": " at 550 nm",
+    "brand_description": "stratosphere optical thickness due to ambient aerosol particles at 550 nm: time means reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "lambda550nm"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/od550aerso-mon-unknown-tavg-z0c-hxy"
+        }
+    }
+}

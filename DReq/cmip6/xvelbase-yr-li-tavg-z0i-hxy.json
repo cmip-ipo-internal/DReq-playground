@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/xvelbase-yr-li-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "xvelbase-IyrGre",
+    "mip_table": [
+        "IyrGre"
+    ],
+    "table_entry": "xvelbase",
+    "out_name": "xvelbase",
+    "questions_and_notes": "eliminate.  duplicates \"Ant\" entry.",
+    "specific_issues": [
+        "1:Modify dimensions.  No need for special horizontal coordinates.",
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "yr",
+    "region": "greenland",
+    "modeling_realm": [
+        "landIce"
+    ],
+    "dimensions": "xgre ygre time",
+    "cell_methods": "area: time: mean where ice_sheet",
+    "long_name": "X-Component of Land Ice Basal Velocity",
+    "comment": "A velocity is a vector quantity. \"x\" indicates a vector component along the grid x-axis, positive with increasing x. \"Land ice\" means glaciers, ice-caps and ice-sheets resting on bedrock and also includes ice-shelves. \"basal\" means the lower boundary of the land ice."
+}

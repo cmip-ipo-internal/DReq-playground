@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/talkos-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "talkos-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "talkos",
+    "out_name": "talkos",
+    "questions_and_notes": "needs depth0m coordinate",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 13,
+    "contributing_models": 23,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Total Alkalinity",
+    "comment": "total alkalinity equivalent concentration (including carbonate, borate, phosphorus, silicon, and nitrogen components)"
+}

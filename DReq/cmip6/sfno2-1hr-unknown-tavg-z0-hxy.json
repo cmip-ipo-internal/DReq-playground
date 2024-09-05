@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/sfno2-1hr-unknown-tavg-z0-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sfno2-Aerhr",
+    "mip_table": [
+        "Aerhr"
+    ],
+    "table_entry": "sfno2",
+    "out_name": "sfno2",
+    "questions_and_notes": "Can we describe this as the \"surface air\" value or would that differ from the value in the lowest layer?  It needs a scalar vertical coordinate.",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 10,
+    "contributing_models": 7,
+    "frequency": "1hr",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "NO2 Volume Mixing Ratio in Lowest Model Layer",
+    "comment": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y."
+}

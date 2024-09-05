@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/rv850-6hr-unknown-tpt-p0850-hxy",
+    "@type": "dr-variable",
+    "standard_name": "atmosphere_relative_vorticity",
+    "variable_root_name": "rv",
+    "units": "s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "p0850",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "atmosphere relative vorticity: synoptic samples at 850 hPa reported on a 2-d horizontal grid where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "p850"
+    ],
+    "cell_methods": "area: mean time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "6hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/rv850-6hr-unknown-tpt-p0850-hxy"
+        }
+    }
+}

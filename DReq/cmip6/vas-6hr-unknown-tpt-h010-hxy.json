@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/vas-6hr-unknown-tpt-h010-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "vas-6hrPlevPt",
+    "mip_table": [
+        "6hrPlevPt"
+    ],
+    "table_entry": "vas",
+    "out_name": "vas",
+    "questions_and_notes": "Can we use  time-mean data here? Why not?",
+    "specific_issues": [
+        "7:Deprecate? Eliminate one of 'point' or 'mean' variable options."
+    ],
+    "contributing_institutions": 15,
+    "contributing_models": 31,
+    "frequency": "6hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time1 height10m",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Northward Near-Surface Wind",
+    "comment": "Northward component of the near surface wind"
+}

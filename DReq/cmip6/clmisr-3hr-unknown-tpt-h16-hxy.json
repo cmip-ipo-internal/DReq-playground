@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/clmisr-3hr-unknown-tpt-h16-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "clmisr-E3hrPt",
+    "mip_table": [
+        "E3hrPt"
+    ],
+    "table_entry": "clmisr",
+    "out_name": "clmisr",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 5,
+    "contributing_models": 6,
+    "frequency": "3hrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude alt16 tau time1",
+    "cell_methods": "area: mean time: point",
+    "long_name": "Percentage Cloud Cover as Calculated by the MISR Simulator (Including Error Flag)",
+    "comment": "Cloud percentage in spectral bands and layers as observed by the Multi-angle Imaging SpectroRadiometer (MISR) instrument. The first layer in each profile is reserved for a retrieval error flag."
+}

@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/lat-fx-unknown-ti-z0-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "lat-CFsubhr",
+    "mip_table": [
+        "CFsubhr"
+    ],
+    "table_entry": "latitude",
+    "out_name": "lat",
+    "questions_and_notes": "Is this needed?    The latitudes must be stored as coordinates or auxiliary coordinates, not as a separate variable.",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "fx",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "site ",
+    "cell_methods": "area: point",
+    "long_name": "Latitude",
+    "comment": "Latitude is positive northward; its units of degree_north (or equivalent) indicate this explicitly. In a latitude-longitude system defined with respect to a rotated North Pole, the standard name of grid_latitude should be used instead of latitude. Grid latitude is positive in the grid-northward direction, but its units should be plain degree."
+}

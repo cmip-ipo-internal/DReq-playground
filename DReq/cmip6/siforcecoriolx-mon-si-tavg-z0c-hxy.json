@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/siforcecoriolx-mon-si-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "siforcecoriolx-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "siforcecoriolx",
+    "out_name": "siforcecoriolx",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 10,
+    "contributing_models": 22,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "long_name": "Coriolis Force Term in Force Balance (X-Component)",
+    "comment": "X-component of force on sea ice caused by coriolis force"
+}

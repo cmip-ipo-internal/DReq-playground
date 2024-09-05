@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/mrsow-day-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "volume_fraction_of_condensed_water_in_soil_at_field_capacity",
+    "variable_root_name": "mrsow",
+    "units": 1.0,
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "lnd"
+    },
+    "definition_qualifier": "???",
+    "brand_description": "volume fraction of condensed water in soil at field capacity???: time means reported on a 2-d horizontal grid where land",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where land time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/mrsow-day-lnd-tavg-z0c-hxy"
+        }
+    }
+}

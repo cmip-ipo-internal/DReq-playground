@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/csoilshrub-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cSoilShrub-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "cSoilShrub",
+    "out_name": "cSoilShrub",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 4,
+    "contributing_models": 6,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean where shrubs (comment: mask=shrubFrac)",
+    "long_name": "Carbon Mass in Soil on Shrub Tiles",
+    "comment": "\"Content\" indicates a quantity per unit area. The \"soil content\" of a quantity refers to the vertical integral from the surface down to the bottom of the soil model. For the content between specified levels in the soil, standard names including content_of_soil_layer are used."
+}

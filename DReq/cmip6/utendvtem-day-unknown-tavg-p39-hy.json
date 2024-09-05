@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/utendvtem-day-unknown-tavg-p39-hy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "utendvtem-EdayZ",
+    "mip_table": [
+        "EdayZ"
+    ],
+    "table_entry": "utendvtem",
+    "out_name": "utendvtem",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 8,
+    "contributing_models": 12,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "latitude plev39 time",
+    "cell_methods": "longitude: mean time: mean",
+    "long_name": "Tendency of Eastward Wind Due to TEM Northward Advection and Coriolis Term",
+    "comment": "Tendency of zonally averaged eastward wind, by the residual northward wind advection (on the native model grid). Reference: Andrews et al (1987): Middle Atmospheric Dynamics. Academic Press."
+}

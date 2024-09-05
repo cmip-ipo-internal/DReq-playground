@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/intppdiaz-mon-oc-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "intppdiaz-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "intppdiaz",
+    "out_name": "intppdiaz",
+    "questions_and_notes": "In cell_methods it should be a \"sum\" over depth and the order of depth and area should be reversed.  \"where sea\" is needed only once. After applying first method (\"where sea\") second method will be applied only \"where sea\" because elsewhere, data is considered missing.",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 7,
+    "contributing_models": 10,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+    "long_name": "Net Primary Mole Productivity of Carbon by Diazotrophs",
+    "comment": "Vertically integrated primary (organic carbon) production by the diazotrophs alone"
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/tntrlcs-subhr-unknown-tpt-l-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tntrlcs-Esubhr",
+    "mip_table": [
+        "Esubhr"
+    ],
+    "table_entry": "tntrlcs",
+    "out_name": "tntrlcs",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 4,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "alevel site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "Tendency of Air Temperature Due to Clear Sky Longwave Radiative Heating",
+    "comment": "Tendency of Air Temperature due to Clear Sky Longwave Radiative Heating"
+}

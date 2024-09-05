@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/dissi13cos-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "dissi13cos-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "dissi13cos",
+    "out_name": "dissi13cos",
+    "questions_and_notes": "need vertical depth scalar coordinate",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "6:Modify variable root.",
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Dissolved Inorganic Carbon-13 Concentration",
+    "comment": "Near surface dissolved inorganic carbon-13 (CO3+HCO3+H2CO3) concentration"
+}

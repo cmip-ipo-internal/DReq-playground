@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/popos-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "popos-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "popos",
+    "out_name": "popos",
+    "questions_and_notes": "need vertical depth scalar coordinate",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 8,
+    "contributing_models": 7,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Mole Concentration of Particulate Organic Matter Expressed as Phosphorus in Sea Water",
+    "comment": "sum of particulate organic phosphorus component concentrations"
+}

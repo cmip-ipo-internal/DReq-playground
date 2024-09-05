@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/parasolrefl-mon-op-tavg-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "parasolRefl-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "parasolRefl",
+    "out_name": "parasolRefl",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 11,
+    "contributing_models": 7,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude sza5 time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "PARASOL Reflectance",
+    "comment": "Simulated reflectance from PARASOL as seen at the top of the atmosphere for 5 solar zenith angles. Valid only over ocean and for one viewing direction (viewing zenith angle of 30 degrees and relative azimuth angle 320 degrees)."
+}

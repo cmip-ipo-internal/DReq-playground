@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/rsutaf-mon-unknown-tavg-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rsutaf-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "rsutaf",
+    "out_name": "rsutaf",
+    "questions_and_notes": "Should have a different standard name: propose toa_outgoing_shortwave_flux_assuming_no_aerosol.",
+    "specific_issues": [
+        "5:Standard name issue."
+    ],
+    "contributing_institutions": 11,
+    "contributing_models": 16,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "TOA Outgoing Aerosol-Free Shortwave Radiation",
+    "comment": "Flux corresponding to rsut resulting from aerosol-free call to radiation, following Ghan (ACP, 2013)"
+}

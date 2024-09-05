@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/opottemptend-mon-op-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "opottemptend-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "opottemptend",
+    "out_name": "opottemptend",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 8,
+    "contributing_models": 15,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Tendency of Sea Water Potential Temperature Expressed as Heat Content",
+    "comment": "Tendency of heat content for a grid cell from all processes. Reported only for models that use potential temperature as prognostic field."
+}

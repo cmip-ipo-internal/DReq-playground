@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/aoanh-mon-ac-tavg-l-hxy",
+    "@type": "dr-variable",
+    "standard_name": "tracer_lifetime",
+    "variable_root_name": "aoanh",
+    "units": "yr",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "l",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "tracer lifetime: time means provided on multiple model levels and reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/aoanh-mon-ac-tavg-l-hxy"
+        }
+    }
+}

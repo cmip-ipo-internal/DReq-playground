@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/clwmodis-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "clwmodis-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "clwmodis",
+    "out_name": "clwmodis",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 11,
+    "contributing_models": 14,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "MODIS Liquid Cloud Percentage",
+    "comment": "Mass of cloud liquid water, as seen by the  Moderate Resolution Imaging Spectroradiometer (MODIS). Includes both large-scale and convective cloud."
+}

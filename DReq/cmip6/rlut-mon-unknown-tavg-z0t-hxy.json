@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/rlut-mon-unknown-tavg-z0t-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "rlut-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "rlut",
+    "out_name": "rlut",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 38,
+    "contributing_models": 105,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "TOA Outgoing Longwave Radiation",
+    "comment": "at the top of the atmosphere (to be compared with satellite measurements)"
+}

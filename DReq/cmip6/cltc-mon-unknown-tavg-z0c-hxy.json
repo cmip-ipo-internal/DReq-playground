@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/cltc-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cltc-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "cltc",
+    "out_name": "cltc",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 7,
+    "contributing_models": 17,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Convective Cloud Cover Percentage",
+    "comment": "Convective cloud area fraction (reported as a percentage) for the whole atmospheric column, as seen from the surface or the top of the atmosphere. Includes only convective cloud."
+}

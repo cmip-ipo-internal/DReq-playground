@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/thetao-dec-op-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "thetao-Odec",
+    "mip_table": [
+        "Odec"
+    ],
+    "table_entry": "thetao",
+    "out_name": "thetao",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 5,
+    "frequency": "dec",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Sea Water Potential Temperature",
+    "comment": "Diagnostic should be contributed even for models using conservative temperature as prognostic field."
+}

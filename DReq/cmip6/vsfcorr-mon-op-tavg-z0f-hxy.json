@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/vsfcorr-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "vsfcorr-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "vsfcorr",
+    "out_name": "vsfcorr",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 2,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Virtual Salt Flux Correction",
+    "comment": "It is set to zero in models which receive a real water flux."
+}

@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/dissi14cabio-yr-oc-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "dissi14cabio-Oyr",
+    "mip_table": [
+        "Oyr"
+    ],
+    "table_entry": "dissi14cabio",
+    "out_name": "dissi14cabio",
+    "questions_and_notes": "how exactly does this variable (along with dissi14cabio-Omon) differ from dissi14c-Emon?  Should they have different standard names?",
+    "specific_issues": [
+        "5:Standard name issue.",
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "yr",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Abiotic Dissolved Inorganic Carbon-14 Concentration",
+    "comment": "Abiotic Dissolved inorganic carbon-14 (CO3+HCO3+H2CO3) concentration"
+}

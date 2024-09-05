@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/pasturefrac-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "pastureFrac-Lmon",
+    "mip_table": [
+        "Lmon"
+    ],
+    "table_entry": "pastureFrac",
+    "out_name": "pastureFrac",
+    "questions_and_notes": "Should this be undefined where sea?  Should deprecate in favor of \"where all_area_types\".  Consider eliminating scalar dimension.",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 11,
+    "contributing_models": 13,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time typepasture",
+    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "long_name": "Percentage of Land Which Is Anthropogenic Pasture",
+    "comment": "Percentage of entire grid cell  that is covered by anthropogenic pasture."
+}

@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/fbddtalk-mon-oc-tavg-z0100-hxy",
+    "@type": "dr-variable",
+    "standard_name": "integral_wrt_depth_of_tendency_of_sea_water_alkalinity_expressed_as_mole_equivalent_due_to_biological_processes",
+    "variable_root_name": "fbddtalk",
+    "units": "mol m-2 s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0100",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "integral wrt depth of tendency of sea water alkalinity expressed as mole equivalent due to biological processes: time means integrated over the uppermost 100 m and reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "olayer100m"
+    ],
+    "cell_methods": "area: mean where sea depth: sum where sea (top 100m only) time: mean",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/fbddtalk-mon-oc-tavg-z0100-hxy"
+        }
+    }
+}

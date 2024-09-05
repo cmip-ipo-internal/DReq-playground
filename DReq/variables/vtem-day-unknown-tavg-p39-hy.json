@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/vtem-day-unknown-tavg-p39-hy",
+    "@type": "dr-variable",
+    "standard_name": "northward_transformed_eulerian_mean_air_velocity",
+    "variable_root_name": "vtem",
+    "units": "m s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "p39",
+        "horizontalLabelDD": "hy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "northward transformed eulerian mean air velocity: time means requested on 39 pressure levels and reported as a function of latitude where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "cell_methods": "longitude: mean time: mean",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/vtem-day-unknown-tavg-p39-hy"
+        }
+    }
+}

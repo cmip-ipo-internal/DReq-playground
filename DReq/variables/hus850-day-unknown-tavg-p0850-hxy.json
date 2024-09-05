@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/hus850-day-unknown-tavg-p0850-hxy",
+    "@type": "dr-variable",
+    "standard_name": "specific_humidity",
+    "variable_root_name": "hus",
+    "units": 1.0,
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "p0850",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "air"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "specific humidity: time means at 850 hPa reported on a 2-d horizontal grid where air",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p850"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/hus850-day-unknown-tavg-p0850-hxy"
+        }
+    }
+}

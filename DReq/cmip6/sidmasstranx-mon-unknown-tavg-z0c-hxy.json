@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/sidmasstranx-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sidmasstranx-SImon",
+    "mip_table": [
+        "SImon"
+    ],
+    "table_entry": "sidmasstranx",
+    "out_name": "sidmasstranx",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 21,
+    "contributing_models": 43,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "time: mean",
+    "long_name": "X-Component of Sea-Ice Mass Transport",
+    "comment": "Includes transport of both sea ice and snow by advection"
+}

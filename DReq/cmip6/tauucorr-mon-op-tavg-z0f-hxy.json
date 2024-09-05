@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/tauucorr-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tauucorr-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "tauucorr",
+    "out_name": "tauucorr",
+    "questions_and_notes": "cell_methods should probably include \"area: mean where sea\".  On some native grids it might represent a point value so \"mean\" would be wrong.  But what about data that has been regridded?  Note that decadal stresses include \"where sea\"",
+    "specific_issues": [
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
+        "11:Modify cell methods.  Include 'where sea'."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 2,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "time: mean",
+    "long_name": "Sea Water Surface Downward X Stress Correction",
+    "comment": "This is the stress on the liquid ocean from overlying atmosphere, sea ice, ice shelf, etc."
+}

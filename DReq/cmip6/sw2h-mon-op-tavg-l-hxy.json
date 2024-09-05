@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/sw2h-mon-op-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sw2H-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "sw2H",
+    "out_name": "sw2H",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Isotopic Ratio of Deuterium in Sea Water",
+    "comment": "Ratio of abundance of hydrogen-2 (2H) atoms to hydrogen-1 (1H) atoms in sea water"
+}

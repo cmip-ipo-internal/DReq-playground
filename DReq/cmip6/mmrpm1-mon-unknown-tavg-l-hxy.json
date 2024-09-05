@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/mmrpm1-mon-unknown-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "mmrpm1-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "mmrpm1",
+    "out_name": "mmrpm1",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 8,
+    "contributing_models": 13,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude alevel time",
+    "cell_methods": "area: time: mean",
+    "long_name": "PM1.0 Mass Mixing Ratio",
+    "comment": "Mass fraction atmospheric particulate compounds with an aerodynamic diameter of less than or equal to 1 micrometers"
+}

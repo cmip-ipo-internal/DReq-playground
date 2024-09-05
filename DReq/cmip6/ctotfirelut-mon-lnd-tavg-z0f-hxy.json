@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/ctotfirelut-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "cTotFireLut-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "cTotFireLut",
+    "out_name": "cTotFireLut",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 5,
+    "contributing_models": 10,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude landUse time",
+    "cell_methods": "area: time: mean where sector",
+    "long_name": "Total Carbon Loss from Natural and Managed Fire on Land-Use Tile, Including Deforestation Fires [kgC m-2 s-1]",
+    "comment": "Different from LMON this flux should include all fires occurring on the land use tile, including natural, man-made and deforestation fires"
+}

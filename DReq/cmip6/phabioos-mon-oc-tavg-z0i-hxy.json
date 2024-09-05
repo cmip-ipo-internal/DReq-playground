@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/phabioos-mon-oc-tavg-z0i-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "phabioos-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "phabioos",
+    "out_name": "phabioos",
+    "questions_and_notes": "needs depth0m coordinate",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "6:Modify variable root.",
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Abiotic pH",
+    "comment": "negative log10 of hydrogen ion concentration with the concentration expressed as mol H kg-1."
+}

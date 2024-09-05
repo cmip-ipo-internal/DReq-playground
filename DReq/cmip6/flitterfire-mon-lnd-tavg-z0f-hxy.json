@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/flitterfire-mon-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fLitterFire-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "fLitterFire",
+    "out_name": "fLitterFire",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 2,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Carbon Mass Flux from Litter, CWD or any non-Living Pool into Atmosphere Due to CO2 Emission from All Fire [kgC m-2 s-1]",
+    "comment": "Required for unambiguous separation of vegetation and soil + litter turnover times, since total fire flux draws from both sources"
+}

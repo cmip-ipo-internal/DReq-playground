@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/loadbc-day-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "atmosphere_mass_content_of_elemental_carbon_dry_aerosol_particles",
+    "variable_root_name": "loadbc",
+    "units": "kg m-2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "atmosphere mass content of elemental carbon dry aerosol particles: time means reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "day"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/loadbc-day-unknown-tavg-z0c-hxy"
+        }
+    }
+}

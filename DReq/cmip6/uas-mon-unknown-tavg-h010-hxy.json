@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/uas-mon-unknown-tavg-h010-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "uas-Amon",
+    "mip_table": [
+        "Amon"
+    ],
+    "table_entry": "uas",
+    "out_name": "uas",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 30,
+    "contributing_models": 78,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time height10m",
+    "cell_methods": "area: time: mean",
+    "long_name": "Eastward Near-Surface Wind",
+    "comment": "Eastward component of the near-surface (usually, 10 meters)  wind"
+}

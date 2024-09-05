@@ -1,0 +1,28 @@
+{
+    "@id": "dr:cmip6/libmassbffl-mon-li-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "libmassbffl-ImonGre",
+    "mip_table": [
+        "ImonGre"
+    ],
+    "table_entry": "libmassbffl",
+    "out_name": "libmassbffl",
+    "questions_and_notes": "eliminate.  duplicates \"Ant\" entry.  No need for \"fl\" in root since that info appears in branding suffix.",
+    "specific_issues": [
+        "1:Modify dimensions.  No need for special horizontal coordinates.",
+        "6:Modify variable root.",
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 0,
+    "contributing_models": 0,
+    "frequency": "mon",
+    "region": "greenland",
+    "modeling_realm": [
+        "landIce"
+    ],
+    "dimensions": "xgre ygre time",
+    "cell_methods": "area: time: mean where floating_ice_shelf (comment: mask=sftflf)",
+    "long_name": "Basal Specific Mass Balance Flux of Floating Ice Shelf",
+    "comment": "Specific mass balance means the net rate at which ice is added per unit area at the land ice base.  A negative value means loss of ice. Computed as the total basal mass balance on the floating land ice (floating ice shelf) portion of the grid cell divided by floating land ice (floating ice shelf) area in the grid cell. Cell_methods: area: mean where floating_ice_shelf"
+}

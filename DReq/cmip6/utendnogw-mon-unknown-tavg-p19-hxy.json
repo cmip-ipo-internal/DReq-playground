@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/utendnogw-mon-unknown-tavg-p19-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "utendnogw-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "utendnogw",
+    "out_name": "utendnogw",
+    "questions_and_notes": "cell_methods should include \"area: mean\"",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 8,
+    "contributing_models": 11,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude plev19 time",
+    "cell_methods": "time: mean",
+    "long_name": "Eastward Acceleration Due to Non-Orographic Gravity Wave Drag",
+    "comment": "Tendency of the eastward wind by parameterized nonorographic gravity waves."
+}

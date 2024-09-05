@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/hus850-day-unknown-tavg-p0850-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hus850-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "hus850",
+    "out_name": "hus850",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root.",
+        "10:Modify cell methods.  Include 'where air'."
+    ],
+    "contributing_institutions": 12,
+    "contributing_models": 15,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time p850",
+    "cell_methods": "area: time: mean",
+    "long_name": "Specific Humidity",
+    "comment": "Specific humidity is the mass fraction of water vapor in (moist) air."
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/sfcwind-3hr-unknown-tavg-h010-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "sfcWind-E3hr",
+    "mip_table": [
+        "E3hr"
+    ],
+    "table_entry": "sfcWind",
+    "out_name": "sfcWind",
+    "questions_and_notes": "Can we use  synoptic data here? Why not?",
+    "specific_issues": [
+        "7:Deprecate? Eliminate one of 'point' or 'mean' variable options."
+    ],
+    "contributing_institutions": 11,
+    "contributing_models": 16,
+    "frequency": "3hr",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time height10m",
+    "cell_methods": "area: time: mean",
+    "long_name": "Near-Surface Wind Speed",
+    "comment": "near-surface (usually, 10 meters) wind speed."
+}

@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/thetao-mon-op-tavg-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "thetao-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "thetao",
+    "out_name": "thetao",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 37,
+    "contributing_models": 92,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "dimensions": "longitude latitude olevel time",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Sea Water Potential Temperature",
+    "comment": "Diagnostic should be contributed even for models using conservative temperature as prognostic field."
+}

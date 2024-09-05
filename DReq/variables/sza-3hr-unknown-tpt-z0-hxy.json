@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/sza-3hr-unknown-tpt-z0-hxy",
+    "@type": "dr-variable",
+    "standard_name": "solar_zenith_angle",
+    "variable_root_name": "sza",
+    "units": "degree",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "solar zenith angle: synoptic samples reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "cell_methods": "area: mean time: point",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "3hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/sza-3hr-unknown-tpt-z0-hxy"
+        }
+    }
+}

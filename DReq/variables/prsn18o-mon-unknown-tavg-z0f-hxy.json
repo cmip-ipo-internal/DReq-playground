@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/prsn18o-mon-unknown-tavg-z0f-hxy",
+    "@type": "dr-variable",
+    "standard_name": "solid_precipitation_flux_containing_18O",
+    "variable_root_name": "prsn18O",
+    "units": "kg m-2 s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "solid precipitation flux containing 18O: time means reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/prsn18o-mon-unknown-tavg-z0f-hxy"
+        }
+    }
+}

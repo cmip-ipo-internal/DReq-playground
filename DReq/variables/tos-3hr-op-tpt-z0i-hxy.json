@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/tos-3hr-op-tpt-z0i-hxy",
+    "@type": "dr-variable",
+    "standard_name": "sea_surface_temperature",
+    "variable_root_name": "tos",
+    "units": "degC",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tpt",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sea"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "sea surface temperature: synoptic samples reported on a 2-d horizontal grid where sea",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "cell_methods": "area: mean where sea time: point",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "3hr"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/tos-3hr-op-tpt-z0i-hxy"
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/sirdgthick-mon-si-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "sea_ice_thickness",
+    "variable_root_name": "sithickrdg",
+    "units": "m",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "sir"
+    },
+    "definition_qualifier": " [for ridged ice]",
+    "brand_description": "sea ice thickness: time means reported on a 2-d horizontal grid where sea_ice_ridges (weighted by fraction of sea ice area covered by ridges)",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: time: mean where sea_ice_ridges (comment: mask=sirdgconc)",
+    "cell_measures": "area: areacello",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/sirdgthick-mon-si-tavg-z0c-hxy"
+        }
+    }
+}

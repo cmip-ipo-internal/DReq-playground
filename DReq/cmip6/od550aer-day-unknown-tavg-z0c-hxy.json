@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/od550aer-day-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "od550aer-AERday",
+    "mip_table": [
+        "AERday"
+    ],
+    "table_entry": "od550aer",
+    "out_name": "od550aer",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 18,
+    "contributing_models": 18,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time lambda550nm",
+    "cell_methods": "area: time: mean",
+    "long_name": "Ambient Aerosol Optical Thickness at 550nm",
+    "comment": "AOD from the ambient aerosols (i.e., includes aerosol water).  Does not include AOD from stratospheric aerosols if these are prescribed but includes other possible background aerosol types. Needs a comment attribute \"wavelength: 550nm\""
+}

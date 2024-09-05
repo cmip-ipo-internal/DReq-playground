@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/treefracbdldcd-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "treeFracBdlDcd-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "treeFracBdlDcd",
+    "out_name": "treeFracBdlDcd",
+    "questions_and_notes": "How exactly is \"Broadleaf Deciduous Tree\" defined.  This is not an area type found in the CF conventions.  Consider eliminating scalar dimension.",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 12,
+    "contributing_models": 24,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude time typetreebd",
+    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "long_name": "Broadleaf Deciduous Tree Area Percentage",
+    "comment": "This is the percentage of the entire grid cell that is covered by broadleaf deciduous trees."
+}

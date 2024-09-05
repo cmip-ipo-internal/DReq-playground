@@ -1,0 +1,27 @@
+{
+    "@id": "dr:cmip6/snc-yr-li-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "snc-IyrGre",
+    "mip_table": [
+        "IyrGre"
+    ],
+    "table_entry": "snc",
+    "out_name": "snc",
+    "questions_and_notes": "eliminate.  duplicates \"Ant\" entry.",
+    "specific_issues": [
+        "1:Modify dimensions.  No need for special horizontal coordinates.",
+        "6:Modify variable root.",
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 1,
+    "frequency": "yr",
+    "region": "greenland",
+    "modeling_realm": [
+        "landIce land"
+    ],
+    "dimensions": "xgre ygre time",
+    "cell_methods": "area: time: mean where ice_sheet",
+    "long_name": "Snow Area Percentage",
+    "comment": "Percentage of each grid cell that is occupied by snow that rests on land portion of cell."
+}

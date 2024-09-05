@@ -1,0 +1,37 @@
+{
+    "@id": "dr:variables/nveg-mon-lnd-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "vegetation_mass_content_of_nitrogen",
+    "variable_root_name": "nVeg",
+    "units": "kg m-2",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "veg"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "vegetation mass content of nitrogen: time means reported on a 2-d horizontal grid where vegetation",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "cell_methods": "area: mean where land time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/nveg-mon-lnd-tavg-z0c-hxy"
+        }
+    }
+}

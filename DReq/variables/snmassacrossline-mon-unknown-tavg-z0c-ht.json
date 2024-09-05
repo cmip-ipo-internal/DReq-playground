@@ -1,0 +1,36 @@
+{
+    "@id": "dr:variables/snmassacrossline-mon-unknown-tavg-z0c-ht",
+    "@type": "dr-variable",
+    "standard_name": "snow_transport_across_line_due_to_sea_ice_dynamics",
+    "variable_root_name": "snmassacrossline",
+    "units": "kg s-1",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "ht",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": "none",
+    "brand_description": "snow transport across line due to sea ice dynamics: time means characterizing transport across a 'line' (not necessarily coincident with a latitude circle)",
+    "bn_status": "accepted",
+    "dimensions": [
+        "siline",
+        "time"
+    ],
+    "cell_methods": "time: mean",
+    "cell_measures": 0.0,
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/snmassacrossline-mon-unknown-tavg-z0c-ht"
+        }
+    }
+}

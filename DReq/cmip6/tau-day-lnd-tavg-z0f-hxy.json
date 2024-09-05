@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/tau-day-lnd-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "tau-Eday",
+    "mip_table": [
+        "Eday"
+    ],
+    "table_entry": "tau",
+    "out_name": "tau",
+    "questions_and_notes": "Why is the the land surface singled out as of interest in reporting the magnitude of the transfer of momentum between the surface and the atmosphere?  This would seem to be of interest (in u,v component form) for the atmosphere, the sea ice, and the ocean.",
+    "specific_issues": [
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 3,
+    "contributing_models": 3,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where land time: mean",
+    "long_name": "Momentum Flux",
+    "comment": "module of the momentum lost by the atmosphere to the surface."
+}

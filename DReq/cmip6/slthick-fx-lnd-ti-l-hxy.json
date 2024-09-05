@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/slthick-fx-lnd-ti-l-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "slthick-Efx",
+    "mip_table": [
+        "Efx"
+    ],
+    "table_entry": "slthick",
+    "out_name": "slthick",
+    "questions_and_notes": "for conistency with thkcello, move \"sl\" to end of root.",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 5,
+    "contributing_models": 13,
+    "frequency": "fx",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude sdepth ",
+    "cell_methods": "area: mean where land",
+    "long_name": "Thickness of Soil Layers",
+    "comment": "\"Thickness\" means the vertical extent of a layer. \"Cell\" refers to a model grid cell."
+}

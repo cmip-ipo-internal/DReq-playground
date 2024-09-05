@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/hus-subhr-unknown-tpt-l-hxys",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hus-CFsubhr",
+    "mip_table": [
+        "CFsubhr"
+    ],
+    "table_entry": "hus",
+    "out_name": "hus",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 6,
+    "contributing_models": 9,
+    "frequency": "subhrPt",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "alevel site time1",
+    "cell_methods": "area: point time: point",
+    "long_name": "Specific Humidity",
+    "comment": "Specific humidity is the mass fraction of water vapor in (moist) air."
+}

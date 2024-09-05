@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/maxpblz-day-unknown-tstat-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "maxpblz-AERday",
+    "mip_table": [
+        "AERday"
+    ],
+    "table_entry": "maxpblz",
+    "out_name": "maxpblz",
+    "questions_and_notes": "Note that in general \"area: mean\" will give a lower maximum if data are mapped to a coarser grid than the original.",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 7,
+    "contributing_models": 5,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean time: maximum",
+    "long_name": "Maximum PBL Height",
+    "comment": "maximum boundary layer height during the day (add cell_methods attribute: \"time: maximum\")"
+}

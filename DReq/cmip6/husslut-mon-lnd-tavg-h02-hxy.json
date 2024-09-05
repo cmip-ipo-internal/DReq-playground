@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/husslut-mon-lnd-tavg-h02-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "hussLut-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "hussLut",
+    "out_name": "hussLut",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "6:Modify variable root."
+    ],
+    "contributing_institutions": 7,
+    "contributing_models": 56,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "land"
+    ],
+    "dimensions": "longitude latitude landUse time height2m",
+    "cell_methods": "area: time: mean where sector",
+    "long_name": "Near-Surface Specific Humidity on Land-Use Tile",
+    "comment": "Normally, the specific humidity should be reported at the 2 meter height"
+}

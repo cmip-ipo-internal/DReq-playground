@@ -1,0 +1,23 @@
+{
+    "@id": "dr:cmip6/ua-mon-unknown-tavg-p7h-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "ua-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "ua",
+    "out_name": "ua",
+    "questions_and_notes": "",
+    "specific_issues": [],
+    "contributing_institutions": 12,
+    "contributing_models": 6,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude plev7h time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Eastward Wind",
+    "comment": "Zonal wind (positive in a eastward direction)."
+}

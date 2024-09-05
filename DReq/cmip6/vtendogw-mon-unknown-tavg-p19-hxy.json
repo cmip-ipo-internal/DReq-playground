@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/vtendogw-mon-unknown-tavg-p19-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "vtendogw-Emon",
+    "mip_table": [
+        "Emon"
+    ],
+    "table_entry": "vtendogw",
+    "out_name": "vtendogw",
+    "questions_and_notes": "cell_methods should include \"area: mean\"",
+    "specific_issues": [
+        "10:Modify cell methods.  Include 'where air'.",
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 6,
+    "contributing_models": 19,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude plev19 time",
+    "cell_methods": "time: mean",
+    "long_name": "Northward Acceleration Due to Orographic Gravity Wave Drag",
+    "comment": "Tendency of the northward wind by parameterized orographic gravity waves.  (Note that CF name tables only have a general northward tendency for all gravity waves, and we need it separated by type.)"
+}

@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/prsn-mon-op-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "prsn-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "prsn",
+    "out_name": "prsn",
+    "questions_and_notes": "Like the area-mean, the time-mean should be weighted by the ice-free area, so the total contribution during the time-interval is correctly reported.",
+    "specific_issues": [
+        "12:Modify cell methods?"
+    ],
+    "contributing_institutions": 14,
+    "contributing_models": 31,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: mean where ice_free_sea over sea time: mean",
+    "long_name": "Snowfall Flux",
+    "comment": "At surface; includes precipitation of all forms of water in the solid phase"
+}

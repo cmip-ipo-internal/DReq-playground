@@ -1,0 +1,38 @@
+{
+    "@id": "dr:variables/treefracprimever-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable",
+    "standard_name": "area_fraction",
+    "variable_root_name": "treeFracPrimEver",
+    "units": "%",
+    "type": "real",
+    "positive": 0.0,
+    "sn_status": "approved",
+    "branding": {
+        "temporalLabelDD": "tavg",
+        "verticalLabelDD": "z0",
+        "horizontalLabelDD": "hxy",
+        "areaLabelDD": "x"
+    },
+    "definition_qualifier": " of primary evergreen trees",
+    "brand_description": "area fraction of primary evergreen trees: time means reported on a 2-d horizontal grid",
+    "bn_status": "accepted",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "typepever"
+    ],
+    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "cell_measures": "area: areacella",
+    "samplingIntervals": [
+        "mon"
+    ],
+    "regions": [
+        "global"
+    ],
+    "used_in": {
+        "cmip6": {
+            "@id": "dr:cmip6/treefracprimever-mon-unknown-tavg-z0c-hxy"
+        }
+    }
+}

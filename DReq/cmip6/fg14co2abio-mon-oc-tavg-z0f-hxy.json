@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/fg14co2abio-mon-oc-tavg-z0f-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "fg14co2abio-Omon",
+    "mip_table": [
+        "Omon"
+    ],
+    "table_entry": "fg14co2abio",
+    "out_name": "fg14co2abio",
+    "questions_and_notes": "How does this variable differ from fg14co2-Emont (other than not being a climatology)?  why does this variable have depth0m, but the next one doesn't?  I think depth0m should be removed because the standard_name already provides this information.",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 2,
+    "contributing_models": 3,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "dimensions": "longitude latitude time depth0m",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Surface Downward Mass Flux of Carbon-14 as Abiotic 14CO2 [kgC m-2 s-1]",
+    "comment": "Gas exchange flux of abiotic 14CO2 (positive into ocean)"
+}

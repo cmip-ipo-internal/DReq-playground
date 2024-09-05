@@ -1,0 +1,25 @@
+{
+    "@id": "dr:cmip6/emianox-mon-unknown-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "emianox-AERmon",
+    "mip_table": [
+        "AERmon"
+    ],
+    "table_entry": "emianox",
+    "out_name": "emianox",
+    "questions_and_notes": "",
+    "specific_issues": [
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
+    ],
+    "contributing_institutions": 1,
+    "contributing_models": 3,
+    "frequency": "mon",
+    "region": "global",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "dimensions": "longitude latitude time",
+    "cell_methods": "area: time: mean",
+    "long_name": "Total Emission Rate of Anthropogenic NOx",
+    "comment": "Store flux as Nitrogen. Anthropogenic fraction. NOx=NO+NO2, Includes agricultural waste burning but no other biomass burning. Integrate 3D emission field vertically to 2d field."
+}

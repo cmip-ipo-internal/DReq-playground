@@ -1,0 +1,26 @@
+{
+    "@id": "dr:cmip6/siconc-day-op-tavg-z0c-hxy",
+    "@type": "dr-variable-cmip6",
+    "almost-unique-identifier": "siconc-SIday",
+    "mip_table": [
+        "SIday"
+    ],
+    "table_entry": "siconc",
+    "out_name": "siconc",
+    "questions_and_notes": "Isn't this just siconca-SIday x sea_area_fraction?  If so, eliminate variable.  In any case eliminate scalar dimension because standard_name includes sea_ice.  Grid specifications should be imposed external to variable definitions.",
+    "specific_issues": [
+        "2:Modify dimensions.  Add or remove scalar coordinate.",
+        "9:Eliminate or deprecate?"
+    ],
+    "contributing_institutions": 26,
+    "contributing_models": 61,
+    "frequency": "day",
+    "region": "global",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "dimensions": "longitude latitude time typesi",
+    "cell_methods": "area: mean where sea time: mean",
+    "long_name": "Sea-Ice Area Percentage (Ocean Grid)",
+    "comment": "Percentage of grid cell covered by sea ice"
+}
