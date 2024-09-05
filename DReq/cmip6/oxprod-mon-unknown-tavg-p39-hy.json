@@ -9,8 +9,7 @@
     "out_name": "oxprod",
     "questions_and_notes": "",
     "specific_issues": [
-        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
-        "10:Modify cell methods.  Include 'where air'."
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 2,
     "contributing_models": 3,
@@ -20,7 +19,7 @@
         "atmosChem"
     ],
     "dimensions": "latitude plev39 time",
-    "cell_methods": "longitude: mean time: mean",
+    "cell_methods": "longitude: time: mean where air",
     "long_name": "Total Odd Oxygen (Ox) Production Rate",
     "comment": "total production rate of o+o1d+o3 including o2 photolysis and all o3 producing reactions"
 }

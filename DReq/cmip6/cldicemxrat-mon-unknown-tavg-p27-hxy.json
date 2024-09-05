@@ -9,8 +9,7 @@
     "out_name": "cldicemxrat",
     "questions_and_notes": "",
     "specific_issues": [
-        "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
-        "10:Modify cell methods.  Include 'where air'."
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 3,
     "contributing_models": 6,
@@ -20,7 +19,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude plev27 time",
-    "cell_methods": "time: mean",
+    "cell_methods": "area: time: mean where air",
     "long_name": "Cloud Ice Mixing Ratio",
     "comment": "Cloud ice mixing ratio"
 }

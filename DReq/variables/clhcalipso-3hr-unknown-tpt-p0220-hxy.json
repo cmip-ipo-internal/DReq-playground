@@ -22,7 +22,7 @@
         "time1",
         "p220"
     ],
-    "cell_methods": "area: mean time: point",
+    "cell_methods": "area: time: mean where air",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "3hr"

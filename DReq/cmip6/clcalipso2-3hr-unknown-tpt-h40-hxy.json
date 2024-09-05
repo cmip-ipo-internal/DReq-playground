@@ -8,9 +8,7 @@
     "table_entry": "clcalipso2",
     "out_name": "clcalipso2",
     "questions_and_notes": "",
-    "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 4,
     "contributing_models": 4,
     "frequency": "3hrPt",
@@ -19,7 +17,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude alt40 time1",
-    "cell_methods": "area: mean time: point",
+    "cell_methods": "area: mean where air time: point",
     "long_name": "CALIPSO Cloud Cover Percentage Undetected by CloudSat (as Percentage of Area Covered)",
     "comment": "Clouds detected by CALIPSO but below the detectability threshold of CloudSat"
 }

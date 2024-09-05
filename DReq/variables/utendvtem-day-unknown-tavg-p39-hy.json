@@ -21,7 +21,7 @@
         "plev39",
         "time"
     ],
-    "cell_methods": "longitude: mean time: mean",
+    "cell_methods": "longitude: time: mean where air",
     "cell_measures": 0.0,
     "samplingIntervals": [
         "day"

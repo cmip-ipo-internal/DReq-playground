@@ -22,7 +22,7 @@
         "time",
         "p560"
     ],
-    "cell_methods": "area: time: mean",
+    "cell_methods": "area: time: mean where air",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "mon"

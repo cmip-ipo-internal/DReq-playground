@@ -8,9 +8,7 @@
     "table_entry": "co2Clim",
     "out_name": "co2",
     "questions_and_notes": "",
-    "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 10,
     "contributing_models": 19,
     "frequency": "monC",
@@ -19,7 +17,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude plev19 time2",
-    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "cell_methods": "area: mean where air time: mean within years time: mean over years",
     "long_name": "Mole Fraction of CO2",
     "comment": "Mole fraction is used in the construction mole_fraction_of_X_in_Y, where X is a material constituent of Y."
 }

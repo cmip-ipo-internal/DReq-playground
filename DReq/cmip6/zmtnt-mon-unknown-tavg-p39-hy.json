@@ -9,8 +9,7 @@
     "out_name": "zmtnt",
     "questions_and_notes": "",
     "specific_issues": [
-        "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
-        "10:Modify cell methods.  Include 'where air'."
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 3,
     "contributing_models": 8,
@@ -20,7 +19,7 @@
         "atmos"
     ],
     "dimensions": "latitude plev39 time",
-    "cell_methods": "longitude: mean time: mean",
+    "cell_methods": "longitude: time: mean where air",
     "long_name": "Zonal Mean Diabatic Heating Rates",
     "comment": "The diabatic heating rates due to all the processes that may change potential temperature"
 }

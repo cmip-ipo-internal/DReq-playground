@@ -9,8 +9,7 @@
     "out_name": "hus850",
     "questions_and_notes": "",
     "specific_issues": [
-        "6:Modify variable root.",
-        "10:Modify cell methods.  Include 'where air'."
+        "6:Modify variable root."
     ],
     "contributing_institutions": 12,
     "contributing_models": 15,
@@ -20,7 +19,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude time p850",
-    "cell_methods": "area: time: mean",
+    "cell_methods": "are: time: mean where air",
     "long_name": "Specific Humidity",
     "comment": "Specific humidity is the mass fraction of water vapor in (moist) air."
 }

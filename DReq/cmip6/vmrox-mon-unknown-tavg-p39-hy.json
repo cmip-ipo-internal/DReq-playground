@@ -8,9 +8,7 @@
     "table_entry": "vmrox",
     "out_name": "vmrox",
     "questions_and_notes": "",
-    "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 4,
     "contributing_models": 4,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "atmosChem"
     ],
     "dimensions": "latitude plev39 time",
-    "cell_methods": "longitude: mean time: mean",
+    "cell_methods": "longitude: time: mean where air",
     "long_name": "Mole Fraction of Odd Oxygen (O, O3 and O1D)",
     "comment": "Mole Fraction of Ox"
 }

@@ -9,8 +9,7 @@
     "out_name": "jo3",
     "questions_and_notes": "",
     "specific_issues": [
-        "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
-        "10:Modify cell methods.  Include 'where air'."
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 3,
     "contributing_models": 3,
@@ -20,7 +19,7 @@
         "atmos"
     ],
     "dimensions": "latitude plev39 time",
-    "cell_methods": "longitude: mean time: mean",
+    "cell_methods": "longitude: time: mean where air",
     "long_name": "Photolysis Rate of Ozone (O3)",
     "comment": "Sum of photolysis rates o3 -> o1d+o2 and o3 -> o+o2"
 }

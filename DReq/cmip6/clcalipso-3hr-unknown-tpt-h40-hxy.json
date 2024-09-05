@@ -8,9 +8,7 @@
     "table_entry": "clcalipso",
     "out_name": "clcalipso",
     "questions_and_notes": "",
-    "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 6,
     "contributing_models": 5,
     "frequency": "3hrPt",
@@ -19,7 +17,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude alt40 time1",
-    "cell_methods": "area: mean time: point",
+    "cell_methods": "area: mean where air time: point",
     "long_name": "CALIPSO Percentage Cloud Cover",
     "comment": "Percentage cloud cover in CALIPSO standard atmospheric layers."
 }

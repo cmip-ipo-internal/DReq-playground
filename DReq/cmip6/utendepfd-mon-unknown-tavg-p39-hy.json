@@ -8,9 +8,7 @@
     "table_entry": "utendepfd",
     "out_name": "utendepfd",
     "questions_and_notes": "",
-    "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 14,
     "contributing_models": 23,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "atmos"
     ],
     "dimensions": "latitude plev39 time",
-    "cell_methods": "longitude: mean time: mean",
+    "cell_methods": "longitude: time: mean where air",
     "long_name": "Tendency of Eastward Wind Due to Eliassen-Palm Flux Divergence",
     "comment": "Tendency of the zonal mean zonal wind due to the divergence of the Eliassen-Palm flux."
 }

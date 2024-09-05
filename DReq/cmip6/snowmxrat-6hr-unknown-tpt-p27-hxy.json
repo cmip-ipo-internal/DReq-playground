@@ -9,8 +9,7 @@
     "out_name": "snowmxrat",
     "questions_and_notes": "",
     "specific_issues": [
-        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
-        "10:Modify cell methods.  Include 'where air'."
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 1,
     "contributing_models": 2,
@@ -20,7 +19,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude plev27 time1",
-    "cell_methods": "area: mean time: point",
+    "cell_methods": "area: mean where air time: point",
     "long_name": "Mass Fraction of Snow in Air",
     "comment": "Snow mixing ratio"
 }

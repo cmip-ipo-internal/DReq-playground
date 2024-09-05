@@ -8,9 +8,7 @@
     "table_entry": "clisccp",
     "out_name": "clisccp",
     "questions_and_notes": "",
-    "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 10,
     "contributing_models": 18,
     "frequency": "day",
@@ -19,7 +17,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude plev7c tau time",
-    "cell_methods": "area: time: mean",
+    "cell_methods": "area: time: mean where air",
     "long_name": "ISCCP Cloud Area Percentage",
     "comment": "Percentage cloud cover in optical depth categories."
 }

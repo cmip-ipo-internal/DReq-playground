@@ -8,9 +8,7 @@
     "table_entry": "tntrs",
     "out_name": "tntrs",
     "questions_and_notes": "",
-    "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 9,
     "contributing_models": 14,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "aerosol"
     ],
     "dimensions": "latitude plev39 time",
-    "cell_methods": "longitude: mean time: mean",
+    "cell_methods": "longitude: time: mean where air",
     "long_name": "Tendency of Air Temperature Due to Shortwave Radiative Heating",
     "comment": "Tendency of air temperature due to shortwave radiative heating"
 }

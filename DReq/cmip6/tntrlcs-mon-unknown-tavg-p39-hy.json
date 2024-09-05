@@ -8,9 +8,7 @@
     "table_entry": "tntrlcs",
     "out_name": "tntrlcs",
     "questions_and_notes": "",
-    "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 6,
     "contributing_models": 14,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "atmos"
     ],
     "dimensions": "latitude plev39 time",
-    "cell_methods": "longitude: mean time: mean",
+    "cell_methods": "longitude: time: mean where air",
     "long_name": "Tendency of Air Temperature Due to Clear Sky Longwave Radiative Heating",
     "comment": "Tendency of Air Temperature due to Clear Sky Longwave Radiative Heating"
 }

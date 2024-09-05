@@ -8,9 +8,7 @@
     "table_entry": "tntnogw",
     "out_name": "tntnogw",
     "questions_and_notes": "",
-    "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 6,
     "contributing_models": 9,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "atmos"
     ],
     "dimensions": "latitude plev39 time",
-    "cell_methods": "longitude: mean time: mean",
+    "cell_methods": "longitude: time: mean where air",
     "long_name": "Temperature Tendency Due to Non-Orographic Gravity Wave Dissipation",
     "comment": "Temperature tendency due to dissipation of parameterized nonorographic gravity waves."
 }
