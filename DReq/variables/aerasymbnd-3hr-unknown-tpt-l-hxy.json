@@ -16,13 +16,7 @@
     "definition_qualifier": ", spectrally resolved",
     "brand_description": "asymmetry factor of ambient aerosol particles, spectrally resolved: synoptic samples provided on multiple model levels and reported on a 2-d horizontal grid",
     "bn_status": "accepted",
-    "dimensions": [
-        "longitude",
-        "latitude",
-        "alevel",
-        "spectband",
-        "time1"
-    ],
+    "dimensions": "longitude latitude alevel spectband time1",
     "cell_methods": "area: mean time: point",
     "cell_measures": "area: areacella",
     "samplingIntervals": [

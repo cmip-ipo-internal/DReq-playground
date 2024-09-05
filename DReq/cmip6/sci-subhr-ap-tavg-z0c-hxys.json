@@ -9,7 +9,6 @@
     "out_name": "sci",
     "questions_and_notes": "Shouldn't description be worded \"atmospheric column\" rather than \"grid cell\"? The CF standard name description says \"Time fraction\" means a fraction of a time interval. The interval in question must be specified by the values or bounds of the time coordinate variable associated with the data. \"X_time_fraction\" means the fraction of the time interval during which X occurs.\"  So, in cell_methods probably it should be time: mean, not time: point.",
     "specific_issues": [
-        "3:Modify dimensions",
         "12:Modify cell methods?"
     ],
     "contributing_institutions": 4,
@@ -19,7 +18,7 @@
     "modeling_realm": [
         "atmos"
     ],
-    "dimensions": "site time1",
+    "dimensions": "site time",
     "cell_methods": "area: point time: point",
     "long_name": "Fraction of Time Shallow Convection Occurs",
     "comment": "Fraction of time that shallow convection occurs in the grid cell."

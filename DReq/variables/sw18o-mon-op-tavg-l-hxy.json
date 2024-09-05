@@ -16,12 +16,7 @@
     "definition_qualifier": "none",
     "brand_description": "isotope ratio of 18O to 16O in sea water excluding solutes and solids: time means provided on multiple model levels and reported on a 2-d horizontal grid where sea",
     "bn_status": "accepted",
-    "dimensions": [
-        "longitude",
-        "latitude",
-        "alevel",
-        "time"
-    ],
+    "dimensions": "longitude latitude olevel time",
     "cell_methods": "area: time: mean",
     "cell_measures": "area: areacella",
     "samplingIntervals": [

@@ -16,13 +16,7 @@
     "definition_qualifier": " of herbaceous vegetation",
     "brand_description": "area fraction of herbaceous vegetation: time means reported on a 2-d horizontal grid",
     "bn_status": "accepted",
-    "dimensions": [
-        "longitude",
-        "latitude",
-        "landUse",
-        "time",
-        "typenwd"
-    ],
+    "dimensions": "longitude latitude time typenwd",
     "cell_methods": "area: mean where land over all_area_types time: mean",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
