@@ -16,12 +16,7 @@
     "definition_qualifier": "none",
     "brand_description": "atmosphere relative vorticity: synoptic samples at 700 hPa reported on a 2-d horizontal grid where air",
     "bn_status": "accepted",
-    "dimensions": [
-        "longitude",
-        "latitude",
-        "time1",
-        "pl700"
-    ],
+    "dimensions": "longitude latitude time1 p700",
     "cell_methods": "area: mean time: point",
     "cell_measures": "area: areacella",
     "samplingIntervals": [

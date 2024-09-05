@@ -9,7 +9,6 @@
     "out_name": "nwdFracLut",
     "questions_and_notes": "remove dimension landuse.  Consider eliminating scalar dimension.  non-woody vegetation is not an area type recognized by CF, which could be a problem.",
     "specific_issues": [
-        "3:Modify dimensions",
         "6:Modify variable root.",
         "12:Modify cell methods?"
     ],
@@ -20,7 +19,7 @@
     "modeling_realm": [
         "land"
     ],
-    "dimensions": "longitude latitude landUse time typenwd",
+    "dimensions": "longitude latitude time typenwd",
     "cell_methods": "area: mean where land over all_area_types time: mean",
     "long_name": "Non-Woody Vegetation Percentage Cover",
     "comment": "Percentage of land use tile tile that is non-woody vegetation ( e.g. herbaceous crops)"

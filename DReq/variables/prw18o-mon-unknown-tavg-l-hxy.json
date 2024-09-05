@@ -16,12 +16,7 @@
     "definition_qualifier": "none",
     "brand_description": "mass content of water vapor containing 18O in atmosphere layer: time means provided on multiple model levels and reported on a 2-d horizontal grid",
     "bn_status": "accepted",
-    "dimensions": [
-        "longitude",
-        "latitude",
-        "olevel",
-        "time"
-    ],
+    "dimensions": "longitude latitude alevel time",
     "cell_methods": "area: mean where sea time: mean",
     "cell_measures": "area: areacello volume: volcello",
     "samplingIntervals": [

@@ -16,10 +16,7 @@
     "definition_qualifier": "none",
     "brand_description": "shallow convection time fraction: time means reported at assorted individual sites",
     "bn_status": "accepted",
-    "dimensions": [
-        "site",
-        "time1"
-    ],
+    "dimensions": "site time",
     "cell_methods": "area: point time: point",
     "cell_measures": 0.0,
     "samplingIntervals": [

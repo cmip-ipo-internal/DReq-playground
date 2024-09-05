@@ -9,7 +9,6 @@
     "out_name": "vortmean",
     "questions_and_notes": "Why isn't this variable named \"rv\" for consistency with rv-tavg-p0850-hxy-air and rv-tpt-p0700-hxy-air?   To simplify and make more consitent with those 2 variables, can we define it \"at 700 hPa\" rather than over the 850-600hPa layer?",
     "specific_issues": [
-        "3:Modify dimensions",
         "6:Modify variable root.",
         "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
         "10:Modify cell methods.  Include 'where air'."
@@ -21,7 +20,7 @@
     "modeling_realm": [
         "atmos"
     ],
-    "dimensions": "longitude latitude time1 pl700",
+    "dimensions": "longitude latitude time1 p700",
     "cell_methods": "area: mean time: point",
     "long_name": "Relative Vorticity",
     "comment": "Mean vorticity over 850,700,600 hPa"

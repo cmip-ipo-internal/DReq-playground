@@ -9,7 +9,6 @@
     "out_name": "aerasymbnd",
     "questions_and_notes": "In the description \"The asymmetry coefficient is here an integral over all wavelength bands\" must be wrong, given the presence of the dimension, spectband.  Should these be weighted by aerosol number density or mass or something?",
     "specific_issues": [
-        "3:Modify dimensions",
         "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
         "12:Modify cell methods?"
     ],
