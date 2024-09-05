@@ -16,11 +16,7 @@
     "definition_qualifier": "none",
     "brand_description": "mole fraction of ozone in air: maximum reported on a 2-d horizontal grid",
     "bn_status": "accepted",
-    "dimensions": [
-        "longitude",
-        "latitude",
-        "time"
-    ],
+    "dimensions": "longitude latitude time",
     "cell_methods": "area: mean time: maximum",
     "cell_measures": "area: areacella",
     "samplingIntervals": [

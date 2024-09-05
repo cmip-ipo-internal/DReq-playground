@@ -9,7 +9,6 @@
     "out_name": "chlpicoos",
     "questions_and_notes": "need vertical depth scalar coordinate",
     "specific_issues": [
-        "2:Modify dimensions.  Add or remove scalar coordinate.",
         "6:Modify variable root.",
         "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
     ],
@@ -20,7 +19,7 @@
     "modeling_realm": [
         "ocnBgchem"
     ],
-    "dimensions": "longitude latitude time",
+    "dimensions": "longitude latitude time depth0m",
     "cell_methods": "area: mean where sea time: mean",
     "long_name": "Surface Mass Concentration of Picophytoplankton Expressed as Chlorophyll in Sea Water",
     "comment": "chlorophyll concentration from the picophytoplankton (<2 um) component alone"

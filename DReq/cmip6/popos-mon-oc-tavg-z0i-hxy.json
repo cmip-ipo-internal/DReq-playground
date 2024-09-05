@@ -9,7 +9,6 @@
     "out_name": "popos",
     "questions_and_notes": "need vertical depth scalar coordinate",
     "specific_issues": [
-        "2:Modify dimensions.  Add or remove scalar coordinate.",
         "6:Modify variable root."
     ],
     "contributing_institutions": 8,
@@ -19,7 +18,7 @@
     "modeling_realm": [
         "ocnBgchem"
     ],
-    "dimensions": "longitude latitude time",
+    "dimensions": "longitude latitude time depth0m",
     "cell_methods": "area: mean where sea time: mean",
     "long_name": "Surface Mole Concentration of Particulate Organic Matter Expressed as Phosphorus in Sea Water",
     "comment": "sum of particulate organic phosphorus component concentrations"

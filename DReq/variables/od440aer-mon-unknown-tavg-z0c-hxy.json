@@ -16,11 +16,7 @@
     "definition_qualifier": " at 440 nm",
     "brand_description": "atmosphere optical thickness due to ambient aerosol particles at 440 nm: time means reported on a 2-d horizontal grid",
     "bn_status": "accepted",
-    "dimensions": [
-        "longitude",
-        "latitude",
-        "time"
-    ],
+    "dimensions": "longitude latitude time lambda440nm",
     "cell_methods": "area: time: mean",
     "cell_measures": "area: areacella",
     "samplingIntervals": [

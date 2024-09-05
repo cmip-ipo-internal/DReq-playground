@@ -16,12 +16,7 @@
     "definition_qualifier": "none",
     "brand_description": "surface downward mass flux of carbon dioxide abiotic analogue expressed as carbon: time means reported on a 2-d horizontal grid where sea",
     "bn_status": "accepted",
-    "dimensions": [
-        "longitude",
-        "latitude",
-        "time",
-        "depth0m"
-    ],
+    "dimensions": "longitude latitude time",
     "cell_methods": "area: mean where sea time: mean",
     "cell_measures": "area: areacello",
     "samplingIntervals": [

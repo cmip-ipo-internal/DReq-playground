@@ -9,7 +9,6 @@
     "out_name": "chlcalcos",
     "questions_and_notes": "need vertical depth scalar coordinate",
     "specific_issues": [
-        "2:Modify dimensions.  Add or remove scalar coordinate.",
         "6:Modify variable root.",
         "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
     ],
@@ -20,7 +19,7 @@
     "modeling_realm": [
         "ocnBgchem"
     ],
-    "dimensions": "longitude latitude time",
+    "dimensions": "longitude latitude time depth0m",
     "cell_methods": "area: mean where sea time: mean",
     "long_name": "Surface Mass Concentration of Calcareous Phytoplankton Expressed as Chlorophyll in Sea Water",
     "comment": "chlorophyll concentration from the calcite-producing phytoplankton component alone"

@@ -8,9 +8,7 @@
     "table_entry": "ocfriver",
     "out_name": "ocfriver",
     "questions_and_notes": "why does this variable have depth0m?  I think depth0m should be removed because the standard_name already provides this information.",
-    "specific_issues": [
-        "2:Modify dimensions.  Add or remove scalar coordinate."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 7,
     "contributing_models": 10,
     "frequency": "mon",
@@ -18,7 +16,7 @@
     "modeling_realm": [
         "ocnBgchem"
     ],
-    "dimensions": "longitude latitude time depth0m",
+    "dimensions": "longitude latitude time",
     "cell_methods": "area: mean where sea time: mean",
     "long_name": "Flux of Organic Carbon into Ocean Surface by Runoff",
     "comment": "Organic Carbon supply to ocean through runoff (separate from gas exchange)"

@@ -16,12 +16,7 @@
     "definition_qualifier": "none",
     "brand_description": "sea ice area fraction: time means reported on a 2-d horizontal grid where sea",
     "bn_status": "accepted",
-    "dimensions": [
-        "longitude",
-        "latitude",
-        "time",
-        "typesi"
-    ],
+    "dimensions": "longitude latitude time",
     "cell_methods": "area: mean where sea time: mean",
     "cell_measures": "area: areacello",
     "samplingIntervals": [

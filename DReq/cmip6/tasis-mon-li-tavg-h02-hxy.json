@@ -9,7 +9,6 @@
     "out_name": "tasIs",
     "questions_and_notes": "A height2m coordinate should be included as a dimension.",
     "specific_issues": [
-        "2:Modify dimensions.  Add or remove scalar coordinate.",
         "6:Modify variable root.",
         "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
     ],
@@ -20,7 +19,7 @@
     "modeling_realm": [
         "landIce"
     ],
-    "dimensions": "longitude latitude time",
+    "dimensions": "longitude latitude time height2m",
     "cell_methods": "area: time: mean where ice_sheet",
     "long_name": "Ice Sheet Near-Surface Air Temperature",
     "comment": "near-surface (usually, 2 meter) air temperature"

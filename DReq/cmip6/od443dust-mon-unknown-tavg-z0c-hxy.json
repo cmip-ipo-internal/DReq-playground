@@ -9,7 +9,6 @@
     "out_name": "od443dust",
     "questions_and_notes": "lambda443nm should be included in dimensions; Why is the wavelength inconsistent with lambda440nm used for od440aer-tavg-z0-hxy-x  (od440aer-AERmon)?",
     "specific_issues": [
-        "2:Modify dimensions.  Add or remove scalar coordinate.",
         "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 3,
@@ -19,7 +18,7 @@
     "modeling_realm": [
         "atmos"
     ],
-    "dimensions": "longitude latitude time",
+    "dimensions": "longitude latitude time lambda443nm",
     "cell_methods": "area: time: mean",
     "long_name": "Optical Thickness at 443nm Dust",
     "comment": "Total aerosol AOD due to dust aerosol at a wavelength of 443 nanometres."

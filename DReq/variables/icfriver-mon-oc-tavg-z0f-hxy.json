@@ -16,12 +16,7 @@
     "definition_qualifier": "none",
     "brand_description": "tendency of ocean mole content of inorganic carbon due to runoff and sediment dissolution: time means reported on a 2-d horizontal grid where sea",
     "bn_status": "accepted",
-    "dimensions": [
-        "longitude",
-        "latitude",
-        "time",
-        "depth0m"
-    ],
+    "dimensions": "longitude latitude time",
     "cell_methods": "area: mean where sea time: mean",
     "cell_measures": "area: areacello",
     "samplingIntervals": [

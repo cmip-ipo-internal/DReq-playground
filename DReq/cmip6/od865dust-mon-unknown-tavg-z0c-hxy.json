@@ -8,9 +8,7 @@
     "table_entry": "od865dust",
     "out_name": "od865dust",
     "questions_and_notes": "lambda865nm should be included in dimensions; Why is the wavelength inconsistent with lambda870nm used for od870aer-tavg-z0-hxy-x (od870aer-AERmon)?",
-    "specific_issues": [
-        "2:Modify dimensions.  Add or remove scalar coordinate."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 4,
     "contributing_models": 8,
     "frequency": "mon",
@@ -18,7 +16,7 @@
     "modeling_realm": [
         "atmos"
     ],
-    "dimensions": "longitude latitude time",
+    "dimensions": "longitude latitude time lambda865nm",
     "cell_methods": "area: time: mean",
     "long_name": "Dust Optical Depth at 865nm",
     "comment": "Total aerosol AOD due to dust aerosol at a wavelength of 865 nanometres."
