@@ -10,8 +10,7 @@
     "questions_and_notes": "Note says that 3-d field is unneccessary (because other important contribtions to KE aren't requested); eliminate this variable and report tnkebto-Oclim instead.  Cell_methods should include \"where sea\".",
     "specific_issues": [
         "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
-        "9:Eliminate or deprecate?",
-        "11:Modify cell methods.  Include 'where sea'."
+        "9:Eliminate or deprecate?"
     ],
     "contributing_institutions": 1,
     "contributing_models": 2,
@@ -21,7 +20,7 @@
         "ocean"
     ],
     "dimensions": "longitude latitude olevel time2",
-    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "cell_methods": "area: mean where sea time: mean within years time: mean over years",
     "long_name": "Tendency of Ocean Eddy Kinetic Energy Content Due to Parameterized Eddy Advection",
     "comment": "Depth integrated impacts on kinetic energy arising from parameterized eddy-induced advection. For CMIP5, this diagnostic was 3d, whereas the CMIP6 depth integrated diagnostic is sufficient for many purposes and reduces archive requirements."
 }

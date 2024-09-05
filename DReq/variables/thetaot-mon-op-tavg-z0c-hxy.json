@@ -21,7 +21,7 @@
         "latitude",
         "time"
     ],
-    "cell_methods": "area: depth: time: mean",
+    "cell_methods": "depth:  area: mean where sea (over entire ocean column) time: mean",
     "cell_measures": "area: areacello",
     "samplingIntervals": [
         "mon"

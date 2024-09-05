@@ -22,7 +22,7 @@
         "olevel",
         "time2"
     ],
-    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "cell_methods": "area: mean where sea time: mean within years time: mean over years",
     "cell_measures": "area: areacello volume: volcello",
     "samplingIntervals": [
         "mon"

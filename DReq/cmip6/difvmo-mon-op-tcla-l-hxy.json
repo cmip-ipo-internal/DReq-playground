@@ -8,9 +8,7 @@
     "table_entry": "difvmo",
     "out_name": "difvmo",
     "questions_and_notes": "cell_methods should include \"where sea\"",
-    "specific_issues": [
-        "11:Modify cell methods.  Include 'where sea'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 5,
     "contributing_models": 7,
     "frequency": "monC",
@@ -19,7 +17,7 @@
         "ocean"
     ],
     "dimensions": "longitude latitude olevel time2",
-    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "cell_methods": "area: mean where sea time: mean within years time: mean over years",
     "long_name": "Ocean Vertical Momentum Diffusivity",
     "comment": "Vertical/dianeutral diffusivity applied to momentum."
 }

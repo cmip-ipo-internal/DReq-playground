@@ -9,8 +9,7 @@
     "out_name": "tnpeo",
     "questions_and_notes": "Cell_methods include \"where sea\".  Description says this should be a 2-d field, not 3-d.  If so, eliminate olevel dimension.",
     "specific_issues": [
-        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
-        "11:Modify cell methods.  Include 'where sea'."
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 1,
     "contributing_models": 2,
@@ -20,7 +19,7 @@
         "ocean"
     ],
     "dimensions": "longitude latitude olevel time2",
-    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "cell_methods": "area: mean where sea time: mean within years time: mean over years",
     "long_name": "Tendency of Ocean Potential Energy Content",
     "comment": "Rate that work is done against vertical stratification, as measured by the vertical heat and salt diffusivity. Report here as depth integrated two-dimensional field."
 }

@@ -9,8 +9,7 @@
     "out_name": "difvtrbo",
     "questions_and_notes": "cell_methods should include \"where sea\"",
     "specific_issues": [
-        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
-        "11:Modify cell methods.  Include 'where sea'."
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 0,
     "contributing_models": 0,
@@ -20,7 +19,7 @@
         "ocean"
     ],
     "dimensions": "longitude latitude olevel time2",
-    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "cell_methods": "area: mean where sea time: mean within years time: mean over years",
     "long_name": "Ocean Vertical Tracer Diffusivity Due to Background",
     "comment": "Vertical/dianeutral diffusivity applied to tracers due to the background (i.e. caused by a time invariant imposed field which may be either constant over the globe or spatially varying, depending on the ocean model used)."
 }

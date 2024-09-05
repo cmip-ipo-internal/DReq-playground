@@ -10,8 +10,7 @@
     "questions_and_notes": "Is it o.k. to perform the time mean last?  cell_methods should include \"where sea\"",
     "specific_issues": [
         "6:Modify variable root.",
-        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
-        "11:Modify cell methods.  Include 'where sea'."
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 1,
     "contributing_models": 1,
@@ -21,7 +20,7 @@
         "ocean"
     ],
     "dimensions": "gridlatitude rho basin time",
-    "cell_methods": "time: mean grid_longitude: mean",
+    "cell_methods": "grid_longitude: mean where sea time: mean",
     "long_name": "Ocean Y Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection",
     "comment": "CMIP5 called this \"due to Bolus Advection\".  Name change respects the more general physics of the mesoscale parameterizations."
 }

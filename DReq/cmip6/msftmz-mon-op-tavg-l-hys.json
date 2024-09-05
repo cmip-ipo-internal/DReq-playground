@@ -9,7 +9,6 @@
     "out_name": "msftmz",
     "questions_and_notes": "Since it is stored on rho surfaces, not depth, I don't think cell_methods should include \"depth\".  For longitude, check whether sum is correct and consistent with msftyrho-Omon, msftyz-Odec, msftyz-Omon msftyrhompa-Omon, and msftyzmpa-Omon.  cell_methods should include \"where sea\" .",
     "specific_issues": [
-        "11:Modify cell methods.  Include 'where sea'.",
         "12:Modify cell methods?"
     ],
     "contributing_institutions": 19,
@@ -20,7 +19,7 @@
         "ocean"
     ],
     "dimensions": "latitude olevel basin time",
-    "cell_methods": "longitude: sum (comment: basin sum [along zig-zag grid path]) depth: sum time: mean",
+    "cell_methods": "longitude: rho: sum where sea (along a zig-zag grid path spanning a basin) time: mean",
     "long_name": "Ocean Meridional Overturning Mass Streamfunction",
     "comment": "Overturning mass streamfunction arising from all advective mass transport processes, resolved and parameterized."
 }

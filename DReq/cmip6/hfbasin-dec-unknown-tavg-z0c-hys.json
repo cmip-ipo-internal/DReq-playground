@@ -9,8 +9,7 @@
     "out_name": "hfbasin",
     "questions_and_notes": "cell_methods should include \"where sea\"",
     "specific_issues": [
-        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
-        "11:Modify cell methods.  Include 'where sea'."
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 1,
     "contributing_models": 1,
@@ -20,7 +19,7 @@
         "ocean"
     ],
     "dimensions": "latitude basin time",
-    "cell_methods": "longitude: sum (comment: basin sum [along zig-zag grid path]) depth: sum time: mean",
+    "cell_methods": "depth: longitude: sum (along a zig-zag grid path spanning a basin and over entire ocean column) time: mean",
     "long_name": "Northward Ocean Heat Transport",
     "comment": "Contains contributions from all physical processes affecting the northward heat transport, including resolved advection, parameterized advection, lateral diffusion, etc. Diagnosed here as a function of latitude and basin.   Use Celsius for temperature scale."
 }

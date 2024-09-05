@@ -8,9 +8,7 @@
     "table_entry": "sistrxubot",
     "out_name": "sistrxubot",
     "questions_and_notes": "cell_methods should include \"where sea_ice\"",
-    "specific_issues": [
-        "11:Modify cell methods.  Include 'where sea'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 23,
     "contributing_models": 47,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "seaIce"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "cell_methods": "area: time: mean where sea_ice",
     "long_name": "X-Component of Ocean Stress on Sea Ice",
     "comment": "X-component of ocean stress on sea ice"
 }

@@ -9,8 +9,7 @@
     "out_name": "thetaot700",
     "questions_and_notes": "cell_methods should include \"where sea\"",
     "specific_issues": [
-        "6:Modify variable root.",
-        "11:Modify cell methods.  Include 'where sea'."
+        "6:Modify variable root."
     ],
     "contributing_institutions": 9,
     "contributing_models": 15,
@@ -20,7 +19,7 @@
         "ocean"
     ],
     "dimensions": "longitude latitude time depth700m",
-    "cell_methods": "area: depth: time: mean",
+    "cell_methods": "depth: area: mean where sea time: mean",
     "long_name": "Depth Average Potential Temperature of Upper 700m",
     "comment": "Upper 700m, 2D field"
 }

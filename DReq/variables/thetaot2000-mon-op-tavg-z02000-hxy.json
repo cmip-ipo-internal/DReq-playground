@@ -22,7 +22,7 @@
         "time",
         "depth2000m"
     ],
-    "cell_methods": "area: depth: time: mean",
+    "cell_methods": "depth: area: mean where sea time: mean",
     "cell_measures": "area: areacello",
     "samplingIntervals": [
         "mon"

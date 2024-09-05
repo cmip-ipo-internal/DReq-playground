@@ -22,7 +22,7 @@
         "olevel",
         ""
     ],
-    "cell_methods": "area: sum",
+    "cell_methods": "area: sum where sea",
     "cell_measures": "area: areacello volume: volcello",
     "samplingIntervals": [
         "fx"

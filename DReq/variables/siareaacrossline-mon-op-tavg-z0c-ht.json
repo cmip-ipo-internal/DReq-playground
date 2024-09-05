@@ -20,7 +20,7 @@
         "siline",
         "time"
     ],
-    "cell_methods": "time: mean",
+    "cell_methods": "time: mean where sea",
     "cell_measures": 0.0,
     "samplingIntervals": [
         "mon"
