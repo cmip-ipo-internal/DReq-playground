@@ -9,8 +9,7 @@
     "out_name": "diftrelo",
     "questions_and_notes": "cell_methods should include \"where sea\"",
     "specific_issues": [
-        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
-        "11:Modify cell methods.  Include 'where sea'."
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 1,
     "contributing_models": 3,
@@ -20,7 +19,7 @@
         "ocean"
     ],
     "dimensions": "longitude latitude time2",
-    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "cell_methods": "area: mean where sea time: mean within years time: mean over years",
     "long_name": "Ocean Tracer Epineutral Laplacian Diffusivity",
     "comment": "Ocean tracer diffusivity associated with parameterized eddy-induced diffusive transport oriented along neutral or isopycnal directions. Sometimes this diffusivity is called the neutral diffusivity or isopycnal diffusivity or Redi diffusivity."
 }

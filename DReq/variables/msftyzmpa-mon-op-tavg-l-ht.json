@@ -22,7 +22,7 @@
         "basin",
         "time"
     ],
-    "cell_methods": "time: mean grid_longitude: mean",
+    "cell_methods": "grid_longitude: mean where sea time: mean",
     "cell_measures": 0.0,
     "samplingIntervals": [
         "mon"

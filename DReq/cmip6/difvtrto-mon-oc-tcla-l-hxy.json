@@ -9,8 +9,7 @@
     "out_name": "difvtrto",
     "questions_and_notes": "cell_methods should include \"where sea\"",
     "specific_issues": [
-        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
-        "11:Modify cell methods.  Include 'where sea'."
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 1,
     "contributing_models": 2,
@@ -20,7 +19,7 @@
         "ocean"
     ],
     "dimensions": "longitude latitude olevel time2",
-    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "cell_methods": "area: mean where sea time: mean within years time: mean over years",
     "long_name": "Ocean Vertical Tracer Diffusivity Due to Tides",
     "comment": "Vertical/dianeutral diffusivity applied to tracers due to tides (i.e. caused by astronomical gravity changes which manifest as tides)."
 }

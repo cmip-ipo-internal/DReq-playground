@@ -9,8 +9,7 @@
     "out_name": "thetaot",
     "questions_and_notes": "cell_methods should include \"where sea\"",
     "specific_issues": [
-        "6:Modify variable root.",
-        "11:Modify cell methods.  Include 'where sea'."
+        "6:Modify variable root."
     ],
     "contributing_institutions": 11,
     "contributing_models": 7,
@@ -20,7 +19,7 @@
         "ocean"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: depth: time: mean",
+    "cell_methods": "depth:  area: mean where sea (over entire ocean column) time: mean",
     "long_name": "Vertically Averaged Sea Water Potential Temperature",
     "comment": "Vertical average of the sea water potential temperature through the whole ocean depth"
 }

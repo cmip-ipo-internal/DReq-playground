@@ -10,8 +10,7 @@
     "questions_and_notes": "Vertical coordinate should be olevel here.",
     "specific_issues": [
         "3:Modify dimensions",
-        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
-        "11:Modify cell methods.  Include 'where sea'."
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 0,
     "contributing_models": 0,
@@ -21,7 +20,7 @@
         "ocean"
     ],
     "dimensions": "longitude latitude alevel time",
-    "cell_methods": "area: time: mean",
+    "cell_methods": "area: mean where sea time: mean",
     "long_name": "Isotopic Ratio of Oxygen-18 in Sea Water",
     "comment": "Ratio of abundance of oxygen-18 (18O) atoms to oxygen-16 (16O) atoms in sea water"
 }

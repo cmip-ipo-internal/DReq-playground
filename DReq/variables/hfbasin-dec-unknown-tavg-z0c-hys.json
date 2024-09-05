@@ -21,7 +21,7 @@
         "basin",
         "time"
     ],
-    "cell_methods": "longitude: sum (comment: basin sum [along zig-zag grid path]) depth: sum time: mean",
+    "cell_methods": "depth: longitude: sum (along a zig-zag grid path spanning a basin and over entire ocean column) time: mean",
     "cell_measures": 0.0,
     "samplingIntervals": [
         "dec"

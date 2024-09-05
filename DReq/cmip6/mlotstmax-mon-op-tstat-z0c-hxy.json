@@ -8,9 +8,7 @@
     "table_entry": "mlotstmax",
     "out_name": "mlotstmax",
     "questions_and_notes": "cell_methods should include \"where sea\".  Note that in general \"area: mean\" will give a lower maximum if data are mapped to a coarser grid than the original.",
-    "specific_issues": [
-        "11:Modify cell methods.  Include 'where sea'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 17,
     "contributing_models": 35,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "ocean"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: mean time: maximum",
+    "cell_methods": "area: mean where sea time: maximum",
     "long_name": "Maximum Ocean Mixed Layer Thickness Defined by Sigma T",
     "comment": "Sigma T is potential density referenced to ocean surface."
 }

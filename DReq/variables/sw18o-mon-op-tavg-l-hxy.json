@@ -22,7 +22,7 @@
         "alevel",
         "time"
     ],
-    "cell_methods": "area: time: mean",
+    "cell_methods": "area: mean where sea time: mean",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "mon"

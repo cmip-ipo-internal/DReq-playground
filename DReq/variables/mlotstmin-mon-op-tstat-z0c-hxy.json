@@ -21,7 +21,7 @@
         "latitude",
         "time"
     ],
-    "cell_methods": "area: mean time: minimum",
+    "cell_methods": "area: mean where sea time: minimum",
     "cell_measures": "area: areacello",
     "samplingIntervals": [
         "mon"

@@ -9,8 +9,7 @@
     "out_name": "msftyz",
     "questions_and_notes": "Is it o.k. to perform the time mean last?  cell_methods should include \"where sea\"",
     "specific_issues": [
-        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
-        "11:Modify cell methods.  Include 'where sea'."
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 0,
     "contributing_models": 0,
@@ -20,7 +19,7 @@
         "ocean"
     ],
     "dimensions": "gridlatitude olevel basin time",
-    "cell_methods": "time: mean grid_longitude: mean",
+    "cell_methods": "grid_longitude: mean where sea time: mean",
     "long_name": "Ocean Y Overturning Mass Streamfunction",
     "comment": "Overturning mass streamfunction arising from all advective mass transport processes, resolved and parameterized."
 }

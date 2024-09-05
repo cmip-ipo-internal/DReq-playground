@@ -8,9 +8,7 @@
     "table_entry": "omldamax",
     "out_name": "omldamax",
     "questions_and_notes": "cell_methods should include \"where sea\"? See umo-Omon. Note that in general \"area: mean\" will give a lower maximum if data are mapped to a coarser grid than the original.",
-    "specific_issues": [
-        "11:Modify cell methods.  Include 'where sea'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 14,
     "contributing_models": 32,
     "frequency": "day",
@@ -19,7 +17,7 @@
         "ocean"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: mean time: maximum",
+    "cell_methods": "area: mean where sea time: maximum",
     "long_name": "Mean Daily Maximum Ocean Mixed Layer Thickness Defined by Mixing Scheme",
     "comment": "The ocean mixed layer is the upper part of the ocean, regarded as being well-mixed. The base of the mixed layer defined by the mixing scheme is a diagnostic of ocean models. \"Thickness\" means the vertical extent of a layer."
 }

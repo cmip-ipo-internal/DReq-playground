@@ -8,9 +8,7 @@
     "table_entry": "htovgyre",
     "out_name": "htovgyre",
     "questions_and_notes": "cell_methods should include \"where sea\"",
-    "specific_issues": [
-        "11:Modify cell methods.  Include 'where sea'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 10,
     "contributing_models": 22,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "ocean"
     ],
     "dimensions": "latitude basin time",
-    "cell_methods": "longitude: sum (comment: basin sum [along zig-zag grid path]) depth: sum time: mean",
+    "cell_methods": "depth: longitude: sum (along a zig-zag grid path spanning a basin and over entire ocean column) time: mean",
     "long_name": "Northward Ocean Heat Transport Due to Gyre",
     "comment": "From all advective mass transport processes, resolved and parameterized."
 }

@@ -9,8 +9,7 @@
     "out_name": "msftyrho",
     "questions_and_notes": "Is it o.k. to perform the time mean last?  cell_methods should include \"where sea\"",
     "specific_issues": [
-        "6:Modify variable root.",
-        "11:Modify cell methods.  Include 'where sea'."
+        "6:Modify variable root."
     ],
     "contributing_institutions": 5,
     "contributing_models": 7,
@@ -20,7 +19,7 @@
         "ocean"
     ],
     "dimensions": "gridlatitude rho basin time",
-    "cell_methods": "time: mean grid_longitude: mean",
+    "cell_methods": "grid_longitude: mean where sea time: mean",
     "long_name": "Ocean Y Overturning Mass Streamfunction",
     "comment": "Overturning mass streamfunction arising from all advective mass transport processes, resolved and parameterized."
 }
