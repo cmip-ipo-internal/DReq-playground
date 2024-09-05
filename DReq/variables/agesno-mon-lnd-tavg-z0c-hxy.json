@@ -21,7 +21,7 @@
         "latitude",
         "time"
     ],
-    "cell_methods": "area: mean where land time: mean (with samples weighted by snow mass)",
+    "cell_methods": "area: time: mean where land (weighted by snow mass on land)",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "mon"

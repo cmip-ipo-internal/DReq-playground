@@ -21,7 +21,7 @@
         "latitude",
         "time"
     ],
-    "cell_methods": "area: mean time: mean within hours time: maximum over hours",
+    "cell_methods": "area: mean time: mean (within each hour of the day) time: maximum (hourly rate within each day)",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "day"

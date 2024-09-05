@@ -21,7 +21,7 @@
         "latitude",
         "time"
     ],
-    "cell_methods": "area: time: mean where ice_sheet",
+    "cell_methods": "area: time: mean where snow (on ice_sheet, with samples weighted by snow mass)",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "mon"

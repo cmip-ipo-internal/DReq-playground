@@ -10,8 +10,7 @@
     "questions_and_notes": " this should have the same root as sisnthick-SIday.",
     "specific_issues": [
         "6:Modify variable root.",
-        "9:Eliminate or deprecate?",
-        "12:Modify cell methods?"
+        "9:Eliminate or deprecate?"
     ],
     "contributing_institutions": 5,
     "contributing_models": 10,
@@ -21,7 +20,7 @@
         "seaIce"
     ],
     "dimensions": "longitude latitude iceband time",
-    "cell_methods": "area: time: mean where sea_ice (comment: mask=siitdconc)",
+    "cell_methods": "area: time: mean where sea_ice (weighted by sea ice area fraction in ice thickness category)",
     "long_name": "Snow Thickness in Ice Thickness Categories",
     "comment": "Actual thickness of snow in each  category (NOT volume divided by grid area),  (vector with one entry for each thickness category starting from the thinnest category, netcdf file should use thickness bounds of categories as third coordinate axis)"
 }

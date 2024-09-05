@@ -21,7 +21,7 @@
         "latitude",
         "time"
     ],
-    "cell_methods": "area: time: mean where cloud",
+    "cell_methods": "area: time: mean where cloud (weighted by ISCCP total cloud area)",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "mon"

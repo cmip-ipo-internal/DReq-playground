@@ -8,9 +8,7 @@
     "table_entry": "scldncl",
     "out_name": "scldncl",
     "questions_and_notes": "cell_methods need to include \"area: mean (in upper-most layer of liquid water cloud)",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 4,
     "contributing_models": 7,
     "frequency": "day",
@@ -19,7 +17,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: time: mean",
+    "cell_methods": "area: time: mean where stratiform_cloud (but only in upper-most layer of stratiform liquid water cloud and weighted by area of stratiform liquid water cloud top as seen from TOA)",
     "long_name": "Cloud Droplet Number Concentration of Stratiform Cloud Tops",
     "comment": "Droplets are liquid only.  Report concentration \"as seen from space\" over stratiform liquid cloudy portion of grid cell.  This is the value from uppermost model layer with liquid cloud or, if available, it is better to sum over all liquid cloud tops, no matter where they occur, as long as they are seen from the top of the atmosphere. Weight by total liquid cloud top fraction of  (as seen from TOA) each time sample when computing monthly mean."
 }

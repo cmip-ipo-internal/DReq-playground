@@ -9,8 +9,7 @@
     "out_name": "rsdscsbnd",
     "questions_and_notes": "cell_methods should include \"area: mean\"",
     "specific_issues": [
-        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 0,
     "contributing_models": 0,
@@ -20,7 +19,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude spectband time1",
-    "cell_methods": "time: point",
+    "cell_methods": "area: mean time: point",
     "long_name": "Surface Downwelling Clear-Sky Shortwave Radiation for Each Band",
     "comment": "Calculated with aerosols but without clouds. This is a standard clear-sky calculation"
 }

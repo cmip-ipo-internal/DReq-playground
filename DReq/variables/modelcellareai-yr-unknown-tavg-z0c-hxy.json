@@ -21,7 +21,7 @@
         "ygre",
         "time"
     ],
-    "cell_methods": "area: time: mean",
+    "cell_methods": "area: sum time: mean",
     "cell_measures": "area: areacellg",
     "samplingIntervals": [
         "yr"

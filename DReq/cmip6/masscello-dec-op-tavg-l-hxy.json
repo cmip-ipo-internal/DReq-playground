@@ -9,8 +9,7 @@
     "out_name": "masscello",
     "questions_and_notes": "Unlike masso-Omon, this is mass per unit area so the sub-grid values should be averaged (with area weighting applied) and method should be \"mean\" rather than \"sum\"?",
     "specific_issues": [
-        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 0,
     "contributing_models": 0,
@@ -20,7 +19,7 @@
         "ocean"
     ],
     "dimensions": "longitude latitude olevel time",
-    "cell_methods": "area: sum where sea time: mean",
+    "cell_methods": "area: mean where sea time: mean",
     "long_name": "Ocean Grid-Cell Mass per Area",
     "comment": "Tracer grid-cell mass per unit area used for computing tracer budgets. For Boussinesq models with static ocean grid cell thickness, masscello = rhozero*thickcello, where thickcello is static cell thickness and rhozero is constant Boussinesq reference density. More generally, masscello is time dependent and reported as part of Omon."
 }

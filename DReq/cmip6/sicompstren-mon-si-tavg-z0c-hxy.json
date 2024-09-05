@@ -8,9 +8,7 @@
     "table_entry": "sicompstren",
     "out_name": "sicompstren",
     "questions_and_notes": "",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 16,
     "contributing_models": 37,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "seaIce"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "cell_methods": "area: time: mean where sea_ice",
     "long_name": "Compressive Sea Ice Strength",
     "comment": "Computed strength of the ice pack, defined as the energy (J m-2) dissipated per unit area removed from the ice pack under compression, and assumed proportional to the change in potential energy caused by ridging. For Hibler-type models, this is P (= P*h exp(-C(1-A)) where P* is compressive strength, h ice thickness, A compactness and C strength reduction constant)."
 }

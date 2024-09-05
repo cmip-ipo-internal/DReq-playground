@@ -9,8 +9,7 @@
     "out_name": "sfdsi",
     "questions_and_notes": "eliminate in favor of sfdsi-Omont.  Can be calculated from that variable dividing by fraction of sea covered by sea ice.",
     "specific_issues": [
-        "9:Eliminate or deprecate?",
-        "12:Modify cell methods?"
+        "9:Eliminate or deprecate?"
     ],
     "contributing_institutions": 12,
     "contributing_models": 22,
@@ -20,7 +19,7 @@
         "seaIce"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "cell_methods": "area: time: mean where sea_ice",
     "long_name": "Downward Sea Ice Basal Salt Flux",
     "comment": "This field is physical, and it arises since sea ice has a nonzero salt content, so it exchanges salt with the liquid ocean upon melting and freezing."
 }

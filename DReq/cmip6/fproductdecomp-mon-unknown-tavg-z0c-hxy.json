@@ -8,9 +8,7 @@
     "table_entry": "fProductDecomp",
     "out_name": "fProductDecomp",
     "questions_and_notes": "Although the emissions come only from land, we want to compare the tendency to other tendencies, so remove \"where land\" or replace with \"where land over all_area_types\".",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 13,
     "contributing_models": 18,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "land"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: mean where land time: mean",
+    "cell_methods": "area: mean time: mean",
     "long_name": "Decomposition out of Product Pools to CO2 in Atmosphere as Carbon Mass Flux [kgC m-2 s-1]",
     "comment": "Flux of CO2 from product pools into the atmosphere. Examples of \"forestry and agricultural products\" are paper, cardboard, furniture, timber for construction, biofuels and food for both humans and livestock. Models that simulate land use changes have one or more pools of carbon that represent these products in order to conserve carbon and allow its eventual release into the atmosphere, for example, when the products decompose in landfill sites."
 }

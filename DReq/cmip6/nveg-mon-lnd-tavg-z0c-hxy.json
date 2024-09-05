@@ -8,9 +8,7 @@
     "table_entry": "nVeg",
     "out_name": "nVeg",
     "questions_and_notes": "for consistency with other, similar variables, specify \"where vegetation\"",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 13,
     "contributing_models": 19,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "land"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: mean where land time: mean",
+    "cell_methods": "area: time: mean where vegetation",
     "long_name": "Nitrogen Mass in Vegetation",
     "comment": "Report missing data over ocean grid cells. For fractional land report value averaged over the land fraction."
 }

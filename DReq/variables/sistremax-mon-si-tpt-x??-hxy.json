@@ -21,7 +21,7 @@
         "latitude",
         "time1"
     ],
-    "cell_methods": "area: mean where sea_ice (comment: mask=siconc) time: point",
+    "cell_methods": "area: mean where sea_ice time: point",
     "cell_measures": "area: areacello",
     "samplingIntervals": [
         "mon"

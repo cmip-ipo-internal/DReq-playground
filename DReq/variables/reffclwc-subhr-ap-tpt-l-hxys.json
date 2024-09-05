@@ -21,7 +21,7 @@
         "site",
         "time1"
     ],
-    "cell_methods": "area: point time: point",
+    "cell_methods": "area: time: point where convective_cloud",
     "cell_measures": 0.0,
     "samplingIntervals": [
         "subhr"

@@ -8,9 +8,7 @@
     "table_entry": "wetlandFrac",
     "out_name": "wetlandFrac",
     "questions_and_notes": "Should this be undefined where sea?  Should deprecate in favor of \"where all_area_types\".  Consider eliminating scalar dimension.",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 10,
     "contributing_models": 16,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "land"
     ],
     "dimensions": "longitude latitude time typewetla",
-    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "cell_methods": "area: time: mean",
     "long_name": "Wetland Percentage Cover",
     "comment": "Percentage of grid cell covered by wetland. Report only one year if  fixed percentage is used, or time series if values are determined dynamically."
 }

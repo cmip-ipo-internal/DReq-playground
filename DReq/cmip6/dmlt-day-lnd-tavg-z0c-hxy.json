@@ -9,8 +9,7 @@
     "out_name": "dmlt",
     "questions_and_notes": "clarify how it is defined: \"where unfrozen_soil (at the surface, but frozen below the surface).",
     "specific_issues": [
-        "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 3,
     "contributing_models": 5,
@@ -20,7 +19,7 @@
         "land"
     ],
     "dimensions": "longitude latitude time stempzero",
-    "cell_methods": "area: time: mean where unfrozen_soil",
+    "cell_methods": "area: time: mean where unfrozen_soil (at the surface, but frozen below the surface)",
     "long_name": "Depth to Soil Thaw",
     "comment": "Depth from surface to the zero degree isotherm. Above this isotherm T > 0o, and below this line T < 0o. Missing if surface is frozen or if soil is unfrozen at all depths."
 }

@@ -9,8 +9,7 @@
     "out_name": "thetaoga",
     "questions_and_notes": "Is this a column mean?  May need \"depth: mean\"",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 25,
     "contributing_models": 62,
@@ -20,7 +19,7 @@
         "ocean"
     ],
     "dimensions": " time",
-    "cell_methods": "area: mean where sea time: mean",
+    "cell_methods": "depth:  area: mean where sea (over entire ocean column) time: mean",
     "long_name": "Global Average Sea Water Potential Temperature",
     "comment": "Diagnostic should be contributed even for models using conservative temperature as prognostic field"
 }

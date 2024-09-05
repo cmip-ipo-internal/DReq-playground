@@ -8,9 +8,7 @@
     "table_entry": "fracLut",
     "out_name": "fracLut",
     "questions_and_notes": "Comment appears to be wrong. Table name says monthly and time-average indicated, but description says end of year.  ",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 16,
     "contributing_models": 25,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "land"
     ],
     "dimensions": "longitude latitude landUse time",
-    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "cell_methods": "area: time: mean",
     "long_name": "Percentage of Grid Cell for Each Land-Use Tile",
     "comment": "End of year values (not annual mean); note that percentage should be reported as percentage of land grid cell (example: frac_lnd = 0.5, frac_ocn = 0.5, frac_crop_lnd = 0.2 (of land portion of grid cell), then frac_lut(crop) = 0.5*0.2 = 0.1)"
 }

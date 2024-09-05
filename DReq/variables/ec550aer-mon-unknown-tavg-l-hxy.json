@@ -23,7 +23,7 @@
         "time",
         "lambda550nm"
     ],
-    "cell_methods": "area: time: mean",
+    "cell_methods": "area: time: mean (weighted by downwelling solar radiation)",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "mon"

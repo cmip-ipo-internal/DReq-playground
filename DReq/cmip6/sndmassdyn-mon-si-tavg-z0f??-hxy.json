@@ -8,9 +8,7 @@
     "table_entry": "sndmassdyn",
     "out_name": "sndmassdyn",
     "questions_and_notes": "",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 12,
     "contributing_models": 15,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "seaIce"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "cell_methods": "area: time: mean where sea_ice",
     "long_name": "Snow Mass Rate of Change Through Advection by Sea-Ice Dynamics",
     "comment": "The rate of change of snow mass through advection with sea ice divided by sea-ice area"
 }

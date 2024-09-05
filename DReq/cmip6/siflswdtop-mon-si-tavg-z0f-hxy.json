@@ -9,8 +9,7 @@
     "out_name": "siflswdtop",
     "questions_and_notes": "The variable name should be \"rsds\", for consistency with other fluxes.  ",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 19,
     "contributing_models": 43,
@@ -20,7 +19,7 @@
         "seaIce"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconca)",
+    "cell_methods": "area: time: mean where sea_ice",
     "long_name": "Downwelling Shortwave Flux over Sea Ice",
     "comment": "The downwelling shortwave flux over sea ice (always positive by sign convention)"
 }

@@ -8,9 +8,7 @@
     "table_entry": "sithick",
     "out_name": "sithick",
     "questions_and_notes": "",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 23,
     "contributing_models": 53,
     "frequency": "day",
@@ -19,7 +17,7 @@
         "seaIce ocean"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "cell_methods": "area: time: mean where sea_ice",
     "long_name": "Sea Ice Thickness",
     "comment": "Actual (floe) thickness of sea ice (NOT volume divided by grid area as was done in CMIP5)"
 }

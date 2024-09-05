@@ -22,7 +22,7 @@
         "time",
         "olayer100m"
     ],
-    "cell_methods": "area: mean where sea depth: sum where sea (top 100m only) time: mean",
+    "cell_methods": "depth: sum where sea area: mean time: mean",
     "cell_measures": "area: areacello",
     "samplingIntervals": [
         "mon"

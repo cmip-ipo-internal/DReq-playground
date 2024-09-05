@@ -9,8 +9,7 @@
     "out_name": "prhmax",
     "questions_and_notes": "Don't think \"time: mean within hours time: maximum over hours\" is CF compliant; only \"withiin days\" or \"within years\".  Note that in general \"area: mean\" will give a lower maximum if data are mapped to a coarser grid than the original.",
     "specific_issues": [
-        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 2,
     "contributing_models": 2,
@@ -20,7 +19,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: mean time: mean within hours time: maximum over hours",
+    "cell_methods": "area: mean time: mean (within each hour of the day) time: maximum (hourly rate within each 6-hour interval)",
     "long_name": "Maximum Hourly Precipitation Rate",
     "comment": "In accordance with common usage in geophysical disciplines, \"flux\" implies per unit area, called \"flux density\" in physics."
 }

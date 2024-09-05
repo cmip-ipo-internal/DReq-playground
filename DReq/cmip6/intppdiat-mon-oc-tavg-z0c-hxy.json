@@ -8,9 +8,7 @@
     "table_entry": "intppdiat",
     "out_name": "intppdiat",
     "questions_and_notes": "In cell_methods it should be a \"sum\" over depth and the order of depth and area should be reversed.  \"where sea\" is needed only once. After applying first method (\"where sea\") second method will be applied only \"where sea\" because elsewhere, data is considered missing.",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 11,
     "contributing_models": 15,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "ocnBgchem"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+    "cell_methods": "depth: sum where sea (over entire ocean column) area: time: mean",
     "long_name": "Net Primary Organic Carbon Production by Diatoms",
     "comment": "Vertically integrated primary (organic carbon) production by the diatom phytoplankton component alone"
 }

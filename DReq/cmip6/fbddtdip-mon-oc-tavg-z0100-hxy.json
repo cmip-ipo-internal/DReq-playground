@@ -9,8 +9,7 @@
     "out_name": "fbddtdip",
     "questions_and_notes": "sum over depth should be performed first.  A different standard_name is needed since \"ocean_mole_content\" is vertically integrated through the whole ocean column",
     "specific_issues": [
-        "5:Standard name issue.",
-        "12:Modify cell methods?"
+        "5:Standard name issue."
     ],
     "contributing_institutions": 8,
     "contributing_models": 11,
@@ -20,7 +19,7 @@
         "ocnBgchem"
     ],
     "dimensions": "longitude latitude time olayer100m",
-    "cell_methods": "area: mean where sea depth: sum where sea (top 100m only) time: mean",
+    "cell_methods": "depth: sum where sea area: mean time: mean",
     "long_name": "Rate of Change of Dissolved Inorganic Phosphorus Due to Biological Activity",
     "comment": "vertical integral of net biological terms in time rate of change of phosphate"
 }

@@ -9,8 +9,7 @@
     "out_name": "rlntds",
     "questions_and_notes": "",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 11,
     "contributing_models": 20,
@@ -20,7 +19,7 @@
         "ocean"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: mean where ice_free_sea over sea time: mean",
+    "cell_methods": "area: time: mean where ice_free_sea over sea",
     "long_name": "Surface Net Downward Longwave Radiation",
     "comment": "This is defined as \"where ice_free_sea over sea\""
 }

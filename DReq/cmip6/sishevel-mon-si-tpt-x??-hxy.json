@@ -8,9 +8,7 @@
     "table_entry": "sishevel",
     "out_name": "sishevel",
     "questions_and_notes": "Is this a column mean or a surface value?  Might need a scalar  vertical coordinate.",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 6,
     "contributing_models": 15,
     "frequency": "monPt",
@@ -19,7 +17,7 @@
         "seaIce"
     ],
     "dimensions": "longitude latitude time1",
-    "cell_methods": "area: mean where sea_ice (comment: mask=siconc) time: point",
+    "cell_methods": "area: mean where sea_ice time: point",
     "long_name": "Maximum Shear of Sea-Ice Velocity Field",
     "comment": "Maximum shear of sea-ice velocity field (second shear strain invariant)"
 }

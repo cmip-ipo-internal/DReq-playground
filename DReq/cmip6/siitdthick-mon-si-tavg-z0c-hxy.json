@@ -9,8 +9,7 @@
     "out_name": "siitdthick",
     "questions_and_notes": "For variables siitdconc-SImon, siitdsnconc-SImon, and siitdsnthick-SImon, \"sea ice categories\" appears to mean \"sea ice thickness categories\".  If that is the case, isn't the sea ice thickness in each category already defined, so what is actually supposed to get reported here?  ",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 6,
     "contributing_models": 11,
@@ -20,7 +19,7 @@
         "seaIce"
     ],
     "dimensions": "longitude latitude iceband time",
-    "cell_methods": "area: time: mean where sea_ice (comment: mask=siitdconc)",
+    "cell_methods": "area: time: mean where sea_ice (weighted by sea ice area fraction in ice thickness category)",
     "long_name": "Sea-Ice Thickness in Thickness Categories",
     "comment": "Actual (floe) thickness of sea ice in each  category (NOT volume divided by grid area),  (vector with one entry for each thickness category starting from the thinnest category, netcdf file should use thickness bounds of categories as third coordinate axis)"
 }

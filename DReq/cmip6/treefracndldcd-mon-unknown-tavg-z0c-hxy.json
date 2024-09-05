@@ -8,9 +8,7 @@
     "table_entry": "treeFracNdlDcd",
     "out_name": "treeFracNdlDcd",
     "questions_and_notes": "How exactly is \"Needleleaf Deciduous Tree\" defined.  This is not an area type found in the CF conventions.  Consider eliminating scalar dimension.",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 11,
     "contributing_models": 22,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "land"
     ],
     "dimensions": "longitude latitude time typetreend",
-    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "cell_methods": "area: time: mean",
     "long_name": "Needleleaf Deciduous Tree Area Percentage",
     "comment": "This is the percentage of the entire grid cell that is covered by needleleaf deciduous trees."
 }

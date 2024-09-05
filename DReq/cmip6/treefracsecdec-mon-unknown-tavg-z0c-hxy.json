@@ -9,8 +9,7 @@
     "out_name": "treeFracSecDec",
     "questions_and_notes": "Should this be undefined where sea?  Should deprecate in favor of \"where all_area_types\".  Consider eliminating scalar dimension.",
     "specific_issues": [
-        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 0,
     "contributing_models": 0,
@@ -20,7 +19,7 @@
         "land"
     ],
     "dimensions": "longitude latitude time typesdec",
-    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "cell_methods": "area: time: mean",
     "long_name": "Percentage Cover by Secondary Deciduous Trees",
     "comment": "Percentage of entire grid cell  that is covered by secondary deciduous trees."
 }

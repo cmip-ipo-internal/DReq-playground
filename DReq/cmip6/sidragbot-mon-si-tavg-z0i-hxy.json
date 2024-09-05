@@ -9,8 +9,7 @@
     "out_name": "sidragbot",
     "questions_and_notes": "",
     "specific_issues": [
-        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 2,
     "contributing_models": 4,
@@ -20,7 +19,7 @@
         "seaIce"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "cell_methods": "area: time: mean where sea_ice",
     "long_name": "Ocean Drag Coefficient",
     "comment": "Oceanic drag coefficient that is used to calculate the oceanic momentum drag on sea ice"
 }

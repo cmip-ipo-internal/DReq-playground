@@ -20,7 +20,7 @@
         "",
         "time2"
     ],
-    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "cell_methods": "height: sum (through atmospheric column) area: sum time: mean within years time: mean over years",
     "cell_measures": 0.0,
     "samplingIntervals": [
         "mon"

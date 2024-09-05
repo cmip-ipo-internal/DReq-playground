@@ -21,7 +21,7 @@
         "latitude",
         "time"
     ],
-    "cell_methods": "area: time: mean (comment: over land and sea ice)",
+    "cell_methods": "area: mean (excluding open-ocean portion of cells) time: mean",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "day"

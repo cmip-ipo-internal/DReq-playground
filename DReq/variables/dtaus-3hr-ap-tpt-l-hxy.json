@@ -22,7 +22,7 @@
         "alevel",
         "time1"
     ],
-    "cell_methods": "area: mean time: point",
+    "cell_methods": "area: mean where stratiform_cloud time: point",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "3hr"

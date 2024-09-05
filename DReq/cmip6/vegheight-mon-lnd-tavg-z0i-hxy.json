@@ -8,9 +8,7 @@
     "table_entry": "vegHeight",
     "out_name": "vegHeight",
     "questions_and_notes": "",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 11,
     "contributing_models": 39,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "land"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: time: mean where vegetation (comment: mask=vegFrac)",
+    "cell_methods": "area: time: mean where vegetation",
     "long_name": "Height of the Vegetation Canopy",
     "comment": "Vegetation height averaged over all vegetation types and over the vegetated fraction of a grid cell."
 }

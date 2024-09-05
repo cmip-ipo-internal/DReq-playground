@@ -10,8 +10,7 @@
     "questions_and_notes": "cell_methods should include \"area: mean\"",
     "specific_issues": [
         "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
-        "10:Modify cell methods.  Include 'where air'.",
-        "12:Modify cell methods?"
+        "10:Modify cell methods.  Include 'where air'."
     ],
     "contributing_institutions": 0,
     "contributing_models": 0,
@@ -21,7 +20,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude plev19 time",
-    "cell_methods": "time: mean",
+    "cell_methods": "area: time: mean where air",
     "long_name": "Tendency of Eastward Wind from Numerical Artefacts",
     "comment": "Other sub-grid scale/numerical zonal drag excluding that already provided for the parameterized orographic and non-orographic gravity waves. This would be used to calculate the total 'diabatic drag'. Contributions to this additional drag such Rayleigh friction and diffusion that can be calculated from the monthly mean wind fields should not be included, but details (e.g. coefficients) of the friction and/or diffusion used in the model should be provided separately."
 }

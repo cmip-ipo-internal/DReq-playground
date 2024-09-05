@@ -8,9 +8,7 @@
     "table_entry": "treeFrac",
     "out_name": "treeFrac",
     "questions_and_notes": "Should this be undefined where sea?  Should deprecate in favor of \"where all_area_types\".  Consider eliminating scalar dimension.",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 22,
     "contributing_models": 43,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "land"
     ],
     "dimensions": "longitude latitude time typetree",
-    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "cell_methods": "area: time: mean",
     "long_name": "Tree Cover Percentage",
     "comment": "Percentage of entire grid cell  that is covered by trees."
 }

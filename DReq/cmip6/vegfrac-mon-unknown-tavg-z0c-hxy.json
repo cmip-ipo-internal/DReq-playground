@@ -9,8 +9,7 @@
     "out_name": "vegFrac",
     "questions_and_notes": "Is this CF conventions area_type: \"vegetation\"?  Consider eliminating scalar dimension.  For consistency with cnc-Eday, this should have a standard_name of vegetation_area_fraction.",
     "specific_issues": [
-        "5:Standard name issue.",
-        "12:Modify cell methods?"
+        "5:Standard name issue."
     ],
     "contributing_institutions": 20,
     "contributing_models": 38,
@@ -20,7 +19,7 @@
         "land"
     ],
     "dimensions": "longitude latitude time typeveg",
-    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "cell_methods": "area: time: mean",
     "long_name": "Total Vegetated Percentage Cover",
     "comment": "Percentage of grid cell that is covered by vegetation.This SHOULD be the sum of tree, grass (natural and pasture), crop and shrub fractions."
 }

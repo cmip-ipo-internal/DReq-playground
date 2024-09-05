@@ -8,9 +8,7 @@
     "table_entry": "siforceintstry",
     "out_name": "siforceintstry",
     "questions_and_notes": "",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 9,
     "contributing_models": 21,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "seaIce"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "cell_methods": "area: time: mean where sea_ice",
     "long_name": "Internal Stress Term in Force Balance (Y-Component)",
     "comment": "Y-component of force on sea ice caused by internal stress (divergence of sigma)"
 }

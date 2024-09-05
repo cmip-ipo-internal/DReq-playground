@@ -9,8 +9,7 @@
     "out_name": "sndmassmelt",
     "questions_and_notes": "The variable root should be \"snm\" like snm-Eday and snm-LImon.",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 15,
     "contributing_models": 34,
@@ -20,7 +19,7 @@
         "seaIce"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "cell_methods": "area: time: mean where sea_ice",
     "long_name": "Snow Mass Rate of Change Through Melt",
     "comment": "the rate of change of snow mass through melt divided by sea-ice area"
 }

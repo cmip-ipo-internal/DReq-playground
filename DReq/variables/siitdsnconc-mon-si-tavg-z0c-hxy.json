@@ -22,7 +22,7 @@
         "iceband",
         "time"
     ],
-    "cell_methods": "area: time: mean where sea_ice (comment: mask=siitdconc)",
+    "cell_methods": "area: time: mean where sea_ice",
     "cell_measures": "area: areacello",
     "samplingIntervals": [
         "mon"

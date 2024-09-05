@@ -20,7 +20,7 @@
         "",
         "time"
     ],
-    "cell_methods": "area: time: mean where grounded_ice_sheet (comment: mask=sfgrlf)",
+    "cell_methods": "area: sum where grounded_ice_sheet time: mean",
     "cell_measures": 0.0,
     "samplingIntervals": [
         "yr"

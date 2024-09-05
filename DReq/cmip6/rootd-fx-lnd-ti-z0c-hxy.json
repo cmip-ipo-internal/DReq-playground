@@ -9,8 +9,7 @@
     "out_name": "rootd",
     "questions_and_notes": "cell_methods  should include \"where land\"?  Or \"where vegetation\"?",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 11,
     "contributing_models": 21,
@@ -20,7 +19,7 @@
         "land"
     ],
     "dimensions": "longitude latitude ",
-    "cell_methods": "area: mean",
+    "cell_methods": "area: mean where land",
     "long_name": "Maximum Root Depth",
     "comment": "report the maximum soil depth reachable by plant roots (if defined in model), i.e., the maximum soil depth from which they can extract moisture; report as *missing* where the land fraction is 0."
 }

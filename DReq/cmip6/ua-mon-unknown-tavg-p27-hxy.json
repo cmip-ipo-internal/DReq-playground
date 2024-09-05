@@ -9,8 +9,7 @@
     "out_name": "ua",
     "questions_and_notes": "To accommodate data that has been regridded,  \"area: mean\" should be included in cell_methods",
     "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'.",
-        "12:Modify cell methods?"
+        "10:Modify cell methods.  Include 'where air'."
     ],
     "contributing_institutions": 12,
     "contributing_models": 6,
@@ -20,7 +19,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude plev27 time",
-    "cell_methods": "time: mean",
+    "cell_methods": "area: time: mean where air",
     "long_name": "Eastward Wind",
     "comment": "Zonal wind (positive in a eastward direction)."
 }

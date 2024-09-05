@@ -8,9 +8,7 @@
     "table_entry": "fVegSoil",
     "out_name": "fVegSoil",
     "questions_and_notes": "For consistency with other similar variables, this should be \"where vegetation\".",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 5,
     "contributing_models": 5,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "land"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: mean where land time: mean",
+    "cell_methods": "area: time: mean where vegetation",
     "long_name": "Total Carbon Mass Flux from Vegetation Directly to Soil",
     "comment": "Carbon mass flux per unit area from vegetation directly into soil, without intermediate conversion to litter."
 }

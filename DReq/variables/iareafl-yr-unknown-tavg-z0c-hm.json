@@ -20,7 +20,7 @@
         "",
         "time"
     ],
-    "cell_methods": "area: time: mean where floating_ice_shelf (comment: mask=sftflf)",
+    "cell_methods": "area: sum time: mean ",
     "cell_measures": 0.0,
     "samplingIntervals": [
         "yr"

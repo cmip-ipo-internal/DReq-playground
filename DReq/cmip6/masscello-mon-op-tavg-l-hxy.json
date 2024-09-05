@@ -8,9 +8,7 @@
     "table_entry": "masscello",
     "out_name": "masscello",
     "questions_and_notes": "Shouldn't method be \"mean\" rather than \"sum\"?",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 21,
     "contributing_models": 47,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "ocean"
     ],
     "dimensions": "longitude latitude olevel time",
-    "cell_methods": "area: sum where sea time: mean",
+    "cell_methods": "area: mean where sea time: mean",
     "long_name": "Ocean Grid-Cell Mass per Area",
     "comment": "Tracer grid-cell mass per unit area used for computing tracer budgets. For Boussinesq models with static ocean grid cell thickness, masscello = rhozero*thickcello, where thickcello is static cell thickness and rhozero is constant Boussinesq reference density. More generally, masscello is time dependent and reported as part of Omon."
 }

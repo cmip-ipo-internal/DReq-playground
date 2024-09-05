@@ -10,8 +10,7 @@
     "questions_and_notes": "Is this a column mean?  May need \"depth: mean\"",
     "specific_issues": [
         "6:Modify variable root.",
-        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 2,
     "contributing_models": 3,
@@ -21,7 +20,7 @@
         "ocean"
     ],
     "dimensions": " time",
-    "cell_methods": "area: mean where sea time: mean",
+    "cell_methods": "depth:  area: mean where sea (over entire ocean column) time: mean",
     "long_name": "Global Average Sea Water Potential Temperature",
     "comment": "Diagnostic should be contributed even for models using conservative temperature as prognostic field"
 }

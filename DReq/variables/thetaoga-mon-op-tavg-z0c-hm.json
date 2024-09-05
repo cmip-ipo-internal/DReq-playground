@@ -20,7 +20,7 @@
         "",
         "time"
     ],
-    "cell_methods": "area: mean where sea time: mean",
+    "cell_methods": "depth:  area: mean where sea (over entire ocean column) time: mean",
     "cell_measures": 0.0,
     "samplingIntervals": [
         "mon"

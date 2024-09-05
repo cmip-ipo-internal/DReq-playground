@@ -21,7 +21,7 @@
         "ygre",
         "time"
     ],
-    "cell_methods": "area: time: mean where floating_ice_shelf (comment: mask=sftflf)",
+    "cell_methods": "area: time: mean where floating_ice_shelf",
     "cell_measures": "area: areacellg",
     "samplingIntervals": [
         "mon"

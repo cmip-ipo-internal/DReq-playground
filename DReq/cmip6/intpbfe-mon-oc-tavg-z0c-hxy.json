@@ -8,9 +8,7 @@
     "table_entry": "intpbfe",
     "out_name": "intpbfe",
     "questions_and_notes": "ocean_mole_content means the column integrated amount so no need to include sum over depth.",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 13,
     "contributing_models": 18,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "ocnBgchem"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+    "cell_methods": "area: mean where sea time: mean",
     "long_name": "Iron Production",
     "comment": "Vertically integrated biogenic iron production"
 }

@@ -8,9 +8,7 @@
     "table_entry": "mrsol",
     "out_name": "mrsol",
     "questions_and_notes": "cell_methods  should include \"where land\". Also see https://github.com/WCRP-CORDEX/cordex-cmip6-data-request/issues/2 .",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 5,
     "contributing_models": 4,
     "frequency": "6hrPt",
@@ -19,7 +17,7 @@
         "land"
     ],
     "dimensions": "longitude latitude sdepth time1",
-    "cell_methods": "area: mean time: point",
+    "cell_methods": "area: mean where land time: point",
     "long_name": "Total Water Content of Soil Layer",
     "comment": "in each soil layer, the mass of water in all phases, including ice.  Reported as \"missing\" for grid cells occupied entirely by \"sea\""
 }

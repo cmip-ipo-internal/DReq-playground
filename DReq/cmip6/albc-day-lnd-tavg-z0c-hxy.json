@@ -9,8 +9,7 @@
     "out_name": "albc",
     "questions_and_notes": "this is only defined \"where vegetation\".  Record instead \"upwelling shortwave radiation at the surface\" where vegetation.  If albedo is recorded, then must specify \"where vegetation\" plus weighting.",
     "specific_issues": [
-        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 2,
     "contributing_models": 3,
@@ -20,7 +19,7 @@
         "land"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: mean where land time: mean",
+    "cell_methods": "area: time: mean where vegetation (weighted by downwelling shortwave radiation at the surface)",
     "long_name": "Canopy Albedo",
     "comment": "Albedo of the vegetation: fraction of incoming solar radiation which is reflected before reaching the ground."
 }

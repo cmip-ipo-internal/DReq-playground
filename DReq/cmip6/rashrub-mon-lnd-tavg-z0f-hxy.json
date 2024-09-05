@@ -9,8 +9,7 @@
     "out_name": "raShrub",
     "questions_and_notes": "For consistency with other similar variables, replace \"ra\" with \"frespa\".",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 8,
     "contributing_models": 9,
@@ -20,7 +19,7 @@
         "land"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: time: mean where shrubs (comment: mask=shrubFrac)",
+    "cell_methods": "area: time: mean where shrubs",
     "long_name": "Autotrophic Respiration on Shrub Tiles as Carbon Mass Flux [kgC m-2 s-1]",
     "comment": "Total RA of shrubs in the grid cell"
 }

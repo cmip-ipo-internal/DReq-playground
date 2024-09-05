@@ -8,9 +8,7 @@
     "table_entry": "fNAnthDisturb",
     "out_name": "fNAnthDisturb",
     "questions_and_notes": "Do you really want to limit emissions to \"land\"?  Even if the emissions come only from land, we want to compare the atmospheric tendency to other tendencies, so replace \"where land\" with \"where land over all_area_types\"?",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 7,
     "contributing_models": 6,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "land"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: mean where land time: mean",
+    "cell_methods": "area: mean where land over all_area_types time: mean",
     "long_name": "Nitrogen Mass Flux out of Land Due to any Human Activity",
     "comment": "will require some careful definition to make sure we capture everything - any human activity that releases nitrogen from land  instead of into product pool goes here. E.g. Deforestation fire, harvest assumed to decompose straight away, grazing..."
 }

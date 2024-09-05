@@ -11,8 +11,7 @@
     "specific_issues": [
         "1:Modify dimensions.  No need for special horizontal coordinates.",
         "6:Modify variable root.",
-        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 1,
     "contributing_models": 1,
@@ -22,7 +21,7 @@
         "landIce"
     ],
     "dimensions": "xgre ygre time",
-    "cell_methods": "area: time: mean",
+    "cell_methods": "area: sum time: mean",
     "long_name": "The Cell Area of the Ice Sheet Model",
     "comment": "Horizontal area of ice-sheet grid cells"
 }
