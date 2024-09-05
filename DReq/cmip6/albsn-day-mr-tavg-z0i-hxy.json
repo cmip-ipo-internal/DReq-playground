@@ -9,8 +9,7 @@
     "out_name": "albsn",
     "questions_and_notes": "For more general use, keep downwelling and upwelling surface SW where snow instead.  If albedo is requested, it should be weighted by incident shortwave.",
     "specific_issues": [
-        "9:Eliminate or deprecate?",
-        "12:Modify cell methods?"
+        "9:Eliminate or deprecate?"
     ],
     "contributing_institutions": 5,
     "contributing_models": 7,

@@ -9,8 +9,7 @@
     "out_name": "sisnmass",
     "questions_and_notes": "Shouldn't the standard name be surface_snow_amount or snowfall_amount?  See variable name (sisnmass) and description and comment.  Note  description says \"mass of snow\" not \"mass of liquid water in snow\".",
     "specific_issues": [
-        "5:Standard name issue.",
-        "12:Modify cell methods?"
+        "5:Standard name issue."
     ],
     "contributing_institutions": 24,
     "contributing_models": 57,

@@ -10,8 +10,7 @@
     "questions_and_notes": "This should have a root name more consistent with rsutcsbnd-E3hrPt, rsutcsafbnd-E3hrPt, rsucsbnd-E3hrPt, and rsucsafbnd-E3hrPt.  cell_methods should include area: mean",
     "specific_issues": [
         "6:Modify variable root.",
-        "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 3,
     "contributing_models": 4,

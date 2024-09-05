@@ -9,8 +9,7 @@
     "out_name": "tsn",
     "questions_and_notes": "Temperature is not defined when there is no snow so \"where snow\" is needed.  According to description, only land areas should be considered (exclude sea ice), but comment says \"all snow in the grid cell\".  If the former, where directive should be  \"where snow (on land, with samples weighted by snow mass)\"; if the latter, simply \"where snow (with samples weighted by snow mass)\".   Note that  land includes areas of ice_sheet (excluding ice-shelves). ",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 4,
     "contributing_models": 5,

@@ -9,8 +9,7 @@
     "out_name": "siflfwbot",
     "questions_and_notes": "In description, \"divided by grid-cell area\" should be replaced by \"divided by sea ice area\".",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 17,
     "contributing_models": 30,

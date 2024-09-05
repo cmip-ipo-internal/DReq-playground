@@ -9,8 +9,7 @@
     "out_name": "treeFracPrimEver",
     "questions_and_notes": "Should this be undefined where sea?  Should deprecate in favor of \"where all_area_types\".  Consider eliminating scalar dimension.",
     "specific_issues": [
-        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 2,
     "contributing_models": 9,

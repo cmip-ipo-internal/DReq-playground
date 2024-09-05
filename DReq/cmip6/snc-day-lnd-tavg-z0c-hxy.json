@@ -8,9 +8,7 @@
     "table_entry": "snc",
     "out_name": "snc",
     "questions_and_notes": "Since the description says \"on the land portion of the grid cell\", cell_methods should include \"where land\".  (Also make sure this remains consistent with wording for \"monthly\" sampled variable.) Note that \"where land\" means the fraction of the land portion of the cell, not the portion of the cell.",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 26,
     "contributing_models": 54,
     "frequency": "day",

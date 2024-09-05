@@ -10,8 +10,7 @@
     "questions_and_notes": " The temperature of snow is undefined in snow-free portions of a cell, so the cell_methods should be \"where snow\" (not \"where land\").   this however includes snow on sea_ice so requiress a parenthetical qualifier in the \"where\" directive.  Should snow on sea-ice really be excluded?",
     "specific_issues": [
         "6:Modify variable root.",
-        "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 3,
     "contributing_models": 5,

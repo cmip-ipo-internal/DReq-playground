@@ -9,8 +9,7 @@
     "out_name": "ccldncl",
     "questions_and_notes": "cell_methods need to include \"area: mean (in upper-most layer of liquid water cloud)",
     "specific_issues": [
-        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 2,
     "contributing_models": 2,

@@ -8,9 +8,7 @@
     "table_entry": "prsn",
     "out_name": "prsn",
     "questions_and_notes": "Like the area-mean, the time-mean should be weighted by the ice-free area, so the total contribution during the time-interval is correctly reported.",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 14,
     "contributing_models": 31,
     "frequency": "mon",

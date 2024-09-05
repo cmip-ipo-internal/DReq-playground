@@ -10,8 +10,7 @@
     "questions_and_notes": " this should have the same root as sisnthick-SIday.",
     "specific_issues": [
         "6:Modify variable root.",
-        "9:Eliminate or deprecate?",
-        "12:Modify cell methods?"
+        "9:Eliminate or deprecate?"
     ],
     "contributing_institutions": 5,
     "contributing_models": 10,

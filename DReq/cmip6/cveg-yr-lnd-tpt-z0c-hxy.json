@@ -8,9 +8,7 @@
     "table_entry": "cVeg",
     "out_name": "cVeg",
     "questions_and_notes": "for consistency with, for example, cVegGrass, specify \"where vegetation\"",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 8,
     "contributing_models": 12,
     "frequency": "yrPt",

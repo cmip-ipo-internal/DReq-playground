@@ -9,8 +9,7 @@
     "out_name": "fracInLut",
     "questions_and_notes": "Shouldn't this have a different standard name?  Is this the difference between the area_fraction at the end and beginning of the year?  Possible standard names: area_fraction_change (units: %) or area_fraction_tendency (units: % s-1).  Is this variable needed if fracLut-tpt-z0-hxy-x (fracLut-Eyr) is provided?",
     "specific_issues": [
-        "5:Standard name issue.",
-        "12:Modify cell methods?"
+        "5:Standard name issue."
     ],
     "contributing_institutions": 4,
     "contributing_models": 5,

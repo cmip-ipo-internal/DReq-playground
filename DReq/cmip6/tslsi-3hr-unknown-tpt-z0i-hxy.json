@@ -8,9 +8,7 @@
     "table_entry": "tslsi",
     "out_name": "tslsi",
     "questions_and_notes": "We already defined this variable \"where land\"; why not just ask  for it \"where sea_ice\".  If someone wants a combined value for land and sea_ice, they can compute the weighted mean (weighting by fractions)",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 12,
     "contributing_models": 35,
     "frequency": "3hrPt",

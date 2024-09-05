@@ -8,9 +8,7 @@
     "table_entry": "ua",
     "out_name": "ua",
     "questions_and_notes": "To accommodate data that has been regridded,  \"area: mean\" should be included in cell_methods",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 26,
     "contributing_models": 40,
     "frequency": "6hrPt",

@@ -9,8 +9,7 @@
     "out_name": "c14Veg",
     "questions_and_notes": "for consistency with other, similar variables, specify \"where vegetation\"",
     "specific_issues": [
-        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 1,
     "contributing_models": 4,

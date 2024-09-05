@@ -8,9 +8,7 @@
     "table_entry": "nVeg",
     "out_name": "nVeg",
     "questions_and_notes": "for consistency with other, similar variables, specify \"where vegetation\"",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 13,
     "contributing_models": 19,
     "frequency": "mon",

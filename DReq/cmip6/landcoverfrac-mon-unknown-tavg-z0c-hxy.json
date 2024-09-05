@@ -8,9 +8,7 @@
     "table_entry": "landCoverFrac",
     "out_name": "landCoverFrac",
     "questions_and_notes": "Note that the specified area types should all be in or added to the CF conventions official list.  Currently \"urban areas\" and \"residual\", among others, are not options.",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 13,
     "contributing_models": 24,
     "frequency": "mon",

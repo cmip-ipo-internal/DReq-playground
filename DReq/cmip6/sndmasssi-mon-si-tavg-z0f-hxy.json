@@ -9,8 +9,7 @@
     "out_name": "sndmasssi",
     "questions_and_notes": "Why is this needed since it is just the negative of the variable sidmasssi-SImon?  Eliminate cell_methods comment.",
     "specific_issues": [
-        "9:Eliminate or deprecate?",
-        "12:Modify cell methods?"
+        "9:Eliminate or deprecate?"
     ],
     "contributing_institutions": 11,
     "contributing_models": 16,

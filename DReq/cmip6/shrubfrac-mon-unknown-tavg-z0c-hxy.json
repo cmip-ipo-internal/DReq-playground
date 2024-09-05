@@ -8,9 +8,7 @@
     "table_entry": "shrubFrac",
     "out_name": "shrubFrac",
     "questions_and_notes": "Should this be undefined where sea?  Should deprecate in favor of \"where all_area_types\".  Consider eliminating scalar dimension.",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 18,
     "contributing_models": 27,
     "frequency": "mon",

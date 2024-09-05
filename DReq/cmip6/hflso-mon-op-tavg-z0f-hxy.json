@@ -8,9 +8,7 @@
     "table_entry": "hflso",
     "out_name": "hflso",
     "questions_and_notes": "Correct cell_methods to indicate time mean also is only for ice_free_sea",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 11,
     "contributing_models": 22,
     "frequency": "mon",

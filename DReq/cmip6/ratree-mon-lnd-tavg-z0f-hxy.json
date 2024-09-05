@@ -9,8 +9,7 @@
     "out_name": "raTree",
     "questions_and_notes": "For consistency with other similar variables, replace \"ra\" with \"frespa\".",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 10,
     "contributing_models": 3,

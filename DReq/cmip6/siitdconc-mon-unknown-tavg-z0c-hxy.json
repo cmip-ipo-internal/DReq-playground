@@ -9,8 +9,7 @@
     "out_name": "siitdconc",
     "questions_and_notes": "For consistency with other area fractions, remove \"where sea_ice\"",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 7,
     "contributing_models": 14,

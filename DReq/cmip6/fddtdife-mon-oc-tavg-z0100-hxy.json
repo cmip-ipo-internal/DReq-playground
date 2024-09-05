@@ -9,8 +9,7 @@
     "out_name": "fddtdife",
     "questions_and_notes": "sum over depth should be performed first.  A different standard_name is needed since \"ocean_mole_content\" is vertically integrated through the whole ocean column",
     "specific_issues": [
-        "5:Standard name issue.",
-        "12:Modify cell methods?"
+        "5:Standard name issue."
     ],
     "contributing_institutions": 6,
     "contributing_models": 8,

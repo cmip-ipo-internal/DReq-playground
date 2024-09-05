@@ -8,9 +8,7 @@
     "table_entry": "sistrydtop",
     "out_name": "sistrydtop",
     "questions_and_notes": "",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 26,
     "contributing_models": 57,
     "frequency": "mon",

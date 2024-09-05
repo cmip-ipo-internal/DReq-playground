@@ -8,9 +8,7 @@
     "table_entry": "intpcalcite",
     "out_name": "intpcalcite",
     "questions_and_notes": "ocean_mole_content means the column integrated amount so no need to include sum over depth.",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 10,
     "contributing_models": 12,
     "frequency": "mon",

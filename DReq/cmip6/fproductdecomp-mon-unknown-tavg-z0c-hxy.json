@@ -8,9 +8,7 @@
     "table_entry": "fProductDecomp",
     "out_name": "fProductDecomp",
     "questions_and_notes": "Although the emissions come only from land, we want to compare the tendency to other tendencies, so remove \"where land\" or replace with \"where land over all_area_types\".",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 13,
     "contributing_models": 18,
     "frequency": "mon",

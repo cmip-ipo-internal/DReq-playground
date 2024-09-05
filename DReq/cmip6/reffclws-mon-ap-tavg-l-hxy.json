@@ -8,9 +8,7 @@
     "table_entry": "reffclws",
     "out_name": "reffclws",
     "questions_and_notes": "Contributions should be weighted by stratiform cloud area.",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 5,
     "contributing_models": 11,
     "frequency": "mon",

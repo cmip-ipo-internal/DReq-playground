@@ -8,9 +8,7 @@
     "table_entry": "sndmassdyn",
     "out_name": "sndmassdyn",
     "questions_and_notes": "",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 12,
     "contributing_models": 15,
     "frequency": "mon",

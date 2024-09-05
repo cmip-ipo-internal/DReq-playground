@@ -8,9 +8,7 @@
     "table_entry": "siflcondbot",
     "out_name": "siflcondbot",
     "questions_and_notes": "",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 14,
     "contributing_models": 28,
     "frequency": "mon",

@@ -10,8 +10,7 @@
     "questions_and_notes": "Although the emissions come only from land, we want to compare the tendency to other tendencies, so replace \"where land\" with \"where land over all_area_types\"?  This should probably have a different standard name to distinguish it from the following 2 variables.",
     "specific_issues": [
         "5:Standard name issue.",
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 7,
     "contributing_models": 11,

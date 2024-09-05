@@ -8,9 +8,7 @@
     "table_entry": "grassFrac",
     "out_name": "grassFrac",
     "questions_and_notes": "Should this be undefined where sea?  Should deprecate in favor of \"where all_area_types\".  Consider eliminating scalar dimension.",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 12,
     "contributing_models": 22,
     "frequency": "yr",

@@ -9,8 +9,7 @@
     "out_name": "pod0",
     "questions_and_notes": " Wouldn't it be better to record a rate rather than a time-integral?  Is \"sum over time\" right?  Shouldn't it be a sum with samples weighted by (multiplied by) the length of the time-interval of the sample? ",
     "specific_issues": [
-        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 0,
     "contributing_models": 0,

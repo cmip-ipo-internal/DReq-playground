@@ -9,8 +9,7 @@
     "out_name": "rivi",
     "questions_and_notes": "For consistency and because it makes no difference, this and rivo-tavg-z0-hxy-x (rivo-Eday) should omit the \"where directive\".  Area-weighted regridding might not provide a very good representation of this field.",
     "specific_issues": [
-        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 1,
     "contributing_models": 2,

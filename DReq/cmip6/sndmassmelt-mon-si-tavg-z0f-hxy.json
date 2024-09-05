@@ -9,8 +9,7 @@
     "out_name": "sndmassmelt",
     "questions_and_notes": "The variable root should be \"snm\" like snm-Eday and snm-LImon.",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 15,
     "contributing_models": 34,

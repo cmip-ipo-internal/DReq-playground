@@ -9,8 +9,7 @@
     "out_name": "vegHeight",
     "questions_and_notes": "this should be  evaluated \"where vegetation\" to be consistent with vegHeight-Emon.  Also shouldn't it be time dependent?",
     "specific_issues": [
-        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 1,
     "contributing_models": 1,

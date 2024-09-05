@@ -9,8 +9,7 @@
     "out_name": "sndmasssubl",
     "questions_and_notes": "",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 6,
     "contributing_models": 12,

@@ -9,8 +9,7 @@
     "out_name": "masscello",
     "questions_and_notes": "Shouldn't method be \"mean\" rather than \"sum\"?  Shouldn't cell_methods be consistent with masscello-Odec and include \"where sea\"?",
     "specific_issues": [
-        "11:Modify cell methods.  Include 'where sea'.",
-        "12:Modify cell methods?"
+        "11:Modify cell methods.  Include 'where sea'."
     ],
     "contributing_institutions": 12,
     "contributing_models": 19,

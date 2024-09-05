@@ -8,9 +8,7 @@
     "table_entry": "sidconcth",
     "out_name": "sidconcth",
     "questions_and_notes": "In cell_methods replace \"where sea\" with  \"where sea_ice\" because this is used for sea-ice budgets.",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 17,
     "contributing_models": 32,
     "frequency": "mon",

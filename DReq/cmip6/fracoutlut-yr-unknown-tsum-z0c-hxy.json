@@ -9,8 +9,7 @@
     "out_name": "fracOutLut",
     "questions_and_notes": "Shouldn't this have a different standard name?",
     "specific_issues": [
-        "5:Standard name issue.",
-        "12:Modify cell methods?"
+        "5:Standard name issue."
     ],
     "contributing_institutions": 4,
     "contributing_models": 5,

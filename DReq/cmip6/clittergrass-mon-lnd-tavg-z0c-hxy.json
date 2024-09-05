@@ -9,8 +9,7 @@
     "out_name": "cLitterGrass",
     "questions_and_notes": "For consistency with cLitter-tavg-z0-hxy-lnd (cLitter-Lmon) and cLitter-tpt-z0-hxy-lnd (cLitter-Eyr), shouldn't cell methods have \"where natural_grasses over land\"?",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 6,
     "contributing_models": 6,

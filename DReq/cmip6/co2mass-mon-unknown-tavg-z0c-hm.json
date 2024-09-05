@@ -8,9 +8,7 @@
     "table_entry": "co2mass",
     "out_name": "co2mass",
     "questions_and_notes": "This extensive quantity should be the sum of contributions from individual grid cells, not the mean.",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 19,
     "contributing_models": 33,
     "frequency": "mon",

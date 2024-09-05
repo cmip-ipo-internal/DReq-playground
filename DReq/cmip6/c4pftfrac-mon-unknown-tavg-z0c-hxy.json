@@ -9,8 +9,7 @@
     "out_name": "c4PftFrac",
     "questions_and_notes": "Should this be undefined where sea?  Should deprecate in favor of \"where all_area_types\".  Also, it seems to be redundant with monthly fracLut.  Consider eliminating scalar dimension.",
     "specific_issues": [
-        "9:Eliminate or deprecate?",
-        "12:Modify cell methods?"
+        "9:Eliminate or deprecate?"
     ],
     "contributing_institutions": 17,
     "contributing_models": 32,

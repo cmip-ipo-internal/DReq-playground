@@ -9,8 +9,7 @@
     "out_name": "sfdsi",
     "questions_and_notes": "eliminate in favor of sfdsi-Omont.  Can be calculated from that variable dividing by fraction of sea covered by sea ice.",
     "specific_issues": [
-        "9:Eliminate or deprecate?",
-        "12:Modify cell methods?"
+        "9:Eliminate or deprecate?"
     ],
     "contributing_institutions": 12,
     "contributing_models": 22,

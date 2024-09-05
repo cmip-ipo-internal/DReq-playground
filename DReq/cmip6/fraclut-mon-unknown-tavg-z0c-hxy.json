@@ -8,9 +8,7 @@
     "table_entry": "fracLut",
     "out_name": "fracLut",
     "questions_and_notes": "Comment appears to be wrong. Table name says monthly and time-average indicated, but description says end of year.  ",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 16,
     "contributing_models": 25,
     "frequency": "mon",

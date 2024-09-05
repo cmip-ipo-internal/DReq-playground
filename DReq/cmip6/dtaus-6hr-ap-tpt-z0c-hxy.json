@@ -9,8 +9,7 @@
     "out_name": "dtaus",
     "questions_and_notes": "This should probably be weighted by area of stratiform_cloud?",
     "specific_issues": [
-        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 0,
     "contributing_models": 0,

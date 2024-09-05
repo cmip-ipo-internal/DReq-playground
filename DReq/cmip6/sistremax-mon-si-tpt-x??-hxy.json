@@ -9,8 +9,7 @@
     "out_name": "sistremax",
     "questions_and_notes": "Is this a column mean or a surface value?  Might need a scalar  vertical coordinate.",
     "specific_issues": [
-        "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 3,
     "contributing_models": 7,

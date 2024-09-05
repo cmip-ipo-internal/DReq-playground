@@ -9,8 +9,7 @@
     "out_name": "rhTree",
     "questions_and_notes": "Won't this root name likely be confused with \"relative humidity\"?   Replace \"rh\" with \"fresph\", more consistent with other similar variables.",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 5,
     "contributing_models": 5,

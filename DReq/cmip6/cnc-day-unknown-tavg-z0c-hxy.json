@@ -9,8 +9,7 @@
     "out_name": "cnc",
     "questions_and_notes": "Note that several area_fractions are defined earlier, which are distinguished using different variable root names.  vegFrac-Emon and vegFrac-Eyr are defined (for monthly and yearly sampling), and for consistency the daily variable defined here should also be named vegFrac.  Again for consistency, it should have a standard name area_fraction and a cell_methods \"area: time: mean\".  Note that the description and the comment are inconsistent.  If the canopy fraction is required, then a different root name is needed (e.g., canopyFrac).  Finally, does vegetation fraction really change significantly on daily time-scales?",
     "specific_issues": [
-        "5:Standard name issue.",
-        "12:Modify cell methods?"
+        "5:Standard name issue."
     ],
     "contributing_institutions": 5,
     "contributing_models": 6,

@@ -10,8 +10,7 @@
     "questions_and_notes": "cell_methods should include \"area: mean\"",
     "specific_issues": [
         "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
-        "10:Modify cell methods.  Include 'where air'.",
-        "12:Modify cell methods?"
+        "10:Modify cell methods.  Include 'where air'."
     ],
     "contributing_institutions": 0,
     "contributing_models": 0,

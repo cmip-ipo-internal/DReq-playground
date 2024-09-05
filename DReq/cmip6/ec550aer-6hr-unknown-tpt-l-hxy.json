@@ -8,9 +8,7 @@
     "table_entry": "ec550aer",
     "out_name": "ec550aer",
     "questions_and_notes": "Should this get weighted somehow (by downwelling solar radiation perhaps)?",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 4,
     "contributing_models": 4,
     "frequency": "6hrPt",

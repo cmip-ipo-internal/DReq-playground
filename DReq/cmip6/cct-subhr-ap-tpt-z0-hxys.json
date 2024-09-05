@@ -8,9 +8,7 @@
     "table_entry": "cct",
     "out_name": "cct",
     "questions_and_notes": "cell_methods should include \"where convective_cloud\".  When regridding, should these be weighted by *total* convective cloud area or by convective cloud area in the grid cell located at cloud base?",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 4,
     "contributing_models": 8,
     "frequency": "subhrPt",

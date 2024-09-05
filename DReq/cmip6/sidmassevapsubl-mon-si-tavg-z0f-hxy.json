@@ -9,8 +9,7 @@
     "out_name": "sidmassevapsubl",
     "questions_and_notes": "To avoid misleading dependence on the fractional area of sea ice, specify \"where sea_ice\".  For consistency with description, specify \"where sea_ice over all_area_types\".",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 17,
     "contributing_models": 43,

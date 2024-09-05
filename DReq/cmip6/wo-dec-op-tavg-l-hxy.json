@@ -10,8 +10,7 @@
     "questions_and_notes": "cell_methods should include \"where sea\"",
     "specific_issues": [
         "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
-        "11:Modify cell methods.  Include 'where sea'.",
-        "12:Modify cell methods?"
+        "11:Modify cell methods.  Include 'where sea'."
     ],
     "contributing_institutions": 3,
     "contributing_models": 5,

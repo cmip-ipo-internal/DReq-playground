@@ -8,9 +8,7 @@
     "table_entry": "sitempbot",
     "out_name": "sitempbot",
     "questions_and_notes": "",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 12,
     "contributing_models": 26,
     "frequency": "mon",

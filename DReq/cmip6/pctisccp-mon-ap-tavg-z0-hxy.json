@@ -8,9 +8,7 @@
     "table_entry": "pctisccp",
     "out_name": "pctisccp",
     "questions_and_notes": "need to indicate in cell_methods that ISCCCP cloud area should be used in weighting",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 18,
     "contributing_models": 38,
     "frequency": "mon",

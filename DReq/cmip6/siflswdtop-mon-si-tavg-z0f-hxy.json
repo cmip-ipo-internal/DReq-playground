@@ -9,8 +9,7 @@
     "out_name": "siflswdtop",
     "questions_and_notes": "The variable name should be \"rsds\", for consistency with other fluxes.  ",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 19,
     "contributing_models": 43,

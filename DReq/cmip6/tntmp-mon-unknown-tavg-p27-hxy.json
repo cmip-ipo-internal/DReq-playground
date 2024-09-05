@@ -9,8 +9,7 @@
     "out_name": "tntmp",
     "questions_and_notes": "cell_methods should include \"area: mean\"",
     "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'.",
-        "12:Modify cell methods?"
+        "10:Modify cell methods.  Include 'where air'."
     ],
     "contributing_institutions": 7,
     "contributing_models": 28,

@@ -9,8 +9,7 @@
     "out_name": "albdiffbnd",
     "questions_and_notes": "Should this get weighted somehow?  What value does it get at night? Cell_methods should include area: mean.",
     "specific_issues": [
-        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 2,
     "contributing_models": 3,

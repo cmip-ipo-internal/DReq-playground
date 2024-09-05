@@ -8,9 +8,7 @@
     "table_entry": "sisnhc",
     "out_name": "sisnhc",
     "questions_and_notes": "Why does description say \"divided by grid-cell area\".  I would think what is of interest (and consistent with current cell_methods) is \"divided by area of sea_ice\".",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 15,
     "contributing_models": 29,
     "frequency": "mon",

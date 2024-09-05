@@ -9,8 +9,7 @@
     "out_name": "siflcondtop",
     "questions_and_notes": "Shouldn't this be simply the net surface heat flux, rather than the sensible heat flux?  (The conduction is equal to the net flux between the surface and atmosphere unless light penetrates the ice.).  ",
     "specific_issues": [
-        "5:Standard name issue.",
-        "12:Modify cell methods?"
+        "5:Standard name issue."
     ],
     "contributing_institutions": 17,
     "contributing_models": 36,

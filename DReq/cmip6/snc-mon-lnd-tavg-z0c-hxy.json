@@ -9,8 +9,7 @@
     "out_name": "snc",
     "questions_and_notes": "The description says \"on the land portion of the grid cell\", so cell_methods should be \"where land over all_area_types\".   (Also make sure this remains consistent with wording for \"daily\" sampled variable.)  Almost the same as sncIs-LImon.  Consider eliminating.",
     "specific_issues": [
-        "9:Eliminate or deprecate?",
-        "12:Modify cell methods?"
+        "9:Eliminate or deprecate?"
     ],
     "contributing_institutions": 25,
     "contributing_models": 68,

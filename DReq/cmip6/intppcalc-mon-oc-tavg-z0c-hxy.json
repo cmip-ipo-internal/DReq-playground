@@ -9,8 +9,7 @@
     "out_name": "intppcalc",
     "questions_and_notes": "In cell_methods it should be a \"sum\" over depth and the order of depth and area should be reversed.  \"where sea\" is needed only once. After applying first method (\"where sea\") second method will be applied only \"where sea\" because elsewhere, data is considered missing.",
     "specific_issues": [
-        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 1,
     "contributing_models": 2,

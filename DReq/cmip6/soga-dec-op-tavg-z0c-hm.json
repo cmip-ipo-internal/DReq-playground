@@ -10,8 +10,7 @@
     "questions_and_notes": "Is this a column mean?  ",
     "specific_issues": [
         "6:Modify variable root.",
-        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 2,
     "contributing_models": 2,

@@ -10,8 +10,7 @@
     "questions_and_notes": "Won't this root name likely be confused with \"relative humidity\"?   Replace \"rh\" with \"fresph\", more consistent with other similar variables.",
     "specific_issues": [
         "6:Modify variable root.",
-        "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 3,
     "contributing_models": 2,

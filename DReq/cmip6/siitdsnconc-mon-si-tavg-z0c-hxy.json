@@ -11,8 +11,7 @@
     "specific_issues": [
         "6:Modify variable root.",
         "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
-        "9:Eliminate or deprecate?",
-        "12:Modify cell methods?"
+        "9:Eliminate or deprecate?"
     ],
     "contributing_institutions": 3,
     "contributing_models": 4,

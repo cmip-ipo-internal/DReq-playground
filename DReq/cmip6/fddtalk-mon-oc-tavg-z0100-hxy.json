@@ -8,9 +8,7 @@
     "table_entry": "fddtalk",
     "out_name": "fddtalk",
     "questions_and_notes": "check cell_methods for \"depth\" coordinate.  Shouldn't this be the sum over depth, not the mean?",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 7,
     "contributing_models": 9,
     "frequency": "mon",

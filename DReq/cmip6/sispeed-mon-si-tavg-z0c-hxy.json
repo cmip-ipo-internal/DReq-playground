@@ -8,9 +8,7 @@
     "table_entry": "sispeed",
     "out_name": "sispeed",
     "questions_and_notes": "",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 23,
     "contributing_models": 58,
     "frequency": "mon",

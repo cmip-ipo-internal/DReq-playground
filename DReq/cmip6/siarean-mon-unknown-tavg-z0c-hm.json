@@ -10,8 +10,7 @@
     "questions_and_notes": "Can't this be calculated from gridded field?  This duplicates variable above it; NH & SH distinguisable using regionDD.  Replace \"area: mean\" with \"area: sum\"",
     "specific_issues": [
         "6:Modify variable root.",
-        "9:Eliminate or deprecate?",
-        "12:Modify cell methods?"
+        "9:Eliminate or deprecate?"
     ],
     "contributing_institutions": 16,
     "contributing_models": 33,

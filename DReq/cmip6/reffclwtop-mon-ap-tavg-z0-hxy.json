@@ -8,9 +8,7 @@
     "table_entry": "reffclwtop",
     "out_name": "reffclwtop",
     "questions_and_notes": "Contributions should probably be weighted as indicated now in cell_methods.",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 13,
     "contributing_models": 31,
     "frequency": "mon",

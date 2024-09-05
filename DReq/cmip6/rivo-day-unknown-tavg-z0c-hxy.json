@@ -8,9 +8,7 @@
     "table_entry": "rivo",
     "out_name": "rivo",
     "questions_and_notes": "For consistency and because it makes no difference, this and rivi-tavg-z0-hxy-x (rivi-Eday) should omit the \"where directive\".  Area-weighted regridding might not provide a very good representation of this field.",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 4,
     "contributing_models": 6,
     "frequency": "day",

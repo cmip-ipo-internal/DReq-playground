@@ -9,8 +9,7 @@
     "out_name": "siitdthick",
     "questions_and_notes": "For variables siitdconc-SImon, siitdsnconc-SImon, and siitdsnthick-SImon, \"sea ice categories\" appears to mean \"sea ice thickness categories\".  If that is the case, isn't the sea ice thickness in each category already defined, so what is actually supposed to get reported here?  ",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 6,
     "contributing_models": 11,

@@ -9,8 +9,7 @@
     "out_name": "ta",
     "questions_and_notes": "cell_methods should include \"area: mean\"",
     "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'.",
-        "12:Modify cell methods?"
+        "10:Modify cell methods.  Include 'where air'."
     ],
     "contributing_institutions": 30,
     "contributing_models": 72,

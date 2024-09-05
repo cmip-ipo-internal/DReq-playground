@@ -9,8 +9,7 @@
     "out_name": "fProductDecompLut",
     "questions_and_notes": "Although the emissions come only from land, we want to compare the tendency to other tendencies, so replace \"where land\" with \"where sector over all_area_types\".",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 4,
     "contributing_models": 7,

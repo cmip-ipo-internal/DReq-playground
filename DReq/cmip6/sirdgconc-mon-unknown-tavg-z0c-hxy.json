@@ -9,8 +9,7 @@
     "out_name": "sirdgconc",
     "questions_and_notes": "Units should be % for consistency with long name and other like variables. For consistency with other surface type fractions, remove \"where sea_ice\".  Consider eliminating scalar dimension.",
     "specific_issues": [
-        "4:Check units.",
-        "12:Modify cell methods?"
+        "4:Check units."
     ],
     "contributing_institutions": 5,
     "contributing_models": 10,

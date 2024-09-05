@@ -8,9 +8,7 @@
     "table_entry": "siforceintstry",
     "out_name": "siforceintstry",
     "questions_and_notes": "",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 9,
     "contributing_models": 21,
     "frequency": "mon",

@@ -9,8 +9,7 @@
     "out_name": "vegFrac",
     "questions_and_notes": "Is this CF conventions area_type: \"vegetation\"?  Consider eliminating scalar dimension.  For consistency with cnc-Eday, this should have a standard_name of vegetation_area_fraction.",
     "specific_issues": [
-        "5:Standard name issue.",
-        "12:Modify cell methods?"
+        "5:Standard name issue."
     ],
     "contributing_institutions": 10,
     "contributing_models": 15,

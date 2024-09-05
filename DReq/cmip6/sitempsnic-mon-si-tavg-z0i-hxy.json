@@ -9,8 +9,7 @@
     "out_name": "sitempsnic",
     "questions_and_notes": "compare with sitemptop-SIday and sitemptop-SImon",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 7,
     "contributing_models": 21,

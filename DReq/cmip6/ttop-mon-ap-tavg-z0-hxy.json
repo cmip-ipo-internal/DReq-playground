@@ -8,9 +8,7 @@
     "table_entry": "ttop",
     "out_name": "ttop",
     "questions_and_notes": "Should samples with cloud be weighted by grid cell area or total cloud area?  If total cloud area, then \"where cloud\" should be included in cell_methods.",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 4,
     "contributing_models": 10,
     "frequency": "mon",

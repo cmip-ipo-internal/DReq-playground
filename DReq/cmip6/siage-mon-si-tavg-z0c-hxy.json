@@ -8,9 +8,7 @@
     "table_entry": "siage",
     "out_name": "siage",
     "questions_and_notes": "",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 13,
     "contributing_models": 39,
     "frequency": "mon",

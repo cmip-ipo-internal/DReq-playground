@@ -10,8 +10,7 @@
     "questions_and_notes": "Can't this be calculated as quotient of sea_ice_mass / sea_ice_mass_content_of_salt (simass-SImon/ sisaltmass-SImon)?",
     "specific_issues": [
         "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
-        "9:Eliminate or deprecate?",
-        "12:Modify cell methods?"
+        "9:Eliminate or deprecate?"
     ],
     "contributing_institutions": 3,
     "contributing_models": 13,

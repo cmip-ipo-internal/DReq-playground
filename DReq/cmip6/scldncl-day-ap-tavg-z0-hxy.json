@@ -8,9 +8,7 @@
     "table_entry": "scldncl",
     "out_name": "scldncl",
     "questions_and_notes": "cell_methods need to include \"area: mean (in upper-most layer of liquid water cloud)",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 4,
     "contributing_models": 7,
     "frequency": "day",

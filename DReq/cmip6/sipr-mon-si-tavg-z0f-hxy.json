@@ -9,8 +9,7 @@
     "out_name": "sipr",
     "questions_and_notes": "The description says \"precip. Falling onto sea ice divided by grid-cell area, but I think it would be better to just ask for \"rain falling onto sea ice\"  (divided by sea-ice area), which is also consistent with what was specifed in cell_methods and standard_name.",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 15,
     "contributing_models": 34,

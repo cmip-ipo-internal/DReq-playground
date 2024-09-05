@@ -9,8 +9,7 @@
     "out_name": "masscello",
     "questions_and_notes": "Unlike masso-Omon, this is mass per unit area so the sub-grid values should be averaged (with area weighting applied) and method should be \"mean\" rather than \"sum\"?",
     "specific_issues": [
-        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 0,
     "contributing_models": 0,
