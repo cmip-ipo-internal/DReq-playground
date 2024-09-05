@@ -16,10 +16,7 @@
     "definition_qualifier": " (area-total over region)",
     "brand_description": "grounded ice sheet area (area-total over region): time means",
     "bn_status": "accepted",
-    "dimensions": [
-        "",
-        "time"
-    ],
+    "dimensions": " time",
     "cell_methods": "area: time: mean where grounded_ice_sheet (comment: mask=sfgrlf)",
     "cell_measures": 0.0,
     "samplingIntervals": [

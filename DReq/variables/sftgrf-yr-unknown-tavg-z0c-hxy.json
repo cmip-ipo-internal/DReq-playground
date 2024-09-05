@@ -16,11 +16,7 @@
     "definition_qualifier": "none",
     "brand_description": "grounded ice sheet area fraction: time means reported on a 2-d horizontal grid",
     "bn_status": "accepted",
-    "dimensions": [
-        "xgre",
-        "ygre",
-        "time"
-    ],
+    "dimensions": "longitude latitude time",
     "cell_methods": "area: time: mean",
     "cell_measures": "area: areacellg",
     "samplingIntervals": [
