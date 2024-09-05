@@ -8,9 +8,7 @@
     "table_entry": "n2o",
     "out_name": "n2o",
     "questions_and_notes": "",
-    "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 9,
     "contributing_models": 7,
     "frequency": "mon",

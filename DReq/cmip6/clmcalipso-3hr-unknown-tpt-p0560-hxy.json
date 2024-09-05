@@ -9,8 +9,7 @@
     "out_name": "clmcalipso",
     "questions_and_notes": "no need to use root to distinguish among the calipso layers since the information is in the branding suffix.",
     "specific_issues": [
-        "6:Modify variable root.",
-        "10:Modify cell methods.  Include 'where air'."
+        "6:Modify variable root."
     ],
     "contributing_institutions": 6,
     "contributing_models": 7,

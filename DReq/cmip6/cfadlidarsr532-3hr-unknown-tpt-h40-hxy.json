@@ -8,9 +8,7 @@
     "table_entry": "cfadLidarsr532",
     "out_name": "cfadLidarsr532",
     "questions_and_notes": "",
-    "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 5,
     "contributing_models": 6,
     "frequency": "3hrPt",

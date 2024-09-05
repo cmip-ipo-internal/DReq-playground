@@ -8,9 +8,7 @@
     "table_entry": "hus27",
     "out_name": "hus",
     "questions_and_notes": "",
-    "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 16,
     "contributing_models": 37,
     "frequency": "6hrPt",

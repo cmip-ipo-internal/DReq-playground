@@ -8,9 +8,7 @@
     "table_entry": "psitem",
     "out_name": "psitem",
     "questions_and_notes": "",
-    "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 8,
     "contributing_models": 12,
     "frequency": "day",

@@ -8,9 +8,7 @@
     "table_entry": "tntrscs",
     "out_name": "tntrscs",
     "questions_and_notes": "",
-    "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 6,
     "contributing_models": 14,
     "frequency": "mon",

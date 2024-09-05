@@ -9,7 +9,6 @@
     "out_name": "wap",
     "questions_and_notes": "cell_methods should include area: mean",
     "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'.",
         "12:Modify cell methods?"
     ],
     "contributing_institutions": 18,

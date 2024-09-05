@@ -8,9 +8,7 @@
     "table_entry": "o3Clim",
     "out_name": "o3",
     "questions_and_notes": "",
-    "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 20,
     "contributing_models": 36,
     "frequency": "monC",

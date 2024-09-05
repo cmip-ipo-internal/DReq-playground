@@ -10,7 +10,6 @@
     "questions_and_notes": "To accommodate data that has been regridded, \"area: mean\" should be included in cell_methods?",
     "specific_issues": [
         "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
-        "10:Modify cell methods.  Include 'where air'.",
         "12:Modify cell methods?"
     ],
     "contributing_institutions": 3,

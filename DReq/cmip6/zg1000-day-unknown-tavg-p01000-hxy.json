@@ -9,8 +9,7 @@
     "out_name": "zg1000",
     "questions_and_notes": "",
     "specific_issues": [
-        "6:Modify variable root.",
-        "10:Modify cell methods.  Include 'where air'."
+        "6:Modify variable root."
     ],
     "contributing_institutions": 16,
     "contributing_models": 16,

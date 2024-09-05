@@ -8,9 +8,7 @@
     "table_entry": "utendnogw",
     "out_name": "utendnogw",
     "questions_and_notes": "",
-    "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 13,
     "contributing_models": 19,
     "frequency": "day",

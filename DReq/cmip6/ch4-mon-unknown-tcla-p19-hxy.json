@@ -8,9 +8,7 @@
     "table_entry": "ch4Clim",
     "out_name": "ch4",
     "questions_and_notes": "",
-    "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 11,
     "contributing_models": 12,
     "frequency": "monC",
