@@ -11,7 +11,6 @@
     "specific_issues": [
         "6:Modify variable root.",
         "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
-        "11:Modify cell methods.  Include 'where sea'.",
         "12:Modify cell methods?"
     ],
     "contributing_institutions": 2,

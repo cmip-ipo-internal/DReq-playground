@@ -9,8 +9,7 @@
     "out_name": "msftyrho",
     "questions_and_notes": "Is it o.k. to perform the time mean last?  cell_methods should include \"where sea\"",
     "specific_issues": [
-        "6:Modify variable root.",
-        "11:Modify cell methods.  Include 'where sea'."
+        "6:Modify variable root."
     ],
     "contributing_institutions": 5,
     "contributing_models": 7,

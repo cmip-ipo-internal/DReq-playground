@@ -9,8 +9,7 @@
     "out_name": "thetaot",
     "questions_and_notes": "cell_methods should include \"where sea\"",
     "specific_issues": [
-        "6:Modify variable root.",
-        "11:Modify cell methods.  Include 'where sea'."
+        "6:Modify variable root."
     ],
     "contributing_institutions": 11,
     "contributing_models": 7,

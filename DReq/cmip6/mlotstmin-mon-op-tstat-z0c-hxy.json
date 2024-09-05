@@ -8,9 +8,7 @@
     "table_entry": "mlotstmin",
     "out_name": "mlotstmin",
     "questions_and_notes": "cell_methods should include \"where sea\".  Note that in general \"area: mean\" will give a higher minimum if data are mapped to a coarser grid than the original.",
-    "specific_issues": [
-        "11:Modify cell methods.  Include 'where sea'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 16,
     "contributing_models": 32,
     "frequency": "mon",

@@ -8,9 +8,7 @@
     "table_entry": "hfbasin",
     "out_name": "hfbasin",
     "questions_and_notes": "cell_methods should include \"where sea\"",
-    "specific_issues": [
-        "11:Modify cell methods.  Include 'where sea'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 21,
     "contributing_models": 46,
     "frequency": "mon",

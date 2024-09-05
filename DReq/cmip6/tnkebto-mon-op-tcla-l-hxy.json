@@ -10,8 +10,7 @@
     "questions_and_notes": "Note says that 3-d field is unneccessary (because other important contribtions to KE aren't requested); eliminate this variable and report tnkebto-Oclim instead.  Cell_methods should include \"where sea\".",
     "specific_issues": [
         "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
-        "9:Eliminate or deprecate?",
-        "11:Modify cell methods.  Include 'where sea'."
+        "9:Eliminate or deprecate?"
     ],
     "contributing_institutions": 1,
     "contributing_models": 2,

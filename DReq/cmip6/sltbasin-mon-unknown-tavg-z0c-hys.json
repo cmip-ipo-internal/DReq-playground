@@ -8,9 +8,7 @@
     "table_entry": "sltbasin",
     "out_name": "sltbasin",
     "questions_and_notes": "cell_methods should include \"where sea\"",
-    "specific_issues": [
-        "11:Modify cell methods.  Include 'where sea'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 9,
     "contributing_models": 15,
     "frequency": "mon",

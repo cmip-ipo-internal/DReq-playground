@@ -9,8 +9,7 @@
     "out_name": "hfbasinpsmadv",
     "questions_and_notes": "cell_methods should include \"where sea\"",
     "specific_issues": [
-        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
-        "11:Modify cell methods.  Include 'where sea'."
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 1,
     "contributing_models": 1,

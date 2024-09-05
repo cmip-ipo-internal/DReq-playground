@@ -9,7 +9,6 @@
     "out_name": "umo",
     "questions_and_notes": "cell_methods should include \"area: mean where sea\" (Regridded data could represent mean of several grid cells, weighted by ocean area.)",
     "specific_issues": [
-        "11:Modify cell methods.  Include 'where sea'.",
         "12:Modify cell methods?"
     ],
     "contributing_institutions": 23,

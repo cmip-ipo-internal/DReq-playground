@@ -8,9 +8,7 @@
     "table_entry": "difvho",
     "out_name": "difvho",
     "questions_and_notes": "cell_methods should include \"where sea\"",
-    "specific_issues": [
-        "11:Modify cell methods.  Include 'where sea'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 6,
     "contributing_models": 8,
     "frequency": "monC",

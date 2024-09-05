@@ -8,9 +8,7 @@
     "table_entry": "htovovrt",
     "out_name": "htovovrt",
     "questions_and_notes": "cell_methods should include \"where sea\"",
-    "specific_issues": [
-        "11:Modify cell methods.  Include 'where sea'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 10,
     "contributing_models": 22,
     "frequency": "mon",

@@ -8,9 +8,7 @@
     "table_entry": "msftyzmpa",
     "out_name": "msftyzmpa",
     "questions_and_notes": "Is it o.k. to perform the time mean last?  cell_methods should include \"where sea\"",
-    "specific_issues": [
-        "11:Modify cell methods.  Include 'where sea'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 4,
     "contributing_models": 6,
     "frequency": "mon",

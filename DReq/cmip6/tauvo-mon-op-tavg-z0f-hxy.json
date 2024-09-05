@@ -8,9 +8,7 @@
     "table_entry": "tauvo",
     "out_name": "tauvo",
     "questions_and_notes": "cell_methods should probably include \"area: mean where sea\".  On some native grids it might represent a point value so \"mean\" would be wrong.  But what about data that has been regridded?  Note that decadal stresses include \"where sea\"",
-    "specific_issues": [
-        "11:Modify cell methods.  Include 'where sea'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 31,
     "contributing_models": 76,
     "frequency": "mon",
