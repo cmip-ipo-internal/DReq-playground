@@ -9,8 +9,7 @@
     "out_name": "baresoilFrac",
     "questions_and_notes": "Should this be undefined where sea?  Should deprecate in favor of \"where all_area_types\".  Also, it seems to be redundant with monthly fracLut; Is this the same as area_type=\"bare_ground\"?  Consider eliminating scalar dimension.",
     "specific_issues": [
-        "9:Eliminate or deprecate?",
-        "12:Modify cell methods?"
+        "9:Eliminate or deprecate?"
     ],
     "contributing_institutions": 11,
     "contributing_models": 21,
@@ -20,7 +19,7 @@
         "land"
     ],
     "dimensions": "longitude latitude time typebare",
-    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "cell_methods": "area: time: mean",
     "long_name": "Bare Soil Percentage Area Coverage",
     "comment": "Percentage of entire grid cell  that is covered by bare soil."
 }

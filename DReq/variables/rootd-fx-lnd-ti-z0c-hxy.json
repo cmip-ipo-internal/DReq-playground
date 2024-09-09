@@ -21,7 +21,7 @@
         "latitude",
         ""
     ],
-    "cell_methods": "area: mean",
+    "cell_methods": "area: mean where land",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "fx"

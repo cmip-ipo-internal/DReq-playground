@@ -9,8 +9,7 @@
     "out_name": "sistresave",
     "questions_and_notes": "",
     "specific_issues": [
-        "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 3 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 3,
     "contributing_models": 7,
@@ -20,7 +19,7 @@
         "seaIce"
     ],
     "dimensions": "longitude latitude time1",
-    "cell_methods": "area: mean where sea_ice (comment: mask=siconc) time: point",
+    "cell_methods": "area: mean where sea_ice time: point",
     "long_name": "Average Normal Stress in Sea Ice",
     "comment": "Average normal stress in sea ice (first stress invariant)"
 }

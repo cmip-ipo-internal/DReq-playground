@@ -21,7 +21,7 @@
         "latitude",
         "time1"
     ],
-    "cell_methods": "area: mean time: point",
+    "cell_methods": "area: time: mean",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "3hr"

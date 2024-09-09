@@ -10,8 +10,7 @@
     "questions_and_notes": "Since it is stored on rho surfaces, not depth, I don't think cell_methods should include \"depth\".  For longitude, check whether sum is correct and consistent with msftyrho-Omon, msftyz-Odec, msftyz-Omon msftyrhompa-Omon, and msftyzmpa-Omon.  cell_methods should include \"where sea\" .",
     "specific_issues": [
         "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
-        "11:Modify cell methods.  Include 'where sea'.",
-        "12:Modify cell methods?"
+        "11:Modify cell methods.  Include 'where sea'."
     ],
     "contributing_institutions": 2,
     "contributing_models": 6,
@@ -21,7 +20,7 @@
         "ocean"
     ],
     "dimensions": "latitude olevel basin time",
-    "cell_methods": "longitude: sum (comment: basin sum [along zig-zag grid path]) depth: sum time: mean",
+    "cell_methods": "longitude: rho: sum where sea (along a zig-zag grid path spanning a basin) time: mean",
     "long_name": "Ocean Meridional Overturning Mass Streamfunction Due to Parameterized Submesoscale Advection",
     "comment": "Report only if there is a submesoscale eddy parameterization."
 }

@@ -9,8 +9,7 @@
     "out_name": "sifllwutop",
     "questions_and_notes": "",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 17,
     "contributing_models": 35,
@@ -20,7 +19,7 @@
         "seaIce"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconca)",
+    "cell_methods": "area: time: mean where sea_ice",
     "long_name": "Upwelling Longwave Flux over Sea Ice",
     "comment": "the upwelling longwave flux over sea ice (always negative)"
 }

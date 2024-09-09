@@ -9,8 +9,7 @@
     "out_name": "rsutcsafbnd",
     "questions_and_notes": "cell_methods should include \"area: mean\"",
     "specific_issues": [
-        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 0,
     "contributing_models": 0,
@@ -20,7 +19,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude spectband time1",
-    "cell_methods": "time: point",
+    "cell_methods": "area: mean time: point",
     "long_name": "TOA Outgoing Clear-Sky, Aerosol-Free Shortwave Radiation in Bands",
     "comment": "Calculated in the absence of aerosols and clouds, following Ghan (2013, ACP). This requires a double-call in the radiation code with precisely the same meteorology."
 }

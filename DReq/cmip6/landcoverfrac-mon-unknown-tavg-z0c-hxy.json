@@ -8,9 +8,7 @@
     "table_entry": "landCoverFrac",
     "out_name": "landCoverFrac",
     "questions_and_notes": "Note that the specified area types should all be in or added to the CF conventions official list.  Currently \"urban areas\" and \"residual\", among others, are not options.",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 13,
     "contributing_models": 24,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "land"
     ],
     "dimensions": "longitude latitude vegtype time",
-    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "cell_methods": "area: time: mean",
     "long_name": "Percentage of Area by Vegetation or Land-Cover Category",
     "comment": "Percentage of grid cell area occupied by different model vegetation/land cover categories. The categories may differ from model to model, depending on each model's subgrid land cover category definitions. Categories may include natural vegetation, anthropogenic vegetation, bare soil, lakes, urban areas, glaciers, etc. Sum of all should equal the percentage of the grid cell that is land."
 }

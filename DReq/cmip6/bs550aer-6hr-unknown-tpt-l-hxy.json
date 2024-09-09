@@ -9,8 +9,7 @@
     "out_name": "bs550aer",
     "questions_and_notes": "Should this get weighted somehow (by downwelling solar radiation perhaps)?",
     "specific_issues": [
-        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 1,
     "contributing_models": 1,
@@ -20,7 +19,7 @@
         "aerosol"
     ],
     "dimensions": "longitude latitude alevel time1 lambda550nm",
-    "cell_methods": "area: mean time: point",
+    "cell_methods": "area: mean (weighted by downwelling solar radiation) time: point",
     "long_name": "Aerosol Backscatter Coefficient",
     "comment": "Aerosol  Backscatter at 550nm and 180 degrees, computed from extinction and lidar ratio"
 }

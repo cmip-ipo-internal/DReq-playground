@@ -21,7 +21,7 @@
         "latitude",
         "time"
     ],
-    "cell_methods": "area: mean where land time: mean",
+    "cell_methods": "area: time: mean where wetland",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "mon"

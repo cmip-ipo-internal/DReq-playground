@@ -8,9 +8,7 @@
     "table_entry": "fbddtalk",
     "out_name": "fbddtalk",
     "questions_and_notes": "check cell_methods for \"depth\" coordinate.  Shouldn't this be the sum over depth, not the mean?",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 8,
     "contributing_models": 12,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "ocnBgchem"
     ],
     "dimensions": "longitude latitude time olayer100m",
-    "cell_methods": "area: mean where sea depth: sum where sea (top 100m only) time: mean",
+    "cell_methods": "depth: sum where sea area: time: mean",
     "long_name": "Rate of Change of Biological Alkalinity Due to Biological Activity",
     "comment": "vertical integral of net biological terms in time rate of change of alkalinity"
 }

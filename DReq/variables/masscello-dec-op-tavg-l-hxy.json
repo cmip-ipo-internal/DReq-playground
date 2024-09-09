@@ -22,7 +22,7 @@
         "olevel",
         "time"
     ],
-    "cell_methods": "area: sum where sea time: mean",
+    "cell_methods": "area: mean where sea time: mean",
     "cell_measures": "area: areacello volume: volcello",
     "samplingIntervals": [
         "dec"

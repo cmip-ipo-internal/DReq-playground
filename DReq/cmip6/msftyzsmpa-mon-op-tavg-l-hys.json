@@ -11,8 +11,7 @@
     "specific_issues": [
         "5:Standard name issue.",
         "6:Modify variable root.",
-        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 1,
     "contributing_models": 1,
@@ -22,7 +21,7 @@
         "ocean"
     ],
     "dimensions": "latitude olevel basin time",
-    "cell_methods": "longitude: sum (comment: basin sum [along zig-zag grid path]) depth: sum time: mean",
+    "cell_methods": "longitude: rho: sum where sea (along a zig-zag grid path spanning a basin) time: mean",
     "long_name": "Ocean Y Overturning Mass Streamfunction Due to Parameterized Submesoscale Advection",
     "comment": "Report only if there is a submesoscale eddy parameterization."
 }

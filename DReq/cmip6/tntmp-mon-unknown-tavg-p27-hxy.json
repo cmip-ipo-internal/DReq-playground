@@ -9,8 +9,7 @@
     "out_name": "tntmp",
     "questions_and_notes": "cell_methods should include \"area: mean\"",
     "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'.",
-        "12:Modify cell methods?"
+        "10:Modify cell methods.  Include 'where air'."
     ],
     "contributing_institutions": 7,
     "contributing_models": 28,
@@ -20,7 +19,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude plev27 time",
-    "cell_methods": "time: mean",
+    "cell_methods": "area: time: mean where air",
     "long_name": "Tendency of Air Temperature Due to Model Physics",
     "comment": "Tendency of air temperature due to model physics. This includes sources and sinks from parametrized physics (e.g. radiation, convection, boundary layer, stratiform condensation/evaporation, etc.). It excludes sources and sinks from resolved dynamics and numerical diffusion not associated with parametrized physics.  For example, any vertical diffusion which is part of the boundary layer mixing scheme should be included, while numerical diffusion applied in addition to physics or resolved dynamics should be excluded.  This term is required to check the closure of the heat budget."
 }

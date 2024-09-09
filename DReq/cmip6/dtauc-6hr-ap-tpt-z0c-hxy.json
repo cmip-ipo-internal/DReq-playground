@@ -9,8 +9,7 @@
     "out_name": "dtauc",
     "questions_and_notes": "This should probably be weighted by area of convective_cloud.",
     "specific_issues": [
-        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 0,
     "contributing_models": 0,
@@ -20,7 +19,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude time1",
-    "cell_methods": "area: mean time: point",
+    "cell_methods": "area: mean where convective_cloud time: point",
     "long_name": "Convective Cloud Optical Depth",
     "comment": "This is the in-cloud optical depth obtained by considering only the cloudy portion of the grid cell"
 }

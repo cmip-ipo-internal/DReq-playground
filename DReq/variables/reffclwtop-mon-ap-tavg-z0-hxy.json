@@ -21,7 +21,7 @@
         "latitude",
         "time"
     ],
-    "cell_methods": "area: time: mean",
+    "cell_methods": "area: time: mean where cloud (weighted by area of cloud in the upper-most layer of liquid water cloud)",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "mon"

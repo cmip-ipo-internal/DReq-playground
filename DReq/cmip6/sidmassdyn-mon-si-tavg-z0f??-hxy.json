@@ -8,9 +8,7 @@
     "table_entry": "sidmassdyn",
     "out_name": "sidmassdyn",
     "questions_and_notes": "In cell_methods replace \"where sea\" with  \"where sea_ice\" because this is used for sea-ice budgets.",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 17,
     "contributing_models": 32,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "seaIce"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: mean where sea time: mean",
+    "cell_methods": "area: time: mean where sea_ice",
     "long_name": "Sea-Ice Mass Change from Dynamics",
     "comment": "Total change in sea-ice mass through dynamics-related processes (advection,...) divided by grid-cell area"
 }

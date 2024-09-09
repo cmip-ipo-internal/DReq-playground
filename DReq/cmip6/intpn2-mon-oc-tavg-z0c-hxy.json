@@ -8,9 +8,7 @@
     "table_entry": "intpn2",
     "out_name": "intpn2",
     "questions_and_notes": "ocean_mole_content means the column integrated amount so no need to include sum over depth.",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 13,
     "contributing_models": 21,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "ocnBgchem"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+    "cell_methods": "area: mean where sea time: mean",
     "long_name": "Nitrogen Fixation Rate in Ocean",
     "comment": "Vertically integrated nitrogen fixation"
 }

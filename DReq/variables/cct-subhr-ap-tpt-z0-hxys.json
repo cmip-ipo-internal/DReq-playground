@@ -20,7 +20,7 @@
         "site",
         "time1"
     ],
-    "cell_methods": "area: point time: point",
+    "cell_methods": "area: time: mean where convective_cloud (weighted by total convective cloud area)",
     "cell_measures": 0.0,
     "samplingIntervals": [
         "subhr"

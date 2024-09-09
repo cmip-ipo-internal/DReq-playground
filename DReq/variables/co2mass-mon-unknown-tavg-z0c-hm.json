@@ -20,7 +20,7 @@
         "",
         "time"
     ],
-    "cell_methods": "area: time: mean",
+    "cell_methods": "height: sum (through atmospheric column) area: sum time: mean",
     "cell_measures": 0.0,
     "samplingIntervals": [
         "mon"

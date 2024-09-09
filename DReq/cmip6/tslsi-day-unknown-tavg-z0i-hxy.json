@@ -8,9 +8,7 @@
     "table_entry": "tslsi",
     "out_name": "tslsi",
     "questions_and_notes": "We already defined this variable \"where land\"; why not just ask  for it \"where sea_ice\".  If someone wants a combined value for land and sea_ice, they can compute the weighted mean (weighting by fractions)",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 15,
     "contributing_models": 43,
     "frequency": "day",
@@ -19,7 +17,7 @@
         "land"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: time: mean (comment: over land and sea ice)",
+    "cell_methods": "area: mean (excluding open-ocean portion of cells) time: mean",
     "long_name": "Surface Temperature Where Land or Sea Ice",
     "comment": "Surface temperature of all surfaces except open ocean."
 }

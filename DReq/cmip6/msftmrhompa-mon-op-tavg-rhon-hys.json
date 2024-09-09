@@ -11,8 +11,7 @@
     "specific_issues": [
         "6:Modify variable root.",
         "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
-        "11:Modify cell methods.  Include 'where sea'.",
-        "12:Modify cell methods?"
+        "11:Modify cell methods.  Include 'where sea'."
     ],
     "contributing_institutions": 2,
     "contributing_models": 3,
@@ -22,7 +21,7 @@
         "ocean"
     ],
     "dimensions": "latitude rho basin time",
-    "cell_methods": "longitude: sum (comment: basin sum [along zig-zag grid path]) depth: sum time: mean",
+    "cell_methods": "longitude: rho: sum where sea (along a zig-zag grid path spanning a basin) time: mean",
     "long_name": "Ocean Meridional Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection",
     "comment": "CMIP5 called this \"due to Bolus Advection\".  Name change respects the more general physics of the mesoscale parameterizations."
 }

@@ -21,7 +21,7 @@
         "latitude",
         "time"
     ],
-    "cell_methods": "area: time: mean where shrubs (comment: mask=shrubFrac)",
+    "cell_methods": "area: time: mean where shrubs",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "mon"

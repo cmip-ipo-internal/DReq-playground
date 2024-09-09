@@ -9,8 +9,7 @@
     "out_name": "albdiffbnd",
     "questions_and_notes": "Should this get weighted somehow?  What value does it get at night? Cell_methods should include area: mean.",
     "specific_issues": [
-        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 2,
     "contributing_models": 3,
@@ -20,7 +19,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude spectband time1",
-    "cell_methods": "time: point",
+    "cell_methods": "area: mean (weighted by incident surface diffuse shortwave in band) time: point",
     "long_name": "Diffuse Surface Albedo for Each Band",
     "comment": "The fraction of the surface diffuse downwelling shortwave radiation flux which is reflected. If the diffuse radiation is isotropic, this term is equivalent to the integral of surface bidirectional reflectance over all incident angles and over all outgoing angles in the hemisphere above the surface. Reported in spectral frequency bands."
 }

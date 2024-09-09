@@ -22,7 +22,7 @@
         "soilpools",
         "time"
     ],
-    "cell_methods": "area: mean where land time: mean",
+    "cell_methods": "area: time: mean where land (weighted by mass of soil pool)",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "mon"

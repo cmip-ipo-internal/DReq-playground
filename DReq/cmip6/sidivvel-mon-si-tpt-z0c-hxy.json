@@ -8,9 +8,7 @@
     "table_entry": "sidivvel",
     "out_name": "sidivvel",
     "questions_and_notes": "",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 14,
     "contributing_models": 32,
     "frequency": "monPt",
@@ -19,7 +17,7 @@
         "seaIce"
     ],
     "dimensions": "longitude latitude time1",
-    "cell_methods": "area: mean where sea_ice (comment: mask=siconc) time: point",
+    "cell_methods": "area: mean where sea_ice time: point",
     "long_name": "Divergence of the Sea-Ice Velocity Field",
     "comment": "Divergence of sea-ice velocity field (first shear strain invariant)"
 }

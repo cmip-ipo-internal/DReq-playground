@@ -9,8 +9,7 @@
     "out_name": "pod0",
     "questions_and_notes": " Wouldn't it be better to record a rate rather than a time-integral?  Is \"sum over time\" right?  Shouldn't it be a sum with samples weighted by (multiplied by) the length of the time-interval of the sample? ",
     "specific_issues": [
-        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 0,
     "contributing_models": 0,
@@ -20,7 +19,7 @@
         "aerosol"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: mean time: sum",
+    "cell_methods": "area: mean time: sum (with each sample weighted by the time-interval it represents) ",
     "long_name": "Phytotoxic Ozone Dose",
     "comment": "Accumulated stomatal ozone flux over the threshold of 0 mol m-2 s-1; Computation: Time Integral of (hourly above canopy ozone concentration * stomatal conductance * Rc/(Rb+Rc) )"
 }

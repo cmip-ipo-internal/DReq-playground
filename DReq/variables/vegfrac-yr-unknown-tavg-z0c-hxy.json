@@ -22,7 +22,7 @@
         "time",
         "typeveg"
     ],
-    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "cell_methods": "area: time: mean",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "yr"

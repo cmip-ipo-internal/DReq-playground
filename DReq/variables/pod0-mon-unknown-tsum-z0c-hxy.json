@@ -21,7 +21,7 @@
         "latitude",
         "time"
     ],
-    "cell_methods": "area: mean time: sum",
+    "cell_methods": "area: mean time: sum (with each sample weighted by the time-interval it represents) ",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "mon"

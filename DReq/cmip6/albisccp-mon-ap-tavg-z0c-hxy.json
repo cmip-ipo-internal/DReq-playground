@@ -8,9 +8,7 @@
     "table_entry": "albisccp",
     "out_name": "albisccp",
     "questions_and_notes": "need to indicate in cell_methods that ISCCCP cloud area should be used in weighting",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 18,
     "contributing_models": 34,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: time: mean where cloud",
+    "cell_methods": "area: time: mean where cloud (weighted by ISCCP total cloud area and downwelling shortwave radiation)",
     "long_name": "ISCCP Mean Cloud Albedo",
     "comment": "ISCCP Mean Cloud Albedo. Time-means are weighted by the ISCCP Total Cloud Fraction {:cltisccp} - see  http://cfmip.metoffice.com/COSP.html"
 }

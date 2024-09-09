@@ -8,9 +8,7 @@
     "table_entry": "sidragtop",
     "out_name": "sidragtop",
     "questions_and_notes": "",
-    "specific_issues": [
-        "12:Modify cell methods?"
-    ],
+    "specific_issues": [],
     "contributing_institutions": 4,
     "contributing_models": 9,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "seaIce"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "cell_methods": "area: time: mean where sea_ice",
     "long_name": "Atmospheric Drag Coefficient",
     "comment": "Atmospheric drag coefficient that is used to calculate the atmospheric momentum drag on sea ice"
 }

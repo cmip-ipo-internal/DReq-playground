@@ -21,7 +21,7 @@
         "latitude",
         "time"
     ],
-    "cell_methods": "area: mean where snow over sea_ice area: time: mean where sea_ice",
+    "cell_methods": "area: time: mean where sea_ice",
     "cell_measures": "area: areacello",
     "samplingIntervals": [
         "mon"

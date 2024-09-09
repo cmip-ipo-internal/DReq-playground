@@ -10,8 +10,7 @@
     "questions_and_notes": "Vertical coordinate should be alevel.  pr18O, prsn18O, sw18O, prw18O should probably all be evaluated consistently (all \"where sea\" or all for the entire grid cell). Also they should be consistent with the 17O variables.",
     "specific_issues": [
         "3:Modify dimensions",
-        "8:Deprecate? Only 0 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 0 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 0,
     "contributing_models": 0,
@@ -21,7 +20,7 @@
         "ocean"
     ],
     "dimensions": "longitude latitude olevel time",
-    "cell_methods": "area: mean where sea time: mean",
+    "cell_methods": "area: time: mean",
     "long_name": "Mass of Water Vapor Containing Oxygen-18 (H2 18O) in Layer",
     "comment": "Water vapor path for water molecules that contain oxygen-18 (H2 18O)"
 }

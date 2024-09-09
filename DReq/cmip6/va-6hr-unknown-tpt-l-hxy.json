@@ -9,8 +9,7 @@
     "out_name": "va",
     "questions_and_notes": "cell_methods should include \"area: mean\"",
     "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'.",
-        "12:Modify cell methods?"
+        "10:Modify cell methods.  Include 'where air'."
     ],
     "contributing_institutions": 25,
     "contributing_models": 39,
@@ -20,7 +19,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude alevel time1",
-    "cell_methods": "time: point",
+    "cell_methods": "area: mean time: point",
     "long_name": "Northward Wind",
     "comment": "Meridional wind (positive in a northward direction)."
 }

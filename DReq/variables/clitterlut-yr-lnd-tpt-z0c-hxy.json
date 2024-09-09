@@ -22,7 +22,7 @@
         "landUse",
         "time1"
     ],
-    "cell_methods": "area: mean where sector time: point",
+    "cell_methods": "time: point area: mean where sector over land",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "yr"

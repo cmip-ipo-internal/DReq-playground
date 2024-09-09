@@ -9,8 +9,7 @@
     "out_name": "sifllatstop",
     "questions_and_notes": "",
     "specific_issues": [
-        "6:Modify variable root.",
-        "12:Modify cell methods?"
+        "6:Modify variable root."
     ],
     "contributing_institutions": 19,
     "contributing_models": 38,
@@ -20,7 +19,7 @@
         "seaIce"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconca)",
+    "cell_methods": "area: time: mean where sea_ice",
     "long_name": "Net Latent Heat Flux over Sea Ice",
     "comment": "the net latent heat flux over sea ice"
 }

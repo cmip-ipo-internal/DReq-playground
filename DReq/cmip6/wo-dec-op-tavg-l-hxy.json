@@ -10,8 +10,7 @@
     "questions_and_notes": "cell_methods should include \"where sea\"",
     "specific_issues": [
         "8:Deprecate? Only 3 groups contributed this variable in CMIP6.",
-        "11:Modify cell methods.  Include 'where sea'.",
-        "12:Modify cell methods?"
+        "11:Modify cell methods.  Include 'where sea'."
     ],
     "contributing_institutions": 3,
     "contributing_models": 5,
@@ -21,7 +20,7 @@
         "ocean"
     ],
     "dimensions": "longitude latitude olevel time",
-    "cell_methods": "time: mean",
+    "cell_methods": "area: mean where sea time: mean",
     "long_name": "Sea Water Vertical Velocity",
     "comment": "A velocity is a vector quantity. \"Upward\" indicates a vector component which is positive when directed upward (negative downward)."
 }

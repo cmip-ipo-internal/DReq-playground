@@ -21,7 +21,7 @@
         "latitude",
         "time"
     ],
-    "cell_methods": "area: time: mean where natural_grasses (comment: mask=grassFrac)",
+    "cell_methods": "area: time: mean where natural_grasses over land",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "mon"

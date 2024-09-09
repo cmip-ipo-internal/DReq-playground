@@ -22,7 +22,7 @@
         "alevel",
         "time1"
     ],
-    "cell_methods": "time: point",
+    "cell_methods": "area: mean time: point",
     "cell_measures": "--OPT",
     "samplingIntervals": [
         "6hr"

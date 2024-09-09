@@ -21,7 +21,7 @@
         "ygre",
         "time"
     ],
-    "cell_methods": "area: time: mean where grounded_ice_sheet (comment: mask=sfgrlf)",
+    "cell_methods": "area: time: mean where grounded_ice_sheet",
     "cell_measures": "area: areacellg",
     "samplingIntervals": [
         "mon"

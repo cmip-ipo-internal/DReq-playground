@@ -21,7 +21,7 @@
         "latitude",
         "time"
     ],
-    "cell_methods": "area: time: mean where crops (comment: mask=cropFrac)",
+    "cell_methods": "area: time: mean where crops",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "day"

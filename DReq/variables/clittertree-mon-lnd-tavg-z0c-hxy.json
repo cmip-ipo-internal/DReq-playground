@@ -21,7 +21,7 @@
         "latitude",
         "time"
     ],
-    "cell_methods": "area: time: mean where trees (comment: mask=treeFrac)",
+    "cell_methods": "area: time: mean where trees",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "mon"

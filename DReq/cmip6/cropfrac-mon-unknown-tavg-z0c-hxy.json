@@ -9,8 +9,7 @@
     "out_name": "cropFrac",
     "questions_and_notes": "Should this be undefined where sea?  Should deprecate in favor of \"where all_area_types\".  Also, it seems to be redundant with monthly fracLut.  Consider eliminating scalar dimension.",
     "specific_issues": [
-        "9:Eliminate or deprecate?",
-        "12:Modify cell methods?"
+        "9:Eliminate or deprecate?"
     ],
     "contributing_institutions": 22,
     "contributing_models": 43,
@@ -20,7 +19,7 @@
         "land"
     ],
     "dimensions": "longitude latitude time typecrop",
-    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "cell_methods": "area: time: mean",
     "long_name": "Percentage Crop Cover",
     "comment": "Percentage of entire grid cell  that is covered by crop."
 }

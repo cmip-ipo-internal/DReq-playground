@@ -9,8 +9,7 @@
     "out_name": "prsnc",
     "questions_and_notes": "For consistency with prc-tavg-z0-hxy-x (day-prc), delete \"where land\".",
     "specific_issues": [
-        "8:Deprecate? Only 2 groups contributed this variable in CMIP6.",
-        "12:Modify cell methods?"
+        "8:Deprecate? Only 2 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 2,
     "contributing_models": 2,
@@ -20,7 +19,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude time",
-    "cell_methods": "area: mean where land time: mean",
+    "cell_methods": "area: mean time: mean",
     "long_name": "Convective Snowfall Flux",
     "comment": "convective precipitation of all forms of water in the solid phase."
 }
