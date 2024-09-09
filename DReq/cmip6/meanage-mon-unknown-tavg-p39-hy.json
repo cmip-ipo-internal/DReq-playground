@@ -8,9 +8,7 @@
     "table_entry": "meanage",
     "out_name": "meanage",
     "questions_and_notes": "",
-    "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 9,
     "contributing_models": 7,
     "frequency": "mon",
@@ -19,7 +17,7 @@
         "aerosol"
     ],
     "dimensions": "latitude plev39 time",
-    "cell_methods": "longitude: mean time: mean",
+    "cell_methods": "longitude: time: mean where air",
     "long_name": "Mean Age of Stratospheric Air",
     "comment": "The mean age of air is defined as the mean time that a stratospheric air mass has been out of contact with the well-mixed troposphere."
 }

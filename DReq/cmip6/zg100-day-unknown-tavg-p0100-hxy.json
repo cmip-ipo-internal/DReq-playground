@@ -9,8 +9,7 @@
     "out_name": "zg100",
     "questions_and_notes": "",
     "specific_issues": [
-        "6:Modify variable root.",
-        "10:Modify cell methods.  Include 'where air'."
+        "6:Modify variable root."
     ],
     "contributing_institutions": 12,
     "contributing_models": 14,
@@ -20,7 +19,7 @@
         "aerosol"
     ],
     "dimensions": "longitude latitude time p100",
-    "cell_methods": "area: time: mean",
+    "cell_methods": "area: time: mean where air",
     "long_name": "Geopotential Height at 100hPa",
     "comment": "Geopotential height on the 100 hPa surface"
 }

@@ -10,8 +10,7 @@
     "questions_and_notes": "Can we use time-mean data here? Why not?",
     "specific_issues": [
         "6:Modify variable root.",
-        "7:Deprecate? Eliminate one of 'point' or 'mean' variable options.",
-        "10:Modify cell methods.  Include 'where air'."
+        "7:Deprecate? Eliminate one of 'point' or 'mean' variable options."
     ],
     "contributing_institutions": 15,
     "contributing_models": 29,
@@ -21,7 +20,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude time1 p850",
-    "cell_methods": "area: mean time: point",
+    "cell_methods": "area: mean where air time: point",
     "long_name": "Relative Vorticity at 850hPa",
     "comment": "Relative vorticity is the upward component of the vorticity vector i.e. the component which arises from horizontal velocity."
 }

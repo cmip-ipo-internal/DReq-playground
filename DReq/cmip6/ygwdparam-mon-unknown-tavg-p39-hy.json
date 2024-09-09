@@ -9,8 +9,7 @@
     "out_name": "ygwdparam",
     "questions_and_notes": "",
     "specific_issues": [
-        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
-        "10:Modify cell methods.  Include 'where air'."
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 1,
     "contributing_models": 1,
@@ -20,7 +19,7 @@
         "atmos"
     ],
     "dimensions": "latitude plev39 time",
-    "cell_methods": "longitude: mean time: mean",
+    "cell_methods": "longitude: time: mean where air",
     "long_name": "Northward Gravity Wave Drag",
     "comment": "Parameterised y- component of gravity wave drag"
 }

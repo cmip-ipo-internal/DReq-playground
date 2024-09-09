@@ -11,8 +11,7 @@
     "specific_issues": [
         "6:Modify variable root.",
         "7:Deprecate? Eliminate one of 'point' or 'mean' variable options.",
-        "8:Deprecate? Only 1 groups contributed this variable in CMIP6.",
-        "10:Modify cell methods.  Include 'where air'."
+        "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 1,
     "contributing_models": 1,
@@ -22,7 +21,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude time p850",
-    "cell_methods": "area: time: mean",
+    "cell_methods": "area: time: mean where air",
     "long_name": "Relative Vorticity at 850hPa",
     "comment": "Relative vorticity is the upward component of the vorticity vector i.e. the component which arises from horizontal velocity."
 }

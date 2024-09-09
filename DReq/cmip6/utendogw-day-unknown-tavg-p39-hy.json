@@ -8,9 +8,7 @@
     "table_entry": "utendogw",
     "out_name": "utendogw",
     "questions_and_notes": "",
-    "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 14,
     "contributing_models": 25,
     "frequency": "day",
@@ -19,7 +17,7 @@
         "atmos"
     ],
     "dimensions": "latitude plev39 time",
-    "cell_methods": "longitude: mean time: mean",
+    "cell_methods": "longitude: time: mean where air",
     "long_name": "Eastward Acceleration Due to Orographic Gravity Wave Drag",
     "comment": "Tendency of the eastward wind by parameterized orographic gravity waves."
 }

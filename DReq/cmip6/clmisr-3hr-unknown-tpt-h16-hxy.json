@@ -8,9 +8,7 @@
     "table_entry": "clmisr",
     "out_name": "clmisr",
     "questions_and_notes": "",
-    "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 5,
     "contributing_models": 6,
     "frequency": "3hrPt",
@@ -19,7 +17,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude alt16 tau time1",
-    "cell_methods": "area: mean time: point",
+    "cell_methods": "area: mean where air time: point",
     "long_name": "Percentage Cloud Cover as Calculated by the MISR Simulator (Including Error Flag)",
     "comment": "Cloud percentage in spectral bands and layers as observed by the Multi-angle Imaging SpectroRadiometer (MISR) instrument. The first layer in each profile is reserved for a retrieval error flag."
 }

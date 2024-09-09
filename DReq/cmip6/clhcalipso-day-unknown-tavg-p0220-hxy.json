@@ -9,8 +9,7 @@
     "out_name": "clhcalipso",
     "questions_and_notes": "no need to use root to distinguish among the calipso layers since the information is in the branding suffix.",
     "specific_issues": [
-        "6:Modify variable root.",
-        "10:Modify cell methods.  Include 'where air'."
+        "6:Modify variable root."
     ],
     "contributing_institutions": 10,
     "contributing_models": 17,
@@ -20,7 +19,7 @@
         "atmos"
     ],
     "dimensions": "longitude latitude time p220",
-    "cell_methods": "area: time: mean",
+    "cell_methods": "area: time: mean where air",
     "long_name": "CALIPSO High Level Cloud Area Percentage",
     "comment": "Percentage cloud cover in layer centred on 220hPa"
 }

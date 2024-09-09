@@ -8,9 +8,7 @@
     "table_entry": "ta",
     "out_name": "ta",
     "questions_and_notes": "",
-    "specific_issues": [
-        "10:Modify cell methods.  Include 'where air'."
-    ],
+    "specific_issues": [],
     "contributing_institutions": 18,
     "contributing_models": 27,
     "frequency": "day",
@@ -19,7 +17,7 @@
         "atmos"
     ],
     "dimensions": "latitude plev19 time",
-    "cell_methods": "longitude: mean time: mean",
+    "cell_methods": "longitude: time: mean where air",
     "long_name": "Air Temperature",
     "comment": "Air Temperature"
 }

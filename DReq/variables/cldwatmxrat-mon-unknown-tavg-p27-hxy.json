@@ -22,7 +22,7 @@
         "plev27",
         "time"
     ],
-    "cell_methods": "time: mean",
+    "cell_methods": "area: mean time: mean where air",
     "cell_measures": "area: areacella",
     "samplingIntervals": [
         "mon"
