@@ -9,7 +9,6 @@
     "out_name": "hfgeoubed",
     "questions_and_notes": "eliminate.  duplicates \"Ant\" entry.",
     "specific_issues": [
-        "1:Modify dimensions.  No need for special horizontal coordinates.",
         "8:Deprecate? Only 1 groups contributed this variable in CMIP6."
     ],
     "contributing_institutions": 1,
@@ -19,7 +18,7 @@
     "modeling_realm": [
         "landIce"
     ],
-    "dimensions": "xgre ygre ",
+    "dimensions": "longitude latitude",
     "cell_methods": "area: mean where grounded_ice_sheet",
     "long_name": "Geothermal Heat Flux Beneath Land Ice",
     "comment": "Upward geothermal heat flux per unit area into the base of grounded land ice. This is related to the geothermal heat flux out of the bedrock, but may be modified by horizontal transport due to run-off and by melting at the interface."

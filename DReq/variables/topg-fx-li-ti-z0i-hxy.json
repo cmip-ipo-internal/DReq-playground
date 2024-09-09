@@ -16,11 +16,7 @@
     "definition_qualifier": "none",
     "brand_description": "bedrock altitude: time-independent field reported on a 2-d horizontal grid where grounded_ice_sheet",
     "bn_status": "accepted",
-    "dimensions": [
-        "xgre",
-        "ygre",
-        ""
-    ],
+    "dimensions": "longitude latitude",
     "cell_methods": "area: mean where grounded_ice_sheet",
     "cell_measures": "area: areacellg",
     "samplingIntervals": [

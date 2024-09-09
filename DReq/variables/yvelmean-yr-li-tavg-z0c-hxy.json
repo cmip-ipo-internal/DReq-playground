@@ -16,11 +16,7 @@
     "definition_qualifier": "none",
     "brand_description": "land ice vertical mean y velocity: time means reported on a 2-d horizontal grid where ice_sheet",
     "bn_status": "accepted",
-    "dimensions": [
-        "xgre",
-        "ygre",
-        "time"
-    ],
+    "dimensions": "longitude latitude time",
     "cell_methods": "area: time: mean where ice_sheet",
     "cell_measures": "area: areacellg",
     "samplingIntervals": [
